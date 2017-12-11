@@ -13,6 +13,10 @@ const mountainSchema = mongoose.Schema({
     required : true,
     minlength : 10,
   },
+  state : {
+    type : String,
+    required : true,
+  },
   timestamp : {
     type : Date,
     default : () => new Date(),
