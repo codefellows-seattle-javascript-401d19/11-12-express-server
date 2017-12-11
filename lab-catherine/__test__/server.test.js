@@ -14,10 +14,11 @@ const apiURL = `http://localhost:${process.env.PORT}/api/books`;
 const bookMockCreate = () => {
   return new Book({
     title : faker.lorem.words(10),
+    author : faker.lorem.words(1),
     content : faker.lorem.words(100),
+    genre: 'sci-fi',
   }).save();
 };
-
 
 describe('/api/books', () => {
   beforeAll(server.start);
@@ -28,7 +29,9 @@ describe('/api/books', () => {
     test('should respond with a book and 200 status code if there is no error', () => {
       let bookToPost = {
         title : faker.lorem.words(10),
+        author : faker.lorem.words(1),
         content : faker.lorem.words(100),
+        genre: 'sci-fi',
       };
       return superagent.post(`${apiURL}`)
         .send(bookToPost)
@@ -38,7 +41,9 @@ describe('/api/books', () => {
           expect(response.body.timestamp).toBeTruthy();
 
           expect(response.body.title).toEqual(bookToPost.title);
-          expect(response.body.content).toEqual(bookToPost.content);
+          expect(response.body.author).toEqual(bookToPost.author);
+          expect(response.body.content).toEqual(bookToPost.content);          
+          expect(response.body.genre).toEqual(bookToPost.genre);
         });
     });
     test('should respond with a 400 code if we send an incomplete book', () => {
@@ -72,7 +77,9 @@ describe('/api/books', () => {
           expect(response.body.timestamp).toBeTruthy();
 
           expect(response.body.title).toEqual(bookToTest.title);
-          expect(response.body.content).toEqual(bookToTest.content);
+          expect(response.body.author).toEqual(bookToTest.author);
+          expect(response.body.content).toEqual(bookToTest.content);          
+          expect(response.body.genre).toEqual(bookToTest.genre);
         });
     });
     test('should respond with 404 status code if there id is incorrect', () => {

@@ -1,7 +1,6 @@
 # Code Fellows: Seattle 401 JavaScript - 401d19
 
-
-##  Lab 10: Doubly Linked List, Binary Search, Stacks, and Queues
+##  Lab 11: Express and Mongo REST API
 
 ### Author:
  Catherine Looper
