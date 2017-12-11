@@ -1,0 +1,26 @@
+{
+  "name": "lab-shannon",
+  "version": "1.0.0",
+  "description": "using express to create a server application with MongoDB",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shannon",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.13.0",
+    "faker": "^4.1.0",
+    "jest": "^21.2.1",
+    "superagent": "^3.8.2",
+    "winston": "^2.4.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.0-rc0"
+  }
+}
