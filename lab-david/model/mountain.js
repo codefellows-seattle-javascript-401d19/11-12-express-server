@@ -3,17 +3,16 @@
 const mongoose = require('mongoose');
 
 const mountainSchema = mongoose.Schema({
-  title: {
+  name: {
     type : String,
     required : true,
     unique : true,
   },
-  content : {
+  state : {
     type : String,
     required : true,
-    minlength : 10,
   },
-  state : {
+  range : {
     type : String,
     required : true,
   },

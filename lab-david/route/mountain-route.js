@@ -78,10 +78,10 @@ MOUNTAINROUTER.delete('api/notes/:id', (request,response,next) => {
   MOUNTAIN.findById(request.params.id)
     .then(MOUNTAIN => {
       if(!MOUNTAIN){
-        LOGGER.log('info', 'GET - returning a 404 status code');
+        LOGGER.log('info', 'DELETE - returning a 404 status code');
         return response.sendStatus(404);
       }
-      LOGGER.log('info', 'GET - returning a 200 status code');
+      LOGGER.log('info', 'DELETE - returning a 200 status code');
       LOGGER.log('info',MOUNTAIN);
 
       response.json(MOUNTAIN).delete();
@@ -89,10 +89,10 @@ MOUNTAINROUTER.delete('api/notes/:id', (request,response,next) => {
 
     }).catch(error => {
       if(error.message.indexOf('Cast to ObjectId failed') > -1){
-        LOGGER.log('info', 'GET - returning a 404 status code. could not parse the id');
+        LOGGER.log('info', 'DELETE - returning a 404 status code. could not parse the id');
         return response.sendStatus(404);
       }
-      LOGGER.log('error', 'GET - returning a 500 code');
+      LOGGER.log('error', 'DELETE - returning a 500 code');
       LOGGER.log('error', error);
       return response.sendStatus(500);
     });
