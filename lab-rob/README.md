@@ -12,7 +12,6 @@ The purpose of this lab is to recreate our HTTP rest server from lab 08 using `e
   - jest
   - eslint 
   - superagent
-  - faker
   - express
   - mongoose
   - dotenv

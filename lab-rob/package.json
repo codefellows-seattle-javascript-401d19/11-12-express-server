@@ -23,7 +23,6 @@
   },
   "devDependencies": {
     "eslint": "^4.13.0",
-    "faker": "^4.1.0",
     "jest": "^21.2.1",
     "superagent": "^3.8.2"
   }
