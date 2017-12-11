@@ -1,0 +1,8 @@
+{"level":"info","message":"Server is listening on port undefined","timestamp":"2017-12-11T23:39:47.352Z"}
+{"level":"info","message":"Server is listening on port 7000","timestamp":"2017-12-11T23:43:17.392Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T23:43:17.460Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-11T23:43:17.460Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-11T23:43:17.482Z"}
+{"level":"info","message":"Server is listening on port 7000","timestamp":"2017-12-11T23:46:31.172Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T23:46:31.211Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-11T23:46:31.244Z"}

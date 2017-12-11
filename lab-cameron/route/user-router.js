@@ -8,10 +8,10 @@ const logger = require('../lib/logger');
 
 const userRouter = module.exports = new Router();
 
-userRouter.post('/api/users', jsonParser, (request, response, next) => {
+userRouter.post('/api/users', jsonParser, (request, response) => {
   logger.log('info', 'POST - processing a request');
 
-  if (!request.body.title || !request.body.content) {
+  if (!request.body.name || !request.body.description) {
     logger.log('info', 'POST - responding with a 400 code');
     return response.sendStatus(400);
   }
@@ -26,7 +26,7 @@ userRouter.post('/api/users', jsonParser, (request, response, next) => {
     });
 });
 
-userRouter.get('/api/users/:id', (request, response, next) => {
+userRouter.get('/api/users/:id', (request, response) => {
   logger.log('info', 'GET - processing a request');
 
   User.findById(request.params.id)
@@ -40,7 +40,7 @@ userRouter.get('/api/users/:id', (request, response, next) => {
       return response.json(user);
     })
     .catch(error => {
-      if (error.messasge.indexOf('Cast to ObjectId failed') > -1) {
+      if (error.message.indexOf('Cast to ObjectId failed') > -1) {
         logger.log('info', 'GET - returning a 404 status code. Could not parse id');
         return response.sendStatus(404);
       }
