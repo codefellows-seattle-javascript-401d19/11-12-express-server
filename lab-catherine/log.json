@@ -1,0 +1,9 @@
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-11T22:41:41.707Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T22:41:41.738Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T22:41:41.786Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-11T22:41:41.786Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-11T22:41:41.792Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-11T22:41:41.794Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-11T22:41:41.796Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-11T22:41:41.799Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-11T22:41:41.799Z"}
