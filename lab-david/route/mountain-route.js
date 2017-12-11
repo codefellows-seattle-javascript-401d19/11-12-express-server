@@ -1,5 +1,3 @@
-import { LOADIPHLPAPI } from 'dns';
-
 'use strict';
 
 const {Router} = require('express');
@@ -18,8 +16,8 @@ MOUNTAINROUTER.post('/api/mountains', JSONPARSER, (request,response,next) => {
     return response.sendStatus(400);
   }
 
-  new Mountain(request.body).save()
-    .then(mountain => response.json(mountain))
+  new MOUNTAIN(request.body).save()
+    .then(MOUNTAIN => response.json(MOUNTAIN))
     .catch(error => {
       LOGGER.log('error', '--->SERVER_ERROR<---');
       LOGGER.log('error', error);
@@ -31,15 +29,15 @@ MOUNTAINROUTER.post('/api/mountains', JSONPARSER, (request,response,next) => {
 MOUNTAINROUTER.get('api/notes/:id', (request,response,next) => {
   LOGGER.log('info', 'GET - processing a request');
 
-  Mountain.findById(request.params.id)
-    .then(mountain => {
-      if(!mountain){
+  MOUNTAIN.findById(request.params.id)
+    .then(MOUNTAIN => {
+      if(!MOUNTAIN){
         LOGGER.log('info', 'GET - returning a 404 status code');
         return response.sendStatus(404);
       }
       LOGGER.log('info', 'GET - returning a 200 status code');
-      LOGGER.log('info',mountain);
-      return response.json(mountain);
+      LOGGER.log('info',MOUNTAIN);
+      return response.json(MOUNTAIN);
     }).catch(error => {
       if(error.message.indexOf('Cast to ObjectId failed') > -1){
         LOGGER.log('info', 'GET - returning a 404 status code. could not parse the id');
