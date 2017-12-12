@@ -20,9 +20,6 @@ app.all('*', (request,response) => {
   return response.sendStatus(404);
 });
 
-//---------------------------------------
-// ERROR MIDDLEWARE
-//---------------------------------------
 app.use(require('./error-middleware'));
 
 

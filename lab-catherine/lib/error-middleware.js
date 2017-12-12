@@ -3,9 +3,6 @@
 const logger = require('./logger');
 
 module.exports = (error, request, response, next) => {
-  //----------------------------------------------------
-  // HTTP ERRORS
-  //----------------------------------------------------
   
   logger.log('info', '__ERROR_MIDDLEWARE__');
   logger.log('info', error);
@@ -14,9 +11,6 @@ module.exports = (error, request, response, next) => {
     logger.log('info', `Responding with a ${error.status} status and message: ${error.message}`);
     return response.sendStatus(error.status);
   }
-  //----------------------------------------------------
-  // MONGO ERRORS
-  //----------------------------------------------------
 
   let message = error.message.toLowerCase();
 
