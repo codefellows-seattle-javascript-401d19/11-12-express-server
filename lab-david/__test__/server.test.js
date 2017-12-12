@@ -3,34 +3,34 @@
 process.env.PORT = 7000;
 process.env.MONGODB_URI = 'mongodb://localhost/testing';
 
-const FAKER = require('faker');
-const SUPERAGENT = require('superagent');
-const MOUNTAIN = require('../model/mountain');
-const SERVER = require('../lib/server');
+const faker = require('faker');
+const superagent = require('superagent');
+const mountain = require('../model/mountain');
+const server = require('../lib/server');
 
-const APIURL = `http://localhost:${process.env.PORT}/api/mountains`;
+const apiURL = `http://localhost:${process.env.PORT}/api/mountains`;
 
 const mountainMockupCreator = () => {
-  return new MOUNTAIN({
-    name : FAKER.address.county(2),
-    state  : FAKER.address.state(1),
-    range : FAKER.address.county(2),
+  return new mountain({
+    name : faker.address.county(2),
+    state  : faker.address.state(1),
+    range : faker.address.county(2),
   }).save();
 };
 
 describe('api/mountains', () => {
-  beforeAll(SERVER.start);
-  afterAll(SERVER.stop);
-  afterEach(() => MOUNTAIN.remove({}));
+  beforeAll(server.start);
+  afterAll(server.stop);
+  afterEach(() => mountain.remove({}));
 
   describe('POST /api/mountains', () => {
     test('should respond with a mountain and a 200 status code if there is no error', () => {
       let mountainToPost = {
-        name : FAKER.address.county(2),
-        state : FAKER.address.state(1),
-        range : FAKER.address.county(2),
+        name : faker.address.county(2),
+        state : faker.address.state(1),
+        range : faker.address.county(2),
       };
-      return SUPERAGENT.post(`${APIURL}`)
+      return superagent.post(`${apiURL}`)
         .send(mountainToPost)
         .then(response => {
           expect(response.status).toEqual(200);
@@ -44,9 +44,9 @@ describe('api/mountains', () => {
     });
     test('should respond with a 400 code if we send an incomplete mountain', () => {
       let mountainToPost = {
-        name : FAKER.company.bsNoun(2),
+        name : faker.company.bsNoun(2),
       };
-      return SUPERAGENT.post(`${APIURL}`)
+      return superagent.post(`${apiURL}`)
         .send(mountainToPost)
         .then(Promise.reject)
         .catch(response => {
@@ -62,7 +62,7 @@ describe('api/mountains', () => {
       mountainMockupCreator()
         .then(mountain => {
           mountainToTest = mountain;
-          return SUPERAGENT.get(`${APIURL}/${mountain._id}`);
+          return superagent.get(`${apiURL}/${mountain._id}`);
         })
         .then(response => {
           expect(response.status).toEqual(200);
@@ -77,7 +77,7 @@ describe('api/mountains', () => {
         });
     });
     test('should respond with a 404 status code if the id is incorrect', () => {
-      return SUPERAGENT.get(`${APIURL}/superFakeId`)
+      return superagent.get(`${apiURL}/superFakeId`)
         .then(Promise.reject)
         .catch(response => {
           expect(response.status).toEqual(404);
