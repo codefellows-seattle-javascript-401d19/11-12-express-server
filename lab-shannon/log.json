@@ -1,2 +1,29 @@
 {"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T18:17:19.286Z"}
 {"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T18:17:19.324Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T21:40:26.425Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T21:40:26.458Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T21:40:26.495Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T21:40:26.495Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T21:40:26.502Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T21:40:26.505Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T21:40:26.506Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T21:40:26.510Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T21:40:26.510Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T21:41:04.734Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T21:41:04.769Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T21:41:04.800Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T21:41:04.800Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T21:41:04.807Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T21:41:04.810Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T21:41:04.812Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T21:41:04.815Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T21:41:04.817Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T21:47:00.169Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T21:47:00.207Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T21:47:00.233Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T21:47:00.233Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T21:47:00.242Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T21:47:00.245Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T21:47:00.247Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T21:47:00.251Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T21:47:00.252Z"}

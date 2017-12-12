@@ -103,10 +103,20 @@ describe(`/api/sweets`, () => {
     //     })
     // })
   });
-  // describe(`DELETE request`, () => {
-  //   test(`DELETE should respond with a 204 status if request was successful`, () => {
-  //
-  //   });
+
+  describe(`DELETE request`, () => {
+    test(`DELETE should respond with a 204 status if request was successful`, () => {
+      let sweetToDelete;
+
+      createFakeSweet()
+        .then(sweet => {
+          sweetToDelete = sweet;
+          return superagent.delete(`${apiURL}/${sweet.id}`)
+        })
+        .then(response => {
+          expect(response.status).toEqual(204);
+        });
+    });
     // test(`DELETE should respond with a 404 status if there was an error`, () => {
     //
     // });
