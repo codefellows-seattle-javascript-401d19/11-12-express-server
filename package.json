@@ -1,0 +1,31 @@
+{
+  "name": "11-express-server",
+  "version": "1.0.0",
+  "description": "Lab 11",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hazzed/11-express-server.git"
+  },
+  "author": "Dalton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hazzed/11-express-server/issues"
+  },
+  "homepage": "https://github.com/hazzed/11-express-server#readme",
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "jest": "^21.2.1",
+    "superagent": "^3.8.2",
+    "winston": "^2.4.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7"
+  }
+}
