@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest -i --coverage",
     "dbon": "mkdir -p ./db && mongod --dbpath ./db",
-    "dboff": "killall mongod"
+    "dboff": "killall mongod",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
