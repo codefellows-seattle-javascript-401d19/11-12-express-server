@@ -61,3 +61,32 @@ bikeRouter.get('/api/bikes/:id', (request, response) => {
       return response.sendStatus(500);
     });
 });
+
+bikeRouter.delete('/api/bikes', (request, response) => {
+  logger.log('info', 'DELETE - request without id, sending 400 status code.');
+  response.sendStatus(400);
+});
+
+bikeRouter.delete('/api/bikes/:id', (request, response) => {
+  logger.log('info', `DELETE - processing a request for a single bike.`);
+
+  Bike.findByIdAndRemove(request.params.id)
+    .then(bike => {
+      if(!bike) {
+        logger.log('info', 'DELETE - returning a 404 status code');
+        return response.sendStatus(404);
+      }
+      logger.log('info', 'DELETE - returning a 204 status code');
+      logger.log('info', bike);
+      return response.sendStatus(204);
+    })
+    .catch(error => {
+      if(error.message.indexOf('Cast to ObjectId failed') > -1) {
+        logger.log('info', 'DELETE - returning a 404 status code. Could noe parse id');
+        return response.sendStatus(404);
+      }
+      logger.log('error', 'DELETE - returning a 500 status code');
+      logger.log('error', error);
+      return response.sendStatus(500);
+    });
+});
