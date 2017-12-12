@@ -16,7 +16,7 @@ bookRouter.post('/api/books', jsonParser, (request, response, next) => {
     return response.sendStatus(400);
   }
   
-  new Book(request.body).save()
+  return new Book(request.body).save() // added a return
     .then(note => response.json(note))
     .catch(error => {
       logger.log('error', '__SERVER_ERROR__');
@@ -36,6 +36,7 @@ bookRouter.get('/api/books', (request, response) => {
       bookMap.push(book);
     });
 
+    console.log('book map:', bookMap);
     return response.json(bookMap);
   });
 });
