@@ -8,8 +8,8 @@ const Sweet = require(`../model/sweet`);
 const sweetRouter = module.exports = new Router();
 
 sweetRouter.post(`/api/sweets`, jsonParser, (request, response, next) => {
+  // why do we need next? It doesn't seem to be used anywhere?
   logger.log(`info`, `Processing a POST request`);
-  console.log(`I ran`);
   if(!request.body.name || !request.body.hasChocolate || !request.body.temperature){
     logger.log(`info`, `Sending a 400 request because information was missing from the body`);
     return response.sendStatus(400);
@@ -18,10 +18,9 @@ sweetRouter.post(`/api/sweets`, jsonParser, (request, response, next) => {
   new Sweet(request.body).save()
     .then(sweet => {
       response.json(sweet);
-      // response.sendStatus(200);    //why don't we need to explicitly return a 200 status?
+      // why don't we need to explicitly return a 200 status?
     })
     .catch(error => {
-      console.log(sweet,`is the sweet`);
       logger.log(`info`, `Responding with a 500 status for POST request. Nothing appears wrong with the request`);
       logger.log(`error`, error);
       return response.sendStatus(500);
@@ -34,10 +33,10 @@ sweetRouter.get(`/api/sweets/:id`, (request, response, next) => {
   Sweet.findById(request.params.id)
     .then(sweet => {
       if(!sweet){
-        logger.log(`info`, `Sending a 404 status. No sweet found with that id`)
+        logger.log(`info`, `Sending a 404 status. No sweet found with that id`);
         return response.sendStatus(404);
       }
-      logger.log(`info`, `Responding with a 200 status to GET request`)
+      logger.log(`info`, `Responding with a 200 status to GET request`);
       return response.json(sweet);
     })
     .catch(error => {
@@ -47,7 +46,7 @@ sweetRouter.get(`/api/sweets/:id`, (request, response, next) => {
       }
       logger.log(`info`, `Sending a 500 status. An error occurred while getting the Sweet.`);
       return response.sendStatus(500);
-    })
+    });
 });
 
 sweetRouter.delete(`/api/sweets/:id`, (request, response, next) => {

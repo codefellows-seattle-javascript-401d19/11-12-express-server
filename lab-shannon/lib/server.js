@@ -9,14 +9,14 @@ let serverIsOn = false;
 let httpServer = null;
 
 // because mongoose is older than the ES6 Promise we have to tell mongoose what Promise we're using
-mongoose.Promise = Promise
+mongoose.Promise = Promise;
 mongoose.connect(process.env.MONGODB_URI, {useMongoClient: true});
 
 app.use(require(`../route/sweet-router`));
 app.all(`*`, (request, response) => {
   logger.log(`info`, `Something went wrong with the request. Sending a 400 status to the catch-all route`);
   return response.sendStatus(400);
-})
+});
 
 //---------------------------------------------------------------------------------------
 const server = module.exports = {};
@@ -32,7 +32,7 @@ server.start = () => {
       console.log(`Listening on port ${process.env.PORT}`);
       serverIsOn = true;
       return resolve();
-    })
+    });
   });
 };
 

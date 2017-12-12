@@ -31,3 +31,19 @@
 {"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T02:00:17.128Z"}
 {"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T02:00:17.165Z"}
 {"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T02:00:17.195Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T02:08:14.999Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T02:08:15.034Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T02:08:15.069Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T02:08:15.069Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T02:08:15.072Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T02:09:39.509Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T02:09:39.542Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T02:09:39.574Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T02:10:09.614Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T02:10:09.648Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T02:10:09.680Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T02:10:39.285Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T02:10:39.319Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T02:10:39.352Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T02:10:39.352Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T02:10:39.355Z"}

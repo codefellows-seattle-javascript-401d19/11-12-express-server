@@ -7,20 +7,20 @@ const sweetSchema = mongoose.Schema({
   name: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
   },
   hasChocolate: {
     type: Boolean,
-    required: true
+    required: true,
   },
   temperature: {
     type: String,
-    required: true
+    required: true,
   },
   seasonal: {
     type: Boolean,
-    required: false
-  }
+    required: false,
+  },
 });
 
 // A model is a class with which we construct documents (explanation from mongoose docs);
