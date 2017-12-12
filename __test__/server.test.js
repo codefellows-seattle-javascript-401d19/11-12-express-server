@@ -19,7 +19,7 @@ const heroMockCreate = () => {
 
 describe('/api/heroes', () => {
   beforeAll(server.start);
-  afterAll(server.stop);
+  // afterAll(server.stop);
   afterEach(() => Hero.remove({}));
 
 
