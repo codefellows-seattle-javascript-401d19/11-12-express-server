@@ -16,4 +16,4 @@ This lab implements creation of an http server using express.js
 ## Server Endpoints
 1. `POST /api/dogs` - Create a new dog data
 2. `GET /api/dogs/<id>` - retrieve a saved dog based on ID
-3. `DELETE /api/dogs/<id>` - delete a saved dog based on ID 
+3. `DELETE /api/dogs/<id>` - delete a saved dog based on ID
