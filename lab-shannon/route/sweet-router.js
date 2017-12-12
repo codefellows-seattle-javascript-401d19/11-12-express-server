@@ -29,8 +29,21 @@ sweetRouter.post(`/api/sweets`, jsonParser, (request, response, next) => {
 
 sweetRouter.get(`/api/sweets`, (request, response, next) => {
   logger.log(`info`, `Processing a GET request without an id`);
+  console.log(`The GET request ran without an id`);
 
-  return response.json(allthesweets);
+  Sweet.findById({})
+    .then(sweet => {
+      if(!sweet){
+        logger.log(`info`, `Sending a 404 status; no Sweets exist`);
+        return response.sendStatus(404);
+      }
+      logger.log(`info`, `The sweets were successfully retrieved and are being sent as JSON`);
+      return response.json(sweets);
+    })
+    .catch(error => {
+      logger.log(`info`, error);
+    })
+
 })
 
 sweetRouter.get(`/api/sweets/:id`, (request, response, next) => {

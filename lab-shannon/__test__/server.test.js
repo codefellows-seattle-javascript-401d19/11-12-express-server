@@ -89,8 +89,14 @@ describe(`/api/sweets`, () => {
           expect(response.status).toEqual(404);
         });
     });
-    test(`GET should return all Sweets if no id is provided`, () => {
-      return superagent.get(`${apiURL}`)
+    test.only(`GET should return all Sweets if no id is provided`, () => {
+      let testSweet = null;
+
+      createFakeSweet()
+        .then(sweet => {
+          testSweet = sweet;
+          return superagent.get(`${apiURL}/${sweet._id}`);
+        })
         .then(response => {
           console.log(response.status);
           expect(response.status).toEqual(200);
