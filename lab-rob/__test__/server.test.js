@@ -128,4 +128,62 @@ describe('/api/bikes', () => {
         .catch(response => expect(response.status).toEqual(400));
     });
   });
+
+  describe('PUT /api/bikes/:id', () => {
+    test('should respond with a 200 status code and the updated bike', () => {
+      return superagent.post(__API_URL__)
+        .send({
+          make: 'Buell',
+          model: 'XB12s',
+          year: 2004,
+          displacement: 1203,
+        })
+        .then(response => {
+          expect(response.status).toEqual(200);
+          return superagent.put(`${__API_URL__}/${response.body._id}`)
+            .send({make: 'test make'})
+            .then(response => {
+              expect(response.status).toEqual(200);
+              expect(response.body.make).toEqual('test make');
+              expect(response.body.model).toEqual('XB12s');
+              expect(response.body.year).toEqual(2004);
+              expect(response.body.displacement).toEqual(1203);
+            }).catch(response => expect(response.status).toBeUndefined());
+        });
+    });
+
+    test('should respond with a 400 status code if no relevant properties are sent', () => {
+      return superagent.post(__API_URL__)
+        .send({
+          make: 'Buell',
+          model: 'XB12s',
+          year: 2004,
+          displacement: 1203,
+        })
+        .then(response => {
+          expect(response.status).toEqual(200);
+          return superagent.put(`${__API_URL__}/${response.body._id}`)
+            .send({barnacles: 'test make'})
+            .then(Promise.reject)
+            .catch(response => expect(response.status).toEqual(400));
+        });
+    });
+    
+    test('should respond with a 404 status code requested id not found', () => {
+      return superagent.post(__API_URL__)
+        .send({
+          make: 'Buell',
+          model: 'XB12s',
+          year: 2004,
+          displacement: 1203,
+        })
+        .then(response => {
+          expect(response.status).toEqual(200);
+          return superagent.put(`${__API_URL__}/1012`)
+            .send({ make: 'honda'})
+            .then(Promise.reject)
+            .catch(response => expect(response.status).toEqual(404));
+        });
+    });
+  });
 });
