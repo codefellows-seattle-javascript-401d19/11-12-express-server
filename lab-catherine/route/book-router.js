@@ -26,8 +26,22 @@ bookRouter.post('/api/books', jsonParser, (request, response, next) => {
     });
 });
 
+bookRouter.get('/api/books', (request, response) => {
+  logger.log('info', 'GET - processing a request for all books');
+
+  Book.find({}, (error, books) => {
+    let bookMap = [];
+
+    books.forEach(book => {
+      bookMap.push(book);
+    });
+
+    return response.json(bookMap);
+  });
+});
+
 bookRouter.get('/api/books/:id', (request, response, next) => {
-  logger.log('info', 'GET - processing a request');
+  logger.log('info', 'GET - processing a request for a specific book');
 
   Book.findById(request.params.id)
     .then(book => {
@@ -50,7 +64,7 @@ bookRouter.get('/api/books/:id', (request, response, next) => {
 
 });
 
-bookRouter.delete('/api/books/:id', (request, response,next) => {
+bookRouter.delete('/api/books/:id', (request, response) => {
   logger.log('info', 'DELETE - processing a request');
   Book.findByIdAndRemove(request.params.id)
     .then(book => {
@@ -72,9 +86,7 @@ bookRouter.delete('/api/books/:id', (request, response,next) => {
     });
 });
 
-
-
-
-// bookRouter.delete('/api/books', (request, response) => {
-//   logger.log('info', 'DELETE - processing a request');
-// });
+bookRouter.delete('/api/books', (request, response) => {
+  logger.log('info', 'DELETE - You must designate an id to delete');
+  return response.sendStatus(400);
+});

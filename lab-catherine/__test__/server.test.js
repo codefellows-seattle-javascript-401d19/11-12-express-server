@@ -63,7 +63,7 @@ describe('/api/books', () => {
   });
 
   describe('GET /api/books', () => {
-    test('should respond with 200 status code if there is no error', () => {
+    test('should respond with 200 status code if there is a valid book id and no errors', () => {
       let bookToTest = null;
 
       bookMockCreate()
@@ -72,7 +72,6 @@ describe('/api/books', () => {
           return superagent.get(`${apiURL}/${book._id}`);
         })
         .then(response => {
-          console.log(response.body);
           expect(response.status).toEqual(200);
 
           expect(response.body._id).toEqual(bookToTest._id.toString());
@@ -83,8 +82,23 @@ describe('/api/books', () => {
           expect(response.body.content).toEqual(bookToTest.content);          
           expect(response.body.genre).toEqual(bookToTest.genre);
         })
-        .catch(error => logger.log('error', error));        
+        .catch(error => {
+          logger.log('error', error);
+        });      
     });
+
+    test('should respond with an array of all book objects if get request is made with out an id', () => {
+      bookMockCreate()
+        .then(() => bookMockCreate())
+        .then(() => bookMockCreate())
+        .then(() => superagent.get(`${apiURL}`))
+        .then(response => {
+          expect(response.status).toEqual(200);
+          expect(response.body.length).toEqual(3);
+        })
+        .catch(error => logger.log('error', error));
+    });
+    
     test('should respond with 404 status code if the id is incorrect', () => {
       return superagent.get(`${apiURL}/mooshy`)
         .then(Promise.reject)
@@ -101,7 +115,7 @@ describe('/api/books', () => {
       bookMockCreate()
         .then(book => {
           bookToDelete = book;
-          return superagent.del(`${apiURL}/${bookToDelete._id}`)
+          return superagent.delete(`${apiURL}/${bookToDelete._id}`)
             .then(response => {
               expect(response.status).toEqual(204);
             })
@@ -110,11 +124,19 @@ describe('/api/books', () => {
         });
     });
   
-    test('DELETE should respond with 404 status code if id is not provided', () => {
+    test('DELETE should respond with 404 status code if id is invalid', () => {
       return superagent.delete(`${apiURL}/invalidId`)
         .then(Promise.reject)
         .catch(response => {
           expect(response.status).toEqual(404);
+        });
+    });
+
+    test('DELETE should respond with 400 status code if no id is provided', () => {
+      return superagent.del(`${apiURL}`)
+        .then(Promise.reject)
+        .catch(response => {
+          expect(response.status).toEqual(400);
         });
     });
   });

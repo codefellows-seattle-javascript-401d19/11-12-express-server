@@ -7,27 +7,29 @@
 
 ### Motivation
 
-In this project, I built a Doubly Linked List module containing append, remove, and find methods. I then applied those concepts to construct a stack data structure model using Doubly Linked Lists. This project also includes a binary search module that accepts an array of objects and an item to find as its parameters.
+In this project, I built a RESTful (Hypertext Transfer Protocol) HTTP server using Express. This server handles GET, POST, and DELETE requests/responses. This API uses MongoDB and Mongoose to write data to a db directory for persistence.
 
 ### Build
 
-#### Doubly Linked List Module
+#### Server Module
 
-The Doubly Linked List module contains a class called DoublyLinkedList that is being exported from the module. This class contains an append method that accepts a node as a parameter and adds it to the end of the doubly linked list. The class also contains a remove method that removes a node from the linked list. Finally, I included a find method that accepts a value and searches for the node containing that value.
+The server module is creating an http server, defining server-on behavior and exporting an interface for starting and stopping the server. The server module exports an object containing start and stop methods.
 
+The server module requires in express, mongoose, logger and the book-router.js file. The server.start and stop methods return a new Promise with resolve and reject parameters. The start method contains an app.listen function that listens for the server start. The server.stop method has an httpServer.close function that turns the server off by setting the isServerOn variable to false.
 
-#### Stack Module
+#### Route Module
 
-The stack module contains a class called StackLinkedList that is being exported from the module. This class contains an append method that accepts a node as a parameter and adds it to the end of the doubly linked list. The class also contains a push method that accepts a value and calls the append method to add a new value to the linked list. Finally, the class contains a method called pop that serves to remove a value from the end of the doubly linked list in order to model the LIFO properties of stacks.
+##### ```book-router.js```
 
-#### Binary Search Module
+book-router.js requires in the Router object from express, the jsonParser, the logger module  and book.js. Inside the module, there are functions declared for bookRouter.post, bookRouter.get and bookRouter.delete. These methods each handle their corresponding method and send the appropriate response based on the input. The bookRouter is exporting a new Router instance.
 
-The Binary Search module is a version of a binary search that accepts an array of objects as its first argument, and an integer as its second. A binary search should be conducted with an id and return the object in the array based on that id. If the id does not exist then -1 will be returned.
+#### Model Module
 
-#### Queue Module
+The model module contains a book.js file that requires in mongoose and has a bookSchema with the properties: title, author, genre, content, and timestamp. The mongoose.model is being exported from this file.
 
-There is a queue module in place that functions with arrays and has not yet been refactored using doubly linked lists.
+#### Test Module
 
+server.test.js contains tests for POST, GET, and DELETE methods.
 
 ### Limitations
 
@@ -43,12 +45,22 @@ Standard JavaScript with ES6
 * Node.js
 * Jest
 * Eslint
+* MongoDB
+* Mongoose
+* Winston
+* Express
+* Superagent
+* Dotenv
+* Body-Parser
+* Faker
 
 ### How to use?
 
 * Step 1. Fork and Clone the Repository.
 * Step 2. ```npm install```.
-* Step 3. to test the API run the command ```npm run test```.
+* Step 3. touch a ```.env``` file and add the following to the file: ```PORT=3000``` and ```MONGODB_URI=mongodb://localhost/testing```.
+* Step 4. start MongoDB by calling ```npm run dbon```.
+* Step 5. to test the API, open a second terminal window and run the command ```npm run test```.
 
 ### Credits
 
