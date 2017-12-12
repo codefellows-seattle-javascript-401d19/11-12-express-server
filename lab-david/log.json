@@ -164,3 +164,23 @@
 {"level":"info","message":"GET - processing a request for a specific id","timestamp":"2017-12-12T18:07:40.846Z"}
 {"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T18:07:40.849Z"}
 {"level":"info","message":"server off","timestamp":"2017-12-12T18:07:40.850Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T18:19:50.654Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T18:19:50.707Z"}
+{"level":"info","message":"returning with a 200 status and a mountain","timestamp":"2017-12-12T18:19:50.718Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T18:19:50.733Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T18:19:50.734Z"}
+{"level":"info","message":"GET - processing a request for a specific id","timestamp":"2017-12-12T18:19:50.741Z"}
+{"level":"info","message":"GET - returning a 404 status code. could not parse the id","timestamp":"2017-12-12T18:19:50.743Z"}
+{"level":"info","message":"GET - processing a request for a specific id","timestamp":"2017-12-12T18:19:50.745Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T18:19:50.748Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T18:19:50.748Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T18:19:55.896Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T18:19:55.941Z"}
+{"level":"info","message":"returning with a 200 status and a mountain","timestamp":"2017-12-12T18:19:55.955Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T18:19:55.969Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T18:19:55.970Z"}
+{"level":"info","message":"GET - processing a request for a specific id","timestamp":"2017-12-12T18:19:55.977Z"}
+{"level":"info","message":"GET - returning a 404 status code. could not parse the id","timestamp":"2017-12-12T18:19:55.979Z"}
+{"level":"info","message":"GET - processing a request for a specific id","timestamp":"2017-12-12T18:19:55.981Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T18:19:55.984Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T18:19:55.985Z"}
