@@ -14,7 +14,7 @@ mongoose.connect(process.env.MONGODB_URI, {useMongoClient: true});
 
 app.use(require(`../route/sweet-router`));
 app.all(`*`, (request, response) => {
-  logger.log(`info`, `Something went wrong with the request. Sending a 400 status`);
+  logger.log(`info`, `Something went wrong with the request. Sending a 400 status to the catch-all route`);
   return response.sendStatus(400);
 })
 

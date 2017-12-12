@@ -16,8 +16,12 @@ const sweetSchema = mongoose.Scheme({
   temperature: {
     type: String,
     required: true
+  },
+  seasonal: {
+    type: String,
+    required: false
   }
 });
 
-// A model is a class with which we construct documents (from mongoose docs);
+// A model is a class with which we construct documents (explanation from mongoose docs);
 module.exports = mongoose.model(`sweet`, sweetSchema);
