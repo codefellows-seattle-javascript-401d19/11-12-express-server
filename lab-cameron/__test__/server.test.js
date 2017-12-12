@@ -62,30 +62,46 @@ describe('/api/userAccounts', () => {
         })
         .then(response => {
           expect(response.status).toEqual(200);
+          expect(response.body.name).toEqual(userAccountToTest.name);
+          expect(response.body.description).toEqual(userAccountToTest.description);
+          expect(response.body._id).toEqual(userAccountToTest._id.toString());
         });
     });
 
     test('should respond with a 200 status code and all userAccounts if no id is provided', () => {
+      const userAccountArrayToTest = [];
 
       return userAccountMockCreate()
-        .then(() => {
-          console.log('one');
+        .then(userAccount => {
+          userAccountArrayToTest.push(userAccount);
           return userAccountMockCreate();
         })
-        .then(() => {
-          console.log('two');
+        .then(userAccount => {
+          userAccountArrayToTest.push(userAccount);
           return userAccountMockCreate();
         })
-        .then(() => {
-          console.log('three');
+        .then(userAccount => {
+          userAccountArrayToTest.push(userAccount);
           return superagent.get(`${apiURL}`)
             .then(response => {
               expect(response.status).toEqual(200);
+
+              expect(response.body[0].name).toEqual(userAccountArrayToTest[0].name);
+              expect(response.body[0].description).toEqual(userAccountArrayToTest[0].description);
+              expect(response.body[0]._id).toEqual(userAccountArrayToTest[0]._id.toString());
+
+              expect(response.body[1].name).toEqual(userAccountArrayToTest[1].name);
+              expect(response.body[1].description).toEqual(userAccountArrayToTest[1].description);
+              expect(response.body[1]._id).toEqual(userAccountArrayToTest[1]._id.toString());
+
+              expect(response.body[2].name).toEqual(userAccountArrayToTest[2].name);
+              expect(response.body[2].description).toEqual(userAccountArrayToTest[2].description);
+              expect(response.body[2]._id).toEqual(userAccountArrayToTest[2]._id.toString());
             });
         });
     });
 
-    test('should respond with a 404 if invalid route is provided AAA', () => {
+    test('should respond with a 404 if invalid route is provided', () => {
       return superagent.get(`http://localhost:${process.env.PORT}/invalid/route`)
         .then(Promise.reject)
         .catch(response => {
@@ -94,7 +110,7 @@ describe('/api/userAccounts', () => {
         });
     });
 
-    test('should respond with 404 status code if the id is incorrect BBB', () => {
+    test('should respond with 404 status code if the id is incorrect', () => {
       return superagent.get(`${apiURL}/invalidId`)
         .then(Promise.reject)
         .catch(response => {
