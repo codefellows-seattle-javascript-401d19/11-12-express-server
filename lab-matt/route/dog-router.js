@@ -9,7 +9,7 @@ const log = require('../lib/logger');
 
 const dogRouter = module.exports = new Router();
 
-dogRouter.post('/api/dogs', jsonParser, (request, response, next) => {
+dogRouter.post('/api/dogs', jsonParser, (request, response) => {
   log('info', 'POST - processing a request');
   log('info', `==NAME==: ${request.body.name}`);
   log('info', `==LEGS==: ${request.body.legs}`);
@@ -35,7 +35,7 @@ dogRouter.post('/api/dogs', jsonParser, (request, response, next) => {
     });
 });
 
-dogRouter.get('/api/dogs/:id', (request, response, next) => {
+dogRouter.get('/api/dogs/:id', (request, response) => {
   log('info', 'GET - processing a request');
 
   Dog.findById(request.params.id)
@@ -60,7 +60,7 @@ dogRouter.get('/api/dogs/:id', (request, response, next) => {
 });
 
 
-dogRouter.delete('/api/dogs:id', (request, response, next) => {
+dogRouter.delete('/api/dogs:id', (request, response) => {
   if (!request.params.id) {
     return response.sendStatus(400);
   }

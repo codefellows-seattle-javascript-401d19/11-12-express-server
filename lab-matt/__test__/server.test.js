@@ -1,7 +1,6 @@
 'use strict';
 
 let PORT = process.env.PORT | 3000;
-let MONGODB_URI = process.env.PORT | 'mongodb://localhost/testing';
 
 const faker = require('faker');
 const superagent = require('superagent');
@@ -91,7 +90,7 @@ describe('/api/dogs', () => {
   // ===================== DELETE =====================
   describe('DELETE /api/dogs', () => {
     test('DELETE should respond with 200 and data if no error', () => {
-      let dogToTest = null;
+      let dogToTest = null; // eslint-disable-line
 
       dogMockCreate()
         .then(dog => {
