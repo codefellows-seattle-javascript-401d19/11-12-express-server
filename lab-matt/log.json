@@ -1,0 +1,1079 @@
+{"level":"info","message":"Server is listening on port: undefined","timestamp":"2017-12-12T00:41:03.837Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T00:41:03.860Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T00:43:26.664Z"}
+{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T00:43:26.688Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T00:43:26.712Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T00:44:57.125Z"}
+{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T00:44:57.150Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T00:44:57.174Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T00:46:03.203Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:46:03.236Z"}
+{"level":"error","message":"__SERVER_ERROR__","timestamp":"2017-12-12T00:46:03.251Z"}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: testing.dogs index: name_1 dup key: { : null }","op":{"_id":"5a2f26cba19e723ba0bfe192","timestamp":"2017-12-12T00:46:03.237Z","__v":0}}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T00:46:03.262Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T00:53:50.076Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:53:50.107Z"}
+{"level":"error","message":"__SERVER_ERROR__","timestamp":"2017-12-12T00:53:50.122Z"}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error collection: testing.dogs index: name_1 dup key: { : null }","op":{"_id":"5a2f289ea906643e0c4d1365","timestamp":"2017-12-12T00:53:50.108Z","__v":0}}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T00:53:50.134Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T00:54:33.031Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:54:33.062Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T00:54:33.063Z"}
+{"level":"error","message":"__SERVER_ERROR__","timestamp":"2017-12-12T00:54:33.080Z"}
+{"level":"error","timestamp":"2017-12-12T00:54:33.080Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T00:54:33.086Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T00:58:13.432Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:58:13.474Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T00:58:13.474Z"}
+{"level":"error","message":"__SERVER_ERROR__","timestamp":"2017-12-12T00:58:13.494Z"}
+{"level":"error","timestamp":"2017-12-12T00:58:13.494Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T00:58:13.497Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:01:05.210Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:01:05.243Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T01:01:05.244Z"}
+{"level":"error","message":"__SERVER_ERROR__","timestamp":"2017-12-12T01:01:05.265Z"}
+{"level":"error","timestamp":"2017-12-12T01:01:05.265Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:01:05.267Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:03:06.096Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:03:06.130Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:03:06.154Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:04:37.083Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:04:37.114Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T01:04:37.114Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:04:37.125Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:04:50.080Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:04:50.113Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T01:04:50.114Z"}
+{"level":"error","message":"__SERVER_ERROR__","timestamp":"2017-12-12T01:04:50.132Z"}
+{"level":"error","timestamp":"2017-12-12T01:04:50.132Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:04:50.134Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:05:00.416Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:05:00.446Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:05:00.470Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:10:48.748Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:10:48.780Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T01:10:48.780Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:10:48.791Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:11:04.008Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:11:04.038Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T01:11:04.038Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:11:04.050Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:12:04.729Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:12:04.759Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:12:04.784Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:12:10.594Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:12:10.624Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T01:12:10.624Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:12:10.636Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:12:49.210Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:12:49.240Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:12:49.264Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:12:53.325Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:12:53.355Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:12:53.378Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:12:56.434Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:12:56.464Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:12:56.488Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:12:59.785Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:12:59.815Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:12:59.839Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:13:02.649Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:13:02.679Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T01:13:02.679Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:13:02.690Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:14:04.621Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:14:04.655Z"}
+{"level":"info","message":"REQUEST NAME: Jaron","timestamp":"2017-12-12T01:14:04.656Z"}
+{"level":"info","message":"REQUEST LEGS: 0","timestamp":"2017-12-12T01:14:04.656Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T01:14:04.656Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:14:04.667Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:14:17.017Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:14:17.048Z"}
+{"level":"info","message":"REQUEST NAME: Bette","timestamp":"2017-12-12T01:14:17.048Z"}
+{"level":"info","message":"REQUEST LEGS: 1","timestamp":"2017-12-12T01:14:17.048Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:14:17.072Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:14:22.035Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:14:22.066Z"}
+{"level":"info","message":"REQUEST NAME: Henriette","timestamp":"2017-12-12T01:14:22.066Z"}
+{"level":"info","message":"REQUEST LEGS: 3","timestamp":"2017-12-12T01:14:22.066Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:14:22.090Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:14:41.402Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:14:41.432Z"}
+{"level":"info","message":"REQUEST NAME: Eleanore","timestamp":"2017-12-12T01:14:41.432Z"}
+{"level":"info","message":"REQUEST LEGS: 2","timestamp":"2017-12-12T01:14:41.432Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:14:41.457Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:14:45.648Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:14:45.678Z"}
+{"level":"info","message":"REQUEST NAME: Dejon","timestamp":"2017-12-12T01:14:45.678Z"}
+{"level":"info","message":"REQUEST LEGS: 3","timestamp":"2017-12-12T01:14:45.678Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:14:45.702Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:14:48.704Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:14:48.737Z"}
+{"level":"info","message":"REQUEST NAME: Marty","timestamp":"2017-12-12T01:14:48.738Z"}
+{"level":"info","message":"REQUEST LEGS: 2","timestamp":"2017-12-12T01:14:48.738Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:14:48.765Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:14:55.731Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:14:55.761Z"}
+{"level":"info","message":"REQUEST NAME: Eugene","timestamp":"2017-12-12T01:14:55.761Z"}
+{"level":"info","message":"REQUEST LEGS: 4","timestamp":"2017-12-12T01:14:55.761Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:14:55.785Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:17:42.135Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:17:42.168Z"}
+{"level":"info","message":"REQUEST NAME: Tressa","timestamp":"2017-12-12T01:17:42.169Z"}
+{"level":"info","message":"REQUEST LEGS: 4","timestamp":"2017-12-12T01:17:42.169Z"}
+{"level":"info","message":"_ID: undefined","timestamp":"2017-12-12T01:17:42.184Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:17:42.194Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:17:57.448Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:17:57.480Z"}
+{"level":"info","message":"REQUEST NAME: Tod","timestamp":"2017-12-12T01:17:57.481Z"}
+{"level":"info","message":"REQUEST LEGS: 2","timestamp":"2017-12-12T01:17:57.481Z"}
+{"level":"error","message":"__SERVER_ERROR__","timestamp":"2017-12-12T01:17:57.496Z"}
+{"message":"Cannot read property '_id' of undefined","stack":"TypeError: Cannot read property '_id' of undefined\n    at Dog.save.then.dog (/home/snobeard/code/401/projects/11-express-server/lab-matt/lib/dog-router.js:25:39)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","level":"error","timestamp":"2017-12-12T01:17:57.496Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:17:57.502Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:18:22.689Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:18:22.722Z"}
+{"level":"info","message":"REQUEST NAME: Eddie","timestamp":"2017-12-12T01:18:22.723Z"}
+{"level":"info","message":"REQUEST LEGS: 4","timestamp":"2017-12-12T01:18:22.723Z"}
+{"level":"info","message":"_ID: 5a2f2e5e6ce9e044baeadbac","timestamp":"2017-12-12T01:18:22.738Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:18:22.748Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:19:42.250Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:19:42.281Z"}
+{"level":"info","message":"REQUEST NAME: Danial","timestamp":"2017-12-12T01:19:42.281Z"}
+{"level":"info","message":"REQUEST LEGS: 4","timestamp":"2017-12-12T01:19:42.281Z"}
+{"level":"info","message":"_ID: 5a2f2eaee2cc6f451165afc7","timestamp":"2017-12-12T01:19:42.297Z"}
+{"level":"info","message":"_ID: Mon Dec 11 2017 17:19:42 GMT-0800 (PST)","timestamp":"2017-12-12T01:19:42.297Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:19:42.307Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:20:06.898Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:20:06.928Z"}
+{"level":"info","message":"REQUEST NAME: Winston","timestamp":"2017-12-12T01:20:06.929Z"}
+{"level":"info","message":"REQUEST LEGS: 3","timestamp":"2017-12-12T01:20:06.929Z"}
+{"level":"info","message":"_ID: 5a2f2ec60e845f455248fe40","timestamp":"2017-12-12T01:20:06.945Z"}
+{"level":"info","message":"TIMESTAMP: Mon Dec 11 2017 17:20:06 GMT-0800 (PST)","timestamp":"2017-12-12T01:20:06.945Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:20:06.956Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:20:25.617Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:20:25.651Z"}
+{"level":"info","message":"REQUEST NAME: Everardo","timestamp":"2017-12-12T01:20:25.651Z"}
+{"level":"info","message":"REQUEST LEGS: 1","timestamp":"2017-12-12T01:20:25.651Z"}
+{"level":"info","message":"_ID: 5a2f2ed9a4967e4577147f4e","timestamp":"2017-12-12T01:20:25.666Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 17:20:25 GMT-0800 (PST)","timestamp":"2017-12-12T01:20:25.666Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:20:25.676Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:20:45.712Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:20:45.743Z"}
+{"level":"info","message":"REQUEST ==NAME==: Maurine","timestamp":"2017-12-12T01:20:45.743Z"}
+{"level":"info","message":"REQUEST ==LEGS==: 1","timestamp":"2017-12-12T01:20:45.743Z"}
+{"level":"info","message":"==_ID==: 5a2f2eed1cc3af45a4eeb427","timestamp":"2017-12-12T01:20:45.759Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 17:20:45 GMT-0800 (PST)","timestamp":"2017-12-12T01:20:45.759Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:20:45.769Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:20:57.480Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:20:57.512Z"}
+{"level":"info","message":"==NAME==: Isobel","timestamp":"2017-12-12T01:20:57.512Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T01:20:57.513Z"}
+{"level":"info","message":"==_ID==: 5a2f2ef9cba2e345ce879747","timestamp":"2017-12-12T01:20:57.529Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 17:20:57 GMT-0800 (PST)","timestamp":"2017-12-12T01:20:57.529Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:20:57.539Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:22:31.991Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:22:32.027Z"}
+{"level":"info","message":"==NAME==: Ansel","timestamp":"2017-12-12T01:22:32.027Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T01:22:32.027Z"}
+{"level":"info","message":"==_ID==: 5a2f2f58b8d027463d45d5e3","timestamp":"2017-12-12T01:22:32.043Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 17:22:32 GMT-0800 (PST)","timestamp":"2017-12-12T01:22:32.044Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:22:32.057Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:23:39.834Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:23:39.864Z"}
+{"level":"info","message":"==NAME==: Carissa","timestamp":"2017-12-12T01:23:39.865Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T01:23:39.865Z"}
+{"level":"info","message":"==_ID==: 5a2f2f9b714b154685d1d479","timestamp":"2017-12-12T01:23:39.880Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 17:23:39 GMT-0800 (PST)","timestamp":"2017-12-12T01:23:39.880Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:23:39.891Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:24:18.932Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:24:18.965Z"}
+{"level":"info","message":"==NAME==: Ofelia","timestamp":"2017-12-12T01:24:18.965Z"}
+{"level":"info","message":"==LEGS==: 2","timestamp":"2017-12-12T01:24:18.965Z"}
+{"level":"info","message":"==_ID==: 5a2f2fc2a9101a46b823a8d0","timestamp":"2017-12-12T01:24:18.980Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 17:24:18 GMT-0800 (PST)","timestamp":"2017-12-12T01:24:18.980Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:24:18.991Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:24:46.685Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:24:46.713Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:25:37.301Z"}
+{"level":"info","message":"step one","timestamp":"2017-12-12T01:25:37.302Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:25:37.328Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:25:56.628Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:25:56.658Z"}
+{"level":"info","message":"step one","timestamp":"2017-12-12T01:25:56.814Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:26:41.876Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:26:41.906Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:29:45.910Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:29:45.940Z"}
+{"level":"info","message":"doggy: 5a2f3109ff2a8848e87c4177","timestamp":"2017-12-12T01:29:46.091Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:32:06.155Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:32:06.184Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:33:32.073Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:33:32.104Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:34:37.002Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:34:37.043Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:34:58.234Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:34:58.261Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:35:19.400Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:35:19.426Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:35:28.874Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:35:28.906Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:36:17.338Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:36:17.365Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:36:38.953Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:36:38.991Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:37:22.381Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:37:22.413Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:39:17.349Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:39:17.376Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:40:15.265Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:40:15.300Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:41:55.570Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:41:55.598Z"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T01:41:55.749Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:45:02.729Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:45:02.757Z"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T01:45:02.906Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T01:58:01.969Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T01:58:01.998Z"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T01:58:02.160Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:11:08.332Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T03:11:08.363Z"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:11:08.545Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:12:34.792Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T03:12:34.822Z"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:12:34.980Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:24:12.301Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:24:12.336Z"}
+{"level":"info","message":"==NAME==: Jarrett","timestamp":"2017-12-12T03:24:12.336Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T03:24:12.336Z"}
+{"level":"info","message":"==_ID==: 5a2f4bdc4237e45df4ae9bbf","timestamp":"2017-12-12T03:24:12.352Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:24:12 GMT-0800 (PST)","timestamp":"2017-12-12T03:24:12.352Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T03:24:12.365Z"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:24:12.527Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:24:26.906Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:24:26.937Z"}
+{"level":"info","message":"==NAME==: Jeramie","timestamp":"2017-12-12T03:24:26.937Z"}
+{"level":"info","message":"==LEGS==: 2","timestamp":"2017-12-12T03:24:26.937Z"}
+{"level":"info","message":"==_ID==: 5a2f4bea6fe30a5e1eb6c17f","timestamp":"2017-12-12T03:24:26.954Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:24:26 GMT-0800 (PST)","timestamp":"2017-12-12T03:24:26.954Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T03:24:26.965Z"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:24:27.110Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:27:09.815Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:27:09.849Z"}
+{"level":"info","message":"==NAME==: Tina","timestamp":"2017-12-12T03:27:09.849Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T03:27:09.849Z"}
+{"level":"info","message":"==_ID==: 5a2f4c8d53272f5f6e3445c7","timestamp":"2017-12-12T03:27:09.865Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:27:09 GMT-0800 (PST)","timestamp":"2017-12-12T03:27:09.865Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T03:27:09.877Z"}
+{"level":"error","message":"LINE 69: Error: connect ECONNREFUSED 127.0.0.1:3000","timestamp":"2017-12-12T03:27:10.033Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:27:38.204Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:27:38.234Z"}
+{"level":"info","message":"==NAME==: Shayna","timestamp":"2017-12-12T03:27:38.234Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T03:27:38.234Z"}
+{"level":"info","message":"==_ID==: 5a2f4caa2f49895f96d621f2","timestamp":"2017-12-12T03:27:38.249Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:27:38 GMT-0800 (PST)","timestamp":"2017-12-12T03:27:38.249Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T03:27:38.261Z"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:27:38.547Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:28:01.162Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:28:14.167Z"}
+{"level":"info","message":"==NAME==: Hadley","timestamp":"2017-12-12T03:28:14.167Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T03:28:14.167Z"}
+{"level":"info","message":"==_ID==: 5a2f4cceafea2560de82706c","timestamp":"2017-12-12T03:28:14.178Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:28:14 GMT-0800 (PST)","timestamp":"2017-12-12T03:28:14.179Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T03:28:14.348Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f4cce01ba026108e21890,\n  name: 'Allen',\n  legs: 3,\n  __v: 0,\n  timestamp: 2017-12-12T03:28:14.167Z }","timestamp":"2017-12-12T03:28:14.357Z"}
+{"level":"info","message":"doggy: [object Object]","timestamp":"2017-12-12T03:28:14.359Z"}
+{"message":"\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m350\u001b[39m\nReceived:\n  \u001b[31m200\u001b[39m","stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m350\u001b[39m\nReceived:\n  \u001b[31m200\u001b[39m\n    at dogMockCreate.then.then.response (/home/snobeard/code/401/projects/11-express-server/lab-matt/__test__/server.test.js:60:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","matcherResult":{"actual":200,"expected":350,"name":"toEqual","pass":false},"level":"error","timestamp":"2017-12-12T03:28:14.362Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:28:48.923Z"}
+{"level":"info","message":"==NAME==: Juanita","timestamp":"2017-12-12T03:28:48.924Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T03:28:48.924Z"}
+{"level":"info","message":"==_ID==: 5a2f4cf0afea2560de82706d","timestamp":"2017-12-12T03:28:48.927Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:28:48 GMT-0800 (PST)","timestamp":"2017-12-12T03:28:48.927Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T03:28:49.107Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f4cf077ce316145668ac2,\n  name: 'Cordia',\n  legs: 3,\n  __v: 0,\n  timestamp: 2017-12-12T03:28:48.941Z }","timestamp":"2017-12-12T03:28:49.109Z"}
+{"level":"info","message":"doggy: [object Object]","timestamp":"2017-12-12T03:28:49.111Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:29:03.521Z"}
+{"level":"info","message":"==NAME==: Maxie","timestamp":"2017-12-12T03:29:03.521Z"}
+{"level":"info","message":"==LEGS==: 2","timestamp":"2017-12-12T03:29:03.521Z"}
+{"level":"info","message":"==_ID==: 5a2f4cffafea2560de82706e","timestamp":"2017-12-12T03:29:03.522Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:29:03 GMT-0800 (PST)","timestamp":"2017-12-12T03:29:03.522Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T03:29:03.717Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f4cffd64cd36176bebc75,\n  name: 'Orie',\n  legs: 3,\n  __v: 0,\n  timestamp: 2017-12-12T03:29:03.538Z }","timestamp":"2017-12-12T03:29:03.718Z"}
+{"level":"info","message":"doggy: [object Object]","timestamp":"2017-12-12T03:29:03.720Z"}
+{"message":"\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toBeNull(\u001b[22m\u001b[2m)\u001b[22m\n\nExpected value to be null, instead received\n  \u001b[31m\"2017-12-12T03:29:03.538Z\"\u001b[39m","stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toBeNull(\u001b[22m\u001b[2m)\u001b[22m\n\nExpected value to be null, instead received\n  \u001b[31m\"2017-12-12T03:29:03.538Z\"\u001b[39m\n    at dogMockCreate.then.then.response (/home/snobeard/code/401/projects/11-express-server/lab-matt/__test__/server.test.js:63:41)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","matcherResult":{"pass":false},"level":"error","timestamp":"2017-12-12T03:29:03.722Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:29:11.873Z"}
+{"level":"info","message":"==NAME==: Cortney","timestamp":"2017-12-12T03:29:11.873Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T03:29:11.873Z"}
+{"level":"info","message":"==_ID==: 5a2f4d07afea2560de82706f","timestamp":"2017-12-12T03:29:11.874Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:29:11 GMT-0800 (PST)","timestamp":"2017-12-12T03:29:11.874Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T03:29:12.187Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f4d071d1783619c9f3382,\n  name: 'Brock',\n  legs: 1,\n  __v: 0,\n  timestamp: 2017-12-12T03:29:11.889Z }","timestamp":"2017-12-12T03:29:12.188Z"}
+{"level":"info","message":"doggy: [object Object]","timestamp":"2017-12-12T03:29:12.190Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:33:18.796Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:33:18.829Z"}
+{"level":"info","message":"==NAME==: Ernest","timestamp":"2017-12-12T03:33:18.829Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T03:33:18.829Z"}
+{"level":"info","message":"==_ID==: 5a2f4dfefb28506252adcf73","timestamp":"2017-12-12T03:33:18.844Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:33:18 GMT-0800 (PST)","timestamp":"2017-12-12T03:33:18.845Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T03:33:18.857Z"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:33:19.009Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:36:09.480Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:36:09.510Z"}
+{"level":"info","message":"==NAME==: Patsy","timestamp":"2017-12-12T03:36:09.511Z"}
+{"level":"info","message":"==LEGS==: 2","timestamp":"2017-12-12T03:36:09.511Z"}
+{"level":"info","message":"==_ID==: 5a2f4ea991293562c628ae13","timestamp":"2017-12-12T03:36:09.525Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:36:09 GMT-0800 (PST)","timestamp":"2017-12-12T03:36:09.525Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T03:36:09.537Z"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:36:09.695Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:36:19.553Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:36:31.848Z"}
+{"level":"info","message":"==NAME==: Mariano","timestamp":"2017-12-12T03:36:31.849Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T03:36:31.849Z"}
+{"level":"info","message":"==_ID==: 5a2f4ebf3a346e62d49e4ea6","timestamp":"2017-12-12T03:36:31.860Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:36:31 GMT-0800 (PST)","timestamp":"2017-12-12T03:36:31.860Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2017-12-12T03:36:31.840Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T03:36:32.128Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f4ebfceb84262ea508a82,\n  name: 'Cecile',\n  legs: 3,\n  __v: 0,\n  timestamp: 2017-12-12T03:36:31.830Z }","timestamp":"2017-12-12T03:36:32.136Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T03:36:32.136Z"}
+{"level":"info","message":"doggy: [object Object]","timestamp":"2017-12-12T03:36:32.138Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2017-12-12T03:37:36.420Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:37:36.431Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:37:36.463Z"}
+{"level":"info","message":"==NAME==: Leilani","timestamp":"2017-12-12T03:37:36.463Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T03:37:36.463Z"}
+{"level":"info","message":"==_ID==: 5a2f4f0042c2e5634fb0be76","timestamp":"2017-12-12T03:37:36.472Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:37:36 GMT-0800 (PST)","timestamp":"2017-12-12T03:37:36.472Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T03:37:36.636Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f4f0042c2e5634fb0be75,\n  name: 'Walter',\n  legs: 4,\n  __v: 0,\n  timestamp: 2017-12-12T03:37:36.434Z }","timestamp":"2017-12-12T03:37:36.642Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T03:37:36.642Z"}
+{"level":"info","message":"doggy: [object Object]","timestamp":"2017-12-12T03:37:36.644Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:38:04.772Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:38:04.803Z"}
+{"level":"info","message":"==NAME==: Vanessa","timestamp":"2017-12-12T03:38:04.803Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T03:38:04.803Z"}
+{"level":"info","message":"==_ID==: 5a2f4f1ce03330638ab6140d","timestamp":"2017-12-12T03:38:04.818Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:38:04 GMT-0800 (PST)","timestamp":"2017-12-12T03:38:04.819Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T03:38:04.830Z"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:38:05.105Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:38:34.900Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:38:34.931Z"}
+{"level":"info","message":"==NAME==: Santiago","timestamp":"2017-12-12T03:38:34.931Z"}
+{"level":"info","message":"==LEGS==: 2","timestamp":"2017-12-12T03:38:34.931Z"}
+{"level":"info","message":"==_ID==: 5a2f4f3a295b5263b65e1912","timestamp":"2017-12-12T03:38:34.946Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:38:34 GMT-0800 (PST)","timestamp":"2017-12-12T03:38:34.946Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T03:38:35.101Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f4f3a295b5263b65e1913,\n  name: 'Elfrieda',\n  legs: 2,\n  __v: 0,\n  timestamp: 2017-12-12T03:38:34.956Z }","timestamp":"2017-12-12T03:38:35.107Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T03:38:35.107Z"}
+{"level":"info","message":"doggy: [object Object]","timestamp":"2017-12-12T03:38:35.108Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:41:37.641Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:41:37.676Z"}
+{"level":"info","message":"==NAME==: Glenna","timestamp":"2017-12-12T03:41:37.676Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T03:41:37.676Z"}
+{"level":"info","message":"==_ID==: 5a2f4ff105b0d8646b95909c","timestamp":"2017-12-12T03:41:37.691Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:41:37 GMT-0800 (PST)","timestamp":"2017-12-12T03:41:37.691Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-12T03:41:37.703Z"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:41:37.845Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:41:55.325Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:41:55.355Z"}
+{"level":"info","message":"==NAME==: Estrella","timestamp":"2017-12-12T03:41:55.355Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T03:41:55.355Z"}
+{"level":"info","message":"==_ID==: 5a2f5003045fef649cc092c2","timestamp":"2017-12-12T03:41:55.371Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:41:55 GMT-0800 (PST)","timestamp":"2017-12-12T03:41:55.371Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T03:41:55.651Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f5003045fef649cc092c3,\n  name: 'Frieda',\n  legs: 4,\n  __v: 0,\n  timestamp: 2017-12-12T03:41:55.380Z }","timestamp":"2017-12-12T03:41:55.657Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T03:41:55.657Z"}
+{"level":"info","message":"doggy: [object Object]","timestamp":"2017-12-12T03:41:55.659Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:47:54.070Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:47:54.108Z"}
+{"level":"info","message":"==NAME==: Afton","timestamp":"2017-12-12T03:47:54.108Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T03:47:54.108Z"}
+{"level":"info","message":"==_ID==: 5a2f516a2d46a06594b3e531","timestamp":"2017-12-12T03:47:54.125Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:47:54 GMT-0800 (PST)","timestamp":"2017-12-12T03:47:54.125Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T03:47:54.138Z"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:47:54.306Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T03:48:09.320Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:48:09.356Z"}
+{"level":"info","message":"==NAME==: Amari","timestamp":"2017-12-12T03:48:09.356Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T03:48:09.356Z"}
+{"level":"info","message":"==_ID==: 5a2f5179ac051465c2f2882b","timestamp":"2017-12-12T03:48:09.374Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 19:48:09 GMT-0800 (PST)","timestamp":"2017-12-12T03:48:09.374Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T03:48:09.388Z"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:48:09.563Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T04:36:21.478Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:36:21.598Z"}
+{"level":"info","message":"==NAME==: Christine","timestamp":"2017-12-12T04:36:21.599Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T04:36:21.599Z"}
+{"level":"info","message":"==_ID==: 5a2f5cc52dffdd12faa3419e","timestamp":"2017-12-12T04:36:21.678Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 20:36:21 GMT-0800 (PST)","timestamp":"2017-12-12T04:36:21.678Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:36:22.364Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f5cc52dffdd12faa3419f,\n  name: 'Leslie',\n  legs: 1,\n  __v: 0,\n  timestamp: 2017-12-12T04:36:21.686Z }","timestamp":"2017-12-12T04:36:22.370Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T04:36:22.370Z"}
+{"level":"info","message":"doggy: [object Object]","timestamp":"2017-12-12T04:36:22.372Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T04:36:39.060Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:36:39.089Z"}
+{"level":"info","message":"==NAME==: Kenyon","timestamp":"2017-12-12T04:36:39.090Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T04:36:39.090Z"}
+{"level":"info","message":"==_ID==: 5a2f5cd76ce06f1336496db6","timestamp":"2017-12-12T04:36:39.104Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 20:36:39 GMT-0800 (PST)","timestamp":"2017-12-12T04:36:39.104Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T04:36:39.125Z"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T04:36:39.271Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T04:39:11.113Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:39:11.144Z"}
+{"level":"info","message":"==NAME==: Alysha","timestamp":"2017-12-12T04:39:11.144Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T04:39:11.144Z"}
+{"level":"info","message":"==_ID==: 5a2f5d6f8e28cb13ad73a55e","timestamp":"2017-12-12T04:39:11.158Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 20:39:11 GMT-0800 (PST)","timestamp":"2017-12-12T04:39:11.158Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:39:11.312Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f5d6f8e28cb13ad73a55f,\n  name: 'Aracely',\n  legs: 1,\n  __v: 0,\n  timestamp: 2017-12-12T04:39:11.168Z }","timestamp":"2017-12-12T04:39:11.318Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T04:39:11.318Z"}
+{"level":"info","message":"doggy: [object Object]","timestamp":"2017-12-12T04:39:11.320Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T04:41:37.934Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:41:37.968Z"}
+{"level":"info","message":"==NAME==: Sunny","timestamp":"2017-12-12T04:41:37.968Z"}
+{"level":"info","message":"==LEGS==: 2","timestamp":"2017-12-12T04:41:37.968Z"}
+{"level":"info","message":"==_ID==: 5a2f5e01a09ce21655e1e042","timestamp":"2017-12-12T04:41:37.984Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 20:41:37 GMT-0800 (PST)","timestamp":"2017-12-12T04:41:37.984Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:41:37.996Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T04:41:37.996Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T04:41:37.996Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T04:41:37.996Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:41:38.154Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f5e01a09ce21655e1e043,\n  name: 'Taya',\n  legs: 2,\n  __v: 0,\n  timestamp: 2017-12-12T04:41:37.999Z }","timestamp":"2017-12-12T04:41:38.160Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T04:41:38.160Z"}
+{"level":"info","message":"doggy: [object Object]","timestamp":"2017-12-12T04:41:38.161Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T04:41:50.068Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:41:50.102Z"}
+{"level":"info","message":"==NAME==: Cortez","timestamp":"2017-12-12T04:41:50.102Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T04:41:50.102Z"}
+{"level":"info","message":"==_ID==: 5a2f5e0efdf6aa167a5e73a1","timestamp":"2017-12-12T04:41:50.118Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 20:41:50 GMT-0800 (PST)","timestamp":"2017-12-12T04:41:50.119Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:41:50.130Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T04:41:50.131Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T04:41:50.131Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T04:41:50.131Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:41:50.284Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f5e0efdf6aa167a5e73a2,\n  name: 'Uriel',\n  legs: 2,\n  __v: 0,\n  timestamp: 2017-12-12T04:41:50.134Z }","timestamp":"2017-12-12T04:41:50.290Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T04:41:50.290Z"}
+{"level":"info","message":"doggy: [object Object]","timestamp":"2017-12-12T04:41:50.291Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T04:41:58.610Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:41:58.643Z"}
+{"level":"info","message":"==NAME==: Paolo","timestamp":"2017-12-12T04:41:58.643Z"}
+{"level":"info","message":"==LEGS==: 2","timestamp":"2017-12-12T04:41:58.643Z"}
+{"level":"info","message":"==_ID==: 5a2f5e1609ba9416a6581e0b","timestamp":"2017-12-12T04:41:58.658Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 20:41:58 GMT-0800 (PST)","timestamp":"2017-12-12T04:41:58.658Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:41:58.669Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T04:41:58.669Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T04:41:58.669Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T04:41:58.669Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:41:58.968Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f5e1609ba9416a6581e0c,\n  name: 'Dee',\n  legs: 1,\n  __v: 0,\n  timestamp: 2017-12-12T04:41:58.672Z }","timestamp":"2017-12-12T04:41:58.975Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T04:41:58.975Z"}
+{"level":"info","message":"doggy: [object Object]","timestamp":"2017-12-12T04:41:58.976Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T04:43:33.195Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:43:33.228Z"}
+{"level":"info","message":"==NAME==: Kayleigh","timestamp":"2017-12-12T04:43:33.228Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T04:43:33.228Z"}
+{"level":"info","message":"==_ID==: 5a2f5e75bfb139176132a3c6","timestamp":"2017-12-12T04:43:33.243Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 20:43:33 GMT-0800 (PST)","timestamp":"2017-12-12T04:43:33.243Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:43:33.254Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T04:43:33.254Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T04:43:33.254Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T04:43:33.254Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:43:33.419Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f5e75bfb139176132a3c7,\n  name: 'Kirk',\n  legs: 4,\n  __v: 0,\n  timestamp: 2017-12-12T04:43:33.257Z }","timestamp":"2017-12-12T04:43:33.426Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T04:43:33.426Z"}
+{"level":"info","message":"doggy: [object Object]","timestamp":"2017-12-12T04:43:33.428Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T04:44:08.946Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:44:08.979Z"}
+{"level":"info","message":"==NAME==: Bryana","timestamp":"2017-12-12T04:44:08.979Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T04:44:08.979Z"}
+{"level":"info","message":"==_ID==: 5a2f5e984880c1179edfd4cc","timestamp":"2017-12-12T04:44:08.994Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 20:44:08 GMT-0800 (PST)","timestamp":"2017-12-12T04:44:08.994Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:44:09.006Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T04:44:09.006Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T04:44:09.006Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T04:44:09.006Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:44:09.168Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f5e994880c1179edfd4cd,\n  name: 'Darrion',\n  legs: 1,\n  __v: 0,\n  timestamp: 2017-12-12T04:44:09.010Z }","timestamp":"2017-12-12T04:44:09.175Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T04:44:09.175Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T04:46:21.527Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:46:21.557Z"}
+{"level":"info","message":"==NAME==: Mina","timestamp":"2017-12-12T04:46:21.557Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T04:46:21.557Z"}
+{"level":"info","message":"==_ID==: 5a2f5f1d808469183c57af5d","timestamp":"2017-12-12T04:46:21.572Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 20:46:21 GMT-0800 (PST)","timestamp":"2017-12-12T04:46:21.572Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:46:21.583Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T04:46:21.583Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T04:46:21.583Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T04:46:21.583Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T04:46:21.587Z"}
+{"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T04:46:21.730Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T04:48:13.077Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:48:13.107Z"}
+{"level":"info","message":"==NAME==: Orion","timestamp":"2017-12-12T04:48:13.107Z"}
+{"level":"info","message":"==LEGS==: 2","timestamp":"2017-12-12T04:48:13.108Z"}
+{"level":"info","message":"==_ID==: 5a2f5f8de077ad18a43d2a77","timestamp":"2017-12-12T04:48:13.122Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 20:48:13 GMT-0800 (PST)","timestamp":"2017-12-12T04:48:13.122Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:48:13.133Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T04:48:13.133Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T04:48:13.133Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T04:48:13.134Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:48:13.280Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f5f8de077ad18a43d2a78,\n  name: 'Maryjane',\n  legs: 4,\n  __v: 0,\n  timestamp: 2017-12-12T04:48:13.136Z }","timestamp":"2017-12-12T04:48:13.285Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T04:48:13.285Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T04:52:04.361Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:52:04.391Z"}
+{"level":"info","message":"==NAME==: Roberto","timestamp":"2017-12-12T04:52:04.392Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T04:52:04.392Z"}
+{"level":"info","message":"==_ID==: 5a2f6074d5b7021970cb0694","timestamp":"2017-12-12T04:52:04.407Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 20:52:04 GMT-0800 (PST)","timestamp":"2017-12-12T04:52:04.407Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:52:04.418Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T04:52:04.418Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T04:52:04.418Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T04:52:04.418Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:52:04.565Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6074d5b7021970cb0695,\n  name: 'Khalil',\n  legs: 1,\n  __v: 0,\n  timestamp: 2017-12-12T04:52:04.420Z }","timestamp":"2017-12-12T04:52:04.571Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T04:52:04.571Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T04:56:19.512Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:56:19.545Z"}
+{"level":"info","message":"==NAME==: Catherine","timestamp":"2017-12-12T04:56:19.545Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T04:56:19.546Z"}
+{"level":"info","message":"==_ID==: 5a2f61733d5c201b502e2b3f","timestamp":"2017-12-12T04:56:19.561Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 20:56:19 GMT-0800 (PST)","timestamp":"2017-12-12T04:56:19.561Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:56:19.573Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T04:56:19.573Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T04:56:19.573Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T04:56:19.573Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:56:19.582Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:56:19.585Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:56:19.585Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/home/snobeard/code/401/projects/11-express-server/lab-matt/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/home/snobeard/code/401/projects/11-express-server/lab-matt/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/dogs/1234","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 04:56:19 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T04:56:19.743Z"}
+{"level":"info","message":"==DOG==: null","timestamp":"2017-12-12T04:56:19.746Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/home/snobeard/code/401/projects/11-express-server/lab-matt/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/home/snobeard/code/401/projects/11-express-server/lab-matt/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/dogs/5a2f61733d5c201b502e2b40","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 04:56:19 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T04:56:19.747Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T04:56:31.938Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:56:31.972Z"}
+{"level":"info","message":"==NAME==: Amie","timestamp":"2017-12-12T04:56:31.972Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T04:56:31.972Z"}
+{"level":"info","message":"==_ID==: 5a2f617f4eb2e61b807fe96f","timestamp":"2017-12-12T04:56:31.987Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 20:56:31 GMT-0800 (PST)","timestamp":"2017-12-12T04:56:31.987Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:56:31.998Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T04:56:31.998Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T04:56:31.998Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T04:56:31.998Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:56:32.006Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:56:32.009Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:56:32.009Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/home/snobeard/code/401/projects/11-express-server/lab-matt/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/home/snobeard/code/401/projects/11-express-server/lab-matt/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/dogs/1234","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 04:56:32 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T04:56:32.154Z"}
+{"level":"info","message":"==DOG==: null","timestamp":"2017-12-12T04:56:32.155Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/home/snobeard/code/401/projects/11-express-server/lab-matt/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/home/snobeard/code/401/projects/11-express-server/lab-matt/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/dogs/5a2f61804eb2e61b807fe970","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 04:56:32 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T04:56:32.156Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T04:56:43.599Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:56:43.632Z"}
+{"level":"info","message":"==NAME==: Trenton","timestamp":"2017-12-12T04:56:43.632Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T04:56:43.632Z"}
+{"level":"info","message":"==_ID==: 5a2f618bc59a221bb1db8e8d","timestamp":"2017-12-12T04:56:43.648Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 20:56:43 GMT-0800 (PST)","timestamp":"2017-12-12T04:56:43.648Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:56:43.659Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T04:56:43.659Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T04:56:43.659Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T04:56:43.659Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:56:43.669Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:56:43.671Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:56:43.672Z"}
+{"level":"info","message":"==DOG==: null","timestamp":"2017-12-12T04:56:43.831Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/home/snobeard/code/401/projects/11-express-server/lab-matt/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/home/snobeard/code/401/projects/11-express-server/lab-matt/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/dogs/5a2f618bc59a221bb1db8e8e","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 04:56:43 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T04:56:43.832Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T04:57:22.080Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:57:22.114Z"}
+{"level":"info","message":"==NAME==: Gilberto","timestamp":"2017-12-12T04:57:22.114Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T04:57:22.114Z"}
+{"level":"info","message":"==_ID==: 5a2f61b2de40621be1329def","timestamp":"2017-12-12T04:57:22.130Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 20:57:22 GMT-0800 (PST)","timestamp":"2017-12-12T04:57:22.130Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:57:22.142Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T04:57:22.142Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T04:57:22.142Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T04:57:22.142Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:57:22.150Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:57:22.153Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:57:22.153Z"}
+{"level":"info","message":"==DOG==: null","timestamp":"2017-12-12T04:57:22.316Z"}
+{"level":"error","message":"HELLO? :Error: Not Found","timestamp":"2017-12-12T04:57:22.316Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:03:41.747Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:03:41.780Z"}
+{"level":"info","message":"==NAME==: Johnathan","timestamp":"2017-12-12T05:03:41.780Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:03:41.780Z"}
+{"level":"info","message":"==_ID==: 5a2f632dfeb0481cadc64de1","timestamp":"2017-12-12T05:03:41.796Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:03:41 GMT-0800 (PST)","timestamp":"2017-12-12T05:03:41.796Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:03:41.807Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:03:41.808Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:03:41.808Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:03:41.808Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:03:41.817Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:03:41.820Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:03:41.820Z"}
+{"level":"info","message":"==DOG==: null","timestamp":"2017-12-12T05:03:41.983Z"}
+{"level":"error","message":"HELLO? :Error: Not Found","timestamp":"2017-12-12T05:03:41.984Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:04:51.504Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:04:51.543Z"}
+{"level":"info","message":"==NAME==: Sydni","timestamp":"2017-12-12T05:04:51.543Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:04:51.543Z"}
+{"level":"info","message":"==_ID==: 5a2f63733aa7361ce95639a5","timestamp":"2017-12-12T05:04:51.560Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:04:51 GMT-0800 (PST)","timestamp":"2017-12-12T05:04:51.560Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:04:51.574Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:04:51.574Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:04:51.574Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:04:51.574Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:04:51.584Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:04:51.587Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:04:51.588Z"}
+{"level":"info","message":"==DOG==: null","timestamp":"2017-12-12T05:04:51.750Z"}
+{"level":"error","message":"HELLO? :Error: Not Found","timestamp":"2017-12-12T05:04:51.751Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:28:09.061Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:28:09.091Z"}
+{"level":"info","message":"==NAME==: Rollin","timestamp":"2017-12-12T05:28:09.092Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T05:28:09.092Z"}
+{"level":"info","message":"==_ID==: 5a2f68e9141d0e1f8dd13edf","timestamp":"2017-12-12T05:28:09.107Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:28:09 GMT-0800 (PST)","timestamp":"2017-12-12T05:28:09.107Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:28:09.118Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:28:09.118Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:28:09.118Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:28:09.118Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:28:09.126Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:28:09.128Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:28:09.129Z"}
+{"level":"info","message":"==DOG==: null","timestamp":"2017-12-12T05:28:09.271Z"}
+{"level":"error","message":"HELLO? :Error: Not Found","timestamp":"2017-12-12T05:28:09.271Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:28:46.782Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:28:46.815Z"}
+{"level":"info","message":"==NAME==: Milan","timestamp":"2017-12-12T05:28:46.815Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T05:28:46.815Z"}
+{"level":"info","message":"==_ID==: 5a2f690ef004271fd61803ee","timestamp":"2017-12-12T05:28:46.831Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:28:46 GMT-0800 (PST)","timestamp":"2017-12-12T05:28:46.831Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:28:46.842Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:28:46.842Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:28:46.842Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:28:46.842Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:28:46.851Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:28:46.853Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:28:46.854Z"}
+{"level":"info","message":"==DOG==: null","timestamp":"2017-12-12T05:28:47.007Z"}
+{"level":"error","message":"this should not show: Error: Not Found","timestamp":"2017-12-12T05:28:47.007Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:30:35.513Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:30:35.545Z"}
+{"level":"info","message":"==NAME==: Verla","timestamp":"2017-12-12T05:30:35.546Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T05:30:35.546Z"}
+{"level":"info","message":"==_ID==: 5a2f697bc94575201f5e2580","timestamp":"2017-12-12T05:30:35.562Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:30:35 GMT-0800 (PST)","timestamp":"2017-12-12T05:30:35.562Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:30:35.574Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:30:35.574Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:30:35.574Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:30:35.574Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:30:35.580Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:30:35.583Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:30:35.583Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f697bc94575201f5e2581,\n  name: 'Santina',\n  legs: 1,\n  __v: 0,\n  timestamp: 2017-12-12T05:30:35.577Z }","timestamp":"2017-12-12T05:30:35.589Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:30:35.589Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:30:57.485Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:30:57.515Z"}
+{"level":"info","message":"==NAME==: Ashtyn","timestamp":"2017-12-12T05:30:57.515Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T05:30:57.515Z"}
+{"level":"info","message":"==_ID==: 5a2f699102c3a820450dcbc8","timestamp":"2017-12-12T05:30:57.530Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:30:57 GMT-0800 (PST)","timestamp":"2017-12-12T05:30:57.530Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:30:57.544Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:30:57.544Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:30:57.544Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:30:57.544Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:30:57.550Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:30:57.553Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:30:57.553Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f699102c3a820450dcbc9,\n  name: 'Rowena',\n  legs: 1,\n  __v: 0,\n  timestamp: 2017-12-12T05:30:57.547Z }","timestamp":"2017-12-12T05:30:57.559Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:30:57.559Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:31:09.356Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:31:09.386Z"}
+{"level":"info","message":"==NAME==: Wendy","timestamp":"2017-12-12T05:31:09.386Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T05:31:09.386Z"}
+{"level":"info","message":"==_ID==: 5a2f699dff696220849a53f8","timestamp":"2017-12-12T05:31:09.401Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:31:09 GMT-0800 (PST)","timestamp":"2017-12-12T05:31:09.401Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:31:09.415Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:31:09.415Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:31:09.415Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:31:09.415Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:31:09.422Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:31:09.425Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:31:09.425Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f699dff696220849a53f9,\n  name: 'Norene',\n  legs: 3,\n  __v: 0,\n  timestamp: 2017-12-12T05:31:09.418Z }","timestamp":"2017-12-12T05:31:09.430Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:31:09.430Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:31:09.432Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:32:03.965Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:32:03.996Z"}
+{"level":"info","message":"==NAME==: Candace","timestamp":"2017-12-12T05:32:03.996Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:32:03.997Z"}
+{"level":"info","message":"==_ID==: 5a2f69d3c082ed20c2d04a4a","timestamp":"2017-12-12T05:32:04.011Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:32:03 GMT-0800 (PST)","timestamp":"2017-12-12T05:32:04.012Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:32:04.026Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:32:04.026Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:32:04.026Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:32:04.026Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:32:04.032Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:32:04.034Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:32:04.035Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f69d4c082ed20c2d04a4b,\n  name: 'Everett',\n  legs: 1,\n  __v: 0,\n  timestamp: 2017-12-12T05:32:04.029Z }","timestamp":"2017-12-12T05:32:04.040Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:32:04.041Z"}
+{"level":"error","message":"this should not show: Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m250\u001b[39m\nReceived:\n  \u001b[31m200\u001b[39m","timestamp":"2017-12-12T05:32:04.043Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:32:04.044Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:32:25.375Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:32:25.404Z"}
+{"level":"info","message":"==NAME==: Allan","timestamp":"2017-12-12T05:32:25.404Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T05:32:25.404Z"}
+{"level":"info","message":"==_ID==: 5a2f69e97bb03820e96ed3ac","timestamp":"2017-12-12T05:32:25.419Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:32:25 GMT-0800 (PST)","timestamp":"2017-12-12T05:32:25.419Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:32:25.432Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:32:25.432Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:32:25.432Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:32:25.432Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:32:25.438Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:32:25.441Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:32:25.442Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f69e97bb03820e96ed3ad,\n  name: 'Xzavier',\n  legs: 4,\n  __v: 0,\n  timestamp: 2017-12-12T05:32:25.435Z }","timestamp":"2017-12-12T05:32:25.447Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:32:25.447Z"}
+{"level":"error","message":"this should not show: Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m250\u001b[39m\nReceived:\n  \u001b[31m200\u001b[39m","timestamp":"2017-12-12T05:32:25.449Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:32:25.450Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:32:38.520Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:32:38.548Z"}
+{"level":"info","message":"==NAME==: Bella","timestamp":"2017-12-12T05:32:38.548Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T05:32:38.548Z"}
+{"level":"info","message":"==_ID==: 5a2f69f67d1958211d72d2f8","timestamp":"2017-12-12T05:32:38.563Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:32:38 GMT-0800 (PST)","timestamp":"2017-12-12T05:32:38.563Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:32:38.576Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:32:38.576Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:32:38.576Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:32:38.576Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:32:38.582Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:32:38.585Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:32:38.585Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f69f67d1958211d72d2f9,\n  name: 'Clementina',\n  legs: 2,\n  __v: 0,\n  timestamp: 2017-12-12T05:32:38.579Z }","timestamp":"2017-12-12T05:32:38.590Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:32:38.590Z"}
+{"level":"error","message":"this should not show: Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m2000\u001b[39m\nReceived:\n  \u001b[31m200\u001b[39m","timestamp":"2017-12-12T05:32:38.593Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:32:38.593Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:33:22.669Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:33:22.697Z"}
+{"level":"info","message":"==NAME==: Benny","timestamp":"2017-12-12T05:33:22.697Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T05:33:22.697Z"}
+{"level":"info","message":"==_ID==: 5a2f6a2208bb7e2145796e8a","timestamp":"2017-12-12T05:33:22.712Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:33:22 GMT-0800 (PST)","timestamp":"2017-12-12T05:33:22.712Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:33:22.725Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:33:22.725Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:33:22.725Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:33:22.725Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:33:22.731Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:33:22.734Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:33:22.734Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6a2208bb7e2145796e8b,\n  name: 'Cecilia',\n  legs: 3,\n  __v: 0,\n  timestamp: 2017-12-12T05:33:22.728Z }","timestamp":"2017-12-12T05:33:22.739Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:33:22.739Z"}
+{"level":"error","message":"this should not show: Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m2000\u001b[39m\nReceived:\n  \u001b[31m200\u001b[39m","timestamp":"2017-12-12T05:33:22.742Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:33:22.742Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:33:34.772Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:33:34.801Z"}
+{"level":"info","message":"==NAME==: Felton","timestamp":"2017-12-12T05:33:34.801Z"}
+{"level":"info","message":"==LEGS==: 2","timestamp":"2017-12-12T05:33:34.801Z"}
+{"level":"info","message":"==_ID==: 5a2f6a2efa2bd8217fbf6fb0","timestamp":"2017-12-12T05:33:34.816Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:33:34 GMT-0800 (PST)","timestamp":"2017-12-12T05:33:34.816Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:33:34.829Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:33:34.829Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:33:34.829Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:33:34.829Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:33:34.835Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:33:34.837Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:33:34.838Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6a2efa2bd8217fbf6fb1,\n  name: 'Bonita',\n  legs: 3,\n  __v: 0,\n  timestamp: 2017-12-12T05:33:34.832Z }","timestamp":"2017-12-12T05:33:34.843Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:33:34.843Z"}
+{"level":"error","message":"this should not show: Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m2000\u001b[39m\nReceived:\n  \u001b[31m200\u001b[39m","timestamp":"2017-12-12T05:33:34.845Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:33:34.846Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:33:47.595Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:33:47.623Z"}
+{"level":"info","message":"==NAME==: Mariah","timestamp":"2017-12-12T05:33:47.623Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T05:33:47.623Z"}
+{"level":"info","message":"==_ID==: 5a2f6a3b3ddc2921aec7419d","timestamp":"2017-12-12T05:33:47.637Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:33:47 GMT-0800 (PST)","timestamp":"2017-12-12T05:33:47.637Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:33:47.651Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:33:47.651Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:33:47.651Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:33:47.651Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:33:47.656Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:33:47.659Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:33:47.659Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6a3b3ddc2921aec7419e,\n  name: 'Pearline',\n  legs: 2,\n  __v: 0,\n  timestamp: 2017-12-12T05:33:47.653Z }","timestamp":"2017-12-12T05:33:47.664Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:33:47.664Z"}
+{"level":"error","message":"this should not show: Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m2000\u001b[39m\nReceived:\n  \u001b[31m200\u001b[39m","timestamp":"2017-12-12T05:33:47.667Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:33:47.667Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:33:57.519Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:33:57.550Z"}
+{"level":"info","message":"==NAME==: Mark","timestamp":"2017-12-12T05:33:57.550Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:33:57.550Z"}
+{"level":"info","message":"==_ID==: 5a2f6a456b26d621d4dcda77","timestamp":"2017-12-12T05:33:57.566Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:33:57 GMT-0800 (PST)","timestamp":"2017-12-12T05:33:57.566Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:33:57.580Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:33:57.580Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:33:57.580Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:33:57.580Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:33:57.586Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:33:57.588Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:33:57.589Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6a456b26d621d4dcda78,\n  name: 'Kiana',\n  legs: 4,\n  __v: 0,\n  timestamp: 2017-12-12T05:33:57.583Z }","timestamp":"2017-12-12T05:33:57.594Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:33:57.594Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:33:57.597Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:34:24.750Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:34:24.781Z"}
+{"level":"info","message":"==NAME==: Alanis","timestamp":"2017-12-12T05:34:24.781Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T05:34:24.781Z"}
+{"level":"info","message":"==_ID==: 5a2f6a607a9b062212e0bcd7","timestamp":"2017-12-12T05:34:24.797Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:34:24 GMT-0800 (PST)","timestamp":"2017-12-12T05:34:24.797Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:34:24.811Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:34:24.812Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:34:24.812Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:34:24.812Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:34:24.818Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:34:24.821Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:34:24.822Z"}
+{"level":"info","message":"==DOG==: null","timestamp":"2017-12-12T05:34:24.826Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:34:24.826Z"}
+{"level":"error","message":"this should not show: Error: Not Found","timestamp":"2017-12-12T05:34:24.828Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:34:38.715Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:34:38.747Z"}
+{"level":"info","message":"==NAME==: Maud","timestamp":"2017-12-12T05:34:38.747Z"}
+{"level":"info","message":"==LEGS==: 2","timestamp":"2017-12-12T05:34:38.747Z"}
+{"level":"info","message":"==_ID==: 5a2f6a6e566e7d2241319672","timestamp":"2017-12-12T05:34:38.763Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:34:38 GMT-0800 (PST)","timestamp":"2017-12-12T05:34:38.763Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:34:38.779Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:34:38.779Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:34:38.779Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:34:38.779Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:34:38.785Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:34:38.787Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:34:38.788Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6a6e566e7d2241319673,\n  name: 'Coralie',\n  legs: 4,\n  __v: 0,\n  timestamp: 2017-12-12T05:34:38.781Z }","timestamp":"2017-12-12T05:34:38.795Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:34:38.795Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:34:38.797Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:34:53.736Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:34:53.767Z"}
+{"level":"info","message":"==NAME==: Neal","timestamp":"2017-12-12T05:34:53.767Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T05:34:53.767Z"}
+{"level":"info","message":"==_ID==: 5a2f6a7da1ab06226d0fe6b1","timestamp":"2017-12-12T05:34:53.782Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:34:53 GMT-0800 (PST)","timestamp":"2017-12-12T05:34:53.782Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:34:53.796Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:34:53.797Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:34:53.797Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:34:53.797Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:34:53.804Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:34:53.806Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:34:53.807Z"}
+{"level":"info","message":"==DOG==: null","timestamp":"2017-12-12T05:34:53.811Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:34:53.812Z"}
+{"level":"error","message":"this should not show: Error: Not Found","timestamp":"2017-12-12T05:34:53.814Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:35:00.675Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:35:00.706Z"}
+{"level":"info","message":"==NAME==: Francesco","timestamp":"2017-12-12T05:35:00.706Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T05:35:00.706Z"}
+{"level":"info","message":"==_ID==: 5a2f6a846ede562297c92ad8","timestamp":"2017-12-12T05:35:00.721Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:35:00 GMT-0800 (PST)","timestamp":"2017-12-12T05:35:00.721Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:35:00.735Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:35:00.735Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:35:00.735Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:35:00.735Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:35:00.741Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:35:00.743Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:35:00.744Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6a846ede562297c92ad9,\n  name: 'Roger',\n  legs: 2,\n  __v: 0,\n  timestamp: 2017-12-12T05:35:00.737Z }","timestamp":"2017-12-12T05:35:00.750Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:35:00.750Z"}
+{"level":"error","message":"this should not show: Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m2000\u001b[39m\nReceived:\n  \u001b[31m200\u001b[39m","timestamp":"2017-12-12T05:35:00.752Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:35:00.753Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:35:31.562Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:35:31.592Z"}
+{"level":"info","message":"==NAME==: Melyna","timestamp":"2017-12-12T05:35:31.592Z"}
+{"level":"info","message":"==LEGS==: 2","timestamp":"2017-12-12T05:35:31.592Z"}
+{"level":"info","message":"==_ID==: 5a2f6aa3887f6c22cdf177cf","timestamp":"2017-12-12T05:35:31.607Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:35:31 GMT-0800 (PST)","timestamp":"2017-12-12T05:35:31.607Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:35:31.621Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:35:31.621Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:35:31.621Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:35:31.621Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:35:31.627Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:35:31.630Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:35:31.631Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6aa3887f6c22cdf177d0,\n  name: 'Taryn',\n  legs: 1,\n  __v: 0,\n  timestamp: 2017-12-12T05:35:31.624Z }","timestamp":"2017-12-12T05:35:31.636Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:35:31.637Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:35:31.640Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:35:46.006Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:35:46.037Z"}
+{"level":"info","message":"==NAME==: Nona","timestamp":"2017-12-12T05:35:46.038Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T05:35:46.038Z"}
+{"level":"info","message":"==_ID==: 5a2f6ab29bb53b2303b3ed5d","timestamp":"2017-12-12T05:35:46.052Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:35:46 GMT-0800 (PST)","timestamp":"2017-12-12T05:35:46.052Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:35:46.066Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:35:46.066Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:35:46.066Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:35:46.066Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:35:46.073Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:35:46.075Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:35:46.076Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6ab29bb53b2303b3ed5e,\n  name: 'Jonas',\n  legs: 3,\n  __v: 0,\n  timestamp: 2017-12-12T05:35:46.069Z }","timestamp":"2017-12-12T05:35:46.080Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:35:46.081Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:35:46.084Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:36:03.534Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:36:03.562Z"}
+{"level":"info","message":"==NAME==: Yvonne","timestamp":"2017-12-12T05:36:03.562Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T05:36:03.562Z"}
+{"level":"info","message":"==_ID==: 5a2f6ac34e96fc232e22be9f","timestamp":"2017-12-12T05:36:03.577Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:36:03 GMT-0800 (PST)","timestamp":"2017-12-12T05:36:03.577Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:36:03.590Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:36:03.590Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:36:03.590Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:36:03.590Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:36:03.596Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:36:03.598Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:36:03.599Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6ac34e96fc232e22bea0,\n  name: 'Walton',\n  legs: 2,\n  __v: 0,\n  timestamp: 2017-12-12T05:36:03.593Z }","timestamp":"2017-12-12T05:36:03.604Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:36:03.604Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:36:03.607Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:36:11.535Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:36:11.563Z"}
+{"level":"info","message":"==NAME==: Mavis","timestamp":"2017-12-12T05:36:11.564Z"}
+{"level":"info","message":"==LEGS==: 2","timestamp":"2017-12-12T05:36:11.564Z"}
+{"level":"info","message":"==_ID==: 5a2f6acb79e6dd2352a640ea","timestamp":"2017-12-12T05:36:11.578Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:36:11 GMT-0800 (PST)","timestamp":"2017-12-12T05:36:11.578Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:36:11.591Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:36:11.592Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:36:11.592Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:36:11.592Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:36:11.598Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:36:11.600Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:36:11.601Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6acb79e6dd2352a640eb,\n  name: 'Mack',\n  legs: 2,\n  __v: 0,\n  timestamp: 2017-12-12T05:36:11.595Z }","timestamp":"2017-12-12T05:36:11.605Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:36:11.606Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:36:11.607Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:36:19.748Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:36:19.779Z"}
+{"level":"info","message":"==NAME==: Rory","timestamp":"2017-12-12T05:36:19.779Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:36:19.779Z"}
+{"level":"info","message":"==_ID==: 5a2f6ad3c45f0223797490a1","timestamp":"2017-12-12T05:36:19.796Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:36:19 GMT-0800 (PST)","timestamp":"2017-12-12T05:36:19.796Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:36:19.811Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:36:19.811Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:36:19.811Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:36:19.811Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:36:19.817Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:36:19.820Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:36:19.820Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6ad3c45f0223797490a2,\n  name: 'Tatum',\n  legs: 1,\n  __v: 0,\n  timestamp: 2017-12-12T05:36:19.814Z }","timestamp":"2017-12-12T05:36:19.826Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:36:19.826Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:36:19.830Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:37:20.526Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:37:20.554Z"}
+{"level":"info","message":"==NAME==: Noble","timestamp":"2017-12-12T05:37:20.554Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T05:37:20.555Z"}
+{"level":"info","message":"==_ID==: 5a2f6b10c43dd523d2ed0092","timestamp":"2017-12-12T05:37:20.569Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:37:20 GMT-0800 (PST)","timestamp":"2017-12-12T05:37:20.569Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:37:20.582Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:37:20.582Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:37:20.583Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:37:20.583Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:37:20.588Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:37:20.591Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:37:20.591Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6b10c43dd523d2ed0093,\n  name: 'Karson',\n  legs: 1,\n  __v: 0,\n  timestamp: 2017-12-12T05:37:20.585Z }","timestamp":"2017-12-12T05:37:20.596Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:37:20.597Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:37:20.598Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:37:30.186Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:37:30.214Z"}
+{"level":"info","message":"==NAME==: Vince","timestamp":"2017-12-12T05:37:30.214Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T05:37:30.215Z"}
+{"level":"info","message":"==_ID==: 5a2f6b1a5ac28b23feb5bf5f","timestamp":"2017-12-12T05:37:30.229Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:37:30 GMT-0800 (PST)","timestamp":"2017-12-12T05:37:30.229Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:37:30.243Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:37:30.243Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:37:30.243Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:37:30.243Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:37:30.249Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:37:30.251Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:37:30.252Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6b1a5ac28b23feb5bf60,\n  name: 'Craig',\n  legs: 2,\n  __v: 0,\n  timestamp: 2017-12-12T05:37:30.245Z }","timestamp":"2017-12-12T05:37:30.257Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:37:30.257Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:37:30.259Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:37:38.024Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:37:38.054Z"}
+{"level":"info","message":"==NAME==: Hubert","timestamp":"2017-12-12T05:37:38.054Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T05:37:38.054Z"}
+{"level":"info","message":"==_ID==: 5a2f6b2279055224273c9257","timestamp":"2017-12-12T05:37:38.069Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:37:38 GMT-0800 (PST)","timestamp":"2017-12-12T05:37:38.069Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:37:38.084Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:37:38.084Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:37:38.084Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:37:38.084Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:37:38.090Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:37:38.093Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:37:38.094Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6b2279055224273c9258,\n  name: 'Skylar',\n  legs: 3,\n  __v: 0,\n  timestamp: 2017-12-12T05:37:38.087Z }","timestamp":"2017-12-12T05:37:38.099Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:37:38.099Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:37:38.101Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:38:01.920Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:38:01.951Z"}
+{"level":"info","message":"==NAME==: Amos","timestamp":"2017-12-12T05:38:01.952Z"}
+{"level":"info","message":"==LEGS==: 2","timestamp":"2017-12-12T05:38:01.952Z"}
+{"level":"info","message":"==_ID==: 5a2f6b39a05a00245d469ab8","timestamp":"2017-12-12T05:38:01.967Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:38:01 GMT-0800 (PST)","timestamp":"2017-12-12T05:38:01.967Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:38:01.982Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:38:01.982Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:38:01.982Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:38:01.982Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:38:01.989Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:38:01.992Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:38:01.993Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6b39a05a00245d469ab9,\n  name: 'Fidel',\n  legs: 3,\n  __v: 0,\n  timestamp: 2017-12-12T05:38:01.985Z }","timestamp":"2017-12-12T05:38:01.998Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:38:01.998Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:38:02.002Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:38:08.638Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:38:08.667Z"}
+{"level":"info","message":"==NAME==: Chris","timestamp":"2017-12-12T05:38:08.667Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T05:38:08.667Z"}
+{"level":"info","message":"==_ID==: 5a2f6b40593c97247f8f4043","timestamp":"2017-12-12T05:38:08.683Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:38:08 GMT-0800 (PST)","timestamp":"2017-12-12T05:38:08.683Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:38:08.696Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:38:08.697Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:38:08.697Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:38:08.697Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:38:08.703Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:38:08.706Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:38:08.707Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6b40593c97247f8f4044,\n  name: 'Oswald',\n  legs: 4,\n  __v: 0,\n  timestamp: 2017-12-12T05:38:08.700Z }","timestamp":"2017-12-12T05:38:08.712Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:38:08.712Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:38:08.715Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:45:11.913Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:45:11.944Z"}
+{"level":"info","message":"==NAME==: Frieda","timestamp":"2017-12-12T05:45:11.944Z"}
+{"level":"info","message":"==LEGS==: 3","timestamp":"2017-12-12T05:45:11.944Z"}
+{"level":"info","message":"==_ID==: 5a2f6ce7f502452721632728","timestamp":"2017-12-12T05:45:11.959Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:45:11 GMT-0800 (PST)","timestamp":"2017-12-12T05:45:11.959Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:45:11.973Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:45:11.973Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:45:11.973Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:45:11.973Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:45:11.979Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:45:11.981Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:45:11.982Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6ce7f502452721632729,\n  name: 'Naomi',\n  legs: 3,\n  __v: 0,\n  timestamp: 2017-12-12T05:45:11.976Z }","timestamp":"2017-12-12T05:45:11.988Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:45:11.988Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:45:11.990Z"}
+{"level":"info","message":"Server is listening on port: 3000","timestamp":"2017-12-12T05:45:27.561Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:45:27.592Z"}
+{"level":"info","message":"==NAME==: Danielle","timestamp":"2017-12-12T05:45:27.592Z"}
+{"level":"info","message":"==LEGS==: 1","timestamp":"2017-12-12T05:45:27.593Z"}
+{"level":"info","message":"==_ID==: 5a2f6cf767af8e275c16208b","timestamp":"2017-12-12T05:45:27.607Z"}
+{"level":"info","message":"==TIMESTAMP==: Mon Dec 11 2017 21:45:27 GMT-0800 (PST)","timestamp":"2017-12-12T05:45:27.607Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T05:45:27.621Z"}
+{"level":"info","message":"==NAME==: undefined","timestamp":"2017-12-12T05:45:27.621Z"}
+{"level":"info","message":"==LEGS==: 4","timestamp":"2017-12-12T05:45:27.621Z"}
+{"level":"info","message":"POST - responding with a 400 status","timestamp":"2017-12-12T05:45:27.621Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:45:27.627Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T05:45:27.630Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T05:45:27.631Z"}
+{"level":"info","message":"==DOG==: { _id: 5a2f6cf767af8e275c16208c,\n  name: 'Heidi',\n  legs: 2,\n  __v: 0,\n  timestamp: 2017-12-12T05:45:27.624Z }","timestamp":"2017-12-12T05:45:27.636Z"}
+{"level":"info","message":"GET - responding with a 200 status","timestamp":"2017-12-12T05:45:27.636Z"}
+{"level":"info","message":"Server is shutting down","timestamp":"2017-12-12T05:45:27.638Z"}
