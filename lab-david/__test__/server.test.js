@@ -11,10 +11,10 @@ const SERVER = require('../lib/server');
 const APIURL = `http://localhost:${process.env.PORT}/api/mountains`;
 
 const mountainMockupCreator = () => {
-  return new mountainMockupCreator({
+  return new MOUNTAIN({
     name : FAKER.company.bsNoun(2),
     state  : FAKER.address.state(1),
-    range : FAKER.image.nature(2),
+    range : FAKER.address.county(2),
   }).save();
 };
 
@@ -24,12 +24,13 @@ describe('api/mountains', () => {
   afterEach(() => MOUNTAIN.remove({}));
 
   describe('POST /api/mountain', () => {
-    test('should respond with a mountain and a 200 status code if there is no error', () => {
+    test.only('should respond with a mountain and a 200 status code if there is no error', () => {
       let mountainToPost = {
         name : FAKER.company.bsNoun(2),
         state  : FAKER.address.state(1),
-        range : FAKER.image.nature(2),
+        range : FAKER.address.county(2),
       };
+      console.log(mountainToPost);
       return SUPERAGENT.post(`${APIURL}`)
         .send(mountainToPost)
         .then(response => {
@@ -57,7 +58,7 @@ describe('api/mountains', () => {
 
   describe('GET /api/mountain', () => {
     test('should respond with a 200 status code if there is no error', () => {
-      let mountainToPost = null;
+      let mountainToTest = null;
 
       mountainMockupCreator()
         .then(mountain => {

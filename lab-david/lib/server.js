@@ -9,7 +9,7 @@ let isServerOn = false;
 let httpServer = null;
 
 MONGOOSE.Promise = Promise;
-MONGOOSE.connect(process.envMONGODB_URI,{useMongoClient : true});
+MONGOOSE.connect(process.env.MONGODB_URI,{useMongoClient : true});
 
 app.use(require('../route/mountain-route'));
 
