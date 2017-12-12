@@ -1,102 +1,102 @@
 'use strict';
 
 const {Router} = require('express');
-const JSONPARSER = require('body-parser').json();
+const jsonParser = require('body-parser').json();
 
-const MOUNTAIN = require('../model/mountain');
-const LOGGER = require('../lib/logger');
+const mountain = require('../model/mountain');
+const logger = require('../lib/logger');
 
-const MOUNTAINROUTER = module.exports = new Router();
+const mountainRoute = module.exports = new Router();
 
-MOUNTAINROUTER.post('/api/mountains', JSONPARSER, (request,response) => {
-  LOGGER.log('info', 'POST - processing that request');  
+mountainRoute.post('/api/mountains', jsonParser, (request,response) => {
+  logger.log('info', 'POST - processing that request');  
 
   if(!request.body.name || !request.body.state || !request.body.range) {
-    LOGGER.log('info', 'POST - responding with a 400 code');
+    logger.log('info', 'POST - responding with a 400 code');
     return response.sendStatus(400);
   }
 
-  return new MOUNTAIN(request.body).save()
-    .then(MOUNTAIN => {
-      LOGGER.log('info', 'returning with a 200 status and a mountain');
-      return response.json(MOUNTAIN);
+  return new mountain(request.body).save()
+    .then(mountain => {
+      logger.log('info', 'returning with a 200 status and a mountain');
+      return response.json(mountain);
     })
     .catch(error => {
-      LOGGER.log('error', '--->SERVER_ERROR<---');
-      LOGGER.log('error', error);
+      logger.log('error', '--->SERVER_ERROR<---');
+      logger.log('error', error);
 
       return response.sendStatus(500);
     });
 });
 
-MOUNTAINROUTER.get('/api/mountains/:id', (request,response) => {
-  LOGGER.log('info', 'GET - processing a request for a specific id');
+mountainRoute.get('/api/mountains/:id', (request,response) => {
+  logger.log('info', 'GET - processing a request for a specific id');
 
-  MOUNTAIN.findById(request.params.id)
-    .then(MOUNTAIN => {
-      if(!MOUNTAIN){
-        LOGGER.log('info', 'GET - returning a 404 status code');
+  mountain.findById(request.params.id)
+    .then(mountain => {
+      if(!mountain){
+        logger.log('info', 'GET - returning a 404 status code');
         return response.sendStatus(404);
       }
-      LOGGER.log('info', 'GET - returning a 200 status code');
-      LOGGER.log('info',MOUNTAIN);
-      return response.json(MOUNTAIN);
+      logger.log('info', 'GET - returning a 200 status code');
+      logger.log('info',mountain);
+      return response.json(mountain);
     }).catch(error => {
       if(error.message.toLowerCase().includes('cast to objectid failed')){
-        LOGGER.log('info', 'GET - returning a 404 status code. could not parse the id');
+        logger.log('info', 'GET - returning a 404 status code. could not parse the id');
         return response.sendStatus(404);
       }
-      LOGGER.log('error', 'GET - returning a 500 code');
-      LOGGER.log('error', error);
+      logger.log('error', 'GET - returning a 500 code');
+      logger.log('error', error);
       return response.sendStatus(500);
     });
 });
 
-MOUNTAINROUTER.get('/api/mountains/', (request,response) => {
-  LOGGER.log('info', 'GET - processing for a non-ID specific request');
+mountainRoute.get('/api/mountains/', (request,response) => {
+  logger.log('info', 'GET - processing for a non-ID specific request');
 
-  MOUNTAIN.find({})
-    .then(MOUNTAIN => {
-      if(!MOUNTAIN){
-        LOGGER.log('info', 'GET - returning a 404 status code');
+  mountain.find({})
+    .then(mountain => {
+      if(!mountain){
+        logger.log('info', 'GET - returning a 404 status code');
         return response.sendStatus(404);
       }
-      LOGGER.log('info', 'GET - returning a 200 status code');
-      LOGGER.log('info',MOUNTAIN);
-      return response.json(MOUNTAIN);
+      logger.log('info', 'GET - returning a 200 status code');
+      logger.log('info',mountain);
+      return response.json(mountain);
     }).catch(error => {
       if(error.message.indexOf('Cast to ObjectId failed') > -1){
-        LOGGER.log('info', 'GET - returning a 404 status code. could not parse the id');
+        logger.log('info', 'GET - returning a 404 status code. could not parse the id');
         return response.sendStatus(404);
       }
-      LOGGER.log('error', 'GET - returning a 500 code');
-      LOGGER.log('error', error);
+      logger.log('error', 'GET - returning a 500 code');
+      logger.log('error', error);
       return response.sendStatus(500);
     });
 });
 
-MOUNTAINROUTER.delete('/api/mountains/:id', (request,response) => {
-  LOGGER.log('info', 'DELETE - processing a delete request for a specific id');
+mountainRoute.delete('/api/mountains/:id', (request,response) => {
+  logger.log('info', 'DELETE - processing a delete request for a specific id');
 
-  MOUNTAIN.findById(request.params.id)
-    .then(MOUNTAIN => {
-      if(!MOUNTAIN){
-        LOGGER.log('info', 'DELETE - returning a 404 status code');
+  mountain.findById(request.params.id)
+    .then(mountain => {
+      if(!mountain){
+        logger.log('info', 'DELETE - returning a 404 status code');
         return response.sendStatus(404);
       }
-      LOGGER.log('info', 'DELETE - returning a 200 status code');
-      LOGGER.log('info',MOUNTAIN);
+      logger.log('info', 'DELETE - returning a 200 status code');
+      logger.log('info',mountain);
 
-      response.json(MOUNTAIN).delete();
-      return response.json(MOUNTAIN);
+      response.json(mountain).delete();
+      return response.json(mountain);
 
     }).catch(error => {
       if(error.message.indexOf('Cast to ObjectId failed') > -1){
-        LOGGER.log('info', 'DELETE - returning a 404 status code. could not parse the id');
+        logger.log('info', 'DELETE - returning a 404 status code. could not parse the id');
         return response.sendStatus(404);
       }
-      LOGGER.log('error', 'DELETE - returning a 500 code');
-      LOGGER.log('error', error);
+      logger.log('error', 'DELETE - returning a 500 code');
+      logger.log('error', error);
       return response.sendStatus(500);
     });
 });
