@@ -11,17 +11,23 @@ const server = require('../lib/server');
 const apiURL = `http://localhost:${process.env.PORT}/api/mountains`;
 
 const mountainMockupCreator = () => {
-  return new mountain({
+  return new Mountain({
     name : faker.address.county(2),
     state  : faker.address.state(1),
     range : faker.address.county(2),
   }).save();
 };
 
-describe('api/mountains', () => {
+const mountainMockCreateBunches = (numberToCreate) => {
+  return Promise.all(new Array(numberToCreate)
+    .fill(0)
+    .map(() => mountainMockupCreator()));
+};
+
+describe('/api/mountains', () => {
   beforeAll(server.start);
   afterAll(server.stop);
-  afterEach(() => mountain.remove({}));
+  afterEach(() => Mountain.remove({}));
 
   describe('POST /api/mountains', () => {
     test('should respond with a mountain and a 200 status code if there is no error', () => {
@@ -51,6 +57,46 @@ describe('api/mountains', () => {
         .then(Promise.reject)
         .catch(response => {
           expect(response.status).toEqual(400);
+        });
+    });
+  });
+
+  describe('DELETE /api/mountains/:id', () => {
+    test('should respond with a 204 if there are no errors', () => {
+      return mountainMockupCreator()
+        .then(mountain => {
+          return superagent.delete(`${apiURL}/${mountain._id}`);
+        })
+        .then(response => {
+          expect(response.status).toEqual(204);
+        });
+    });
+
+    test('should respond with a 404 if the id is invalid', () => {
+      return superagent.delete(`${apiURL}/superFakeID`)
+        .then(Promise.reject)
+        .catch(response => {
+          expect(response.status).toEqual(404);
+        });
+    });
+  });
+
+  describe('PUT /api/mountains', () => {
+    test('should update mountain and respond with a 200 if there are no errors', () => {
+
+      let mountainToUpdate = null;
+
+      return mountainMockupCreator()
+        .then(mountain => {
+          mountainToUpdate = mountain;
+          return superagent.put(`${apiURL}/${mountain._id}`)
+            .send({name : 'Kilimanjaro'});
+        })
+        .then(response => {
+          expect(response.status).toEqual(200);
+          expect(response.body.title).toEqual('Kilimanjaro');
+          expect(response.body.state).toEqual(mountainToUpdate.state);
+          expect(response.body._id).toEqual(mountainToUpdate._id.toString());
         });
     });
   });
