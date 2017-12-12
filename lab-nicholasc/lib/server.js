@@ -2,12 +2,19 @@
 
 const express = require('express');
 const mongoose = require('mongoose');
-const logger = require('./lib/logger');
+const logger = require('./logger');
 
 //------------------------------------------------
 mongoose.Promise = Promise;
 mongoose.connect(process.env.MONGODB_URI, {useMongoClient : true});
 //-------------------------------
+app.use(require('../route/recipe-router'));
+
+app.all('*', (request, response) => {
+  logger.log('info', 'returning a 404 from the catch-all route');
+  return response.sendStatus(404);
+});
+//------------------------------
 const app = express();
 let isServerOn = false;
 let httpServer = null;
