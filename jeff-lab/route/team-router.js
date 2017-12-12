@@ -27,30 +27,36 @@ teamRouter.post('/api/teams',jsonParser, (request,response) => {
 });
 
 teamRouter.get('/api/teams/:id',(request,response) => {
-  logger.log('info', 'GET - processing a request');
+  logger.log('info', 'GET by id- processing a request');
 
   Team.findById(request.params.id)
     .then(team => {
       if(!team){
-        logger.log('info', 'GET - Returning a 404 status code');
+        logger.log('info', 'GET by id- Returning a 404 status code');
         return response.sendStatus(404);
       }
-      logger.log('info', 'GET - Returning a 200 status code');
+      logger.log('info', 'GET by id- Returning a 200 status code');
       logger.log('info',team);
       return response.json(team);
     }).catch(error => {
       // vinicio - couldn't parse the id, or other error
       if(error.message.indexOf('Cast to ObjectId failed') > -1){
-        logger.log('info', 'GET - Returning a 404 status code. Could not parse id');
+        logger.log('info', 'GET by id- Returning a 404 status code. Could not parse id');
         return response.sendStatus(404);
       }
-      logger.log('error', 'GET - Returning a 500 code');
+      logger.log('error', 'GET by id- Returning a 500 code');
       logger.log('error', error);
       return response.sendStatus(500);
     });
 });
-
-teamRouter.delete('/api/teams:id', (request, response) => {
+teamRouter.get('api/teams', (request, response) => {
+  logger.log('info', 'GET - processing a request');
+  Team.find({})
+    .then(teams =>{
+      return response.json(teams);
+    });
+});
+teamRouter.delete('/api/teams/:id', (request, response) => {
   logger.log('info', 'DELETE - processing a request');
 
   Team.findByIdAndRemove(request.params.id)
