@@ -23,13 +23,8 @@ const bookMockCreate = () => {
 
 describe('/api/books', () => {
   beforeAll(server.start);
-
-  afterAll(() => {
-    Book.remove({})
-      .then(() => {
-        return server.stop();
-      });
-  });
+  afterAll(server.stop);
+  afterEach(() => Book.remove({}));
 
   describe('POST /api/books', () => {
     test('should respond with a book and 200 status code if there are no errors', () => {
@@ -97,7 +92,7 @@ describe('/api/books', () => {
         .then(() => superagent.get(`${apiURL}`))
         .then(response => {
           expect(response.status).toEqual(200);
-          expect(response.body.length).toEqual(5);
+          expect(response.body.length).toEqual(3);
         });
     });
     
