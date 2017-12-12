@@ -82,6 +82,7 @@ describe(`/api/sweets`, () => {
         // });
     });
 
+//this test breaks my 400 DELETE request if they run together; why?!
     test(`GET should respond with a 404 status if NO sweet with the specified id is found`, () => {
       return superagent.get(`${apiURL}/blah`)
         .then(Promise.reject)
@@ -89,36 +90,47 @@ describe(`/api/sweets`, () => {
           expect(response.status).toEqual(404);
         });
     });
-    // test(`GET should return all Sweets if no id is provided`, () => {
-    //   let testSweet = null;
-    //
-    //   createFakeSweet()
-    //     .then(sweet => {
-    //       testSweet = sweet;
-    //       return superagent.get(`${apiURL}/${sweet._id}`);
-    //     })
-    //     .then(response => {
-    //       console.log(response.status);
-    //       expect(response.status).toEqual(200);
-    //     })
-    // })
+    test.only(`GET should return all Sweets if no id is provided`, () => {
+      let testSweet = null;
+
+      return createFakeSweet()
+        .then(sweet => {
+          testSweet = sweet;
+          return superagent.get(`${apiURL}`);
+        })
+        .then(response => {
+          console.log(response.status);
+          expect(response.status).toEqual(200);
+        })
+    })
   });
 
   describe(`DELETE request`, () => {
     test(`DELETE should respond with a 204 status if request was successful`, () => {
-      let sweetToDelete;
 
-      createFakeSweet()
+      return createFakeSweet()
         .then(sweet => {
-          sweetToDelete = sweet;
           return superagent.delete(`${apiURL}/${sweet.id}`)
         })
         .then(response => {
           expect(response.status).toEqual(204);
         });
     });
-    // test(`DELETE should respond with a 404 status if there was an error`, () => {
-    //
+    test(`DELETE should return a 400 status if no id is provided`, () => {
+     return superagent.delete(`${apiURL}`)
+        .then(Promise.reject)
+        .catch(response => {
+          expect(response.status).toEqual(400);
+        });
+    });
+    // test(`DELETE should respond with a 404 status if no sweet was found with the specified id`, () => {
+    //   return superagent.delete(`${apiURL}/nope`)
+    //     .then(Promise.reject)
+    //     .catch(response => {
+    //       // console.log(response, `is the response`);
+    //       // console.log(response.status, `is the status for bad DELETE request`);
+    //       expect(response.status).toEqual(404);
+    //     });
     // });
   });
 });

@@ -1,29 +1,283 @@
-{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T18:17:19.286Z"}
-{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T18:17:19.324Z"}
-{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T21:40:26.425Z"}
-{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T21:40:26.458Z"}
-{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T21:40:26.495Z"}
-{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T21:40:26.495Z"}
-{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T21:40:26.502Z"}
-{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T21:40:26.505Z"}
-{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T21:40:26.506Z"}
-{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T21:40:26.510Z"}
-{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T21:40:26.510Z"}
-{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T21:41:04.734Z"}
-{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T21:41:04.769Z"}
-{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T21:41:04.800Z"}
-{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T21:41:04.800Z"}
-{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T21:41:04.807Z"}
-{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T21:41:04.810Z"}
-{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T21:41:04.812Z"}
-{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T21:41:04.815Z"}
-{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T21:41:04.817Z"}
-{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T21:47:00.169Z"}
-{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T21:47:00.207Z"}
-{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T21:47:00.233Z"}
-{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T21:47:00.233Z"}
-{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T21:47:00.242Z"}
-{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T21:47:00.245Z"}
-{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T21:47:00.247Z"}
-{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T21:47:00.251Z"}
-{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T21:47:00.252Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T21:55:01.471Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T21:55:01.498Z"}
+{"level":"info","message":"An error occurred while trying to delete a document","timestamp":"2017-12-12T21:55:01.501Z"}
+{"message":"Cast to ObjectId failed for value \"notASweet\" at path \"_id\" for model \"sweet\"","stack":"CastError: Cast to ObjectId failed for value \"notASweet\" at path \"_id\" for model \"sweet\"\n    at new CastError (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/error/cast.js:27:11)\n    at ObjectId.Object.<anonymous>.ObjectId.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:158:13)\n    at ObjectId.Object.<anonymous>.SchemaType._castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1088:15)\n    at ObjectId.Object.<anonymous>.ObjectId.castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:198:15)\n    at ObjectId.Object.<anonymous>.SchemaType.castForQueryWrapper (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1045:15)\n    at cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/cast.js:269:32)\n    at model.Query.Object.<anonymous>.Query.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:3302:12)\n    at model.Query.Object.<anonymous>.Query._castConditions (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:1292:10)\n    at model.Query.Object.<anonymous>.Query._findOneAndRemove (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:2248:8)\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:250:8\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:23:7\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","name":"CastError","stringValue":"\"notASweet\"","kind":"ObjectId","value":"notASweet","path":"_id","level":"info","timestamp":"2017-12-12T21:55:01.502Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T21:57:01.507Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T21:58:53.891Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T21:58:53.930Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T21:58:53.960Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T21:58:53.960Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T21:58:53.966Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T21:58:53.969Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T21:58:53.971Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T21:58:53.975Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T21:58:53.978Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T21:59:36.912Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T21:59:36.943Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T21:59:36.980Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T21:59:36.980Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T21:59:36.988Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T21:59:36.991Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T21:59:36.993Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T21:59:36.998Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T21:59:37.002Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T21:59:53.947Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T21:59:53.979Z"}
+{"level":"info","message":"An error occurred while trying to delete a document","timestamp":"2017-12-12T21:59:53.984Z"}
+{"message":"Cast to ObjectId failed for value \"notASweet\" at path \"_id\" for model \"sweet\"","stack":"CastError: Cast to ObjectId failed for value \"notASweet\" at path \"_id\" for model \"sweet\"\n    at new CastError (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/error/cast.js:27:11)\n    at ObjectId.Object.<anonymous>.ObjectId.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:158:13)\n    at ObjectId.Object.<anonymous>.SchemaType._castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1088:15)\n    at ObjectId.Object.<anonymous>.ObjectId.castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:198:15)\n    at ObjectId.Object.<anonymous>.SchemaType.castForQueryWrapper (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1045:15)\n    at cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/cast.js:269:32)\n    at model.Query.Object.<anonymous>.Query.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:3302:12)\n    at model.Query.Object.<anonymous>.Query._castConditions (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:1292:10)\n    at model.Query.Object.<anonymous>.Query._findOneAndRemove (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:2248:8)\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:250:8\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:23:7\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","name":"CastError","stringValue":"\"notASweet\"","kind":"ObjectId","value":"notASweet","path":"_id","level":"info","timestamp":"2017-12-12T21:59:53.984Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:01:23.388Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:01:23.418Z"}
+{"level":"info","message":"An error occurred while trying to delete a document","timestamp":"2017-12-12T22:01:23.422Z"}
+{"message":"Cast to ObjectId failed for value \"nope\" at path \"_id\" for model \"sweet\"","stack":"CastError: Cast to ObjectId failed for value \"nope\" at path \"_id\" for model \"sweet\"\n    at new CastError (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/error/cast.js:27:11)\n    at ObjectId.Object.<anonymous>.ObjectId.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:158:13)\n    at ObjectId.Object.<anonymous>.SchemaType._castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1088:15)\n    at ObjectId.Object.<anonymous>.ObjectId.castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:198:15)\n    at ObjectId.Object.<anonymous>.SchemaType.castForQueryWrapper (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1045:15)\n    at cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/cast.js:269:32)\n    at model.Query.Object.<anonymous>.Query.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:3302:12)\n    at model.Query.Object.<anonymous>.Query._castConditions (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:1292:10)\n    at model.Query.Object.<anonymous>.Query._findOneAndRemove (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:2248:8)\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:250:8\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:23:7\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","name":"CastError","stringValue":"\"nope\"","kind":"ObjectId","value":"nope","path":"_id","level":"info","timestamp":"2017-12-12T22:01:23.422Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:03:23.429Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:03:29.107Z"}
+{"level":"info","message":"Something went wrong with the request. Sending a 400 status to the catch-all route","timestamp":"2017-12-12T22:03:29.137Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:03:29.149Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:03:55.468Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:03:55.497Z"}
+{"level":"info","message":"An error occurred while trying to delete a document","timestamp":"2017-12-12T22:03:55.501Z"}
+{"message":"Cast to ObjectId failed for value \"nope\" at path \"_id\" for model \"sweet\"","stack":"CastError: Cast to ObjectId failed for value \"nope\" at path \"_id\" for model \"sweet\"\n    at new CastError (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/error/cast.js:27:11)\n    at ObjectId.Object.<anonymous>.ObjectId.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:158:13)\n    at ObjectId.Object.<anonymous>.SchemaType._castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1088:15)\n    at ObjectId.Object.<anonymous>.ObjectId.castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:198:15)\n    at ObjectId.Object.<anonymous>.SchemaType.castForQueryWrapper (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1045:15)\n    at cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/cast.js:269:32)\n    at model.Query.Object.<anonymous>.Query.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:3302:12)\n    at model.Query.Object.<anonymous>.Query._castConditions (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:1292:10)\n    at model.Query.Object.<anonymous>.Query._findOneAndRemove (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:2248:8)\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:250:8\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:23:7\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","name":"CastError","stringValue":"\"nope\"","kind":"ObjectId","value":"nope","path":"_id","level":"info","timestamp":"2017-12-12T22:03:55.501Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:05:07.074Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:05:07.109Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:06:03.134Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:06:03.169Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:06:21.195Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:06:21.229Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:19:44.400Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:19:44.433Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:20:34.431Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:20:34.465Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:21:26.957Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:21:26.992Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:22:00.904Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:22:00.938Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:22:23.131Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:22:23.166Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:23:25.690Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:23:25.724Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:23:54.288Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:23:54.323Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:25:46.233Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:25:46.262Z"}
+{"level":"info","message":"An error occurred while trying to delete a document","timestamp":"2017-12-12T22:25:46.267Z"}
+{"message":"Cast to ObjectId failed for value \"nope\" at path \"_id\" for model \"sweet\"","stack":"CastError: Cast to ObjectId failed for value \"nope\" at path \"_id\" for model \"sweet\"\n    at new CastError (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/error/cast.js:27:11)\n    at ObjectId.Object.<anonymous>.ObjectId.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:158:13)\n    at ObjectId.Object.<anonymous>.SchemaType._castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1088:15)\n    at ObjectId.Object.<anonymous>.ObjectId.castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:198:15)\n    at ObjectId.Object.<anonymous>.SchemaType.castForQueryWrapper (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1045:15)\n    at cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/cast.js:269:32)\n    at model.Query.Object.<anonymous>.Query.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:3302:12)\n    at model.Query.Object.<anonymous>.Query._castConditions (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:1292:10)\n    at model.Query.Object.<anonymous>.Query._findOneAndRemove (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:2248:8)\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:250:8\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:23:7\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","name":"CastError","stringValue":"\"nope\"","kind":"ObjectId","value":"nope","path":"_id","level":"info","timestamp":"2017-12-12T22:25:46.267Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:27:46.272Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:28:45.902Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:28:45.930Z"}
+{"level":"info","message":"An error occurred while trying to delete a document","timestamp":"2017-12-12T22:28:45.935Z"}
+{"message":"Cast to ObjectId failed for value \"nope\" at path \"_id\" for model \"sweet\"","stack":"CastError: Cast to ObjectId failed for value \"nope\" at path \"_id\" for model \"sweet\"\n    at new CastError (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/error/cast.js:27:11)\n    at ObjectId.Object.<anonymous>.ObjectId.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:158:13)\n    at ObjectId.Object.<anonymous>.SchemaType._castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1088:15)\n    at ObjectId.Object.<anonymous>.ObjectId.castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:198:15)\n    at ObjectId.Object.<anonymous>.SchemaType.castForQueryWrapper (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1045:15)\n    at cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/cast.js:269:32)\n    at model.Query.Object.<anonymous>.Query.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:3302:12)\n    at model.Query.Object.<anonymous>.Query._castConditions (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:1292:10)\n    at model.Query.Object.<anonymous>.Query._findOneAndRemove (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:2248:8)\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:250:8\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:23:7\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","name":"CastError","stringValue":"\"nope\"","kind":"ObjectId","value":"nope","path":"_id","level":"info","timestamp":"2017-12-12T22:28:45.935Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:29:09.933Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:29:09.971Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:29:10.000Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T22:29:10.000Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:29:10.007Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T22:29:10.010Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:29:10.012Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T22:29:10.016Z"}
+{"level":"info","message":"Something went wrong with the request. Sending a 400 status to the catch-all route","timestamp":"2017-12-12T22:29:10.022Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:29:10.023Z"}
+{"level":"info","message":"An error occurred while trying to delete a document","timestamp":"2017-12-12T22:29:10.024Z"}
+{"message":"Cast to ObjectId failed for value \"nope\" at path \"_id\" for model \"sweet\"","stack":"CastError: Cast to ObjectId failed for value \"nope\" at path \"_id\" for model \"sweet\"\n    at new CastError (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/error/cast.js:27:11)\n    at ObjectId.Object.<anonymous>.ObjectId.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:158:13)\n    at ObjectId.Object.<anonymous>.SchemaType._castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1088:15)\n    at ObjectId.Object.<anonymous>.ObjectId.castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:198:15)\n    at ObjectId.Object.<anonymous>.SchemaType.castForQueryWrapper (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1045:15)\n    at cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/cast.js:269:32)\n    at model.Query.Object.<anonymous>.Query.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:3302:12)\n    at model.Query.Object.<anonymous>.Query._castConditions (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:1292:10)\n    at model.Query.Object.<anonymous>.Query._findOneAndRemove (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:2248:8)\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:250:8\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:23:7\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","name":"CastError","stringValue":"\"nope\"","kind":"ObjectId","value":"nope","path":"_id","level":"info","timestamp":"2017-12-12T22:29:10.024Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:29:10.025Z"}
+{"level":"info","message":"Sending a 404 status; no sweet with id found for deletion","timestamp":"2017-12-12T22:29:10.030Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:29:42.290Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:29:42.331Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:29:42.360Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T22:29:42.360Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:29:42.367Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T22:29:42.370Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:29:42.372Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T22:29:42.377Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:29:42.381Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:30:02.314Z"}
+{"level":"info","message":"Something went wrong with the request. Sending a 400 status to the catch-all route","timestamp":"2017-12-12T22:30:02.343Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:30:02.355Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:30:17.821Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:30:17.858Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:30:17.895Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T22:30:17.895Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:30:17.905Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T22:30:17.908Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:30:17.910Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T22:30:17.916Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:30:17.919Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:30:55.813Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:30:55.855Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:30:55.881Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T22:30:55.881Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:30:55.889Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T22:30:55.892Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:30:55.894Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T22:30:55.899Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:30:55.902Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:31:37.409Z"}
+{"level":"info","message":"Something went wrong with the request. Sending a 400 status to the catch-all route","timestamp":"2017-12-12T22:31:37.453Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:31:37.466Z"}
+{"level":"info","message":"Sending a 404 status; no sweet with id found for deletion","timestamp":"2017-12-12T22:31:37.470Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:31:37.470Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:32:02.228Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:32:02.267Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:32:02.295Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T22:32:02.295Z"}
+{"level":"info","message":"Something went wrong with the request. Sending a 400 status to the catch-all route","timestamp":"2017-12-12T22:32:02.303Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:32:02.306Z"}
+{"level":"info","message":"Sending a 404 status; no sweet with id found for deletion","timestamp":"2017-12-12T22:32:02.310Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:32:02.311Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:32:16.065Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:32:16.104Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:32:16.131Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T22:32:16.131Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:32:16.141Z"}
+{"level":"info","message":"Something went wrong with the request. Sending a 400 status to the catch-all route","timestamp":"2017-12-12T22:32:16.146Z"}
+{"level":"info","message":"Responding with a 200 status to GET request","timestamp":"2017-12-12T22:32:16.148Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:32:16.153Z"}
+{"level":"info","message":"Sending a 404 status; no sweet with id found for deletion","timestamp":"2017-12-12T22:32:16.156Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:32:16.156Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:32:26.717Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:32:26.763Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:32:26.794Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T22:32:26.794Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:32:26.804Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T22:32:26.808Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:32:26.811Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T22:32:26.818Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:32:26.822Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:33:21.763Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:33:21.802Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:33:21.830Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T22:33:21.830Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:33:21.841Z"}
+{"level":"info","message":"Something went wrong with the request. Sending a 400 status to the catch-all route","timestamp":"2017-12-12T22:33:21.845Z"}
+{"level":"info","message":"Responding with a 200 status to GET request","timestamp":"2017-12-12T22:33:21.849Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:33:21.852Z"}
+{"level":"info","message":"Sending a 404 status; no sweet with id found for deletion","timestamp":"2017-12-12T22:33:21.856Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:33:21.856Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:33:32.443Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:33:32.481Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:33:32.508Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T22:33:32.508Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:33:32.516Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T22:33:32.519Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:33:32.521Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T22:33:32.526Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:33:32.530Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:39:03.918Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:39:03.956Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:39:03.984Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T22:39:03.985Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:39:03.991Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T22:39:03.994Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:39:03.996Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T22:39:04.000Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:39:04.005Z"}
+{"level":"info","message":"Sending a 404 status; no sweet with id found for deletion","timestamp":"2017-12-12T22:39:04.008Z"}
+{"level":"info","message":"Something went wrong with the request. Sending a 400 status to the catch-all route","timestamp":"2017-12-12T22:39:04.009Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:39:04.011Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:40:00.880Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:40:00.919Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:40:00.947Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T22:40:00.947Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:40:00.953Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T22:40:00.956Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:40:00.958Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T22:40:00.963Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:40:00.967Z"}
+{"level":"info","message":"Sending a 404 status; no sweet with id found for deletion","timestamp":"2017-12-12T22:40:00.970Z"}
+{"level":"info","message":"Something went wrong with the request. Sending a 400 status to the catch-all route","timestamp":"2017-12-12T22:40:00.971Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:40:00.974Z"}
+{"level":"info","message":"An error occurred while trying to delete a document","timestamp":"2017-12-12T22:40:00.975Z"}
+{"message":"Cast to ObjectId failed for value \"nope\" at path \"_id\" for model \"sweet\"","stack":"CastError: Cast to ObjectId failed for value \"nope\" at path \"_id\" for model \"sweet\"\n    at new CastError (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/error/cast.js:27:11)\n    at ObjectId.Object.<anonymous>.ObjectId.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:158:13)\n    at ObjectId.Object.<anonymous>.SchemaType._castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1088:15)\n    at ObjectId.Object.<anonymous>.ObjectId.castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:198:15)\n    at ObjectId.Object.<anonymous>.SchemaType.castForQueryWrapper (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1045:15)\n    at cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/cast.js:269:32)\n    at model.Query.Object.<anonymous>.Query.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:3302:12)\n    at model.Query.Object.<anonymous>.Query._castConditions (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:1292:10)\n    at model.Query.Object.<anonymous>.Query._findOneAndRemove (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:2248:8)\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:250:8\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:23:7\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","name":"CastError","stringValue":"\"nope\"","kind":"ObjectId","value":"nope","path":"_id","level":"info","timestamp":"2017-12-12T22:40:00.975Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:40:23.258Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:40:23.287Z"}
+{"level":"info","message":"An error occurred while trying to delete a document","timestamp":"2017-12-12T22:40:23.291Z"}
+{"message":"Cast to ObjectId failed for value \"nope\" at path \"_id\" for model \"sweet\"","stack":"CastError: Cast to ObjectId failed for value \"nope\" at path \"_id\" for model \"sweet\"\n    at new CastError (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/error/cast.js:27:11)\n    at ObjectId.Object.<anonymous>.ObjectId.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:158:13)\n    at ObjectId.Object.<anonymous>.SchemaType._castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1088:15)\n    at ObjectId.Object.<anonymous>.ObjectId.castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:198:15)\n    at ObjectId.Object.<anonymous>.SchemaType.castForQueryWrapper (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1045:15)\n    at cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/cast.js:269:32)\n    at model.Query.Object.<anonymous>.Query.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:3302:12)\n    at model.Query.Object.<anonymous>.Query._castConditions (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:1292:10)\n    at model.Query.Object.<anonymous>.Query._findOneAndRemove (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:2248:8)\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:250:8\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:23:7\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","name":"CastError","stringValue":"\"nope\"","kind":"ObjectId","value":"nope","path":"_id","level":"info","timestamp":"2017-12-12T22:40:23.291Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:42:23.299Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:42:49.598Z"}
+{"level":"info","message":"Something went wrong with the request. Sending a 400 status to the catch-all route","timestamp":"2017-12-12T22:42:49.627Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:42:49.640Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:43:00.414Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:43:00.453Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:43:00.482Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T22:43:00.482Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:43:00.489Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T22:43:00.492Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:43:00.494Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T22:43:00.498Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:43:00.502Z"}
+{"level":"info","message":"Sending a 404 status; no sweet with id found for deletion","timestamp":"2017-12-12T22:43:00.505Z"}
+{"level":"info","message":"Something went wrong with the request. Sending a 400 status to the catch-all route","timestamp":"2017-12-12T22:43:00.506Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:43:00.510Z"}
+{"level":"info","message":"An error occurred while trying to delete a document","timestamp":"2017-12-12T22:43:00.511Z"}
+{"message":"Cast to ObjectId failed for value \"nope\" at path \"_id\" for model \"sweet\"","stack":"CastError: Cast to ObjectId failed for value \"nope\" at path \"_id\" for model \"sweet\"\n    at new CastError (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/error/cast.js:27:11)\n    at ObjectId.Object.<anonymous>.ObjectId.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:158:13)\n    at ObjectId.Object.<anonymous>.SchemaType._castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1088:15)\n    at ObjectId.Object.<anonymous>.ObjectId.castForQuery (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schema/objectid.js:198:15)\n    at ObjectId.Object.<anonymous>.SchemaType.castForQueryWrapper (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/schematype.js:1045:15)\n    at cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/cast.js:269:32)\n    at model.Query.Object.<anonymous>.Query.cast (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:3302:12)\n    at model.Query.Object.<anonymous>.Query._castConditions (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:1292:10)\n    at model.Query.Object.<anonymous>.Query._findOneAndRemove (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/mongoose/lib/query.js:2248:8)\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:250:8\n    at /Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/node_modules/kareem/index.js:23:7\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","name":"CastError","stringValue":"\"nope\"","kind":"ObjectId","value":"nope","path":"_id","level":"info","timestamp":"2017-12-12T22:43:00.511Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:43:25.173Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:43:25.211Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:43:25.241Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T22:43:25.241Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:43:25.247Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T22:43:25.250Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:43:25.252Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T22:43:25.256Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:43:25.261Z"}
+{"level":"info","message":"Sending a 404 status; no sweet with id found for deletion","timestamp":"2017-12-12T22:43:25.264Z"}
+{"level":"info","message":"Something went wrong with the request. Sending a 400 status to the catch-all route","timestamp":"2017-12-12T22:43:25.265Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:43:25.267Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:43:45.964Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:43:46.002Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:43:46.029Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T22:43:46.029Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:43:46.039Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:43:46.045Z"}
+{"level":"info","message":"Responding with a 200 status to GET request","timestamp":"2017-12-12T22:43:46.049Z"}
+{"level":"info","message":"Something went wrong with the request. Sending a 400 status to the catch-all route","timestamp":"2017-12-12T22:43:46.054Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:43:46.056Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:50:43.266Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:50:43.305Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:50:43.334Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T22:50:43.334Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:50:43.340Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T22:50:43.343Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:50:43.345Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T22:50:43.350Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:50:43.355Z"}
+{"level":"info","message":"Sending a 404 status; no sweet with id found for deletion","timestamp":"2017-12-12T22:50:43.358Z"}
+{"level":"info","message":"Something went wrong with the request. Sending a 400 status to the catch-all route","timestamp":"2017-12-12T22:50:43.359Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:50:43.362Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T22:55:24.710Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:55:24.754Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T22:55:24.783Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T22:55:24.783Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:55:24.791Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T22:55:24.793Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T22:55:24.795Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T22:55:24.800Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T22:55:24.804Z"}
+{"level":"info","message":"Sending a 404 status; no sweet with id found for deletion","timestamp":"2017-12-12T22:55:24.807Z"}
+{"level":"info","message":"Something went wrong with the request. Sending a 400 status to the catch-all route","timestamp":"2017-12-12T22:55:24.808Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T22:55:24.810Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T23:02:34.932Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T23:02:34.967Z"}
+{"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T23:02:34.999Z"}
+{"level":"info","message":"Sending a 400 request because information was missing from the body","timestamp":"2017-12-12T23:02:35.000Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T23:02:35.006Z"}
+{"level":"info","message":"Returning 404 status to GET request. Could not parse id provided","timestamp":"2017-12-12T23:02:35.009Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T23:02:35.011Z"}
+{"level":"info","message":"Sending a 404 status. No sweet found with that id","timestamp":"2017-12-12T23:02:35.015Z"}
+{"level":"info","message":"Processing a DELETE request","timestamp":"2017-12-12T23:02:35.019Z"}
+{"level":"info","message":"Something went wrong with the request. Sending a 400 status to the catch-all route","timestamp":"2017-12-12T23:02:35.022Z"}
+{"level":"info","message":"Sending a 404 status; no sweet with id found for deletion","timestamp":"2017-12-12T23:02:35.023Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T23:02:35.026Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T23:03:09.994Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T23:03:10.029Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T23:04:39.656Z"}
+{"level":"info","message":"Processing a GET request with an id","timestamp":"2017-12-12T23:04:39.698Z"}
+{"level":"info","message":"Responding with a 200 status to GET request","timestamp":"2017-12-12T23:04:39.705Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T23:04:39.716Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T23:05:18.418Z"}
+{"level":"info","message":"Processing a GET request without an id","timestamp":"2017-12-12T23:05:18.459Z"}
+{"level":"info","message":"The sweets were successfully retrieved and are being sent as JSON","timestamp":"2017-12-12T23:05:18.467Z"}
+{"message":"sweets is not defined","stack":"ReferenceError: sweets is not defined\n    at Sweet.find.then.sweet (/Users/shannondillon/codefellows/401js/lab/day11/11-express-server/lab-shannon/route/sweet-router.js:41:26)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","level":"info","timestamp":"2017-12-12T23:05:18.468Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T23:05:18.476Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T23:06:58.932Z"}
+{"level":"info","message":"Processing a GET request without an id","timestamp":"2017-12-12T23:06:58.973Z"}
+{"level":"info","message":"The sweets were successfully retrieved and are being sent as JSON","timestamp":"2017-12-12T23:06:58.982Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T23:06:58.993Z"}

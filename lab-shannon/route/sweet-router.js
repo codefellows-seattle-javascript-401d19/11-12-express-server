@@ -15,9 +15,9 @@ sweetRouter.post(`/api/sweets`, jsonParser, (request, response, next) => {
     return response.sendStatus(400);
   }
 
-  return new Sweet(request.body).save()
+  new Sweet(request.body).save()
     .then(sweet => {
-      response.json(sweet);
+      return response.json(sweet);
       // why don't we need to explicitly return a 200 status?
     })
     .catch(error => {
@@ -31,9 +31,9 @@ sweetRouter.get(`/api/sweets`, (request, response, next) => {
   logger.log(`info`, `Processing a GET request without an id`);
   console.log(`The GET request ran without an id`);
 
-  Sweet.findById({})
-    .then(sweet => {
-      if(!sweet){
+  return Sweet.find({})
+    .then(sweets => {
+      if(!sweets){
         logger.log(`info`, `Sending a 404 status; no Sweets exist`);
         return response.sendStatus(404);
       }
@@ -42,14 +42,14 @@ sweetRouter.get(`/api/sweets`, (request, response, next) => {
     })
     .catch(error => {
       logger.log(`info`, error);
+      return response.sendStatus(500);
     })
-
 })
 
 sweetRouter.get(`/api/sweets/:id`, (request, response, next) => {
   logger.log(`info`, `Processing a GET request with an id`);
 
-  Sweet.findById(request.params.id)
+  return Sweet.findById(request.params.id)
     .then(sweet => {
       if(!sweet){
         logger.log(`info`, `Sending a 404 status. No sweet found with that id`);
@@ -76,7 +76,7 @@ sweetRouter.delete(`/api/sweets/:id`, (request, response, next) => {
     return response.sendStatus(400);
   }
 
-  Sweet.findByIdAndRemove(request.params.id)
+  return Sweet.findByIdAndRemove(request.params.id)
     .then(deletedSweet => {
       if(!deletedSweet){
         logger.log(`info`, `Sending a 404 status; no sweet with id found for deletion`);
