@@ -104,14 +104,4 @@ describe('/api/heroes', () => {
     });
   });
 
-  describe('DELETE /api/heroes', () => {
-    test('DELETE should respond with a 404 status code if their ID is incorrect', () => {
-      return superagent.delete(`${apiURL}/gregory`)
-        .then(Promise.reject)
-        .catch(response => {
-          expect(response.status).toEqual(404);
-        });
-    });
-  });
-
 });
