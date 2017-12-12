@@ -34,10 +34,12 @@ Clone this repo to your local machine then install the npm dependencies necessar
 
 ## Tests
 There are four tests right now.
+```
 - GET : 404 : should respond with a 404 error for any valid requests with an id that was not found
 - GET : 200 : should contain a response body for a request made with a valid id
 - POST : 400 : should respond with a bad request if no request body was provided or the body was invalid
 - POST : 200 : should respond with the body content for a post request with a valid body
+```
 
 ## How to use?
 Once you install the dependencies you should be able to run `npm run test` to start the tests which starts the server in your CLI. 

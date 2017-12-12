@@ -10,7 +10,7 @@ const MOUNTAINROUTER = module.exports = new Router();
 
 MOUNTAINROUTER.post('/api/mountains', JSONPARSER, (request,response) => {
   LOGGER.log('info', 'POST - processing that request');
-  LOGGER.log('info', request );
+  LOGGER.log('info', request);
   
 
   if(!request.body.name || !request.body.state || !request.body.range) {
@@ -28,7 +28,7 @@ MOUNTAINROUTER.post('/api/mountains', JSONPARSER, (request,response) => {
     });
 });
 
-MOUNTAINROUTER.get('api/mountains/:id', (request,response,next) => {
+MOUNTAINROUTER.get('api/mountains/:id', (request,response) => {
   LOGGER.log('info', 'GET - processing a request for a specific id');
 
   MOUNTAIN.findById(request.params.id)
@@ -51,7 +51,7 @@ MOUNTAINROUTER.get('api/mountains/:id', (request,response,next) => {
     });
 });
 
-MOUNTAINROUTER.get('api/mountains/', (request,response,next) => {
+MOUNTAINROUTER.get('api/mountains/', (request,response) => {
   LOGGER.log('info', 'GET - processing for a non-ID specfic request');
 
   MOUNTAIN.find({})
@@ -74,7 +74,7 @@ MOUNTAINROUTER.get('api/mountains/', (request,response,next) => {
     });
 });
 
-MOUNTAINROUTER.delete('api/mountains/:id', (request,response,next) => {
+MOUNTAINROUTER.delete('api/mountains/:id', (request,response) => {
   LOGGER.log('info', 'DELETE - processing a delete request for a specific id');
 
   MOUNTAIN.findById(request.params.id)

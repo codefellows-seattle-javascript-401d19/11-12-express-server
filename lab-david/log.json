@@ -92,3 +92,17 @@
 {"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T04:03:32.516Z"}
 {"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T04:03:32.558Z"}
 {"level":"info","message":"server off","timestamp":"2017-12-12T04:03:32.575Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T04:06:36.591Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T04:06:36.637Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T04:06:36.654Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T04:07:06.984Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T04:07:07.018Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T04:07:07.035Z"}
+{"level":"info","message":"Returning a 404 from the catch all route","timestamp":"2017-12-12T04:07:07.054Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T04:07:07.062Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T04:30:57.476Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T04:30:57.529Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T04:30:57.548Z"}
+{"level":"info","message":"Returning a 404 from the catch all route","timestamp":"2017-12-12T04:30:57.565Z"}
+{"level":"info","message":"Returning a 404 from the catch all route","timestamp":"2017-12-12T04:30:57.570Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T04:30:57.570Z"}

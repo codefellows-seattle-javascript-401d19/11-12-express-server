@@ -24,13 +24,12 @@ describe('api/mountains', () => {
   afterEach(() => MOUNTAIN.remove({}));
 
   describe('POST /api/mountains', () => {
-    test.only('should respond with a mountain and a 200 status code if there is no error', () => {
+    test('should respond with a mountain and a 200 status code if there is no error', () => {
       let mountainToPost = {
         name : FAKER.address.county(2),
         state : FAKER.address.state(1),
         range : FAKER.address.county(2),
       };
-      console.log(mountainToPost);
       return SUPERAGENT.post(`${APIURL}`)
         .send(mountainToPost)
         .then(response => {
