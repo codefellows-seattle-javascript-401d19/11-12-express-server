@@ -4,6 +4,9 @@ const express = require('express');
 const mongoose = require('mongoose');
 const logger = require('./logger');
 
+const app = express();
+let isServerOn = false;
+let httpServer = null;
 //------------------------------------------------
 mongoose.Promise = Promise;
 mongoose.connect(process.env.MONGODB_URI, {useMongoClient : true});
@@ -15,9 +18,7 @@ app.all('*', (request, response) => {
   return response.sendStatus(404);
 });
 //------------------------------
-const app = express();
-let isServerOn = false;
-let httpServer = null;
+
 
 const server = module.exports = {};
 

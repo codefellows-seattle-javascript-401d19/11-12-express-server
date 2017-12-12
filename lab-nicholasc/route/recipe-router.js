@@ -5,7 +5,7 @@ const {Router} = require('express');
 const jsonParser = require('body-parser').json();
 
 const Recipe = require('../model/recipe');
-const logger = require('./logger');
+const logger = require('../lib/logger');
 
 const recipeRouter = module.exports = new Router();
 
