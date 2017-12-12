@@ -12,7 +12,7 @@ const apiURL = `http://localhost:${process.env.PORT}/api/heroes`;
 
 const heroMockCreate = () => {
   return new Hero({
-    name : faker.name.firstName,
+    name : faker.lorem.words(1),
     description : faker.lorem.words(10),
   }).save();
 };
@@ -22,10 +22,13 @@ describe('/api/heroes', () => {
   afterAll(server.stop);
   afterEach(() => Hero.remove({}));
 
+
+  // ==============  POST METHOD ==================
+
   describe('POST /api/heroes', () => {
     test('should respond with a note and 200 status code if there is no error', () => {
       let heroToPost = {
-        name : faker.name.firstName,
+        name : faker.lorem.words(1),
         description : faker.lorem.words(10),
       };
       return superagent.post(`${apiURL}`)
@@ -51,6 +54,8 @@ describe('/api/heroes', () => {
         });
     });
   });
+
+  // ==============  GET METHOD ==================
 
   describe('GET /api/heroes', () => {
     test('should respond with code 200 if there is no error', () => {
@@ -80,4 +85,33 @@ describe('/api/heroes', () => {
         });
     });
   });
+
+
+  // ==============  DELETE METHOD ==================
+
+  describe('DELETE /api/heroes', () => {
+    test('DELETE should respond with code 204 if there is no error', () => {
+      let heroToTest = null;
+
+      heroMockCreate()
+        .then(hero => {
+          heroToTest = hero;
+          return superagent.delete(`${apiURL}/${hero._id}`);
+        })
+        .then(response => {
+          expect(response.status).toEqual(204);
+        });
+    });
+  });
+
+  describe('DELETE /api/heroes', () => {
+    test('DELETE should respond with a 404 status code if their ID is incorrect', () => {
+      return superagent.delete(`${apiURL}/gregory`)
+        .then(Promise.reject)
+        .catch(response => {
+          expect(response.status).toEqual(404);
+        });
+    });
+  });
+
 });
