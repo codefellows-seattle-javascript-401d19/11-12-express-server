@@ -3,7 +3,7 @@
 const mongoose = require(`mongoose`);
 
 // a schema is "a representation of a plan or theory in the form of an outline or model"- we're saying how our sweet will look/behave
-const sweetSchema = mongoose.Scheme({
+const sweetSchema = mongoose.Schema({
   name: {
     type: String,
     required: true,

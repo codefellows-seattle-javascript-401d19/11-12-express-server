@@ -8,6 +8,7 @@ const Sweet = require(`../model/sweet`);
 const sweetRouter = module.exports = new Router();
 
 sweetRouter.post(`/api/sweets`, jsonParser, (request, response, next) => {
+  console.log(`I ran`);
   logger.log(`info`, `Processing a POST request`);
   if(!request.body.name || !request.body.hasChocolate || !request.body.temperature){
     logger.log(`info`, `Sending a 400 request because information was missing from the body`);
@@ -20,6 +21,7 @@ sweetRouter.post(`/api/sweets`, jsonParser, (request, response, next) => {
       // response.sendStatus(200);    //why don't we need to explicitly return a 200 status?
     })
     .catch(error => {
+      console.log(sweet,`is the sweet`);
       logger.log(`info`, `Responding with a 500 status for POST request. Nothing appears wrong with the request`);
       logger.log(`error`, error);
       return response.sendStatus(500);

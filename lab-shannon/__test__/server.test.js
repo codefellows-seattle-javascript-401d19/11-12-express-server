@@ -19,7 +19,7 @@ describe(`/api/sweets`, () => {
     let fakeSweet = {
       name: faker.lorem.words(3),
       hasChocolate: true,
-      temperature: cold,
+      temperature: faker.lorem.words(1),
       seasonal: false,
     }
     test(`POST request should response with a 200 status if successful`, () => {
@@ -30,9 +30,12 @@ describe(`/api/sweets`, () => {
           expect(response.body._id).toBeTruthy();
           expect(response.body.name).toEqual(fakeSweet.name);
           expect(response.body.hasChocolate).toEqual(true);
-          expect(response.body.temperature).toEqual(cold);
+          expect(response.body.temperature).toEqual(fakeSweet.temperature);
           expect(response.body.seasonal).toEqual(false);
         })
+      .catch(error => {
+        console.log(error.status);
+      })
     })
   })
 })
