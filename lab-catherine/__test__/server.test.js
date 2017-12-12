@@ -105,7 +105,7 @@ describe('/api/books', () => {
         });
     });
   
-    test('DELETE should respond with 400 status code if id is not provided', () => {
+    test('DELETE should respond with 404 status code if id is not provided', () => {
       return superagent.del(`${apiURL}`)
         .then(response => Promise.reject(response))
         .catch(response => {
