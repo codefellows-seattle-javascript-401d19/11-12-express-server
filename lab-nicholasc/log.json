@@ -1,3 +1,6 @@
 {"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T05:25:31.771Z"}
 {"level":"info","message":"returning a 404 from the catch-all route","timestamp":"2017-12-12T05:25:31.811Z"}
 {"level":"error","message":"__SERVER_ERROR__ server is already on","timestamp":"2017-12-12T05:25:31.825Z"}
+{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T05:36:17.911Z"}
+{"level":"info","message":"returning a 404 from the catch-all route","timestamp":"2017-12-12T05:36:17.934Z"}
+{"level":"error","message":"__SERVER_ERROR__ server is already on","timestamp":"2017-12-12T05:36:17.947Z"}
