@@ -23,8 +23,13 @@ const bookMockCreate = () => {
 
 describe('/api/books', () => {
   beforeAll(server.start);
-  afterAll(server.stop);
-  afterEach(() => Book.remove({}));
+
+  afterAll(() => {
+    Book.remove({})
+      .then(() => {
+        return server.stop();
+      });
+  });
 
   describe('POST /api/books', () => {
     test('should respond with a book and 200 status code if there are no errors', () => {
@@ -66,7 +71,7 @@ describe('/api/books', () => {
     test('should respond with 200 status code if there is a valid book id and no errors', () => {
       let bookToTest = null;
 
-      bookMockCreate()
+      return bookMockCreate()
         .then(book => {
           bookToTest = book;
           return superagent.get(`${apiURL}/${book._id}`);
@@ -81,22 +86,18 @@ describe('/api/books', () => {
           expect(response.body.author).toEqual(bookToTest.author);
           expect(response.body.content).toEqual(bookToTest.content);          
           expect(response.body.genre).toEqual(bookToTest.genre);
-        })
-        .catch(error => {
-          logger.log('error', error);
-        });      
+        });    
     });
 
     test('should respond with an array of all book objects if get request is made with out an id', () => {
-      bookMockCreate()
+      return bookMockCreate()
         .then(() => bookMockCreate())
         .then(() => bookMockCreate())
         .then(() => superagent.get(`${apiURL}`))
         .then(response => {
           expect(response.status).toEqual(200);
-          expect(response.body.length).toEqual(3);
-        })
-        .catch(error => logger.log('error', error));
+          expect(response.body.length).toEqual(5);
+        });
     });
     
     test('should respond with 404 status code if the id is incorrect', () => {
@@ -112,15 +113,13 @@ describe('/api/books', () => {
     test('DELETE should respond with 204 status code with no content in the body if successfully deleted', () => {
       let bookToDelete = null;
 
-      bookMockCreate()
+      return bookMockCreate()
         .then(book => {
           bookToDelete = book;
           return superagent.delete(`${apiURL}/${bookToDelete._id}`)
             .then(response => {
               expect(response.status).toEqual(204);
-            })
-            .catch(error => logger.log('error', error));
-        
+            });
         });
     });
   
