@@ -22,8 +22,25 @@ bikeRouter.post('/api/bikes', jsonParser, (request, response) => {
     });
 });
 
+bikeRouter.get('/api/bikes', (request, response) => {
+  logger.log('info', 'GET - Processing a request for all bikes');
+
+  Bike.find({})
+    .then(bikes => {
+      logger.log('info', 'GET - returning a 200 status code');
+      logger.log('info', bikes);
+      return response.json(bikes);
+    })
+    .catch(error => {
+      logger.log('error', 'GET - returning a 500 status code');
+      logger.log('error', error);
+      return response.sendStatus(500);
+    });
+});
+
 bikeRouter.get('/api/bikes/:id', (request, response) => {
-  logger.log('info', `GET - processing a request`);
+  logger.log('info', `GET - processing a request for a single bike`);
+
   Bike.findById(request.params.id)
     .then(bike => {
       if(!bike) {

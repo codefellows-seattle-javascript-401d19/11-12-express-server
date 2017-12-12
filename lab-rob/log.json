@@ -1,226 +1,249 @@
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T00:14:22.780Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T00:14:22.827Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T00:57:41.931Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T00:57:41.956Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T00:57:41.957Z"}
-{"level":"error","message":"__SERVER_ERROR__","timestamp":"2017-12-12T00:57:41.958Z"}
-{"message":"bike validation failed: displacement: Path `displacement` is required., year: Path `year` is required.","errors":{"displacement":{"message":"Path `displacement` is required.","name":"ValidatorError","properties":{"type":"required","message":"Path `{PATH}` is required.","path":"displacement"},"kind":"required","path":"displacement","$isValidatorError":true},"year":{"message":"Path `year` is required.","name":"ValidatorError","properties":{"type":"required","message":"Path `{PATH}` is required.","path":"year"},"kind":"required","path":"year","$isValidatorError":true}},"_message":"bike validation failed","stack":"ValidationError: bike validation failed: displacement: Path `displacement` is required., year: Path `year` is required.\n    at new ValidationError (/Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/error/validation.js:28:11)\n    at model.Object.<anonymous>.Document.invalidate (/Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/document.js:1666:32)\n    at /Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/document.js:1538:17\n    at validate (/Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/schematype.js:784:7)\n    at /Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/schematype.js:829:11\n    at Array.forEach (<anonymous>)\n    at SchemaNumber.Object.<anonymous>.SchemaType.doValidate (/Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/schematype.js:789:19)\n    at /Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/document.js:1536:9\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","name":"ValidationError","level":"error","timestamp":"2017-12-12T00:57:41.958Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T00:57:41.960Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T00:59:20.723Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T00:59:20.746Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T00:59:53.823Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T00:59:53.849Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T00:59:53.849Z"}
-{"level":"error","message":"__SERVER_ERROR__","timestamp":"2017-12-12T00:59:53.850Z"}
-{"message":"bike validation failed: displacement: Path `displacement` is required., year: Path `year` is required.","errors":{"displacement":{"message":"Path `displacement` is required.","name":"ValidatorError","properties":{"type":"required","message":"Path `{PATH}` is required.","path":"displacement"},"kind":"required","path":"displacement","$isValidatorError":true},"year":{"message":"Path `year` is required.","name":"ValidatorError","properties":{"type":"required","message":"Path `{PATH}` is required.","path":"year"},"kind":"required","path":"year","$isValidatorError":true}},"_message":"bike validation failed","stack":"ValidationError: bike validation failed: displacement: Path `displacement` is required., year: Path `year` is required.\n    at new ValidationError (/Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/error/validation.js:28:11)\n    at model.Object.<anonymous>.Document.invalidate (/Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/document.js:1666:32)\n    at /Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/document.js:1538:17\n    at validate (/Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/schematype.js:784:7)\n    at /Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/schematype.js:829:11\n    at Array.forEach (<anonymous>)\n    at SchemaNumber.Object.<anonymous>.SchemaType.doValidate (/Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/schematype.js:789:19)\n    at /Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/document.js:1536:9\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","name":"ValidationError","level":"error","timestamp":"2017-12-12T00:59:53.850Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T00:59:53.852Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:00:08.487Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:00:08.512Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:00:08.512Z"}
-{"level":"error","message":"__SERVER_ERROR__","timestamp":"2017-12-12T01:00:08.514Z"}
-{"message":"bike validation failed: displacement: Path `displacement` is required., year: Path `year` is required.","errors":{"displacement":{"message":"Path `displacement` is required.","name":"ValidatorError","properties":{"type":"required","message":"Path `{PATH}` is required.","path":"displacement"},"kind":"required","path":"displacement","$isValidatorError":true},"year":{"message":"Path `year` is required.","name":"ValidatorError","properties":{"type":"required","message":"Path `{PATH}` is required.","path":"year"},"kind":"required","path":"year","$isValidatorError":true}},"_message":"bike validation failed","stack":"ValidationError: bike validation failed: displacement: Path `displacement` is required., year: Path `year` is required.\n    at new ValidationError (/Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/error/validation.js:28:11)\n    at model.Object.<anonymous>.Document.invalidate (/Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/document.js:1666:32)\n    at /Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/document.js:1538:17\n    at validate (/Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/schematype.js:784:7)\n    at /Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/schematype.js:829:11\n    at Array.forEach (<anonymous>)\n    at SchemaNumber.Object.<anonymous>.SchemaType.doValidate (/Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/schematype.js:789:19)\n    at /Users/robertreed/Documents/programming/cf/401/lab/11-express-server/lab-rob/node_modules/mongoose/lib/document.js:1536:9\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","name":"ValidationError","level":"error","timestamp":"2017-12-12T01:00:08.514Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:00:08.516Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:01:48.825Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:01:48.849Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:01:48.849Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:01:48.852Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:11:25.694Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:11:25.717Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:11:25.717Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:11:25.721Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:11:25.726Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:11:25.728Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:11:52.385Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:11:52.407Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:11:52.407Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:11:52.411Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:11:52.416Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:11:52.420Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:13:04.437Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:13:04.460Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:13:04.460Z"}
-{"level":"info","message":"GET - processing a request for id 5a2f2d206e8130199feff94b","timestamp":"2017-12-12T01:13:04.464Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:13:04.469Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:13:04.473Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:20:58.405Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:20:58.430Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:20:58.430Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:20:58.436Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:25:26.985Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:25:27.011Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:25:27.011Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:25:27.018Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:25:27.024Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:25:27.025Z"}
-{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T01:25:27.027Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":48,"3":7,"4":44,"5":73,"6":42,"7":27,"8":193,"9":79,"10":179,"11":85}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T01:25:27.014Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T01:25:27.027Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:25:27.032Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:26:56.862Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:26:56.885Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:26:56.886Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:26:56.889Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:27:02.233Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:27:02.260Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:27:02.260Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:27:02.264Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:27:07.330Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:27:07.353Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:27:07.354Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:27:07.358Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:27:18.317Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:27:18.341Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:27:18.341Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:27:18.349Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:27:18.355Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:27:18.356Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:27:18.358Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:27:18.358Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:27:30.617Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:27:30.641Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:27:30.642Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:27:30.649Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:27:30.656Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:27:30.657Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:27:30.658Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:27:30.659Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:27:35.655Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:27:35.680Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:27:35.680Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:27:35.689Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:27:35.694Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:27:35.695Z"}
-{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T01:27:35.697Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":48,"3":135,"4":116,"5":71,"6":243,"7":28,"8":191,"9":67,"10":10,"11":189}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T01:27:35.683Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T01:27:35.697Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:27:35.702Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:28:05.360Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:28:05.383Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:28:05.383Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:28:05.390Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:28:05.395Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:28:05.396Z"}
-{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T01:28:05.397Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":48,"3":165,"4":129,"5":160,"6":179,"7":28,"8":247,"9":100,"10":236,"11":52}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T01:28:05.386Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T01:28:05.398Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:28:05.404Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:30:27.185Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:30:27.210Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:30:27.210Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:30:27.219Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:30:27.224Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:30:27.225Z"}
-{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T01:30:27.227Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":49,"3":51,"4":9,"5":148,"6":200,"7":29,"8":100,"9":159,"10":51,"11":0}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T01:30:27.213Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T01:30:27.227Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:30:27.231Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:31:25.803Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:31:25.828Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:31:25.828Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:31:25.836Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:31:25.840Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:31:25.841Z"}
-{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T01:31:25.843Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":49,"3":109,"4":83,"5":12,"6":225,"7":29,"8":174,"9":86,"10":44,"11":46}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T01:31:25.830Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T01:31:25.843Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:31:25.848Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:32:01.556Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:32:01.580Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:32:01.580Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:32:01.587Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:32:01.594Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:32:01.595Z"}
-{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T01:32:01.597Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":49,"3":145,"4":227,"5":129,"6":222,"7":29,"8":222,"9":194,"10":86,"11":100}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T01:32:01.583Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T01:32:01.597Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:32:01.601Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:32:14.025Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:32:14.050Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:32:14.050Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:32:14.057Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:32:14.062Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:32:14.064Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:32:14.065Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:32:14.068Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:32:41.473Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:32:41.499Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:32:41.499Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:32:41.508Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:32:41.513Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:32:41.514Z"}
-{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T01:32:41.516Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":49,"3":185,"4":137,"5":16,"6":9,"7":30,"8":35,"9":195,"10":196,"11":101}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T01:32:41.501Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T01:32:41.516Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:32:41.521Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:34:19.173Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:34:19.198Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:34:19.198Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:34:19.204Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:34:19.209Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:34:19.210Z"}
-{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T01:34:19.212Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":50,"3":27,"4":15,"5":171,"6":208,"7":30,"8":132,"9":49,"10":122,"11":252}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T01:34:19.200Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T01:34:19.212Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:34:19.219Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:35:32.528Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:35:32.551Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:35:32.552Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:35:32.558Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:35:32.565Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:35:32.565Z"}
-{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T01:35:32.568Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":50,"3":100,"4":4,"5":23,"6":204,"7":30,"8":206,"9":241,"10":89,"11":121}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T01:35:32.554Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T01:35:32.568Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:35:32.572Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:36:00.985Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:36:01.010Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:36:01.010Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:36:01.019Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:36:01.024Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:36:01.025Z"}
-{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T01:36:01.027Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":50,"3":129,"4":146,"5":116,"6":180,"7":31,"8":10,"9":235,"10":196,"11":31}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T01:36:01.013Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T01:36:01.027Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:36:01.031Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:36:31.629Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:36:31.654Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:36:31.654Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:36:31.660Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:36:31.667Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:36:31.668Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:36:31.669Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:36:31.669Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:36:36.624Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:36:36.649Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:36:36.650Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:36:36.659Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:36:36.664Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:36:36.664Z"}
-{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T01:36:36.667Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":50,"3":164,"4":49,"5":129,"6":150,"7":31,"8":104,"9":111,"10":119,"11":88}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T01:36:36.655Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T01:36:36.667Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:36:36.670Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:36:41.254Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:36:41.279Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:36:41.279Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:36:41.285Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:36:41.292Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:36:41.293Z"}
-{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T01:36:41.295Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":50,"3":169,"4":149,"5":98,"6":114,"7":31,"8":134,"9":93,"10":137,"11":251}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T01:36:41.281Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T01:36:41.295Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:36:41.298Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:37:44.475Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:37:44.500Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:37:44.500Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:37:44.508Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:37:44.512Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:37:44.513Z"}
-{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T01:37:44.516Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":50,"3":232,"4":148,"5":167,"6":136,"7":32,"8":3,"9":111,"10":82,"11":232}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T01:37:44.502Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T01:37:44.516Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:37:44.519Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:38:25.529Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:38:25.552Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:38:25.552Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:38:25.560Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:38:25.566Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:38:25.568Z"}
-{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T01:38:25.570Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":51,"3":17,"4":2,"5":168,"6":130,"7":32,"8":66,"9":17,"10":67,"11":125}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T01:38:25.555Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T01:38:25.570Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:38:25.573Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:38:31.915Z"}
-{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T01:38:31.939Z"}
-{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T01:38:31.939Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:38:31.946Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:38:31.953Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:38:31.954Z"}
-{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T01:38:31.955Z"}
-{"level":"info","message":"Server is off.","timestamp":"2017-12-12T01:38:31.955Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T03:10:38.970Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T03:10:38.996Z"}
+{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T03:10:38.996Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T03:10:39.005Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T03:10:39.011Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T03:10:39.013Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T03:10:39.015Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T03:10:39.017Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T03:12:09.812Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T03:12:09.836Z"}
+{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T03:12:09.836Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T03:12:09.843Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T03:12:09.850Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T03:12:09.852Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T03:12:09.854Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T03:12:09.856Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T03:15:46.202Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T03:15:46.209Z"}
+[]
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T03:15:46.219Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T03:17:44.432Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already on.","timestamp":"2017-12-12T03:17:44.454Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T03:17:44.455Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2017-12-12T03:17:44.455Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2017-12-12T03:17:44.457Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already on.","timestamp":"2017-12-12T03:17:44.458Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T03:17:44.464Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T03:17:44.464Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T03:17:44.641Z"}
+{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T03:17:44.641Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T03:17:44.642Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T03:17:44.647Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T03:17:44.649Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T03:17:44.651Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T03:17:44.653Z"}
+[{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":74,"3":88,"4":1,"5":132,"6":73,"7":60,"8":124,"9":51,"10":158,"11":133}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T03:17:44.433Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[0][\"$__\"][\"_id\"]"}},"$init":true},{"$__":{"strictMode":true,"selected":{"$ref":"$[0][\"$__\"][\"selected\"]"},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":74,"3":88,"4":1,"5":132,"6":73,"7":60,"8":124,"9":51,"10":158,"11":134}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":{"$ref":"$[0][\"$__\"][\"activePaths\"][\"stateNames\"]"}},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T03:17:44.456Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[1][\"$__\"][\"_id\"]"}},"$init":true}]
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T03:17:44.662Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":74,"3":88,"4":1,"5":132,"6":73,"7":60,"8":124,"9":51,"10":158,"11":134}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T03:17:44.456Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T03:17:44.662Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T03:18:52.901Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already on.","timestamp":"2017-12-12T03:18:52.925Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T03:18:52.927Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2017-12-12T03:18:52.927Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2017-12-12T03:18:52.928Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already on.","timestamp":"2017-12-12T03:18:52.930Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T03:18:52.936Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T03:18:52.936Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T03:18:53.240Z"}
+{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T03:18:53.240Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T03:18:53.241Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T03:18:53.247Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T03:18:53.250Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T03:18:53.251Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T03:18:53.254Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":74,"3":156,"4":92,"5":99,"6":58,"7":60,"8":203,"9":107,"10":164,"11":16}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T03:18:52.928Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T03:18:53.254Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T03:18:53.257Z"}
+[{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":74,"3":88,"4":1,"5":132,"6":73,"7":60,"8":124,"9":51,"10":158,"11":133}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T03:17:44.433Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[0][\"$__\"][\"_id\"]"}},"$init":true},{"$__":{"strictMode":true,"selected":{"$ref":"$[0][\"$__\"][\"selected\"]"},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":74,"3":88,"4":1,"5":132,"6":73,"7":60,"8":124,"9":51,"10":158,"11":134}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":{"$ref":"$[0][\"$__\"][\"activePaths\"][\"stateNames\"]"}},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T03:17:44.456Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[1][\"$__\"][\"_id\"]"}},"$init":true},{"$__":{"strictMode":true,"selected":{"$ref":"$[0][\"$__\"][\"selected\"]"},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":74,"3":156,"4":92,"5":99,"6":58,"7":60,"8":203,"9":107,"10":164,"11":15}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":{"$ref":"$[0][\"$__\"][\"activePaths\"][\"stateNames\"]"}},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T03:18:52.902Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[2][\"$__\"][\"_id\"]"}},"$init":true},{"$__":{"strictMode":true,"selected":{"$ref":"$[0][\"$__\"][\"selected\"]"},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":74,"3":156,"4":92,"5":99,"6":58,"7":60,"8":203,"9":107,"10":164,"11":16}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":{"$ref":"$[0][\"$__\"][\"activePaths\"][\"stateNames\"]"}},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T03:18:52.928Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[3][\"$__\"][\"_id\"]"}},"$init":true}]
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T03:24:46.432Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already on.","timestamp":"2017-12-12T03:24:46.454Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T03:24:46.456Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2017-12-12T03:24:46.456Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2017-12-12T03:24:46.458Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already on.","timestamp":"2017-12-12T03:24:46.460Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T03:24:46.468Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T03:24:46.468Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T03:24:46.775Z"}
+{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T03:24:46.775Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T03:24:46.776Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T03:24:46.783Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T03:24:46.785Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T03:24:46.786Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T03:24:46.790Z"}
+[{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":74,"3":88,"4":1,"5":132,"6":73,"7":60,"8":124,"9":51,"10":158,"11":133}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T03:17:44.433Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[0][\"$__\"][\"_id\"]"}},"$init":true},{"$__":{"strictMode":true,"selected":{"$ref":"$[0][\"$__\"][\"selected\"]"},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":74,"3":88,"4":1,"5":132,"6":73,"7":60,"8":124,"9":51,"10":158,"11":134}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":{"$ref":"$[0][\"$__\"][\"activePaths\"][\"stateNames\"]"}},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T03:17:44.456Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[1][\"$__\"][\"_id\"]"}},"$init":true},{"$__":{"strictMode":true,"selected":{"$ref":"$[0][\"$__\"][\"selected\"]"},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":74,"3":156,"4":92,"5":99,"6":58,"7":60,"8":203,"9":107,"10":164,"11":15}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":{"$ref":"$[0][\"$__\"][\"activePaths\"][\"stateNames\"]"}},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T03:18:52.902Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[2][\"$__\"][\"_id\"]"}},"$init":true},{"$__":{"strictMode":true,"selected":{"$ref":"$[0][\"$__\"][\"selected\"]"},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":74,"3":156,"4":92,"5":99,"6":58,"7":60,"8":203,"9":107,"10":164,"11":16}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":{"$ref":"$[0][\"$__\"][\"activePaths\"][\"stateNames\"]"}},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T03:18:52.928Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[3][\"$__\"][\"_id\"]"}},"$init":true},{"$__":{"strictMode":true,"selected":{"$ref":"$[0][\"$__\"][\"selected\"]"},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":75,"3":254,"4":15,"5":103,"6":251,"7":61,"8":218,"9":206,"10":51,"11":46}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":{"$ref":"$[0][\"$__\"][\"activePaths\"][\"stateNames\"]"}},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T03:24:46.434Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[4][\"$__\"][\"_id\"]"}},"$init":true},{"$__":{"strictMode":true,"selected":{"$ref":"$[0][\"$__\"][\"selected\"]"},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":75,"3":254,"4":15,"5":103,"6":251,"7":61,"8":218,"9":206,"10":51,"11":47}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":{"$ref":"$[0][\"$__\"][\"activePaths\"][\"stateNames\"]"}},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T03:24:46.458Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[5][\"$__\"][\"_id\"]"}},"$init":true}]
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T03:24:46.802Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":75,"3":254,"4":15,"5":103,"6":251,"7":61,"8":218,"9":206,"10":51,"11":47}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T03:24:46.458Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T03:24:46.802Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T03:27:13.003Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2017-12-12T04:25:01.297Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2017-12-12T04:26:07.611Z"}
+{"level":"error","message":"__SERVER_ERROR__ Server is already off","timestamp":"2017-12-12T04:27:04.334Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:27:57.672Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:34:08.828Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T04:35:14.775Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T04:35:14.800Z"}
+{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T04:35:14.800Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:35:14.806Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T04:35:36.334Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T04:35:36.359Z"}
+{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T04:35:36.359Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T04:35:36.366Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T04:35:36.371Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T04:35:36.372Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T04:35:36.375Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":92,"3":152,"4":0,"5":171,"6":220,"7":66,"8":121,"9":84,"10":200,"11":122}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:35:36.362Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:35:36.375Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:35:36.381Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T04:36:14.826Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T04:36:14.832Z"}
+[]
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:36:14.843Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:37:55.203Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:38:01.720Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:38:07.628Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T04:39:13.659Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T04:39:13.667Z"}
+[]
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:39:13.678Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T04:39:45.657Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T04:39:45.664Z"}
+[]
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T04:39:50.894Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T04:39:54.165Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T04:39:54.167Z"}
+[{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":93,"3":150,"4":215,"5":14,"6":148,"7":67,"8":254,"9":201,"10":146,"11":195}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:39:50.895Z","__v":0,"displacement":400,"year":1993,"model":"xr400r","make":"Honda","_id":{"$ref":"$[0][\"$__\"][\"_id\"]"}},"$init":true}]
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T04:40:09.235Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T04:40:09.244Z"}
+[{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":93,"3":150,"4":215,"5":14,"6":148,"7":67,"8":254,"9":201,"10":146,"11":195}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:39:50.895Z","__v":0,"displacement":400,"year":1993,"model":"xr400r","make":"Honda","_id":{"$ref":"$[0][\"$__\"][\"_id\"]"}},"$init":true}]
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T04:40:20.483Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T04:40:20.491Z"}
+[{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":93,"3":150,"4":215,"5":14,"6":148,"7":67,"8":254,"9":201,"10":146,"11":195}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:39:50.895Z","__v":0,"displacement":400,"year":1993,"model":"xr400r","make":"Honda","_id":{"$ref":"$[0][\"$__\"][\"_id\"]"}},"$init":true}]
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:40:20.504Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T04:40:47.235Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T04:40:47.243Z"}
+[]
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:43:12.869Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T04:45:22.996Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T04:45:23.006Z"}
+[{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":94,"3":96,"4":111,"5":171,"6":63,"7":69,"8":159,"9":28,"10":5,"11":129}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:43:12.848Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[0][\"$__\"][\"_id\"]"}},"$init":true}]
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T04:45:43.991Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:45:44.012Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T04:46:03.447Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:46:03.469Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:48:14.598Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T04:50:07.063Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T04:50:07.073Z"}
+[{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":95,"3":142,"4":240,"5":73,"6":23,"7":71,"8":81,"9":143,"10":132,"11":5}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:48:14.550Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[0][\"$__\"][\"_id\"]"}},"$init":true}]
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:50:07.086Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T04:50:38.215Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T04:50:38.222Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T04:50:38.229Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T04:50:38.231Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:50:38.235Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T04:53:47.087Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T04:53:47.097Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T04:53:47.107Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T04:53:47.110Z"}
+[{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":96,"3":219,"4":103,"5":87,"6":9,"7":72,"8":145,"9":191,"10":95,"11":157}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:53:47.063Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[0][\"$__\"][\"_id\"]"}},"$init":true}]
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T04:53:47.113Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T04:53:47.118Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":96,"3":219,"4":103,"5":87,"6":9,"7":72,"8":145,"9":191,"10":95,"11":157}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:53:47.063Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:53:47.119Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T04:53:47.121Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T04:54:31.113Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T04:54:36.107Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:05:39.345Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:05:39.355Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T05:05:39.367Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:05:39.368Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T05:05:39.370Z"}
+[]
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:05:39.371Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T05:05:39.373Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:05:53.627Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:05:53.637Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T05:05:53.649Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:05:53.651Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T05:05:53.652Z"}
+[]
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:05:53.653Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T05:05:53.656Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:07:18.611Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:07:18.621Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T05:07:18.632Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T05:07:18.634Z"}
+[]
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:07:18.635Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:07:18.641Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T05:07:18.642Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:07:41.672Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:07:41.682Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T05:07:41.692Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T05:07:41.694Z"}
+[]
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:07:41.695Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:07:41.699Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T05:07:41.700Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T05:09:41.297Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T05:09:41.305Z"}
+[]
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T05:09:48.725Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T05:09:48.750Z"}
+{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T05:09:48.750Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:09:48.756Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:09:48.762Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:09:48.764Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:09:48.765Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T05:09:48.765Z"}
+{"level":"info","message":"GET - Processing a request for all bikes","timestamp":"2017-12-12T05:10:20.765Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T05:10:20.774Z"}
+[]
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T05:10:45.978Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T05:10:46.005Z"}
+{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T05:10:46.005Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:10:46.012Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:10:46.019Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:10:46.021Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:10:46.022Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T05:10:46.023Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T05:11:00.076Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T05:11:00.101Z"}
+{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T05:11:00.101Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:11:00.109Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:11:00.116Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:11:00.117Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T05:11:00.119Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":100,"3":228,"4":209,"5":10,"6":235,"7":75,"8":131,"9":186,"10":83,"11":182}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T05:11:00.104Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T05:11:00.119Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T05:11:00.123Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T05:11:19.901Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T05:11:19.924Z"}
+{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T05:11:19.925Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:11:19.936Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:11:19.940Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:11:19.941Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T05:11:19.943Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":100,"3":247,"4":205,"5":23,"6":166,"7":75,"8":194,"9":24,"10":98,"11":36}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T05:11:19.931Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T05:11:19.943Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T05:11:19.947Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T05:11:33.750Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T05:11:33.775Z"}
+{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T05:11:33.775Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:11:33.781Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:11:33.786Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:11:33.787Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T05:11:33.790Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":101,"3":5,"4":206,"5":8,"6":158,"7":75,"8":244,"9":80,"10":99,"11":14}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T05:11:33.777Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T05:11:33.790Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T05:11:33.796Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T05:11:44.797Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T05:11:44.821Z"}
+{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T05:11:44.821Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:11:44.827Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:11:44.833Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:11:44.834Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T05:11:44.837Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":101,"3":16,"4":218,"5":93,"6":0,"7":76,"8":30,"9":108,"10":126,"11":47}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T05:11:44.823Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T05:11:44.837Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T05:11:44.843Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T05:12:55.168Z"}
+{"level":"info","message":"POST - Processing a request.","timestamp":"2017-12-12T05:12:55.192Z"}
+{"level":"info","message":"POST - Bad data, responding with a 400 code","timestamp":"2017-12-12T05:12:55.192Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:12:55.199Z"}
+{"level":"info","message":"GET - processing a request for a single bike","timestamp":"2017-12-12T05:12:55.204Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T05:12:55.205Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T05:12:55.207Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":101,"3":87,"4":142,"5":47,"6":101,"7":76,"8":139,"9":6,"10":120,"11":84}},"wasPopulated":false,"activePaths":{"paths":{"displacement":"init","year":"init","model":"init","make":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"displacement":true,"year":true,"model":true,"make":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T05:12:55.195Z","__v":0,"displacement":1203,"year":2004,"model":"XB12s","make":"Buell","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T05:12:55.207Z"}
+{"level":"info","message":"Server is off.","timestamp":"2017-12-12T05:12:55.212Z"}
