@@ -18,8 +18,8 @@ const dogMockCreate = () => {
 
 describe('/api/dogs', () => {
   beforeAll(server.start);
-  // afterAll(server.stop);
-  // afterEach(() => Dog.remove({}));
+  afterAll(server.stop);
+  afterEach(() => Dog.remove({}));
 
   describe('POST /api/dogs', () => {
     test('POST should respond with 200 and data if no error', () => {
@@ -76,7 +76,7 @@ describe('/api/dogs', () => {
         });
     });
 
-    test('GET should respond with 404 and data if no error', () => {
+    test('GET should respond with 404 and if error', () => {
       return superagent.get(`${apiURL}/1234`)
         .then(response => {
           console.log('this should not show', response);

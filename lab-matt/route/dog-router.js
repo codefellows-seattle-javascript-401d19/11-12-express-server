@@ -60,7 +60,7 @@ dogRouter.get('/api/dogs/:id', (request, response) => {
 });
 
 
-dogRouter.delete('/api/dogs:id', (request, response) => {
+dogRouter.delete('/api/dogs/:id', (request, response) => {
   if (!request.params.id) {
     return response.sendStatus(400);
   }

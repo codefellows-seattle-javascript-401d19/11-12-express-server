@@ -42,7 +42,10 @@ server.start = () => {
       log('info', `Server is listening on port: ${PORT}`);
       return resolve();
     });
-  });
+  })
+    .then(() => {
+      mongoose.connect(process.env.MONGODB_URI, {useMongoClient: true});
+    });
 };
 
 server.stop = () => {
@@ -62,5 +65,8 @@ server.stop = () => {
       log('info', `Server is shutting down`);
       return resolve();
     });
-  });
+  })
+    .then(() => {
+      mongoose.disconnect();
+    });
 };
