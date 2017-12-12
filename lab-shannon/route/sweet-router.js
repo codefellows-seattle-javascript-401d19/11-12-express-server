@@ -82,6 +82,7 @@ sweetRouter.delete(`/api/sweets/:id`, (request, response, next) => {
         logger.log(`info`, `Sending a 404 status; no sweet with id found for deletion`);
         return response.sendStatus(404);
       }
+      return response.sendStatus(204);
     })
     .catch(error => {
       logger.log(`info`, `An error occurred while trying to delete a document`);
