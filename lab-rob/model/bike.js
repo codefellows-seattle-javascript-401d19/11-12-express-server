@@ -12,11 +12,11 @@ const bikeSchema = mongoose.Schema({
     required: true,
   },
   year: {
-    type: 'int',
+    type: Number,
     required: true,
   },
   displacement: {
-    type: 'int',
+    type: Number,
     required: true,
   },
   timestamp: {
