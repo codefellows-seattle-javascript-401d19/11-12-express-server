@@ -51,6 +51,7 @@ heroRouter.get('/api/heroes/:id', (request,response,next) => {
 
 heroRouter.delete('/api/heroes/:id', (request,response,next) => {
   logger.log('info', 'DELETE - processing a request');
+  console.log('inside DELETE');
 
   Hero.findById(request.params.id)
     .then(hero => {
@@ -65,7 +66,7 @@ heroRouter.delete('/api/heroes/:id', (request,response,next) => {
         logger.log('info', 'ERROR__DELETE - Returning a 404 status code. Could not parse id');
         return response.sendStatus(404);
       }
-      logger.log('error', 'ERROR__DELETE - Returning a 500 status code');
+      logger.log('info', 'ERROR__DELETE - Returning a 500 status code');
       logger.log('error',error);
       return response.sendStatus(500);
     });
