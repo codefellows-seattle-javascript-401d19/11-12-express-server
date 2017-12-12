@@ -23,7 +23,7 @@ bikeRouter.post('/api/bikes', jsonParser, (request, response) => {
 });
 
 bikeRouter.get('/api/bikes/:id', (request, response) => {
-  logger.log('info', 'GET - processing a request');
+  logger.log('info', `GET - processing a request`);
   Bike.findById(request.params.id)
     .then(bike => {
       if(!bike) {

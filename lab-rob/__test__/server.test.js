@@ -56,4 +56,34 @@ describe('/api/bikes', () => {
         });
     });
   });
+  
+  describe('GET /api/bikes', () => {
+    describe('GET /api/bikes with an id', () => {
+      test('should respond with a specific bike and 200 status code if there is no error.', () => {
+        let bikeToTest;
+        createBike()
+          .then(bike => {
+            bikeToTest = bike;
+            return superagent.get(`${__API_URL__}/${bikeToTest._id}`)
+              .then(response => {
+                expect(response.status).toEqual(200);
+                expect(response.body._id).toEqual(bikeToTest._id.toString());
+                expect(response.body.timestamp).toBeTruthy();
+                expect(response.body.make).toEqual(bikeToTest.make);
+                expect(response.body.model).toEqual(bikeToTest.model);
+                expect(response.body.year).toEqual(bikeToTest.year);
+                expect(response.body.displacement).toEqual(bikeToTest.displacement);
+              });
+          });
+      });
+
+      test('should respond with a 404 status code if no bike with the given id exists.', () => {
+        return superagent.get(`${__API_URL__}/french-fries`)
+          .then(Promise.reject)
+          .catch(response => {
+            expect(response.status).toEqual(404);
+          });
+      });
+    });
+  });
 });
