@@ -14,7 +14,7 @@ catRouter.post('/api/cats', jsonParser, (request, response) => {
     return response.sendStatus(400);
   }
 
-  new Cat(request.body).save()
+  return new Cat(request.body).save()
     .then(cat => response.json(cat))
     .catch(error => {
       logger.log('error', '__SERVER_ERROR__');
@@ -27,7 +27,7 @@ catRouter.post('/api/cats', jsonParser, (request, response) => {
 catRouter.get('/api/cats/:id', (request, response) => {
   logger.log('info', 'GET - processing a new get request');
 
-  Cat.findById(request.params.id)
+  return Cat.findById(request.params.id)
     .then(cat => {
       if (!cat){
         logger.log('info', 'GET - Returning a 404 status code');
@@ -50,18 +50,18 @@ catRouter.get('/api/cats/:id', (request, response) => {
 catRouter.get('/api/cats', (request, response) => {
   logger.log('info', 'GET - processing a new get request');
 
-  Cat.find({})
+  return Cat.find({})
     .then(cats => {
       console.log(cats);
-      response.json(cats);
-    })
-    .catch(error => console.log('you got an error in array maker', error));
+      return response.json(cats);
+    });
+  // .catch(error => console.log('you got an error in array maker', error));
 });
 
 catRouter.get('/api/cats/:id',(request, response) => {
   logger.log('info', 'GET - processing a new get request');
 
-  Cat.findById(request.params.id)
+  return Cat.findById(request.params.id)
     .then(cat => {
       console.log('cat', cat);
       if (!cat){
@@ -88,7 +88,7 @@ catRouter.delete('/api/cats', (request, response) => {
 });
 
 catRouter.delete('/api/cats/:id', (request, response) => {
-  Cat.findByIdAndRemove(request.params.id)
+  return Cat.findByIdAndRemove(request.params.id)
     .then(cat => {
       if (!cat){
         logger.log('info', 'DELETE - Returning a 404 status code');

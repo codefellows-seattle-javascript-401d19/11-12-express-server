@@ -19,8 +19,11 @@ const createFakeKitten = () => {
 
 describe('/api/cats', () => {
   beforeEach(server.start);
-  afterEach(server.stop);
-  afterEach(() => Cat.remove({}));
+  // afterEach(server.stop);
+  afterEach(() => {
+    return Cat.remove({})
+      .then(() => server.stop());
+  });
 
   // WORKING
   describe('POST /api/cats', () => {
@@ -39,6 +42,7 @@ describe('/api/cats', () => {
           expect(response.body._id).toBeTruthy();
         })
         .catch(error => {
+          expect(error).toBe(undefined);
           logger.log('error', error);
         });
     });
@@ -57,7 +61,7 @@ describe('/api/cats', () => {
     test('GET should respond with 200 status code and cat if no errors when URL includes cat id; checking that a known value that is expected is returned', () => {
       let catTest = null;
 
-      createFakeKitten()
+      return createFakeKitten()
         .then(cat => {
           catTest = cat;
           console.log('cat._id', cat._id);
@@ -66,19 +70,20 @@ describe('/api/cats', () => {
         .then(response => {
           console.log('returned in get');
           expect(response.status).toEqual(200);
-          expect(response.body._id).toEqual(catTest._id);
+          expect(response.body._id).toEqual(catTest._id.toString());
           expect(response.body.name).toEqual(catTest.name);
           expect(response.body.says).toEqual(catTest.says);
           expect(response.body.birthday).toBeTruthy();
         })
         .catch(error => {
+          expect(error).toBe(undefined);
           console.log('bad get request');
           logger.log('error', error);
         });
     });
 
     test('GET should respond with 200 if a general request is passed; checking that an expected array is returned', () => {
-      createFakeKitten()
+      return createFakeKitten()
         .then(() => createFakeKitten())
         .then(() => createFakeKitten())
         .then(() => superagent.get(`${__API_URL__}`))
@@ -87,7 +92,10 @@ describe('/api/cats', () => {
           expect(response.status).toEqual(200);
           expect(response.body.length).toEqual(3);
         })
-        .catch(error => console.log('hey bad get no id', error));
+        .catch(error => {
+          expect(error).toBe(undefined);
+          console.log('hey bad get no id', error);
+        });
     });
 
     // WORKING
@@ -112,15 +120,16 @@ describe('/api/cats', () => {
     });
 
     test('DELETE should respond with a 204 message if successful', () => {
-      createFakeKitten()
+      return createFakeKitten()
         .then(cat => {
           return superagent.del(`${__API_URL__}/${cat._id}`);
         })
         .then(response => {
           console.log('delete then');
-          expect(response.status).toEqual(234);
+          expect(response.status).toEqual(204);
         })
         .catch(error =>{
+          expect(error).toBe(undefined);
           console.log('delete catch; delete not working');
           logger.log('error', 'bad API request');
           logger.log('error', error);
