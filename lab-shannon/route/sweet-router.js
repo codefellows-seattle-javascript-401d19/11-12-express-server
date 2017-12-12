@@ -39,11 +39,11 @@ sweetRouter.get(`/api/sweets/:id`, (request, response, next) => {
       return response.json(sweet);
     })
     .catch(error => {
-      logger.log(`info`, `Sending a 500 status. An error occurred while getting the Sweet.`);
       if(error.message.indexOf(`Cast to ObjectId failed`) > -1){
         logger.log(`info`, `Returning 404 status to GET request. Could not parse id provided`);
         return response.sendStatus(404);
       }
+      logger.log(`info`, `Sending a 500 status. An error occurred while getting the Sweet.`);
       return response.sendStatus(500);
     })
 });
