@@ -84,4 +84,24 @@ describe('/api/bikes', () => {
         });
     });
   });
+
+  describe('GET /api/bikes with an id', () => {
+    test('should respond with a specific bike and 200 status code if there is no error.', () => {
+      return superagent.post(__API_URL__)
+        .send({
+          make: 'Buell',
+          model: 'XB12s',
+          year: 2004,
+          displacement: 1203,
+        })
+        .then(response => {
+          expect(response.status).toEqual(200);
+          return superagent.get(`${__API_URL__}`)
+            .then(response => {
+              expect(response.status).toEqual(200);
+              console.log(response.body);
+            });
+        });
+    });
+  });
 });
