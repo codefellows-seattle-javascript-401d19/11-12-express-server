@@ -20,7 +20,7 @@ const dogMockCreate = () => {
 describe('/api/dogs', () => {
   beforeAll(server.start);
   // afterAll(server.stop);
-  afterEach(() => Dog.remove({}));
+  // afterEach(() => Dog.remove({}));
 
   describe('POST /api/dogs', () => {
     test('POST should respond with 200 and data if no error', () => {
@@ -79,6 +79,32 @@ describe('/api/dogs', () => {
 
     test('GET should respond with 404 and data if no error', () => {
       return superagent.get(`${apiURL}/1234`)
+        .then(response => {
+          console.log('this should not show', response);
+        })
+        .catch(error => {
+          expect(error.status).toEqual(404);
+        });
+    });
+  });
+
+  // ===================== DELETE =====================
+  describe('DELETE /api/dogs', () => {
+    test('DELETE should respond with 200 and data if no error', () => {
+      let dogToTest = null;
+
+      dogMockCreate()
+        .then(dog => {
+          dogToTest = dog;
+          return superagent.delete(`${apiURL}/${dog._id}`);
+        })
+        .then(response => {
+          expect(response.status).toEqual(204);
+        });
+    });
+
+    test('DELETE should respond with 404 and data if no error', () => {
+      return superagent.delete(`${apiURL}/1234`)
         .then(response => {
           console.log('this should not show', response);
         })

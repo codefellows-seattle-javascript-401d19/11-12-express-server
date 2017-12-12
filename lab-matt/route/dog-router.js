@@ -44,6 +44,7 @@ dogRouter.get('/api/dogs/:id', (request, response, next) => {
       if (!dog) {
         return response.sendStatus(404);
       }
+      else response.sendStatus();
       log('info', 'GET - responding with a 200 status');
       return response.json(dog);
     })
@@ -59,25 +60,21 @@ dogRouter.get('/api/dogs/:id', (request, response, next) => {
 });
 
 
-// dogRouter.delete('/api/dogs:id', (request, response, next) => {
+dogRouter.delete('/api/dogs:id', (request, response, next) => {
+  if (!request.params.id) {
+    return response.sendStatus(400);
+  }
 
-//   if (dogId) {
-//     storage.deleteItem(dogId)
-//       .then(dogFound => {
-//         if (dogFound.deleted.id === dogId) {
-//           log('info', `DOG DELETED: ${JSON.stringify(dogFound.deleted)}`);
-//           response.writeHead(204);
-//           response.write(dogFound.deleted.id);
-//           response.end();    
-//         } else {
-//           sendStatus(response, 404, dogFound);
-//         }
-//       }) // mattL - here, if there is no dogfound.deleted === new Error (storage.js: line68)
-//       .catch(error => {
-//         sendStatus(response, 404, error);        
-//       }); 
-//     return;
-//   } else {
-//     sendStatus(response, 400, `no id given`);
-//   }
-// });
+  Dog.findByIdAndRemove(request.params.id)
+    .then(dog => {
+      if (!dog) {
+        log('info', `DELETE - Responding with a 404 status due to no match with ID: ${request.params.id}`);
+        return response.sendStatus(404);
+      } else {
+        return response.sendStatus(204);
+      }
+    })
+    .catch(() => {
+      response.sendStatus(404);        
+    });
+});
