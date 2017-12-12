@@ -21,7 +21,7 @@ describe('/api/bikes', () => {
   afterEach(() => Bike.remove({}));
 
   describe('POST /api/bikes', () => {
-    test('should respond with a note and 200 status code if there is no error.', () => {
+    test('should respond with a bike and 200 status code if there is no error.', () => {
       let bikeToPost = {
         make: 'Buell',
         model: 'XB12s',
@@ -39,6 +39,20 @@ describe('/api/bikes', () => {
           expect(response.body.model).toEqual('XB12s');
           expect(response.body.year).toEqual(2004);
           expect(response.body.displacement).toEqual(1203);
+        });
+    });
+
+    test('should respond with a 400 status code if incomplete data is sent.', () => {
+      let incompleteBike = {
+        make: 'Suzuki',
+        model: 'GS500f',
+      };
+
+      return superagent.post(__API_URL__)
+        .send(incompleteBike)
+        .then(Promise.reject)
+        .catch(response => {
+          expect(response.status).toEqual(400);
         });
     });
   });

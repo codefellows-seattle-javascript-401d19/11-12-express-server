@@ -10,7 +10,7 @@ bikeRouter.post('/api/bikes', jsonParser, (request, response) => {
   logger.log('info', 'POST - Processing a request.');
   if (!request.body.make || !request.body.model || !request.body.year || !request.body.displacement) {
     logger.log('info', 'POST - Bad data, responding with a 400 code');
-    response.sendStatus(400);
+    return response.sendStatus(400);
   }
 
   new Bike(request.body).save()
@@ -18,7 +18,7 @@ bikeRouter.post('/api/bikes', jsonParser, (request, response) => {
     .catch(error => {
       logger.log('error', '__SERVER_ERROR__');
       logger.log('error', error);
-      response.sendStatus(500);
+      return response.sendStatus(500);
     });
 });
 
@@ -32,7 +32,7 @@ bikeRouter.get('/api/bikes/:id', (request, response) => {
       }
       logger.log('info', 'GET - returning a 200 status code');
       logger.log('info', bike);
-      response.json(bike);
+      return response.json(bike);
     })
     .catch(error => {
       if(error.message.indexOf('Cast to ObjectId failed') > -1) {
