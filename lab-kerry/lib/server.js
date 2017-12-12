@@ -16,13 +16,13 @@ mongoose.connect(process.env.MONGODB_URI, {useMongoClient: true});
 // -----------------------------------
 //Setting up routes below
 // -----------------------------------
-app.use(require('..route/bicycle-router'));
+app.use(require('../route/bicycle-router'));
 
 //the catch-all should be at the end of all routes
 
 app.all('*', (request, response) => {
-	logger.log('info', 'Returning a 404 from the catch all route.');
-	return response.sendStatus(404);
+  logger.log('info', 'Returning a 404 from the catch all route.');
+  return response.sendStatus(404);
 });
 // -----------------------------------
 

@@ -4,49 +4,54 @@
 process.env.PORT = 7000;
 
 //URI is a unique reference identifier...whereas URL is only used for the internet
-process.env.MONGODB_URI = 'mongodb://localhost/testing/';
+process.env.MONGODB_URI = 'mongodb://localhost/testing';
 
-const faker = require('faker');
+// const faker = require('faker');
 const superagent = require('superagent');
-const Bicycle = require('..model/bicycle');
+const Bicycle = require('../model/bicycle');
 const server = require('../lib/server');
 
 const apiURL = `http://localhost:${process.env.PORT}/api/bicycles`;
 
 const bicycleMockCreate = () => {
   return new Bicycle({
-    brand: faker.lorem.words(10),
-    model: faker.lorem.words(20),
-    type: faker.lorem.words(10),
+    Brand: 'Cinelli',
+    Model: 'Supercorsa',
+    Type: 'Track',
   }).save();
 };
 
 describe('api/bicycles', () => {
   beforeAll(server.start);
   afterAll(server.stop);
-  afterEach(() => bicycle.remove ({}));
+  afterEach(() => Bicycle.remove ({}));
 
   describe('POST /api/bicycles', () => {
-    test('should respond with a bicycle and 200 status code if there is no error', () => {
+    test('POST - should respond with a bicycle and 200 status code if there is no error', () => {
       let bicycleToPost = {
-        title: faker.lorem.words(10),
-        content: faker.lorem.words(100),
+        Brand: 'Cinelli',
+        Model: 'Supercorsa',
+        Type: 'Track',
       };
       return superagent.post(`${apiURL}`)
         .send(bicycleToPost)
         .then(response => {
+          console.log(response.body);
+          console.log(response.status);
           expect(response.status).toEqual(200);
           expect(response.body._id).toBeTruthy();
           expect(response.body.timestamp).toBeTruthy();
 
-          expect(response.body.title).toEqual(bicycleToPost.title);
-          expect(response.body.content).toEqual(bicycleToPost.content);
+          expect(response.body.Brand).toEqual(bicycleToPost.Brand);
+          expect(response.body.Model).toEqual(bicycleToPost.Model);
+          expect(response.body.Type).toEqual(bicycleToPost.Type);
         });
     });
 		
-    test('should respond with a 400 status code if the bicycle is incomplete', () => {
+    test('POST - should respond with a 400 status code if the bicycle is incomplete', () => {
       let bicycleToPost = {
-        content: faker.lorem.words(100),
+        Model: 'Supercorsa',
+        Type: 'Track',
       };
       return superagent.post(`${apiURL}`)
         .send(bicycleToPost)
@@ -58,31 +63,31 @@ describe('api/bicycles', () => {
   });
 
 		
-describe('GET /api/bicycles', () => {
-  test('GET - should respond with a 200 status code if there is no error', () => {
-    let bicycleToTest = null;
+  describe('GET /api/bicycles', () => {
+    test('GET - should respond with a 200 status code if there is no error', () => {
+      let bicycleToTest = null;
 
-    bicycleMockCreate()
-      .then(bicycle => {
+      bicycleMockCreate()
+        .then(bicycle => {
         //may want to add error checking after this success test
-        bicycleToTest = bicycle;
-        return superagent.get(`${apiURL}/${bicycle.id}`);
-      })
-      .then(response => {
-        console.log(response.body);
-        expect(response.status).toEqual(200);
-        expect(response.body._id).toEqual(bicycleToTest._id.toString());
-        expect(response.body.timestamp).toBeTruthy();
-        expect(response.body.title).toEqual(bicycleToTest.title);
-        expect(response.body.content).toEqual(bicycleToTest.content);	
-      });
-  });
-  test('GET - should respond with a 404 status code if the id is incorrect', () => {
-        return superagent.get(`${apiURL}/nonsenseISay`);
-          .then(Promise.reject) 
-          .catch(response => {
-            expect(response.status).toEqual(404);
-       });
+          bicycleToTest = bicycle;
+          return superagent.get(`${apiURL}/${bicycle.id}`);
+        })
+        .then(response => {
+          expect(response.status).toEqual(200);
+          expect(response.body._id).toEqual(bicycleToTest._id.toString());
+          expect(response.body.timestamp).toBeTruthy();
+          expect(response.body.Brand).toEqual(bicycleToTest.Brand);
+          expect(response.body.Model).toEqual(bicycleToTest.Model);
+          expect(response.body.Type).toEqual(bicycleToTest.Type);		
+        });
+    });
+    test('GET - should respond with a 404 status code if the id is incorrect', () => {
+      return superagent.get(`${apiURL}/nonsenseISay`)
+        .then(Promise.reject) 
+        .catch(response => {
+          expect(response.status).toEqual(404);
+        });
     });
   });
 });
