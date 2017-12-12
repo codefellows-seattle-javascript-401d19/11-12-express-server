@@ -28,7 +28,7 @@ server.start = () => {
       return reject(new Error(`__SERVER_ERROR__ the server is already on`));
     }
     httpServer = app.listen(process.env.PORT, () => {
-      // logger.log(`info`, `Turning the server on. Listening on port ${process.env.PORT}`);
+      logger.log(`info`, `Turning the server on. Listening on port ${process.env.PORT}`);
       console.log(`Listening on port ${process.env.PORT}`);
       serverIsOn = true;
       return resolve();
@@ -49,7 +49,7 @@ server.stop = () => {
     httpServer.close(() => {
       serverIsOn = false;
       httpServer = null;
-      // logger.log(`info`, `Turning the server off now`);
+      logger.log(`info`, `Turning the server off now`);
       return resolve();
     });
   });

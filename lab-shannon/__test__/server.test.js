@@ -34,7 +34,7 @@ describe(`/api/sweets`, () => {
           expect(response.body.seasonal).toEqual(false);
         })
       .catch(error => {
-        console.log(error.status);
+        console.log(`Oh Noes!`);
       })
     })
   })

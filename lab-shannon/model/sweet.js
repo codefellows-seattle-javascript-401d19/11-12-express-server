@@ -18,7 +18,7 @@ const sweetSchema = mongoose.Schema({
     required: true
   },
   seasonal: {
-    type: String,
+    type: Boolean,
     required: false
   }
 });

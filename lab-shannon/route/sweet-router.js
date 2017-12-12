@@ -8,8 +8,8 @@ const Sweet = require(`../model/sweet`);
 const sweetRouter = module.exports = new Router();
 
 sweetRouter.post(`/api/sweets`, jsonParser, (request, response, next) => {
-  console.log(`I ran`);
   logger.log(`info`, `Processing a POST request`);
+  console.log(`I ran`);
   if(!request.body.name || !request.body.hasChocolate || !request.body.temperature){
     logger.log(`info`, `Sending a 400 request because information was missing from the body`);
     return response.sendStatus(400);
