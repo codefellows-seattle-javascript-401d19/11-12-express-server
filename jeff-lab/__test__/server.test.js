@@ -4,7 +4,6 @@ const faker = require('faker');
 const superagent = require('superagent');
 const Team = require('../model/team');
 const server = require('../lib/server');
-const logger = require('../lib/logger');
 
 const apiURL = `http://localhost:${process.env.PORT}/api/teams`;
 
@@ -117,7 +116,7 @@ describe('/api/teams', () => {
         });
     });
     test('should respond with 404 if invalid id is sent', () => {
-      return superagent.delete(`${apiURL}/Dewey`)
+      return superagent.delete(`${apiURL}/dewey`)
         .then(Promise.reject)
         .catch(response => {
           expect(response.status).toEqual(404);
