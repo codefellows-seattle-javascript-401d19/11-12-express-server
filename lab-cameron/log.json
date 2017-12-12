@@ -6,3 +6,31 @@
 {"level":"info","message":"Server is listening on port 7000","timestamp":"2017-12-11T23:46:31.172Z"}
 {"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T23:46:31.211Z"}
 {"level":"info","message":"Server off","timestamp":"2017-12-11T23:46:31.244Z"}
+{"level":"info","message":"Server is listening on port 7000","timestamp":"2017-12-11T23:54:18.560Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T23:54:18.598Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-11T23:54:18.632Z"}
+{"level":"info","message":"Server is listening on port 7000","timestamp":"2017-12-11T23:57:03.816Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T23:57:03.852Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-11T23:57:03.852Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T23:57:03.856Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-11T23:57:03.889Z"}
+{"level":"info","message":"Server is listening on port 7000","timestamp":"2017-12-11T23:57:27.269Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T23:57:27.308Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T23:57:27.344Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-11T23:57:27.345Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-11T23:57:27.350Z"}
+{"level":"info","message":"Server is listening on port 7000","timestamp":"2017-12-12T00:03:31.808Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:03:31.847Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:03:31.882Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:03:31.882Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-12T00:03:31.890Z"}
+{"level":"info","message":"Server is listening on port 7000","timestamp":"2017-12-12T00:05:04.065Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:05:04.102Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:05:04.136Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:05:04.137Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:05:04.145Z"}
+{"level":"info","message":"GET - returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:05:04.148Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:05:04.148Z"}
+{"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T00:05:04.155Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":29,"3":48,"4":32,"5":177,"6":7,"7":50,"8":197,"9":156,"10":75,"11":130}},"wasPopulated":false,"activePaths":{"paths":{"description":"init","name":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"description":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T00:05:04.140Z","__v":0,"description":"rem voluptatum cupiditate illum et qui aut eius rerum eum non eos libero eum impedit eaque corrupti cumque nostrum consequatur eum tempore cupiditate dolores debitis animi sit quidem qui dolores aliquid tenetur eius libero numquam ut itaque rerum iusto voluptatibus aperiam quas consectetur reiciendis animi beatae ipsa eos nam sint ratione iusto velit ut vero debitis mollitia expedita explicabo illo consequatur molestiae sint et quia pariatur non asperiores dolorem modi et consequatur ipsam repellendus praesentium quos assumenda facilis ex quia sunt autem error reiciendis sequi harum voluptatem dolores eum repudiandae aut error aut voluptatum consequatur ea sit tenetur itaque enim","name":"et et voluptas praesentium nesciunt labore asperiores ea voluptatum vel","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T00:05:04.155Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-12T00:05:04.160Z"}
