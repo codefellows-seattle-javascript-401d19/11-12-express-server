@@ -15,7 +15,7 @@ sweetRouter.post(`/api/sweets`, jsonParser, (request, response, next) => {
     return response.sendStatus(400);
   }
 
-  new Sweet(request.body).save()
+  return new Sweet(request.body).save()
     .then(sweet => {
       response.json(sweet);
       // why don't we need to explicitly return a 200 status?
@@ -27,14 +27,14 @@ sweetRouter.post(`/api/sweets`, jsonParser, (request, response, next) => {
     });
 });
 
-sweetRouter.get(`/api/sweets/:id`, (request, response, next) => {
-  logger.log(`info`, `Processing a GET request`);
+sweetRouter.get(`/api/sweets`, (request, response, next) => {
+  logger.log(`info`, `Processing a GET request without an id`);
 
-  console.log(`${request.params.id} is the id`);
-  // if(!request.params.id){
-  //   return;
-  //   // return response.json(all the sweets);
-  // }
+  return response.json(allthesweets);
+})
+
+sweetRouter.get(`/api/sweets/:id`, (request, response, next) => {
+  logger.log(`info`, `Processing a GET request with an id`);
 
   Sweet.findById(request.params.id)
     .then(sweet => {

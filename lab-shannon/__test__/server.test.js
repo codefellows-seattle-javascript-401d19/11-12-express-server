@@ -42,9 +42,9 @@ describe(`/api/sweets`, () => {
           expect(response.body.temperature).toEqual(fakeSweet.temperature);
           expect(response.body.seasonal).toEqual(false);
         })
-        .catch(error => {
-          console.log(`Oh Noes! There was an error: ${error}`);
-        });
+        // .catch(error => {
+        //   console.log(`Oh Noes! There was an error: ${error}`);
+        // });
     });
     test(`POST should respond with 400 status if the body is missing information`, () => {
       return superagent.post(`${apiURL}`)
@@ -60,7 +60,7 @@ describe(`/api/sweets`, () => {
     });
   });
   describe(`GET request`, () => {
-    test.only(`GET should respond with a 200 status if a sweet with the specified id is found`, () => {
+    test(`GET should respond with a 200 status if a sweet with the specified id is found`, () => {
       let testSweet = null;
 
       createFakeSweet()
@@ -69,26 +69,32 @@ describe(`/api/sweets`, () => {
           return superagent.get(`${apiURL}/${sweet._id}`);
         })
         .then(response => {
-          console.log(response.body);
+          console.log(response.body, `is the response body`);
           expect(response.status).toEqual(200);
           expect(response.body._id).toEqual(testSweet._id.toString());
           expect(response.body.name).toEqual(testSweet.name);
           expect(response.body.hasChocolate).toEqual(testSweet.hasChocolate);
           expect(response.body.temperature).toEqual(testSweet.temperature);
         })
-        .catch(error => {
-          console.log(error);
-          console.log(`Oh Noes! There was an error: ${error}`);
-        });
+        // .catch(error => {
+        //   console.log(error.message, `is the error message from what's supposed to be 200 GET`);
+        //   console.log(`Oh Noes! There was an error: ${error}`);
+        // });
     });
 
     test(`GET should respond with a 404 status if NO sweet with the specified id is found`, () => {
       return superagent.get(`${apiURL}/blah`)
         .then(Promise.reject)
         .catch(response => {
-          console.log(response.status);
           expect(response.status).toEqual(404);
         });
     });
+    test(`GET should return all Sweets if no id is provided`, () => {
+      return superagent.get(`${apiURL}`)
+        .then(response => {
+          console.log(response.status);
+          expect(response.status).toEqual(200);
+        })
+    })
   });
 });
