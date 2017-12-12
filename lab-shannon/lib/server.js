@@ -8,16 +8,17 @@ const app = express();
 let serverIsOn = false;
 let httpServer = null;
 
-// because mongoose is older than the ES6 Promise we have to tell mongoose what Promise we're using
 mongoose.Promise = Promise;
 mongoose.connect(process.env.MONGODB_URI, {useMongoClient: true});
 
+app.use(require(`./loggerMiddleware`));
 app.use(require(`../route/sweet-router`));
 app.all(`*`, (request, response) => {
   logger.log(`info`, `Something went wrong with the request. Sending a 400 status to the catch-all route`);
   return response.sendStatus(400);
 });
 
+app.use(require(`./errorMiddleware`));
 //---------------------------------------------------------------------------------------
 const server = module.exports = {};
 
@@ -34,9 +35,7 @@ server.start = () => {
       return resolve();
     });
   })
-  .then(() => {
-    mongoose.connect(process.env.MONGODB_URI, {useMongoClient: true});
-  })
+  .then(() => {mongoose.connect(process.env.MONGODB_URI, {useMongoClient: true}));
 };
 
 server.stop = () => {
@@ -56,7 +55,5 @@ server.stop = () => {
       return resolve();
     });
   })
-  .then(() => {
-    mongoose.disconnect();
-  })
+  .then(() => mongoose.disconnect())
 };

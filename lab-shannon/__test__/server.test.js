@@ -127,8 +127,6 @@ describe(`/api/sweets`, () => {
     //   return superagent.delete(`${apiURL}/nope`)
     //     .then(Promise.reject)
     //     .catch(response => {
-    //       // console.log(response, `is the response`);
-    //       // console.log(response.status, `is the status for bad DELETE request`);
     //       expect(response.status).toEqual(404);
     //     });
     // });
