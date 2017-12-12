@@ -33,7 +33,10 @@ server.start = () => {
       serverIsOn = true;
       return resolve();
     });
-  });
+  })
+  .then(() => {
+    mongoose.connect(process.env.MONGODB_URI, {useMongoClient: true});
+  })
 };
 
 server.stop = () => {
@@ -52,5 +55,8 @@ server.stop = () => {
       logger.log(`info`, `Turning the server off now`);
       return resolve();
     });
-  });
+  })
+  .then(() => {
+    mongoose.disconnect();
+  })
 };
