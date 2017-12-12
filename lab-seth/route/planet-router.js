@@ -1,53 +1,55 @@
 'use strict';
 
-// vinicio - ES5 version
-//const Router = require('express').Router;
 const {Router} = require('express');
 const jsonParser = require('body-parser').json();
 
 const Planet = require('../model/planet');
 const logger = require('../lib/logger');
+const httpErrors = require('http-errors');
 
 const planetRouter = module.exports = new Router();
 
-planetRouter.post('/api/planets',jsonParser, (request,response,next) => {
-  logger.log('info', 'POST - processing a request');
-
-  if(!request.body.title || !request.body.content) {
-    logger.log('info', 'POST - responding with a 400 code');
-    return response.sendStatus(400);
+planetRouter.post('/api/planets', jsonParser, (request,response) => {  
+  if(!request.body.name || !request.body.content || !request.body.longitude) {
+    return next(httpErrors(400, 'body and content are required'));
   }
-  
-  return new Planet(request.body).save()
-    .then(planet => response.json(planet))//vinicio-this sends a 200
-    .catch(error => {
-      logger.log('error','__SERVER_ERROR__');
-      logger.log('error',error);
 
-      return response.sendStatus(500);
-    });
+  return new Planet(request.body).save()
+    .then(planet => response.json(planet)) //this sends a 200
+    .catch(next);
 });
 
-planetRouter.get('/api/planets/:id',(request,response,next) => {
-  logger.log('info', 'GET - processing a request');
-
-  Planet.findById(request.params.id)
+planetRouter.get('/api/planets/:id', (request,response,next) => {
+  return Planet.findById(request.params.id)
     .then(planet => {
       if(!planet){
-        logger.log('info', 'GET - Returning a 404 status code');
-        return response.sendStatus(404);
+        throw httpErrors(404, 'Planet not found');
       }
       logger.log('info', 'GET - Returning a 200 status code');
-      logger.log('info',planet);
       return response.json(planet);
-    }).catch(error => {
-      // vinicio - couldn't parse the id, or other error
-      if(error.message.indexOf('Cast to ObjectId failed') > -1){
-        logger.log('info', 'GET - Returning a 404 status code. Could not parse id');
-        return response.sendStatus(404);
+    }).catch(next);
+});
+
+planetRouter.delete('/api/planets/:id', (request, response, next) => {
+  return Planet.findByIdAndRemove(request.params.id)
+    .then(planet => {
+      if (!planet) {
+        throw httpErrors(404, 'planet not found');
       }
-      logger.log('error', 'GET - Returning a 500 code');
-      logger.log('error', error);
-      return response.sendStatus(500);
-    });
+      logger.log('info', 'GET - Returning a 204 status code');
+      return response.sendStatus(204);
+    }).catch(next);
+});
+
+planetRouter.put('/api/planets/:id', jsonParser, (request, response, next) => {
+  let options = { runValidators: true, new: true };
+
+  return Planet.findByIdAndUpdate(request.params.id, request.body, options)
+    .then(planet => {
+      if (!planet) {
+        throw httpErrors(404, 'planet not found');
+      }
+      logger.log('info', 'GET - Returning a 200 status code');
+      return response.json(planet);
+    }).catch(next);
 });

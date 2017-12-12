@@ -374,3 +374,33 @@
 {"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-12T22:26:34.002Z"}
 {"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":87,"3":153,"4":113,"5":71,"6":46,"7":115,"8":12,"9":89,"10":203,"11":103}},"wasPopulated":false,"activePaths":{"paths":{"content":"init","name":"init","discoverDate":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"discoverDate":true,"content":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"discoverDate":"2017-02-13T07:05:41.218Z","__v":0,"content":"quos et eos commodi explicabo sunt magnam magni et nulla","name":"K-8gqi","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T22:26:34.002Z"}
 {"level":"info","message":"server off","timestamp":"2017-12-12T22:26:34.004Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T22:30:43.153Z"}
+{"level":"info","message":"Processing : POST on : /api/planets","timestamp":"2017-12-12T22:30:43.191Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T22:30:43.203Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T22:30:43.204Z"}
+{"level":"info","message":"Processing : POST on : /api/planets","timestamp":"2017-12-12T22:30:43.212Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T22:30:43.214Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T22:30:43.214Z"}
+{"level":"info","message":"Processing : GET on : /api/planets/fake","timestamp":"2017-12-12T22:30:43.237Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T22:30:43.238Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T22:30:43.241Z"}
+{"level":"info","message":"Processing : GET on : /api/planets/5a3058937b6c9975093ab979","timestamp":"2017-12-12T22:30:43.242Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T22:30:43.242Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-12T22:30:43.248Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":88,"3":147,"4":123,"5":108,"6":153,"7":117,"8":9,"9":58,"10":185,"11":121}},"wasPopulated":false,"activePaths":{"paths":{"content":"init","name":"init","discoverDate":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"discoverDate":true,"content":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"discoverDate":"2017-04-04T07:05:47.736Z","__v":0,"content":"et et deserunt perferendis inventore nihil dolorem quia et quia","name":"K-8u0c","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T22:30:43.248Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T22:30:43.252Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T22:33:34.541Z"}
+{"level":"info","message":"Processing : POST on : /api/planets","timestamp":"2017-12-12T22:33:34.579Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T22:33:34.591Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T22:33:34.591Z"}
+{"level":"info","message":"Processing : POST on : /api/planets","timestamp":"2017-12-12T22:33:34.600Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T22:33:34.601Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T22:33:34.601Z"}
+{"level":"info","message":"Processing : GET on : /api/planets/fake","timestamp":"2017-12-12T22:33:34.623Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T22:33:34.624Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T22:33:34.627Z"}
+{"level":"info","message":"Processing : GET on : /api/planets/5a30593e76cd33766bd4665e","timestamp":"2017-12-12T22:33:34.628Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T22:33:34.628Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-12T22:33:34.634Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":89,"3":62,"4":118,"5":205,"6":51,"7":118,"8":107,"9":212,"10":102,"11":94}},"wasPopulated":false,"activePaths":{"paths":{"content":"init","name":"init","discoverDate":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"discoverDate":true,"content":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"discoverDate":"2017-02-11T04:15:50.935Z","__v":0,"content":"voluptatum ut distinctio accusantium quis iste quidem soluta accusamus quos","name":"K-ajs0","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T22:33:34.634Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T22:33:34.637Z"}

@@ -34,11 +34,10 @@ describe('api/planets', () => {
           console.log(response.body);
           expect(response.status).toEqual(200);
           expect(response.body._id).toBeTruthy();
-          expect(response.body.timestamp).toBeTruthy();
+          expect(response.body.discoverDate).toBeTruthy();
 
           expect(response.body.name).toEqual(planetToPost.name);
           expect(response.body.content).toEqual(planetToPost.content);
-          expect(response.body.range).toEqual(planetToPost.range);
         });
     });
     test('should respond with a 400 code if we send an incomplete planet', () => {
@@ -67,16 +66,14 @@ describe('api/planets', () => {
           expect(response.status).toEqual(200);
 
           expect(response.body._id).toEqual(planetToTest._id.toString());
-          expect(response.body.timestamp).toBeTruthy();
+          expect(response.body.discoveDate).toBeTruthy();
 
           expect(response.body.name).toEqual(planetToTest.name);
-          expect(response.body.content).toEqual(planetToTest.content);
-          expect(response.body.range).toEqual(planetToTest.range);
-          
+          expect(response.body.content).toEqual(planetToTest.content);          
         });
     });
     test('should respond with a 404 status code if the id is incorrect', () => {
-      return superagent.get(`${APIURL}/mario`)
+      return superagent.get(`${APIURL}/fake`)
         .then(Promise.reject)
         .catch(response => {
           expect(response.status).toEqual(404);
