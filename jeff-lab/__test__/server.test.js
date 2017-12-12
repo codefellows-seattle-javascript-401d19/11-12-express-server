@@ -40,9 +40,6 @@ describe('/api/teams', () => {
           expect(response.body.sport).toEqual(teamToPost.sport);
           expect(response.body.city).toEqual(teamToPost.city);
           expect(response.body.nickname).toEqual(teamToPost.nickname);
-        })
-        .catch(error => {
-          logger.log('info', error);
         });
     });
     test('should respond with a 400 code if we send an incomplete team', () => {
@@ -77,9 +74,6 @@ describe('/api/teams', () => {
           expect(response.body.sport).toEqual(teamToTest.sport);
           expect(response.body.city).toEqual(teamToTest.city);
           expect(response.body.nickname).toEqual(teamToTest.nickname);
-        })
-        .catch(error => {
-          logger.log('info', error);
         });
     });
     test('should respond with 404 status code if the id is incorrect', () => {
@@ -101,8 +95,7 @@ describe('/api/teams', () => {
         .then(response => {
           expect(response.status).toEqual(200);
           expect(response.body.length).toEqual(1);
-        })
-        .catch();
+        });
     });
   });
   describe('DELETE /api/teams/:id', () => {
@@ -114,9 +107,6 @@ describe('/api/teams', () => {
         })
         .then(response => {
           expect(response.status).toEqual(204);
-        })
-        .catch(error => {
-          logger.log('info', error);
         });
     });
     test('should respond with 400 if no id is sent', () => {
