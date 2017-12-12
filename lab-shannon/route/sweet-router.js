@@ -31,7 +31,7 @@ sweetRouter.get(`/api/sweets`, (request, response, next) => {
   logger.log(`info`, `Processing a GET request without an id`);
   console.log(`The GET request ran without an id`);
 
-  Sweet.findById({})
+  Sweet.find({})
     .then(sweet => {
       if(!sweet){
         logger.log(`info`, `Sending a 404 status; no Sweets exist`);
