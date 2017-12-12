@@ -63,7 +63,7 @@ describe(`/api/sweets`, () => {
     test(`GET should respond with a 200 status if a sweet with the specified id is found`, () => {
       let testSweet = null;
 
-      createFakeSweet()
+      return createFakeSweet()
         .then(sweet => {
           testSweet = sweet;
           return superagent.get(`${apiURL}/${sweet._id}`);
@@ -76,10 +76,10 @@ describe(`/api/sweets`, () => {
           expect(response.body.hasChocolate).toEqual(testSweet.hasChocolate);
           expect(response.body.temperature).toEqual(testSweet.temperature);
         })
-        // .catch(error => {
-        //   console.log(error.message, `is the error message from what's supposed to be 200 GET`);
-        //   console.log(`Oh Noes! There was an error: ${error}`);
-        // });
+        .catch(error => {
+          console.log(error.message, `is the error message from what's supposed to be 200 GET`);
+          console.log(`Oh Noes! There was an error: ${error}`);
+        });
     });
 
 //this test breaks my 400 DELETE request if they run together; why?!
@@ -90,7 +90,7 @@ describe(`/api/sweets`, () => {
           expect(response.status).toEqual(404);
         });
     });
-    test.only(`GET should return all Sweets if no id is provided`, () => {
+    test(`GET should return all Sweets if no id is provided`, () => {
       let testSweet = null;
 
       return createFakeSweet()
