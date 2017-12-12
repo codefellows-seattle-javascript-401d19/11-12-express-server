@@ -61,7 +61,7 @@ describe('/api/heroes', () => {
     test('should respond with code 200 if there is no error', () => {
       let heroToTest = null;
 
-      heroMockCreate()
+       heroMockCreate()
         .then(hero => {
           heroToTest = hero;
           return superagent.get(`${apiURL}/${hero._id}`);
@@ -93,7 +93,7 @@ describe('/api/heroes', () => {
     test('DELETE should respond with code 204 if there is no error', () => {
       let heroToTest = null;
 
-      heroMockCreate()
+       heroMockCreate()
         .then(hero => {
           heroToTest = hero;
           return superagent.delete(`${apiURL}/${hero._id}`);

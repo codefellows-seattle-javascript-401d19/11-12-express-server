@@ -326,3 +326,67 @@
 {"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T06:29:01.471Z"}
 {"level":"info","message":"SUCCESSFUL__DELETE - Returning a 204 status code","timestamp":"2017-12-12T06:29:01.474Z"}
 {"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":119,"3":45,"4":217,"5":70,"6":220,"7":32,"8":36,"9":238,"10":193,"11":254}},"wasPopulated":false,"activePaths":{"paths":{"description":"init","name":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"description":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T06:29:01.288Z","__v":0,"description":"ad voluptatem iusto praesentium quibusdam consequatur et magnam deleniti aut","name":"ab","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T06:29:01.474Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:11:23.957Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:11:23.999Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:11:24.034Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T18:11:24.034Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:11:24.040Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-12T18:11:24.046Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":27,"3":204,"4":109,"5":105,"6":194,"7":37,"8":182,"9":26,"10":118,"11":221}},"wasPopulated":false,"activePaths":{"paths":{"description":"init","name":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"description":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:11:24.037Z","__v":0,"description":"eligendi omnis est ea cum dolores voluptatem maxime dicta ut","name":"aliquam","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:11:24.046Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:11:29.045Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:11:29.047Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:11:29.052Z"}
+{"level":"info","message":"SUCCESSFUL__DELETE - Returning a 204 status code","timestamp":"2017-12-12T18:11:29.053Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":27,"3":209,"4":109,"5":105,"6":194,"7":37,"8":182,"9":26,"10":118,"11":222}},"wasPopulated":false,"activePaths":{"paths":{"description":"init","name":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"description":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:11:29.049Z","__v":0,"description":"adipisci incidunt placeat rem nihil similique quod sit voluptatem architecto","name":"delectus","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:11:29.054Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:12:11.272Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:12:11.301Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:12:11.330Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T18:12:11.330Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:12:11.336Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-12T18:12:11.342Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":27,"3":251,"4":246,"5":87,"6":0,"7":37,"8":202,"9":105,"10":250,"11":210}},"wasPopulated":false,"activePaths":{"paths":{"description":"init","name":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"description":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:12:11.333Z","__v":0,"description":"voluptatem non cumque architecto vel qui autem voluptates quia quaerat","name":"laudantium","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:12:11.342Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:12:16.341Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:12:16.343Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:12:16.347Z"}
+{"level":"info","message":"SUCCESSFUL__DELETE - Returning a 204 status code","timestamp":"2017-12-12T18:12:16.349Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":28,"3":0,"4":246,"5":87,"6":0,"7":37,"8":202,"9":105,"10":250,"11":211}},"wasPopulated":false,"activePaths":{"paths":{"description":"init","name":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"description":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:12:16.345Z","__v":0,"description":"eligendi accusantium aliquid in quia illum et facilis porro est","name":"omnis","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:12:16.349Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:13:13.940Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:13:13.977Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:13:14.011Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T18:13:14.011Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:13:14.017Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-12T18:13:14.022Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:13:19.023Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:13:19.025Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:13:19.030Z"}
+{"level":"info","message":"SUCCESSFUL__DELETE - Returning a 204 status code","timestamp":"2017-12-12T18:13:19.032Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:14:23.218Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:14:23.248Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:14:23.282Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T18:14:23.282Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:14:23.288Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:14:23.291Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:14:23.293Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T18:14:23.297Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:14:23.482Z"}
+{"level":"info","message":"SUCCESSFUL__DELETE - Returning a 204 status code","timestamp":"2017-12-12T18:14:23.485Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:18:16.990Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:18:17.032Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:18:17.059Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T18:18:17.059Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:18:17.066Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:18:17.069Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:18:17.070Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T18:18:17.075Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:18:17.254Z"}
+{"level":"info","message":"SUCCESSFUL__DELETE - Returning a 204 status code","timestamp":"2017-12-12T18:18:17.256Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:18:28.243Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:18:28.283Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:18:28.309Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T18:18:28.309Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:18:28.316Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:18:28.319Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:18:28.321Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T18:18:28.327Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:18:28.637Z"}
+{"level":"info","message":"SUCCESSFUL__DELETE - Returning a 204 status code","timestamp":"2017-12-12T18:18:28.640Z"}
