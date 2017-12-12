@@ -21,7 +21,7 @@ describe('/api/recipes', () => {
   beforeAll(server.start);
   afterAll(server.stop);
   afterAll(() => Recipe.remove({}));
-  // afterEach(() => Recipe.remove({}));
+  // afterEach(() => Recipe.remove({})); //if we rmove after all, hopefullly sync wont break but if we do after each we have cleaner tests
 
   describe('POST /api/recipes', () => {
     test('should respond with a recipe and 200 status code if there is no error',
