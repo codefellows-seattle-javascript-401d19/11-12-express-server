@@ -151,5 +151,13 @@ describe('/api/books', () => {
           expect(response.body._id).toEqual(bookToUpdate._id.toString()); 
         });
     });
+    
+    test('should return a 400 status code if invalid PUT request', () => {
+      return bookMockCreate()
+        .then(book => superagent.put(`${apiURL}/${book._id}`))
+        .catch(response => {
+          expect(response.status).toEqual(400);
+        });
+    });
   });
 });
