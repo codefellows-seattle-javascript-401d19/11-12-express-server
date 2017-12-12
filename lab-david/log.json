@@ -54,3 +54,15 @@
 {"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T00:58:06.763Z"}
 {"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:58:06.763Z"}
 {"level":"info","message":"server off","timestamp":"2017-12-12T00:58:06.779Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T01:00:11.803Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T01:00:11.840Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T01:00:11.840Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T01:00:11.855Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T01:20:08.554Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T01:20:08.595Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T01:20:08.596Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T01:20:08.613Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T01:20:58.753Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T01:20:58.786Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T01:20:58.786Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T01:20:58.801Z"}

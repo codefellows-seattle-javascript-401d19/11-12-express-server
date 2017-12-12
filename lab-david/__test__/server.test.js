@@ -12,7 +12,7 @@ const APIURL = `http://localhost:${process.env.PORT}/api/mountains`;
 
 const mountainMockupCreator = () => {
   return new MOUNTAIN({
-    name : FAKER.company.bsNoun(2),
+    name : FAKER.address.county(2),
     state  : FAKER.address.state(1),
     range : FAKER.address.county(2),
   }).save();
@@ -26,11 +26,10 @@ describe('api/mountains', () => {
   describe('POST /api/mountain', () => {
     test.only('should respond with a mountain and a 200 status code if there is no error', () => {
       let mountainToPost = {
-        name : FAKER.company.bsNoun(2),
+        name : FAKER.address.county(2),
         state  : FAKER.address.state(1),
         range : FAKER.address.county(2),
       };
-      console.log(mountainToPost);
       return SUPERAGENT.post(`${APIURL}`)
         .send(mountainToPost)
         .then(response => {
@@ -66,7 +65,6 @@ describe('api/mountains', () => {
           return SUPERAGENT.get(`${APIURL}/${mountain._id}`);
         })
         .then(response => {
-          console.log(response.body);
           expect(response.status).toEqual(200);
 
           expect(response.body._id).toEqual(mountainToTest._id.toString());
