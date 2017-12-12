@@ -99,8 +99,9 @@ describe('/api/bikes', () => {
           return superagent.get(`${__API_URL__}`)
             .then(response => {
               expect(response.status).toEqual(200);
-              console.log(response.body);
-            });
+              expect(Array.isArray(response.body)).toBeTruthy();
+              expect(response.body.length).toEqual(1);
+            }).catch(console.log);
         });
     });
   });
