@@ -12,3 +12,8 @@ This lab implements creation of an http server using express.js
   - PORT=3000
   - MONGODB_URI=mongodb://localhost/testing
 3. Run `npm run test` to run the jest testing
+
+## Server Endpoints
+1. `POST /api/dogs` - Create a new dog data
+2. `GET /api/dogs/<id>` - retrieve a saved dog based on ID
+3. `DELETE /api/dogs/<id>` - delete a saved dog based on ID 
