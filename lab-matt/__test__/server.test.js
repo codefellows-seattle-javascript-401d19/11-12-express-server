@@ -7,7 +7,6 @@ const faker = require('faker');
 const superagent = require('superagent');
 const Dog = require('../model/dogs');
 const server = require('../lib/server');
-const log = require('../lib/logger');
 
 const apiURL = `http://localhost:${PORT}/api/dogs`;
 
@@ -20,7 +19,7 @@ const dogMockCreate = () => {
 
 describe('/api/dogs', () => {
   beforeAll(server.start);
-  afterAll(server.stop);
+  // afterAll(server.stop);
   afterEach(() => Dog.remove({}));
 
   describe('POST /api/dogs', () => {
@@ -57,8 +56,7 @@ describe('/api/dogs', () => {
     });
   });
 
-  // test for failure of data (incomplete)
-  // test for GET request prior to POST
+  // ===================== GET =====================
   describe('GET /api/dogs', () => {
     test('GET should respond with 200 and data if no error', () => {
       let dogToTest = null;

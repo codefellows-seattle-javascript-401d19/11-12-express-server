@@ -57,3 +57,27 @@ dogRouter.get('/api/dogs/:id', (request, response, next) => {
       return response.sendStatus(500);
     });
 });
+
+
+// dogRouter.delete('/api/dogs:id', (request, response, next) => {
+
+//   if (dogId) {
+//     storage.deleteItem(dogId)
+//       .then(dogFound => {
+//         if (dogFound.deleted.id === dogId) {
+//           log('info', `DOG DELETED: ${JSON.stringify(dogFound.deleted)}`);
+//           response.writeHead(204);
+//           response.write(dogFound.deleted.id);
+//           response.end();    
+//         } else {
+//           sendStatus(response, 404, dogFound);
+//         }
+//       }) // mattL - here, if there is no dogfound.deleted === new Error (storage.js: line68)
+//       .catch(error => {
+//         sendStatus(response, 404, error);        
+//       }); 
+//     return;
+//   } else {
+//     sendStatus(response, 400, `no id given`);
+//   }
+// });
