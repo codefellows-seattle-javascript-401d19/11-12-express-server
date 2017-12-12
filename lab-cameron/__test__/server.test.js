@@ -105,7 +105,6 @@ describe('/api/userAccounts', () => {
       return superagent.get(`http://localhost:${process.env.PORT}/invalid/route`)
         .then(Promise.reject)
         .catch(response => {
-          // console.log('AAA', response);
           expect(response.status).toEqual(404);
         });
     });
@@ -114,8 +113,37 @@ describe('/api/userAccounts', () => {
       return superagent.get(`${apiURL}/invalidId`)
         .then(Promise.reject)
         .catch(response => {
-          // console.log('BBB', response);
           expect(response.status).toEqual(404);
+        });
+    });
+  });
+
+  describe('DELETE /api/userAccounts/:id', () => {
+    test('should delete a single user if valid id is provided', () => {
+      return userAccountMockCreate()
+        .then(userAccount => {
+          return superagent.delete(`${apiURL}/${userAccount._id}`);
+        })
+        .then(response => {
+          expect(response.status).toEqual(204);
+        });
+    });
+
+    test('should respond with 404 status code if id does not exist', () => {
+      return superagent.delete(`${apiURL}/nonexistentId`)
+        .then(Promise.reject)
+        .catch(response => {
+          expect(response.status).toEqual(404);
+        });
+    });
+  });
+
+  describe('DELETE /api/userAccounts/', () => {
+    test('should respond with 400 status code if no id is provided', () => {
+      return superagent.delete(`${apiURL}`)
+        .then(Promise.reject)
+        .catch(response => {
+          expect(response.status).toEqual(400);
         });
     });
   });
