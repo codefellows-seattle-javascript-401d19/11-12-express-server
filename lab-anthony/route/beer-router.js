@@ -16,11 +16,14 @@ beerRouter.post('/api/beers', jsonParser, (request, response, next) => {
     return response.sendStatus(400);
   }
 
-  new Beer(request.body).save()
-    .then(beer => response.json(beer))
+  return new Beer(request.body).save()
+    .then(beer => {
+      logger.log('info','Returning with a 200 status and a mountain');
+      return response.json(beer);
+    })
     .catch(error => {
-      logger.log('error','__SERVER_ERROR__');
-      logger.log('error',error);
+      logger.log('error', '--->SERVER_ERROR<---');
+      logger.log('error', error);
 
       return response.sendStatus(500);
     });
@@ -29,7 +32,7 @@ beerRouter.post('/api/beers', jsonParser, (request, response, next) => {
 beerRouter.get('/api/beers/:id', (request, response, next) => {
   logger.log('info', 'GET - processing a request');
 
-  Beer.findById(request.params.id)
+  return Beer.findById(request.params.id)
     .then(beer => {
       if(!beer) {
         logger.log('info', 'GET - Returning a 404 status code');
@@ -51,16 +54,20 @@ beerRouter.get('/api/beers/:id', (request, response, next) => {
 
 beerRouter.delete('/api/beers/:id', (request, response, next) => {
   logger.log('info', 'DELETE - processing a request');
-  Beer.findById(request.params.id)
+
+  return Beer.findById(request.params.id)
     .then(beer => {
       if(!beer) {
         logger.log('info', 'Delete returning a 404 status code');
         return response.sendStatus(404);
       } else {
-        Beer.deleteOne({_id : beer._id})
+        return Beer.deleteOne({_id : beer._id})
           .then((results) => {
-            if(results.deletedCount === 1) return response.sendStatus(204);
-            response.sendStatus(500);
+            if(results.deletedCount === 1) {
+              return response.sendStatus(204);
+            } else {
+              return response.sendStatus(500);
+            }
           });
       }
     }).catch(error => {

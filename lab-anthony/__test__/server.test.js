@@ -56,10 +56,10 @@ describe('/api/beers', () => {
   });
 
   describe('GET /api/beers', () => {
+
     test('should respond with 200 status code if there is no error', () => {
       let beerToTest = null;
-
-      beerMockCreate()
+      return beerMockCreate()
         .then(beer => {
           beerToTest = beer;
           return superagent.get(`${apiURL}/${beer._id}`);
@@ -72,6 +72,7 @@ describe('/api/beers', () => {
           expect(response.body.beer).toEqual(beerToTest.beer);
         });
     });
+
     test('should respond with 404 status code if there id is incorrect', () => {
       return superagent.get(`${apiURL}/someid`)
         .then(Promise.reject)
@@ -81,15 +82,27 @@ describe('/api/beers', () => {
     });
   });
 
-  describe('DELETE /api/beers', () => {
+  describe('DELETE /api/beers/:id', () => {
+
     test('should respond with 204 status code if the beer was deleted', () => {
-      beerMockCreate()
+      return beerMockCreate()
         .then(beer => {
           console.log(`${apiURL}/${beer._id}`);
           return superagent.delete(`${apiURL}/${beer._id}`);
         })
         .then(response => {
           expect(response.status).toEqual(204);
+        });
+    });
+
+    test('should respond with 404 status code no beer was entered', () => {
+      return beerMockCreate()
+        .then(beer => {
+          console.log(`${apiURL}/${beer._id}`);
+          return superagent.delete(`${apiURL}/`);
+        })
+        .catch(response => {
+          expect(response.status).toEqual(404);
         });
     });
   });
