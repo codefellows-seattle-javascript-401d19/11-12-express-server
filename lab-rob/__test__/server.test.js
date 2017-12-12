@@ -130,7 +130,7 @@ describe('/api/bikes', () => {
   });
 
   describe('PUT /api/bikes/:id', () => {
-    test('should respond with a 200 status code and the updated bike', () => {
+    test('should respond with a 200 status code and the updated bike.', () => {
       return superagent.post(__API_URL__)
         .send({
           make: 'Buell',
@@ -152,7 +152,7 @@ describe('/api/bikes', () => {
         });
     });
 
-    test('should respond with a 400 status code if no relevant properties are sent', () => {
+    test('should respond with a 400 status code if no relevant properties are sent.', () => {
       return superagent.post(__API_URL__)
         .send({
           make: 'Buell',
@@ -169,7 +169,7 @@ describe('/api/bikes', () => {
         });
     });
     
-    test('should respond with a 404 status code requested id not found', () => {
+    test('should respond with a 404 status code requested id not found.', () => {
       return superagent.post(__API_URL__)
         .send({
           make: 'Buell',
