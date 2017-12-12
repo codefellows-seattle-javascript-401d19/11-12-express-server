@@ -23,11 +23,11 @@ describe('api/mountains', () => {
   afterAll(SERVER.stop);
   afterEach(() => MOUNTAIN.remove({}));
 
-  describe('POST /api/mountain', () => {
+  describe('POST /api/mountains', () => {
     test.only('should respond with a mountain and a 200 status code if there is no error', () => {
       let mountainToPost = {
         name : FAKER.address.county(2),
-        state  : FAKER.address.state(1),
+        state : FAKER.address.state(1),
         range : FAKER.address.county(2),
       };
       return SUPERAGENT.post(`${APIURL}`)
@@ -55,7 +55,7 @@ describe('api/mountains', () => {
     });
   });
 
-  describe('GET /api/mountain', () => {
+  describe('GET /api/mountains', () => {
     test('should respond with a 200 status code if there is no error', () => {
       let mountainToTest = null;
 

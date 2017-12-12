@@ -11,7 +11,7 @@ const MOUNTAINROUTER = module.exports = new Router();
 MOUNTAINROUTER.post('/api/mountains', JSONPARSER, (request,response,next) => {
   LOGGER.log('info', 'POST - processing that request');
 
-  if(!request.body.title || !request.body.content) {
+  if(!request.body.name || !request.body.state || !request.body.range || !request.body.timestamp) {
     LOGGER.log('info', 'POST - responding with a 400 code');
     return response.sendStatus(400);
   }
@@ -26,7 +26,7 @@ MOUNTAINROUTER.post('/api/mountains', JSONPARSER, (request,response,next) => {
     });
 });
 
-MOUNTAINROUTER.get('api/notes/:id', (request,response,next) => {
+MOUNTAINROUTER.get('api/mountains/:id', (request,response,next) => {
   LOGGER.log('info', 'GET - processing a request for a specific id');
 
   MOUNTAIN.findById(request.params.id)
@@ -49,7 +49,7 @@ MOUNTAINROUTER.get('api/notes/:id', (request,response,next) => {
     });
 });
 
-MOUNTAINROUTER.get('api/notes/', (request,response,next) => {
+MOUNTAINROUTER.get('api/mountains/', (request,response,next) => {
   LOGGER.log('info', 'GET - processing for a non-ID specfic request');
 
   MOUNTAIN.find({})
@@ -72,7 +72,7 @@ MOUNTAINROUTER.get('api/notes/', (request,response,next) => {
     });
 });
 
-MOUNTAINROUTER.delete('api/notes/:id', (request,response,next) => {
+MOUNTAINROUTER.delete('api/mountains/:id', (request,response,next) => {
   LOGGER.log('info', 'DELETE - processing a delete request for a specific id');
 
   MOUNTAIN.findById(request.params.id)

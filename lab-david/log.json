@@ -66,3 +66,7 @@
 {"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T01:20:58.786Z"}
 {"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T01:20:58.786Z"}
 {"level":"info","message":"server off","timestamp":"2017-12-12T01:20:58.801Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T03:26:34.748Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T03:26:34.785Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T03:26:34.785Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T03:26:34.808Z"}
