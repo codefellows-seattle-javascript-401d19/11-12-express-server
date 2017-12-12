@@ -10,7 +10,14 @@ To put a new team in the array, send a POST request with the body ```{sport: '<s
 To delete a team from the array, send a DELETE request with the body ```{id: '<id of team to delete>'}```.
 
 ## Running the Server
-To run the server, download the repo.  Install dependencies via ```npm install```.  Create a folder called '.env' in the root directory of this project and enter ```PORT=<yourport>``` on the first line.  3000 is a typical choice.  Then, ```npm start```.
+To run the server, download the repo.  Install dependencies via ```npm install```.  Create a folder called '.env' in the root directory of this project and enter ```PORT=<yourport>``` on the first line.  3000 is a typical choice.  Also in the .env, set MONGODB_URI=mongodb:<database location>.  '://localhost/testing' is typical.  
+.env example:
+
+    PORT=3000
+    MONGODB_URI=mongodb://localhost/testing
+
+
+Then, ```npm start```.
 
 ## Endpoints
 
@@ -25,6 +32,7 @@ Sent with the query of an object with the key "id".
 
 ### POST ('api/teams')
 Sent with the query of an object with the keys sport, city, and nickname.
+* sport and city are required.  Nickname is optional.
 * If all keys are there, returns status 200 and the body of the object it just created with your data.  Will also include a unique id created by uuid.
 * If any key is missing or misspelled or no body is sent, returns status 400 and an error message.
 
@@ -32,3 +40,9 @@ Sent with the query of an object with the keys sport, city, and nickname.
 Sent with the query of an object with the key "id".
 * If sent correctly, returns with status 200.
 * If no body is sent, returns with status 400 and an error message.
+
+## Libraries
+body-parser, dotenv, express, http-errors, mongoose, winston
+
+## Development Libraries
+eslint, faker, jest, superagent

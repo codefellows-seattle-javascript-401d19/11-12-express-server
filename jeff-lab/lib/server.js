@@ -11,15 +11,14 @@ let httpServer = null;
 
 mongoose.Promise = Promise;
 
-
 app.use(require('../route/team-router'));
-
 
 app.all('*', (request,response) => {
   logger.log('info','Returning a 404 from the catch-all route');
   return response.sendStatus(404);
 });
 
+app.use(require('./error-middleware'));
 
 const server = module.exports = {};
 
