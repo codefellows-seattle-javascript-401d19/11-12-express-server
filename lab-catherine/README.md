@@ -53,6 +53,7 @@ Standard JavaScript with ES6
 * Dotenv
 * Body-Parser
 * Faker
+* http-errors
 
 ### How to use?
 

@@ -21,13 +21,6 @@ const bookMockCreate = () => {
   }).save();
 };
 
-const bookMockCreateMany = (howMany) => {
-  // TODO - check if this is a number - improve validation
-  return Promise.all(new Array(howMany))
-    .fill((0)
-      .map(() => bookMockCreate()));
-};
-
 describe('/api/books', () => {
   beforeAll(server.start);
 
@@ -60,6 +53,7 @@ describe('/api/books', () => {
         })
         .catch(error => logger.log('error', error));
     });
+
     test('should respond with a 400 code if we send an incomplete book', () => {
       let bookToPost = {
         content : faker.lorem.words(100),
@@ -154,30 +148,13 @@ describe('/api/books', () => {
           bookToUpdate = book;
           return superagent.put(`${apiURL}/${book._id}`)
             .send({title: 'Harry Potter'});
-        }).then(response => {
-          // Here, I only have access to response 
+        }).then(response => { 
           expect(response.status).toEqual(200);
           expect(response.body.title).toEqual('Harry Potter');
           expect(response.body.content).toEqual(bookToUpdate.content);
-          expect(response.body._id).toEqual(bookToUpdate._id.toString());
-          // add some more here for my book object 
+          expect(response.body.genre).toEqual(bookToUpdate.genre);
+          expect(response.body._id).toEqual(bookToUpdate._id.toString()); 
         });
     });
   });
 });
-
-
-// describe('GET /api/books/', () => {
-//   test('should return 10 books (where 10 is the size of the page by default)', () => {
-//     return bookMockCreateMany(100)
-//       .then(tempBooks => {
-//         return superagent.get(`${apiURL}`);
-//       })
-//       .then(response => {
-//         console.log(response.headers);
-//         expect(response.status).toEqual(200);
-//         expect(response.body.count).toEqual(100);
-//         expect(response.body.data.length).toEqual(10);        
-//       });
-//   });
-// });
