@@ -20,7 +20,8 @@ const teamMockCreate = () => {
 describe('/api/teams', () => {
   beforeAll(server.start);
   afterAll(server.stop);
-  afterEach(() => Team.remove({}));
+  beforeEach(() => Team.remove({}));
+
 
   describe('POST /api/teams', () => {
     test('should respond with a team and 200 status code if there is no error', () => {
@@ -63,11 +64,11 @@ describe('/api/teams', () => {
 
   describe('GET /api/teams/:id', () => {
     test('should respond with 200 status code if there is no error', () => {
-      let teamToTest;
+      let teamToTest = null;
 
       return teamMockCreate()
         .then(team => {
-          //vinicio - no error checking for now
+          // console.log(team.body._id);
           teamToTest = team;
           return superagent.get(`${apiURL}/${team._id}`);
         })
@@ -76,6 +77,7 @@ describe('/api/teams', () => {
           expect(response.status).toEqual(200);
 
           expect(response.body._id).toEqual(teamToTest._id.toString());
+          console.log('response.body._id: ' + response.body._id);
           expect(response.body.timestamp).toBeTruthy();
 
           expect(response.body.sport).toEqual(teamToTest.sport);
@@ -102,29 +104,28 @@ describe('/api/teams', () => {
 
       return teamMockCreate()
         .then( () => {
-          teamMockCreate();
-        })
-        .then( () => {
           return superagent.get(`${apiURL}`);
         })
         .then(response => {
           expect(response.status).toEqual(200);
-          expect(response.body.length).toEqual(2);
-          console.log(response);
+          expect(response.body.length).toEqual(1);
+          console.log(response.body);
         })
         .catch(error => {
-          console.log(error);
+          console.log('GET all fail' + error);
         });
     });
   });
   describe('DELETE /api/teams/:id', () => {
     test('should respond with 204 status code if there is no error', () => {
+
       return teamMockCreate()
         .then(team => {
           return superagent.delete(`${apiURL}/${team._id}`);
         })
         .then(response => {
-          expect(response.status).toEqual(404);
+          console.log('DELETE 1 Success');
+          expect(response.status).toEqual(204);
         })
         .catch(error => {
           logger.log('info', error);

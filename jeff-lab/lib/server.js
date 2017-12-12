@@ -10,7 +10,7 @@ let isServerOn = false;
 let httpServer = null;
 
 mongoose.Promise = Promise;
-mongoose.connect(process.env.MONGODB_URI,{useMongoClient : true});
+
 
 app.use(require('../route/team-router'));
 
@@ -35,7 +35,8 @@ server.start = () => {
       logger.log('info',`Server is listening on port ${process.env.PORT}`);
       return resolve();
     });
-  });
+  })
+    .then( () => mongoose.connect(process.env.MONGODB_URI, {useMongoClient : true}));
 };
 
 server.stop = () => {
@@ -55,5 +56,6 @@ server.stop = () => {
       logger.log('info','Server off');
       return resolve();
     });
-  });
+  })
+    .then( () => mongoose.disconnect() );
 };
