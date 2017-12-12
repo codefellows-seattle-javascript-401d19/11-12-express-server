@@ -1,6 +1,37 @@
-{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T05:25:31.771Z"}
-{"level":"info","message":"returning a 404 from the catch-all route","timestamp":"2017-12-12T05:25:31.811Z"}
-{"level":"error","message":"__SERVER_ERROR__ server is already on","timestamp":"2017-12-12T05:25:31.825Z"}
-{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T05:36:17.911Z"}
-{"level":"info","message":"returning a 404 from the catch-all route","timestamp":"2017-12-12T05:36:17.934Z"}
-{"level":"error","message":"__SERVER_ERROR__ server is already on","timestamp":"2017-12-12T05:36:17.947Z"}
+{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T16:34:20.612Z"}
+{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T16:36:33.908Z"}
+{"level":"info","message":"POST - processing request","timestamp":"2017-12-12T16:36:33.942Z"}
+{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T16:39:11.451Z"}
+{"level":"info","message":"POST - processing request","timestamp":"2017-12-12T16:39:11.484Z"}
+{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T16:46:27.013Z"}
+{"level":"info","message":"POST - processing request","timestamp":"2017-12-12T16:46:27.045Z"}
+{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T16:47:23.235Z"}
+{"level":"info","message":"POST - processing request","timestamp":"2017-12-12T16:47:23.268Z"}
+{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T16:48:37.662Z"}
+{"level":"info","message":"POST - processing request","timestamp":"2017-12-12T16:48:37.695Z"}
+{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T17:01:54.096Z"}
+{"level":"info","message":"POST - processing request","timestamp":"2017-12-12T17:01:54.128Z"}
+{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T17:17:01.392Z"}
+{"level":"info","message":"POST - processing request","timestamp":"2017-12-12T17:17:01.423Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T17:17:01.474Z"}
+{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T17:20:52.727Z"}
+{"level":"info","message":"POST - processing request","timestamp":"2017-12-12T17:20:52.770Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T17:20:52.814Z"}
+{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T17:21:12.920Z"}
+{"level":"info","message":"POST - processing request","timestamp":"2017-12-12T17:21:12.960Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T17:21:12.986Z"}
+{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T17:26:58.949Z"}
+{"level":"info","message":"POST - processing request","timestamp":"2017-12-12T17:26:58.990Z"}
+{"level":"info","message":"POST - processing request","timestamp":"2017-12-12T17:26:59.015Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T17:26:59.022Z"}
+{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T17:33:09.779Z"}
+{"level":"info","message":"POST - processing request","timestamp":"2017-12-12T17:33:09.820Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T17:33:09.844Z"}
+{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T17:37:31.001Z"}
+{"level":"info","message":"POST - processing request","timestamp":"2017-12-12T17:37:31.043Z"}
+{"level":"info","message":"responding with a status of 200- sending recipe","timestamp":"2017-12-12T17:37:31.056Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T17:37:31.069Z"}
+{"level":"info","message":"Server is linstening on port 7000","timestamp":"2017-12-12T17:39:15.657Z"}
+{"level":"info","message":"POST - processing request","timestamp":"2017-12-12T17:39:15.698Z"}
+{"level":"info","message":"responding with a status of 200- sending recipe","timestamp":"2017-12-12T17:39:15.711Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T17:39:15.726Z"}

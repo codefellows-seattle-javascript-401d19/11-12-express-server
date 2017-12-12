@@ -16,17 +16,20 @@ recipeRouter.post('/api/recipes', jsonParser, (request, response, next) => {
     logger.log('info', 'POST - responding with status 400');
     response.sendStatus(400);
   }
-  new Recipe(request.body).save()
-    .then(recipe => response.json(recipe))
+  return new Recipe(request.body).save()
+    .then(recipe => {
+      logger.log('info', 'responding with a status of 200- sending recipe');
+      response.json(recipe);
+    })
     .catch(error => {
       logger.log('error', '__SERVER_ERROR__');
       logger.log('error', error);
 
-      response.sendStatus(500);
+      return response.sendStatus(500);
     });
 });
 
-recipeRouter.get('/api/recipes/:id', (request, response, next) => {
+recipeRouter.get('/api/recipes/:id', (request, response) => {
   logger.log('info', 'GET - processing a request');
 
   Recipe.findById(request.params.id)
@@ -37,10 +40,11 @@ recipeRouter.get('/api/recipes/:id', (request, response, next) => {
       }
       logger.log('info', 'GET - returning a 200 status code');
       logger.log('info', recipe);
-      response.json(recipe);
+      return response.json(recipe);
     }).catch(error => {
+      console.log(error.message);
       // error pops if you cant parse id or something else
-      if(error.message.indexOf('Cast to ObjectId failed') > -1){
+      if(error.message.toLowerCase().includes('cast to objectid failed') > -1){
         logger.log('info', 'GET - returning a 404 status code, could not parse id');
         return response.sensStatus(404);
       }

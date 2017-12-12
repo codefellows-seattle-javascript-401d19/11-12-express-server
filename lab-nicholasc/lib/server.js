@@ -11,7 +11,8 @@ let httpServer = null;
 mongoose.Promise = Promise;
 mongoose.connect(process.env.MONGODB_URI, {useMongoClient : true});
 //-------------------------------
-app.use(require('../route/recipe-router'));
+const recipeRoutes = require('../route/recipe-router');
+app.use(recipeRoutes);
 
 app.all('*', (request, response) => {
   logger.log('info', 'returning a 404 from the catch-all route');
@@ -34,7 +35,8 @@ server.start = () => {
       logger.log('info', `Server is linstening on port ${process.env.PORT}`);
       return resolve();
     });
-  });
+  })
+    .then(() => mongoose.connect(process.env.MONGODB_URI, {useMongoClient : true}));
 };
 server.stop = () => {
   return new Promise((resolve, reject) => {
@@ -50,6 +52,8 @@ server.stop = () => {
       isServerOn = false;
       httpServer = null;
       logger.log('info', 'Server is off');
+      return resolve();
     });
-  });
+  })
+    .then(() => mongoose.disconnect());
 };
