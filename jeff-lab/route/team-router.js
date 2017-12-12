@@ -16,7 +16,7 @@ teamRouter.post('/api/teams',jsonParser, (request,response) => {
     return response.sendStatus(400);
   }
 
-  new Team(request.body).save()
+  return new Team(request.body).save()
     .then(team => response.json(team))
     .catch(error => {
       logger.log('error','__SERVER_ERROR__');
@@ -29,7 +29,7 @@ teamRouter.post('/api/teams',jsonParser, (request,response) => {
 teamRouter.get('/api/teams/:id',(request,response) => {
   logger.log('info', 'GET by id- processing a request');
 
-  Team.findById(request.params.id)
+  return Team.findById(request.params.id)
     .then(team => {
       if(!team){
         logger.log('info', 'GET by id- Returning a 404 status code');
@@ -49,9 +49,9 @@ teamRouter.get('/api/teams/:id',(request,response) => {
       return response.sendStatus(500);
     });
 });
-teamRouter.get('api/teams', (request, response) => {
+teamRouter.get('/api/teams', (request, response) => {
   logger.log('info', 'GET - processing a request');
-  Team.find({})
+  return Team.find({})
     .then(teams =>{
       return response.json(teams);
     });
@@ -59,7 +59,7 @@ teamRouter.get('api/teams', (request, response) => {
 teamRouter.delete('/api/teams/:id', (request, response) => {
   logger.log('info', 'DELETE - processing a request');
 
-  Team.findByIdAndRemove(request.params.id)
+  return Team.findByIdAndRemove(request.params.id)
     .then(team => {
       if(!team){
         logger.log('info', 'DELETE - Returning a 404 status code');

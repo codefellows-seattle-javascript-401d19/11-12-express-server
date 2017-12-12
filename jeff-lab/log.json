@@ -1,663 +1,103 @@
-{"level":"info","message":"Server is listening on port 7000","timestamp":"2017-12-11T22:56:10.266Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T22:56:10.348Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T22:56:10.421Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-11T22:56:10.422Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-11T22:56:10.430Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-11T22:56:10.432Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-11T22:56:10.435Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-11T22:56:10.440Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-11T22:56:10.440Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-11T22:58:33.047Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T22:58:33.126Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T22:58:33.149Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-11T22:58:33.149Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-11T22:58:33.158Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-11T22:58:33.161Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-11T22:58:33.163Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-11T22:58:33.168Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-11T22:58:33.168Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-11T23:12:00.048Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T23:12:00.131Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T23:12:00.160Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-11T23:12:00.160Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-11T23:12:00.168Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-11T23:12:00.170Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-11T23:12:00.172Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-11T23:12:00.177Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-11T23:12:00.178Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-11T23:55:14.001Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T23:55:14.090Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-11T23:55:14.117Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-11T23:55:14.117Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-11T23:55:14.124Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-11T23:55:14.127Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-11T23:55:14.128Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-11T23:55:14.133Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-11T23:55:14.136Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:03:36.698Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:03:36.786Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:03:36.817Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:03:36.817Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:03:36.824Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:03:36.827Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:03:36.828Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:03:36.834Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:03:36.836Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:05:23.378Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:05:23.413Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:05:23.439Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:05:23.439Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:05:23.447Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:05:23.449Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:05:23.451Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:05:23.457Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:05:23.460Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:13:30.603Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:13:30.686Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:13:30.715Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:13:30.716Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:13:30.723Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:13:30.725Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:13:30.727Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:13:30.732Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:13:30.735Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:26:47.572Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:26:47.655Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:26:47.682Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:26:47.682Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:26:47.690Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:26:47.692Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:26:47.693Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:26:47.699Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:26:47.702Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:28:19.907Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:28:19.938Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:28:19.963Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:28:19.963Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:28:19.973Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:28:19.975Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:28:19.977Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:28:19.982Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:28:19.985Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:28:27.273Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:28:27.304Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:28:27.330Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:28:27.330Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:28:27.337Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:28:27.339Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:28:27.341Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:28:27.346Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:28:27.349Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:28:36.227Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:28:36.256Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:28:36.280Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:28:36.280Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:28:36.289Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:28:36.292Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:28:36.294Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:28:36.299Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:28:36.303Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:36:17.888Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:36:17.971Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:36:17.998Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:36:17.998Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:36:18.006Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:36:18.008Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:36:18.010Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:36:18.015Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:36:18.018Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:36:49.051Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:36:49.083Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:36:49.111Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:36:49.111Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:36:49.118Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:36:49.120Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:36:49.122Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:36:49.128Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:36:49.131Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:37:46.114Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:37:46.145Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:37:46.170Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:37:46.170Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:37:46.178Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:37:46.180Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:37:46.182Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:37:46.187Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:37:46.190Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:38:24.947Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:38:25.017Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:41:40.455Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:41:40.490Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:41:40.520Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:41:40.520Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:41:40.528Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:41:40.530Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:41:40.531Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:41:40.537Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:41:40.541Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:42:01.921Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:42:01.953Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:42:01.980Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:42:01.980Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:42:01.988Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:42:01.990Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:42:01.992Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:42:01.997Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:42:01.998Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:43:01.241Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:43:01.274Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:43:01.302Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:43:01.302Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:43:01.309Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:43:01.312Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:43:01.314Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:43:01.319Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:43:01.320Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:43:56.828Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:43:56.899Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:43:56.926Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:43:56.926Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:43:56.935Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:43:56.937Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:43:56.939Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:43:56.945Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:43:56.946Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:49:36.845Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:49:36.881Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:49:36.911Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:49:36.911Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:49:36.918Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:49:36.920Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:49:36.922Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:49:36.928Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:49:36.929Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:55:42.161Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:55:42.197Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:55:42.227Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:55:42.227Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:55:42.281Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:55:42.287Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:55:42.289Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:55:42.295Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T00:55:42.299Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:55:42.301Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:57:23.352Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:57:23.425Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T00:57:23.454Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T00:57:23.454Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:57:23.462Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T00:57:23.464Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T00:57:23.468Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T00:57:23.473Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T00:57:23.477Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:57:23.478Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T00:58:48.461Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T00:58:48.498Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T00:58:48.507Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T00:58:48.508Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T01:12:58.867Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T01:12:58.953Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:12:58.964Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T01:12:58.968Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T01:13:41.801Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:13:41.821Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T01:13:41.833Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T01:22:42.364Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T01:22:42.448Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:22:42.457Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:22:42.465Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T01:22:42.467Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T01:26:57.630Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:26:57.714Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:26:57.739Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T01:26:57.740Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:26:57.748Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T01:26:57.750Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:26:57.752Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T01:26:57.758Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T01:26:57.763Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:26:57.766Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:26:57.769Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T01:26:57.771Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T01:29:14.195Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:29:14.226Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:29:14.252Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T01:29:14.252Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:29:14.261Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T01:29:14.264Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:29:14.266Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T01:29:14.271Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/teams/5a2f30eaed6a7f20ff72b3fb","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:29:14 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:29:14.273Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T01:29:14.275Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:29:14.277Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/5a2f30eaed6a7f20ff72b3fc","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:29:14 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:29:14.278Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:29:14.279Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T01:29:14.281Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T01:43:14.086Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:43:14.170Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:43:14.198Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T01:43:14.198Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:43:14.205Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T01:43:14.208Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:43:14.210Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T01:43:14.216Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/teams/5a2f343288ae242193f22aaa","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:43:14 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:43:14.217Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T01:43:14.219Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:43:14.221Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/5a2f343288ae242193f22aab","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:43:14 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:43:14.223Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:43:14.224Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T01:43:14.226Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T01:43:52.140Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:43:52.216Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:43:52.248Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T01:43:52.248Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:43:52.255Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T01:43:52.258Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:43:52.260Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T01:43:52.266Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/teams/5a2f345885e37121bb159448","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:43:52 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:43:52.268Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T01:43:52.269Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:43:52.271Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/5a2f345885e37121bb159449","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:43:52 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:43:52.273Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:43:52.276Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T01:43:52.278Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T01:46:10.239Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:46:10.320Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:46:10.350Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T01:46:10.350Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:46:10.357Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T01:46:10.360Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:46:10.363Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T01:46:10.369Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/teams/5a2f34e2ff8a3021f3e0121f","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:46:10 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:46:10.371Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T01:46:10.372Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:46:10.375Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/5a2f34e2ff8a3021f3e01220","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:46:10 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:46:10.377Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:46:10.381Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T01:46:10.383Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T01:46:55.130Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:46:55.209Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:46:55.233Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T01:46:55.233Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:46:55.241Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T01:46:55.243Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:46:55.244Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T01:46:55.250Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/teams/5a2f350f69e2292223d063cd","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:46:55 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:46:55.251Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T01:46:55.252Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:46:55.254Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/5a2f350f69e2292223d063ce","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:46:55 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:46:55.255Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:46:55.256Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T01:46:55.258Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T01:47:45.767Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:47:45.844Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:47:45.874Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T01:47:45.874Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:47:45.882Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T01:47:45.885Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:47:45.886Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T01:47:45.892Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/teams/5a2f35411bc99e224c791771","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:47:45 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:47:45.893Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T01:47:45.895Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:47:45.896Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:47:45.899Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T01:47:45.901Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T01:48:19.649Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:48:19.689Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:48:19.716Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T01:48:19.716Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:48:19.724Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T01:48:19.726Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:48:19.728Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T01:48:19.733Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/teams/5a2f3563024a26227522b8b9","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:48:19 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:48:19.734Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T01:48:19.736Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:48:19.737Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/5a2f3563024a26227522b8ba","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:48:19 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:48:19.738Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:48:19.739Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T01:48:19.741Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T01:49:05.105Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:49:05.182Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:49:05.211Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T01:49:05.211Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:49:05.220Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T01:49:05.222Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:49:05.224Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T01:49:05.229Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/teams/5a2f3591549d50229cd492e0","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:49:05 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:49:05.230Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T01:49:05.233Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:49:05.234Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/5a2f3591549d50229cd492e1","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:49:05 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:49:05.235Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:49:05.237Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T01:49:05.239Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T01:51:14.605Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:51:14.688Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:51:14.716Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T01:51:14.716Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:51:14.724Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T01:51:14.727Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:51:14.729Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T01:51:14.734Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/teams/5a2f361287ebb422d30109cf","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:51:14 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:51:14.735Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T01:51:14.737Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:51:14.740Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/5a2f361287ebb422d30109d0","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:51:14 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:51:14.742Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:51:14.742Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T01:51:14.745Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T01:53:28.444Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:53:28.526Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:53:28.554Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T01:53:28.554Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:53:28.561Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T01:53:28.564Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:53:28.566Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T01:53:28.571Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/teams/5a2f36986b925a23083c0f13","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:53:28 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:53:28.572Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T01:53:28.574Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:53:28.576Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/:5a2f36986b925a23083c0f14","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:53:28 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:53:28.576Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:53:28.578Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T01:53:28.581Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T01:54:37.863Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:54:37.892Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T01:54:37.918Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T01:54:37.918Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:54:37.928Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T01:54:37.930Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T01:54:37.932Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T01:54:37.937Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/teams/5a2f36dd3c418223359db2b3","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:54:37 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:54:37.939Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T01:54:37.940Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:54:37.942Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/:5a2f36dd3c418223359db2b4","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 01:54:37 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T01:54:37.943Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T01:54:37.944Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T01:54:37.946Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:53:55.099Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:53:55.186Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:53:55.213Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T03:53:55.213Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T03:53:55.221Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T03:53:55.223Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T03:53:55.225Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:53:55.231Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T03:53:55.231Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/teams/5a2f52d30a890127a426b09f","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:53:55 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T03:53:55.234Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:56:50.753Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:56:50.841Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:56:50.869Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T03:56:50.869Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T03:56:50.877Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T03:56:50.879Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T03:56:50.881Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:56:50.886Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T03:56:50.886Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/teams/5a2f53826051fd27f34b8bf0","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:56:50 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T03:56:50.888Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:58:34.616Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:58:34.659Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T03:58:34.684Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T03:58:34.684Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T03:58:34.691Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T03:58:34.694Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T03:58:34.696Z"}
-{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:58:34.701Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T03:58:34.701Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/teams/5a2f53ea242d45282f135487","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:58:34 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T03:58:34.703Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:01:58.243Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:01:58.324Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:01:58.351Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T04:01:58.351Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:01:58.358Z"}
-{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-12T04:01:58.364Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":84,"3":182,"4":146,"5":65,"6":253,"7":40,"8":117,"9":15,"10":208,"11":50}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:01:58.355Z","__v":0,"nickname":"delectus necessitatibus","city":"iste","sport":"sunt","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:01:58.364Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:01:58.370Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:01:58.371Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:01:58.373Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:02:50.008Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:02:50.086Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:02:50.113Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T04:02:50.114Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:02:50.120Z"}
-{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-12T04:02:50.127Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":84,"3":234,"4":240,"5":228,"6":4,"7":40,"8":160,"9":80,"10":103,"11":1}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:02:50.116Z","__v":0,"nickname":"repellendus ducimus","city":"nobis","sport":"distinctio","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:02:50.127Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:02:50.133Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:02:50.134Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:02:50.139Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/:5a2f54eaf0e40428a0506702","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 04:02:50 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T04:02:50.140Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T04:02:50.142Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:02:50.145Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:02:50.147Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:05:16.348Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:05:16.433Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:05:16.464Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T04:05:16.464Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:05:16.470Z"}
-{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-12T04:05:16.477Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":85,"3":124,"4":61,"5":26,"6":204,"7":40,"8":226,"9":185,"10":231,"11":140}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:05:16.467Z","__v":0,"nickname":"quo minima","city":"eum","sport":"optio","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:05:16.477Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:05:16.483Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:05:16.485Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:05:16.491Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/5a2f557c3d1acc28e2b9e78d","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 04:05:16 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T04:05:16.492Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T04:05:16.494Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:05:16.497Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:05:16.499Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:07:20.637Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:07:20.669Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/5a2f55f8ec308329562da667","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 04:07:20 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T04:07:20.674Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T04:07:20.681Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:07:20.687Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:07:20.689Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:09:18.901Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:09:18.934Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/5a2f566e653ff4298b57be51","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 04:09:18 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T04:09:18.939Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T04:09:18.946Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:09:18.952Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:09:18.955Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:11:07.412Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:11:07.444Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/5a2f56dbcbeb2029c669ace5","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 04:11:07 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T04:11:07.450Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T04:11:07.457Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:11:07.465Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:11:07.467Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:12:36.469Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T04:12:36.502Z"}
-{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T04:12:36.510Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":87,"3":52,"4":6,"5":133,"6":9,"7":41,"8":247,"9":29,"10":75,"11":162}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:12:36.472Z","__v":0,"nickname":"beatae officiis","city":"ipsum","sport":"numquam","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:12:36.510Z"}
-{"message":"\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m","stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m\n    at teamMockCreate.then.then.response (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/__test__/server.test.js:108:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","matcherResult":{"actual":204,"expected":404,"name":"toEqual","pass":false},"level":"info","timestamp":"2017-12-12T04:12:36.518Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T04:12:36.523Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T04:12:36.529Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:12:36.531Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:12:36.533Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:13:49.969Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T04:13:50.002Z"}
-{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T04:13:50.008Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":87,"3":125,"4":235,"5":190,"6":201,"7":42,"8":32,"9":83,"10":250,"11":24}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:13:49.971Z","__v":0,"nickname":"tempora optio","city":"quisquam","sport":"optio","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:13:50.009Z"}
-{"message":"\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m","stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m\n    at teamMockCreate.then.then.response (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/__test__/server.test.js:108:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","matcherResult":{"actual":204,"expected":404,"name":"toEqual","pass":false},"level":"info","timestamp":"2017-12-12T04:13:50.017Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T04:13:50.022Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T04:13:50.028Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:13:50.029Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:13:50.032Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:15:12.460Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:15:12.541Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:15:12.565Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T04:15:12.565Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:15:12.572Z"}
-{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-12T04:15:12.577Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":87,"3":208,"4":145,"5":87,"6":231,"7":42,"8":80,"9":39,"10":232,"11":191}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:15:12.569Z","__v":0,"nickname":"et accusamus","city":"eos","sport":"nulla","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:15:12.578Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:15:12.583Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:15:12.585Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T04:15:12.589Z"}
-{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T04:15:12.591Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":87,"3":208,"4":145,"5":87,"6":231,"7":42,"8":80,"9":39,"10":232,"11":192}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:15:12.586Z","__v":0,"nickname":"voluptatibus reiciendis","city":"libero","sport":"nulla","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:15:12.591Z"}
-{"message":"\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m","stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m\n    at teamMockCreate.then.then.response (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/__test__/server.test.js:108:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","matcherResult":{"actual":204,"expected":404,"name":"toEqual","pass":false},"level":"info","timestamp":"2017-12-12T04:15:12.595Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T04:15:12.597Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T04:15:12.600Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:15:12.600Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:15:12.603Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:16:27.467Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:16:27.548Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:16:27.575Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T04:16:27.575Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:16:27.580Z"}
-{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-12T04:16:27.586Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":88,"3":27,"4":24,"5":152,"6":47,"7":42,"8":128,"9":83,"10":128,"11":26}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:16:27.577Z","__v":0,"nickname":"qui ut","city":"itaque","sport":"enim","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:16:27.586Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:16:27.591Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:16:27.593Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T04:16:27.597Z"}
-{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T04:16:27.599Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":88,"3":27,"4":24,"5":152,"6":47,"7":42,"8":128,"9":83,"10":128,"11":27}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:16:27.594Z","__v":0,"nickname":"et corporis","city":"voluptas","sport":"sit","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:16:27.599Z"}
-{"message":"\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m","stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m\n    at teamMockCreate.then.then.response (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/__test__/server.test.js:108:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","matcherResult":{"actual":204,"expected":404,"name":"toEqual","pass":false},"level":"info","timestamp":"2017-12-12T04:16:27.602Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T04:16:27.605Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T04:16:27.608Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:16:27.609Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:16:27.610Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:17:32.500Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:17:32.580Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:17:32.606Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T04:17:32.606Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:17:32.612Z"}
-{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-12T04:17:32.618Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":88,"3":92,"4":16,"5":229,"6":60,"7":42,"8":179,"9":107,"10":231,"11":175}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:17:32.610Z","__v":0,"nickname":"rerum quia","city":"nostrum","sport":"sunt","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:17:32.619Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:17:32.624Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:17:32.625Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T04:17:32.629Z"}
-{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T04:17:32.632Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":88,"3":92,"4":16,"5":229,"6":60,"7":42,"8":179,"9":107,"10":231,"11":176}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:17:32.627Z","__v":0,"nickname":"cumque nam","city":"quod","sport":"et","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:17:32.632Z"}
-{"message":"\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m","stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m\n    at teamMockCreate.then.then.response (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/__test__/server.test.js:108:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","matcherResult":{"actual":204,"expected":404,"name":"toEqual","pass":false},"level":"info","timestamp":"2017-12-12T04:17:32.635Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T04:17:32.637Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T04:17:32.640Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:17:32.641Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:17:32.643Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:18:01.526Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:18:01.555Z"}
-{"message":"\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m400\u001b[39m\nReceived:\n  \u001b[31m200\u001b[39m","stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m400\u001b[39m\nReceived:\n  \u001b[31m200\u001b[39m\n    at superagent.post.send.then.response (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/__test__/server.test.js:36:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","matcherResult":{"actual":200,"expected":400,"name":"toEqual","pass":false},"level":"info","timestamp":"2017-12-12T04:18:01.573Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:18:01.579Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T04:18:01.579Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:18:01.587Z"}
-{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-12T04:18:01.593Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":88,"3":121,"4":37,"5":73,"6":184,"7":42,"8":219,"9":164,"10":211,"11":214}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:18:01.582Z","__v":0,"nickname":"et labore","city":"voluptatibus","sport":"quasi","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:18:01.593Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:18:01.599Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:18:01.600Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T04:18:01.604Z"}
-{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T04:18:01.607Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":88,"3":121,"4":37,"5":73,"6":184,"7":42,"8":219,"9":164,"10":211,"11":215}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:18:01.602Z","__v":0,"nickname":"laborum quam","city":"consequatur","sport":"iusto","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:18:01.607Z"}
-{"message":"\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m","stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m\n    at teamMockCreate.then.then.response (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/__test__/server.test.js:108:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","matcherResult":{"actual":204,"expected":404,"name":"toEqual","pass":false},"level":"info","timestamp":"2017-12-12T04:18:01.609Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T04:18:01.611Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T04:18:01.617Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:18:01.618Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:18:01.620Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:20:49.533Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:20:49.614Z"}
-{"message":"\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m400\u001b[39m\nReceived:\n  \u001b[31m200\u001b[39m","stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m400\u001b[39m\nReceived:\n  \u001b[31m200\u001b[39m\n    at superagent.post.send.then.response (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/__test__/server.test.js:36:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","matcherResult":{"actual":200,"expected":400,"name":"toEqual","pass":false},"level":"info","timestamp":"2017-12-12T04:20:49.632Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:20:49.638Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:21:46.074Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:21:46.104Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:21:46.127Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:22:14.994Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:22:15.024Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:22:15.051Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:22:34.266Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:22:34.305Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:22:34.333Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T04:22:34.333Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:22:34.335Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:22:58.975Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:22:59.008Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:22:59.051Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T04:22:59.051Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:22:59.063Z"}
-{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-12T04:22:59.072Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":89,"3":163,"4":4,"5":101,"6":9,"7":43,"8":174,"9":52,"10":222,"11":41}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:22:59.059Z","__v":0,"nickname":"accusamus ut","city":"quam","sport":"sed","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:22:59.072Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:22:59.080Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:22:59.082Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:22:59.084Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:26:08.220Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:26:08.295Z"}
-{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-12T04:26:08.303Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":90,"3":96,"4":75,"5":116,"6":233,"7":43,"8":239,"9":4,"10":208,"11":178}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:26:08.223Z","__v":0,"nickname":"recusandae blanditiis","city":"molestiae","sport":"perferendis","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:26:08.303Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T04:26:08.315Z"}
-{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:26:08.317Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:26:08.320Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:37:30.962Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T04:37:31.037Z"}
-{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T04:37:31.045Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":93,"3":10,"4":130,"5":224,"6":228,"7":44,"8":224,"9":193,"10":162,"11":48}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:37:30.965Z","__v":0,"nickname":"quia veniam","city":"tempora","sport":"sed","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:37:31.045Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T04:37:31.060Z"}
-{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:37:31.063Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:37:31.068Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:37:31.070Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:38:07.634Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:38:07.667Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:38:07.677Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:41:57.668Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:41:57.702Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:41:57.712Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:43:40.433Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:43:40.466Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:43:40.475Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:44:51.780Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:44:51.811Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:44:51.820Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:45:04.813Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:45:04.845Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:45:04.855Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:45:33.469Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:45:33.502Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:45:33.514Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:46:02.012Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:46:02.043Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:46:02.053Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:46:44.455Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:46:44.488Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:46:44.499Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:49:32.127Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:49:32.160Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:49:32.170Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:50:26.023Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:50:26.097Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T04:50:26.109Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:53:02.873Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:53:02.946Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:54:01.596Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:54:01.681Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:54:01.711Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T04:54:01.711Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T04:54:01.717Z"}
-{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T04:54:01.723Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":96,"3":233,"4":208,"5":94,"6":41,"7":47,"8":88,"9":80,"10":205,"11":55}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:54:01.714Z","__v":0,"nickname":"ab tempora","city":"sit","sport":"sunt","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:54:01.723Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T04:54:01.728Z"}
-{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:54:01.729Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:54:01.734Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:54:36.214Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:54:36.245Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:54:36.269Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T04:54:36.270Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T04:54:36.278Z"}
-{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T04:54:36.283Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":97,"3":12,"4":1,"5":11,"6":199,"7":47,"8":130,"9":119,"10":150,"11":58}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:54:36.274Z","__v":0,"nickname":"quisquam nemo","city":"reiciendis","sport":"tenetur","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:54:36.283Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T04:54:36.289Z"}
-{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:54:36.291Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:54:36.295Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T04:54:36.305Z"}
-{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T04:54:36.307Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":97,"3":12,"4":1,"5":11,"6":199,"7":47,"8":130,"9":119,"10":150,"11":60}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:54:36.302Z","__v":0,"nickname":"sunt omnis","city":"atque","sport":"ut","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:54:36.308Z"}
-{"message":"\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m","stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m\n    at teamMockCreate.then.then.response (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/__test__/server.test.js:125:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","matcherResult":{"actual":204,"expected":404,"name":"toEqual","pass":false},"level":"info","timestamp":"2017-12-12T04:54:36.311Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T04:54:36.314Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T04:54:36.317Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:54:36.317Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:55:34.980Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:55:35.011Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T04:55:35.039Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T04:55:35.040Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T04:55:35.046Z"}
-{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T04:55:35.052Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":97,"3":71,"4":230,"5":169,"6":50,"7":47,"8":175,"9":206,"10":239,"11":166}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:55:35.042Z","__v":0,"nickname":"sed accusantium","city":"odit","sport":"quia","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:55:35.052Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T04:55:35.057Z"}
-{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:55:35.059Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T04:55:35.063Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T04:55:35.069Z"}
-{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T04:55:35.072Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":47,"2":97,"3":71,"4":230,"5":169,"6":50,"7":47,"8":175,"9":206,"10":239,"11":168}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T04:55:35.067Z","__v":0,"nickname":"et et","city":"dolores","sport":"ut","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T04:55:35.072Z"}
-{"message":"\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m","stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m\n    at teamMockCreate.then.then.response (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/__test__/server.test.js:125:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","matcherResult":{"actual":204,"expected":404,"name":"toEqual","pass":false},"level":"info","timestamp":"2017-12-12T04:55:35.075Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T04:55:35.078Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T04:55:35.084Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T04:55:35.085Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T19:16:15.669Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:16:15.722Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:16:15.746Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T19:16:15.746Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:16:15.753Z"}
+{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T19:16:15.759Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":42,"3":255,"4":37,"5":235,"6":155,"7":67,"8":226,"9":157,"10":127,"11":82}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:16:15.750Z","__v":0,"nickname":"libero est","city":"in","sport":"inventore","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:16:15.759Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:16:15.764Z"}
+{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:16:15.766Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T19:16:15.770Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:16:15.776Z"}
+{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T19:16:15.779Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":42,"3":255,"4":37,"5":235,"6":155,"7":67,"8":226,"9":157,"10":127,"11":84}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:16:15.774Z","__v":0,"nickname":"ipsa ea","city":"qui","sport":"sed","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:16:15.779Z"}
+{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T19:16:15.785Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:16:15.788Z"}
+{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:16:15.788Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-12T19:16:15.789Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T19:20:49.911Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:20:49.961Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:20:49.984Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T19:20:49.984Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:20:49.990Z"}
+{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T19:20:49.996Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":44,"3":17,"4":76,"5":135,"6":41,"7":68,"8":41,"9":120,"10":115,"11":27}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:20:49.987Z","__v":0,"nickname":"odit pariatur","city":"ratione","sport":"et","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:20:49.996Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:20:50.001Z"}
+{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:20:50.002Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T19:20:50.006Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:20:50.012Z"}
+{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T19:20:50.015Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":44,"3":18,"4":76,"5":135,"6":41,"7":68,"8":41,"9":120,"10":115,"11":29}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:20:50.010Z","__v":0,"nickname":"vero sequi","city":"voluptatem","sport":"et","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:20:50.015Z"}
+{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T19:20:50.018Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:20:50.021Z"}
+{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:20:50.021Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-12T19:20:50.023Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T19:21:16.898Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:21:16.940Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:21:16.964Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T19:21:16.964Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:21:16.971Z"}
+{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T19:21:16.977Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":44,"3":44,"4":64,"5":150,"6":83,"7":68,"8":78,"9":245,"10":169,"11":32}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:21:16.967Z","__v":0,"nickname":"et ab","city":"pariatur","sport":"optio","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:21:16.977Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:21:16.983Z"}
+{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:21:16.985Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T19:21:16.989Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:21:16.995Z"}
+{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T19:21:16.997Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":44,"3":44,"4":64,"5":150,"6":83,"7":68,"8":78,"9":245,"10":169,"11":34}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:21:16.993Z","__v":0,"nickname":"aut fugiat","city":"illo","sport":"quos","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:21:16.998Z"}
+{"message":"\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m","stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m\n    at teamMockCreate.then.then.response (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/__test__/server.test.js:128:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","matcherResult":{"actual":204,"expected":404,"name":"toEqual","pass":false},"level":"info","timestamp":"2017-12-12T19:21:17.005Z"}
+{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T19:21:17.008Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:21:17.010Z"}
+{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:21:17.011Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-12T19:21:17.012Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T19:24:39.915Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:24:39.967Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:24:39.990Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T19:24:39.990Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:24:39.997Z"}
+{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T19:24:40.051Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":44,"3":247,"4":234,"5":80,"6":134,"7":68,"8":148,"9":73,"10":232,"11":41}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:24:39.993Z","__v":0,"nickname":"omnis nam","city":"ratione","sport":"doloremque","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:24:40.051Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:24:40.058Z"}
+{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:24:40.060Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T19:24:40.064Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:24:40.070Z"}
+{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T19:24:40.072Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":44,"3":248,"4":234,"5":80,"6":134,"7":68,"8":148,"9":73,"10":232,"11":43}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:24:40.068Z","__v":0,"nickname":"qui et","city":"et","sport":"quam","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:24:40.072Z"}
+{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T19:24:40.076Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:24:40.078Z"}
+{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:24:40.079Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-12T19:24:40.080Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T19:26:49.571Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:26:49.620Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:26:49.643Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T19:26:49.643Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:26:49.649Z"}
+{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T19:26:49.655Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":45,"3":121,"4":129,"5":254,"6":206,"7":68,"8":209,"9":86,"10":30,"11":11}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:26:49.645Z","__v":0,"nickname":"at sed","city":"quis","sport":"voluptate","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:26:49.655Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:26:49.660Z"}
+{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:26:49.661Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T19:26:49.665Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:26:49.671Z"}
+{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T19:26:49.674Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":45,"3":121,"4":129,"5":254,"6":206,"7":68,"8":209,"9":86,"10":30,"11":13}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:26:49.669Z","__v":0,"nickname":"aut odio","city":"debitis","sport":"veniam","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:26:49.674Z"}
+{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T19:26:49.678Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:26:49.681Z"}
+{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:26:49.681Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-12T19:26:49.682Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T19:29:37.701Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:29:37.799Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:29:37.820Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T19:29:37.820Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:29:37.825Z"}
+{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T19:29:37.831Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":46,"3":33,"4":234,"5":29,"6":235,"7":69,"8":22,"9":202,"10":244,"11":216}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:29:37.822Z","__v":0,"nickname":"alias libero","city":"harum","sport":"quis","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:29:37.831Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:29:37.836Z"}
+{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:29:37.838Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T19:29:37.841Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:29:37.847Z"}
+{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T19:29:37.849Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":46,"3":33,"4":234,"5":29,"6":235,"7":69,"8":22,"9":202,"10":244,"11":218}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:29:37.845Z","__v":0,"nickname":"ut nesciunt","city":"molestiae","sport":"quam","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:29:37.849Z"}
+{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T19:29:37.853Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:29:37.856Z"}
+{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:29:37.857Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-12T19:29:37.858Z"}
