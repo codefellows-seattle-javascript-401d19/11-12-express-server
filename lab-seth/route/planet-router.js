@@ -18,7 +18,7 @@ planetRouter.post('/api/planets',jsonParser, (request,response,next) => {
     return response.sendStatus(400);
   }
   
-  new Planet(request.body).save()
+  return new Planet(request.body).save()
     .then(planet => response.json(planet))//vinicio-this sends a 200
     .catch(error => {
       logger.log('error','__SERVER_ERROR__');
