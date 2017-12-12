@@ -8,7 +8,7 @@ const SUPERAGENT = require('superagent');
 const MOUNTAIN = require('../model/mountain');
 const SERVER = require('../lib/server');
 
-const APIURL = `http://localhost:${process.env.PORT}/api/notes`;
+const APIURL = `http://localhost:${process.env.PORT}/api/mountains`;
 
 const mountainMockupCreator = () => {
   return new mountainMockupCreator({
@@ -19,12 +19,12 @@ const mountainMockupCreator = () => {
 };
 
 describe('api/mountains', () => {
-  beforeAll(server.start);
-  afterAll(server.stop);
-  afterEach(() => Mountain.remove({}));
+  beforeAll(SERVER.start);
+  afterAll(SERVER.stop);
+  afterEach(() => MOUNTAIN.remove({}));
 
-  describe('POST /api/notes', () => {
-    test('should respond with a note and a 200 status code if there is no error', () => {
+  describe('POST /api/mountain', () => {
+    test('should respond with a mountain and a 200 status code if there is no error', () => {
       let mountainToPost = {
         name : FAKER.company.bsNoun(2),
         state  : FAKER.address.state(1),
@@ -55,7 +55,7 @@ describe('api/mountains', () => {
     });
   });
 
-  describe('GET /api/notes', () => {
+  describe('GET /api/mountain', () => {
     test('should respond with a 200 status code if there is no error', () => {
       let mountainToPost = null;
 
@@ -73,7 +73,7 @@ describe('api/mountains', () => {
 
           expect(response.body.name).toEqual(mountainToTest.name);
           expect(response.body.state).toEqual(mountainToTest.state);
-          expect(response.body.range).toEqual(mountainToPost.range);
+          expect(response.body.range).toEqual(mountainToTest.range);
           
         });
     });

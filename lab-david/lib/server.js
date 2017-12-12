@@ -1,20 +1,20 @@
 'use strict';
 
-const express = require('express');
-const mongoose = require('mongoose');
-const logger = require('./logger');
+const EXPRESS = require('express');
+const MONGOOSE = require('mongoose');
+const LOGGER = require('./logger');
 
-const app = express();
+const app = EXPRESS();
 let isServerOn = false;
 let httpServer = null;
 
-mongoose.Promise = Promise;
-mongoose.connect(process.envMONGODB_URI,{useMongoClient : true});
+MONGOOSE.Promise = Promise;
+MONGOOSE.connect(process.envMONGODB_URI,{useMongoClient : true});
 
 app.use(require('../route/mountain-route'));
 
 app.all('*', (request, response) => {
-  logger.log('info', 'Returning a 404 from the catch all route');
+  LOGGER.log('info', 'Returning a 404 from the catch all route');
   return response.sendStatus(404);
 });
 
@@ -23,13 +23,13 @@ const server = module.exports = {};
 server.start = () => {
   return new Promise((resolve,reject) => {
     if(isServerOn){
-      logger.log('error','--->SERVER_ERROR<--- server is already on!');
+      LOGGER.log('error','--->SERVER_ERROR<--- server is already on!');
       return reject(new Error('--->SERVER_ERROR<--- server is already on!'));
     }
     httpServer = app.listen(process.env.PORT, () => {
       isServerOn = true;
       console.log(`server is listening on port ${process.env.PORT}`);
-      logger.log('info', `server is listening on port ${process.env.PORT}`);
+      LOGGER.log('info', `server is listening on port ${process.env.PORT}`);
       return resolve();
     });
   });
@@ -38,17 +38,17 @@ server.start = () => {
 server.stop = () => {
   return new Promise((resolve,reject) => {
     if(!isServerOn){
-      logger.log('error', `--->SERVER_ERROR<--- server is already off`);
+      LOGGER.log('error', `--->SERVER_ERROR<--- server is already off`);
       return reject(new Error(`--->SERVER_ERROR<--- server is already off`));
     }
     if(!httpServer){
-      logger.log('error', `--->SERVER_ERROR<--- there is no server to close`);
+      LOGGER.log('error', `--->SERVER_ERROR<--- there is no server to close`);
       return reject(new Error('--->SERVER_ERROR<---  there is no server to close'));
     }
     httpServer.close(() => {
       isServerOn = false;
       httpServer = null;
-      logger.log('info', 'server off');
+      LOGGER.log('info', 'server off');
       return resolve();
     });
   });
