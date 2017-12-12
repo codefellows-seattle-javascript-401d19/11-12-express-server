@@ -8,6 +8,7 @@ const faker = require('faker');
 const superagent = require('superagent');
 const Book = require('../model/book');
 const server = require('../lib/server');
+const logger = require('../lib/logger');
 
 const apiURL = `http://localhost:${process.env.PORT}/api/books`;
 
@@ -44,7 +45,8 @@ describe('/api/books', () => {
           expect(response.body.author).toEqual(bookToPost.author);
           expect(response.body.content).toEqual(bookToPost.content);          
           expect(response.body.genre).toEqual(bookToPost.genre);
-        });
+        })
+        .catch(error => logger.log('error', error));
     });
     test('should respond with a 400 code if we send an incomplete book', () => {
       let bookToPost = {
@@ -80,7 +82,8 @@ describe('/api/books', () => {
           expect(response.body.author).toEqual(bookToTest.author);
           expect(response.body.content).toEqual(bookToTest.content);          
           expect(response.body.genre).toEqual(bookToTest.genre);
-        });
+        })
+        .catch(error => logger.log('error', error));        
     });
     test('should respond with 404 status code if the id is incorrect', () => {
       return superagent.get(`${apiURL}/mooshy`)
@@ -101,15 +104,16 @@ describe('/api/books', () => {
           return superagent.del(`${apiURL}/${bookToDelete._id}`)
             .then(response => {
               expect(response.status).toEqual(204);
-            });
+            })
+            .catch(error => logger.log('error', error));
+        
         });
     });
   
     test('DELETE should respond with 404 status code if id is not provided', () => {
-      return superagent.delete(`${apiURL}/ASDADSFSDF`)
+      return superagent.delete(`${apiURL}/invalidId`)
         .then(Promise.reject)
         .catch(response => {
-          console.log('+++++++++++++++++++++++++++++');
           expect(response.status).toEqual(404);
         });
     });
