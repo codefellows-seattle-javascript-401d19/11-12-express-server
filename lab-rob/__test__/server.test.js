@@ -61,7 +61,7 @@ describe('/api/bikes', () => {
         .then(bike => {
           return superagent.get(`${__API_URL__}/${bike._id}`)
             .then(response => {
-              expect(response.status).toEqual(2001);
+              expect(response.status).toEqual(200);
               expect(response.body._id).toEqual(bike._id.toString());
               expect(response.body.timestamp).toBeTruthy();
               expect(response.body.make).toEqual(bike.make);
