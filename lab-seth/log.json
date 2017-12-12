@@ -337,3 +337,40 @@
 {"level":"info","message":"GET - returning a 200 status code","timestamp":"2017-12-12T18:05:23.365Z"}
 {"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":26,"3":99,"4":21,"5":216,"6":82,"7":62,"8":72,"9":34,"10":205,"11":69}},"wasPopulated":false,"activePaths":{"paths":{"range":"init","state":"init","name":"init","timestamp":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"range":true,"state":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:05:23.352Z","__v":0,"range":"Buckinghamshire","state":"Alaska","name":"Buckinghamshire","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:05:23.365Z"}
 {"level":"info","message":"server off","timestamp":"2017-12-12T18:05:23.367Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T22:24:07.686Z"}
+{"level":"info","message":"Processing : POST on : /api/planets","timestamp":"2017-12-12T22:24:07.726Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T22:24:07.738Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T22:24:07.738Z"}
+{"level":"info","message":"Processing : POST on : /api/planets","timestamp":"2017-12-12T22:24:07.746Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T22:24:07.747Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T22:24:07.747Z"}
+{"level":"info","message":"Processing : GET on : /api/planets/mario","timestamp":"2017-12-12T22:24:07.754Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T22:24:07.754Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T22:24:07.757Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T22:24:07.759Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T22:25:25.999Z"}
+{"level":"info","message":"Processing : POST on : /api/planets","timestamp":"2017-12-12T22:25:26.050Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T22:25:26.067Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T22:25:26.067Z"}
+{"level":"info","message":"Processing : POST on : /api/planets","timestamp":"2017-12-12T22:25:26.079Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T22:25:26.080Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T22:25:26.080Z"}
+{"level":"info","message":"Processing : GET on : /api/planets/mario","timestamp":"2017-12-12T22:25:26.102Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T22:25:26.103Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T22:25:26.112Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T22:25:26.114Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T22:26:33.909Z"}
+{"level":"info","message":"Processing : POST on : /api/planets","timestamp":"2017-12-12T22:26:33.948Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T22:26:33.964Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T22:26:33.964Z"}
+{"level":"info","message":"Processing : POST on : /api/planets","timestamp":"2017-12-12T22:26:33.973Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T22:26:33.973Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T22:26:33.973Z"}
+{"level":"info","message":"Processing : GET on : /api/planets/mario","timestamp":"2017-12-12T22:26:33.992Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T22:26:33.992Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T22:26:33.995Z"}
+{"level":"info","message":"Processing : GET on : /api/planets/5a30579971472e730c59cb67","timestamp":"2017-12-12T22:26:33.996Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T22:26:33.996Z"}
+{"level":"info","message":"GET - Returning a 200 status code","timestamp":"2017-12-12T22:26:34.002Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":87,"3":153,"4":113,"5":71,"6":46,"7":115,"8":12,"9":89,"10":203,"11":103}},"wasPopulated":false,"activePaths":{"paths":{"content":"init","name":"init","discoverDate":"init","__v":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"discoverDate":true,"content":true,"name":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"discoverDate":"2017-02-13T07:05:41.218Z","__v":0,"content":"quos et eos commodi explicabo sunt magnam magni et nulla","name":"K-8gqi","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T22:26:34.002Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T22:26:34.004Z"}

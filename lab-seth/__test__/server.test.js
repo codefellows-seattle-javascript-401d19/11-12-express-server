@@ -12,9 +12,8 @@ const APIURL = `http://localhost:${process.env.PORT}/api/planets`;
 
 const planetMockupCreator = () => {
   return new planet({
-    name : faker.address.county(2),
-    content  : faker.address.content(1),
-    range : faker.address.county(2),
+    name: `K-${faker.random.alphaNumeric(4)}`,
+    content  : faker.lorem.words(10),
   }).save();
 };
 
@@ -26,7 +25,7 @@ describe('api/planets', () => {
   describe('POST /api/planets', () => {
     test('should respond with a planet and a 200 status code if there is no error', () => {
       let planetToPost = {
-        name: `K-${faker.random.alphaNumeric()}${faker.random.alphaNumeric()}${faker.random.alphaNumeric()}${faker.random.alphaNumeric()}${faker.random.alphaNumeric()}${faker.random.alphaNumeric()}`,
+        name: `K-${faker.random.alphaNumeric(4)}`,
         content: faker.lorem.words(10),
       };
       return superagent.post(`${APIURL}`)

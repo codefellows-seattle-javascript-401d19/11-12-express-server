@@ -10,7 +10,7 @@ let httpServer = null;
 
 mongoose.Promise = Promise;
 
-app.use(require('/logger-middelware'));
+app.use(require('./logger-middleware'));
 const planetRoutes = require('../route/planet-router');
 app.use(planetRoutes);
 

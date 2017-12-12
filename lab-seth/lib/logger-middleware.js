@@ -1,6 +1,6 @@
 'use strict';
 
-const logger = require('./lib/logger');
+const logger = require('./logger');
 
 module.exports = (request, response, next) => {
   logger.log('info', `Processing : ${request.method} on : ${request.url}`);
