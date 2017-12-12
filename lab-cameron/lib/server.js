@@ -9,8 +9,11 @@ let isServerOn = false;
 let httpServer = null;
 
 mongoose.Promise = Promise;
-console.log(process.env.MONGODB_URI);
-mongoose.connect(process.env.MONGODB_URI, { useMongoClient: true });
+mongoose.connect(process.env.MONGODB_URI, { useMongoClient: true })
+  .then(() => {})
+  .catch(error => {
+    console.log(error);
+  });
 
 const userAccountRoutes = require('../route/userAccount-router');
 app.use(userAccountRoutes);

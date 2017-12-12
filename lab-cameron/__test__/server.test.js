@@ -9,7 +9,7 @@ const superagent = require('superagent');
 const UserAccount = require('../model/userAccount');
 const server = require('../lib/server');
 
-const apiURL = `http://localhost:${process.env.PORT}/api/userAccounts/`;
+const apiURL = `http://localhost:${process.env.PORT}/api/userAccounts`;
 
 const userAccountMockCreate = () => {
   return new UserAccount({
@@ -52,50 +52,36 @@ describe('/api/userAccounts', () => {
   });
 
   describe('GET /api/userAccounts', () => {
-    test.skip('should respond with a 200 status code and a single userAccount if userAccount exists', () => {
+    test('should respond with a 200 status code and a single userAccount if userAccount exists', () => {
       let userAccountToTest = null;
 
-      userAccountMockCreate()
+      return userAccountMockCreate()
         .then(userAccount => {
           userAccountToTest = userAccount;
           return superagent.get(`${apiURL}/${userAccount._id}`);
         })
         .then(response => {
           expect(response.status).toEqual(200);
-
-          // expect(response.body._id).toEqual(userAccountToTest._id.toString());
-          // expect(response.body.timestamp).toBeTruthy();
-          //
-          // expect(response.body.name).toEqual(userAccountToTest.name);
-          // expect(response.body.description).toEqual(userAccountToTest.description);
-          // expect(response.body.location).toEqual(userAccountToTest.location);
         });
     });
 
-    test.only('should respond with a 200 status code and all userAccounts if no id is provided', () => {
-      let userAccountArrayToTest = [];
+    test('should respond with a 200 status code and all userAccounts if no id is provided', () => {
 
-      // userMockCreate()
-      //   .then(user => usersArrayToTest.push(user));
-      // userMockCreate()
-      //   .then(user => usersArrayToTest.push(user));
-
-      userAccountMockCreate()
-        .then(userAccount => {
-          userAccountArrayToTest.push(userAccount);
-          return superagent.get(`${apiURL}`);
+      return userAccountMockCreate()
+        .then(() => {
+          console.log('one');
+          return userAccountMockCreate();
         })
-        .then(response => {
-          expect(response.status).toEqual(200);
-          // expect(response.body._id).toEqual(userToTest._id.toString());
-          // expect(response.body.timestamp).toBeTruthy();
-          //
-          // expect(response.body.name).toEqual(userToTest.name);
-          // expect(response.body.description).toEqual(userToTest.description);
-          // expect(response.body.location).toEqual(userToTest.location);
+        .then(() => {
+          console.log('two');
+          return userAccountMockCreate();
         })
-        .catch(error => {
-          console.log(error);
+        .then(() => {
+          console.log('three');
+          return superagent.get(`${apiURL}`)
+            .then(response => {
+              expect(response.status).toEqual(200);
+            });
         });
     });
 

@@ -51,12 +51,22 @@ userAccountRouter.get('/api/userAccounts/:id', (request, response) => {
     });
 });
 
-userAccountRouter.get('/api/userAccounts/', (request, response) => {
+userAccountRouter.get('/api/userAccounts', (request, response) => {
   logger.log('info', 'GET - processing a request for all userAccounts');
-  console.log('bbb', request.params.id);
 
   UserAccount.find()
     .then(userAccounts => {
-      console.log(userAccounts);
+      logger.log('info', 'GET - returning a 200 status code');
+      logger.log('info', userAccounts);
+      return response.json(userAccounts);
+    })
+    .catch(error => {
+      if (error.message.indexOf('Cast to ObjectId failed') > -1) {
+        logger.log('info', 'GET - returning a 404 status code. Could not parse id');
+        return response.sendStatus(404);
+      }
+      logger.log('error', 'GET - returning a 500 code');
+      logger.log('error', error);
+      return response.sendStatus(500);
     });
 });
