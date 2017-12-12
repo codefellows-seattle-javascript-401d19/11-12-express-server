@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 
-const userSchema = mongoose.Schema({
+const userAccountSchema = mongoose.Schema({
   name: {
     type: String,
     required: true,
@@ -13,10 +13,15 @@ const userSchema = mongoose.Schema({
     required: true,
     minlength: 10,
   },
+  location: {
+    type: String,
+    required: false,
+    minlength: 1,
+  },
   timestamp: {
     type: Date,
     default: () => new Date(),
   },
 });
 
-module.exports = mongoose.model('note', userSchema);
+module.exports = mongoose.model('userAccount', userAccountSchema);

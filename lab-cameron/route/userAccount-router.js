@@ -3,12 +3,12 @@
 const { Router } = require('express');
 const jsonParser = require('body-parser').json();
 
-const User = require('../model/user');
+const UserAccount = require('../model/userAccount');
 const logger = require('../lib/logger');
 
-const userRouter = module.exports = new Router();
+const userAccountRouter = module.exports = new Router();
 
-userRouter.post('/api/users', jsonParser, (request, response) => {
+userAccountRouter.post('/api/userAccounts', jsonParser, (request, response) => {
   logger.log('info', 'POST - processing a request');
 
   if (!request.body.name || !request.body.description) {
@@ -16,8 +16,8 @@ userRouter.post('/api/users', jsonParser, (request, response) => {
     return response.sendStatus(400);
   }
 
-  new User(request.body).save()
-    .then(user => response.json(user))
+  new UserAccount(request.body).save()
+    .then(userAccount => response.json(userAccount))
     .catch(error => {
       logger.log('error', '__SERVER_ERROR__');
       logger.log('error', error);
@@ -26,18 +26,19 @@ userRouter.post('/api/users', jsonParser, (request, response) => {
     });
 });
 
-userRouter.get('/api/users/:id', (request, response) => {
-  logger.log('info', 'GET - processing a request');
+userAccountRouter.get('/api/userAccounts/:id', (request, response) => {
+  logger.log('info', 'GET - processing a request for single userAccount');
 
-  User.findById(request.params.id)
-    .then(user => {
-      if (!user) {
+  console.log('aaa', request.params.id);
+  UserAccount.findById(request.params.id)
+    .then(userAccount => {
+      if (!userAccount) {
         logger.log('info', 'GET - Returning a 404 status code');
         return response.sendStatus(404);
       }
       logger.log('info', 'GET - returning a 200 status code');
-      logger.log('info', user);
-      return response.json(user);
+      logger.log('info', userAccount);
+      return response.json(userAccount);
     })
     .catch(error => {
       if (error.message.indexOf('Cast to ObjectId failed') > -1) {
@@ -47,5 +48,15 @@ userRouter.get('/api/users/:id', (request, response) => {
       logger.log('error', 'GET - Returning a 500 code');
       logger.log('error', error);
       return response.sendStatus(500);
+    });
+});
+
+userAccountRouter.get('/api/userAccounts/', (request, response) => {
+  logger.log('info', 'GET - processing a request for all userAccounts');
+  console.log('bbb', request.params.id);
+
+  UserAccount.find()
+    .then(userAccounts => {
+      console.log(userAccounts);
     });
 });

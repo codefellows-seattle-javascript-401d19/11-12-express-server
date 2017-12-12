@@ -9,9 +9,11 @@ let isServerOn = false;
 let httpServer = null;
 
 mongoose.Promise = Promise;
+console.log(process.env.MONGODB_URI);
 mongoose.connect(process.env.MONGODB_URI, { useMongoClient: true });
 
-app.use(require('../route/user-router'));
+const userAccountRoutes = require('../route/userAccount-router');
+app.use(userAccountRoutes);
 
 app.all('*', (request, response) => {
   logger.log('info', 'Returning a 404 from the catch-all route');
