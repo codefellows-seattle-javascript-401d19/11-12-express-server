@@ -10,13 +10,14 @@ process.env.MONGODB_URI = 'mongodb://localhost/testing';
 const superagent = require('superagent');
 const Bicycle = require('../model/bicycle');
 const server = require('../lib/server');
+const logger = require('../lib/logger');
 
 const apiURL = `http://localhost:${process.env.PORT}/api/bicycles`;
 
 const bicycleMockCreate = () => {
   return new Bicycle({
     Brand: 'Cinelli',
-    Model: 'Supercorsa',
+    Model: 'Pista',
     Type: 'Track',
   }).save();
 };
@@ -30,14 +31,12 @@ describe('api/bicycles', () => {
     test('POST - should respond with a bicycle and 200 status code if there is no error', () => {
       let bicycleToPost = {
         Brand: 'Cinelli',
-        Model: 'Supercorsa',
-        Type: 'Track',
+        Model: 'Pista',
+        Discipline: 'Track',
       };
       return superagent.post(`${apiURL}`)
         .send(bicycleToPost)
         .then(response => {
-          console.log(response.body);
-          console.log(response.status);
           expect(response.status).toEqual(200);
           expect(response.body._id).toBeTruthy();
           expect(response.body.timestamp).toBeTruthy();
@@ -45,17 +44,18 @@ describe('api/bicycles', () => {
           expect(response.body.Brand).toEqual(bicycleToPost.Brand);
           expect(response.body.Model).toEqual(bicycleToPost.Model);
           expect(response.body.Type).toEqual(bicycleToPost.Type);
-        });
+        })
+        .catch(error => logger.log(error));
     });
 		
     test('POST - should respond with a 400 status code if the bicycle is incomplete', () => {
       let bicycleToPost = {
-        Model: 'Supercorsa',
-        Type: 'Track',
+        Model: 'S upercorsa',
+        Discipline: 'Track',
       };
       return superagent.post(`${apiURL}`)
         .send(bicycleToPost)
-        .then(Promise.reject)
+        // .then(Promise.reject)
         .catch(response => {
           expect(response.status).toEqual(400);
         });
@@ -80,16 +80,50 @@ describe('api/bicycles', () => {
           expect(response.body.Brand).toEqual(bicycleToTest.Brand);
           expect(response.body.Model).toEqual(bicycleToTest.Model);
           expect(response.body.Type).toEqual(bicycleToTest.Type);		
-        });
+        })
+        .catch(error => logger.log(error));
+    });
+    test('GET - should respond with a 200 status code if there is no error', () => {
+      return bicycleMockCreate()
+        .then( () => {
+          bicycleMockCreate();
+        })
+        .then(() => {
+          return superagent.get(`${apiURL}`);
+        })
+        .then(response => {
+          expect(response.status).toEqual(200);
+          expect(response.body.length).toEqual(2);
+          console.log(response);
+          
+        })
+        .catch(error => logger.log(error));
     });
     test('GET - should respond with a 404 status code if the id is incorrect', () => {
       return superagent.get(`${apiURL}/nonsenseISay`)
-        .then(Promise.reject) 
+        // .then(Promise.reject) 
+        .catch(response => {
+          expect(response.status).toEqual(404);
+        });
+    });
+  });
+
+  describe('DELETE /api/bicycles', () => {
+    test('DELETE - should respond with no body and a 204 status code if there is no error', () => {
+      bicycleMockCreate()
+        .then(bicycle => {
+          return superagent.delete(`${apiURL}/${bicycle._id}`);
+        })
+        .then(response => {
+          expect(response.status).toEqual(200);
+        });
+
+    });
+    test('DELETE - should respond with a 404 status code if the id is incorrect', () => {
+      return superagent.delete(`${apiURL}/123456789`)
         .catch(response => {
           expect(response.status).toEqual(404);
         });
     });
   });
 });
-
- 

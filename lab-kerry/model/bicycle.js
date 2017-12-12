@@ -7,7 +7,7 @@ const bicycleSchema = mongoose.Schema ({
   Brand: {
     type: String,
     required: true,
-    unique: true,
+    unique: false,
     maxlength: 50,
   },
   Model: {
@@ -16,9 +16,10 @@ const bicycleSchema = mongoose.Schema ({
     unique: false,
     maxlength: 50,
   },
-  Type: {
+  Discipline: {
     type: String,
     required: false,
+    unique: false,
     maxlength: 50,
   },
   timestamp: {
