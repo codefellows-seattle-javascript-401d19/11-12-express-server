@@ -11,7 +11,6 @@ let isServerOn = false;
 let httpServer = null;
 
 mongoose.Promise = Promise;
-mongoose.connect(process.env.MONGODB_URI, {useMongoClient : true});
 
 const app = express();
 
@@ -36,11 +35,11 @@ server.start = () => {
     }
     httpServer = app.listen(PORT, () => {
       isServerOn = true;
-      console.log(`Server is listening on port ${PORT}`);
       logger.log('info',`Server is listening on port ${PORT}`);
       return resolve();
     });
-  });
+  })
+    .then(() => mongoose.connect(process.env.MONGODB_URI, {useMongoClient : true}));
 };
 
 server.stop = () => {
@@ -55,11 +54,11 @@ server.stop = () => {
 
     }
     httpServer.close(() => {
-      console.log('server is off');
       isServerOn = false;
       httpServer = null;
       logger.log('info', 'Server is off');
       return resolve();
     });
-  });
+  })
+    .then(() => mongoose.disconnect());
 };
