@@ -1,5 +1,5 @@
 ## REST API built using Express and MongoDB
-This is a server built from express and MongoDB that uses a MongoDB model to save api hits. It is setup as in inventory of mountains. 
+This is a server built from express and MongoDB that uses a MongoDB model to save api hits. It is setup as an inventory of mountains. 
 
 ## Motivation
 I was motivated by an extreme desire to learn web development which led me to enroll in this program which ultimately led me to this assignment. 
@@ -19,6 +19,7 @@ Node.JS, Javascript,
 - mongoose
 - parser
 - winston
+- body-parser
 ### Dependencies necessary for development: 
 - eslint
 - faker
@@ -36,9 +37,13 @@ Clone this repo to your local machine then install the npm dependencies necessar
 There are four tests right now.
 ```
 - GET : 404 : should respond with a 404 error for any valid requests with an id that was not found
-- GET : 200 : should contain a response body for a request made with a valid id
-- POST : 400 : should respond with a bad request if no request body was provided or the body was invalid
-- POST : 200 : should respond with the body content for a post request with a valid body
+- GET : 200 : should respond with a 200 status if there are no errors
+- POST : 200 : should respond with a mountain and a 200 status code if there is no error
+- POST : 400 : should return a 400 code if sent an incomplete mountain
+- DELETE : 204 : should respond with a 204 status if there are no errors when deleting based on a specific id
+- DELETE : 404 : should respond with a 404 status if the id provided is incorrect
+- PUT : 200 : a put request should update a mountain and respond with a 200 if there are no errors
+- 
 ```
 
 ## How to use?

@@ -5,7 +5,7 @@ process.env.MONGODB_URI = 'mongodb://localhost/testing';
 
 const faker = require('faker');
 const superagent = require('superagent');
-const mountain = require('../model/mountain');
+const Mountain = require('../model/mountain');
 const server = require('../lib/server');
 
 const apiURL = `http://localhost:${process.env.PORT}/api/mountains`;
@@ -16,12 +16,6 @@ const mountainMockupCreator = () => {
     state  : faker.address.state(1),
     range : faker.address.county(2),
   }).save();
-};
-
-const mountainMockCreateBunches = (numberToCreate) => {
-  return Promise.all(new Array(numberToCreate)
-    .fill(0)
-    .map(() => mountainMockupCreator()));
 };
 
 describe('/api/mountains', () => {
@@ -82,7 +76,7 @@ describe('/api/mountains', () => {
   });
 
   describe('PUT /api/mountains', () => {
-    test('should update mountain and respond with a 200 if there are no errors', () => {
+    test('PUT should update mountain and respond with a 200 if there are no errors', () => {
 
       let mountainToUpdate = null;
 
@@ -94,15 +88,16 @@ describe('/api/mountains', () => {
         })
         .then(response => {
           expect(response.status).toEqual(200);
-          expect(response.body.title).toEqual('Kilimanjaro');
-          expect(response.body.state).toEqual(mountainToUpdate.state);
+          console.log(response.body);
+          expect(response.body.name).toEqual('Kilimanjaro');
+          expect(response.body.state).toEqual(mountainToUpdate.state);          
           expect(response.body._id).toEqual(mountainToUpdate._id.toString());
         });
     });
   });
 
   describe('GET /api/mountains', () => {
-    test('should respond with a 200 status code if there is no error', () => {
+    test('GET should respond with a 200 status code if there is no error', () => {
       let mountainToTest = null;
 
       mountainMockupCreator()

@@ -10,7 +10,7 @@ let httpServer = null;
 
 mongoose.Promise = Promise;
 
-app.use(require('../logger-middleware'));
+app.use(require('./logger-middleware'));
 
 app.use(require('../route/mountain-route'));
 
