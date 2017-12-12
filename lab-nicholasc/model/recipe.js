@@ -17,7 +17,6 @@ const recipeSchema = mongoose.Schema({
     type : Date,
     default : () => new Date(),
   },
-
 });
 
 
