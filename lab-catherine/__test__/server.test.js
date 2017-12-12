@@ -106,9 +106,10 @@ describe('/api/books', () => {
     });
   
     test('DELETE should respond with 404 status code if id is not provided', () => {
-      return superagent.del(`${apiURL}`)
-        .then(response => Promise.reject(response))
+      return superagent.delete(`${apiURL}/ASDADSFSDF`)
+        .then(Promise.reject)
         .catch(response => {
+          console.log('+++++++++++++++++++++++++++++');
           expect(response.status).toEqual(404);
         });
     });
