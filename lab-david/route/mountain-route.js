@@ -9,9 +9,7 @@ const LOGGER = require('../lib/logger');
 const MOUNTAINROUTER = module.exports = new Router();
 
 MOUNTAINROUTER.post('/api/mountains', JSONPARSER, (request,response) => {
-  LOGGER.log('info', 'POST - processing that request');
-  LOGGER.log('info', request);
-  
+  LOGGER.log('info', 'POST - processing that request');  
 
   if(!request.body.name || !request.body.state || !request.body.range) {
     LOGGER.log('info', 'POST - responding with a 400 code');
@@ -19,7 +17,10 @@ MOUNTAINROUTER.post('/api/mountains', JSONPARSER, (request,response) => {
   }
 
   return new MOUNTAIN(request.body).save()
-    .then(MOUNTAIN => response.json(MOUNTAIN))
+    .then(MOUNTAIN => {
+      LOGGER.log('info', 'returning with a 200 status and a mountain');
+      return response.json(MOUNTAIN);
+    })
     .catch(error => {
       LOGGER.log('error', '--->SERVER_ERROR<---');
       LOGGER.log('error', error);
@@ -28,7 +29,7 @@ MOUNTAINROUTER.post('/api/mountains', JSONPARSER, (request,response) => {
     });
 });
 
-MOUNTAINROUTER.get('api/mountains/:id', (request,response) => {
+MOUNTAINROUTER.get('/api/mountains/:id', (request,response) => {
   LOGGER.log('info', 'GET - processing a request for a specific id');
 
   MOUNTAIN.findById(request.params.id)
@@ -51,7 +52,7 @@ MOUNTAINROUTER.get('api/mountains/:id', (request,response) => {
     });
 });
 
-MOUNTAINROUTER.get('api/mountains/', (request,response) => {
+MOUNTAINROUTER.get('/api/mountains/', (request,response) => {
   LOGGER.log('info', 'GET - processing for a non-ID specific request');
 
   MOUNTAIN.find({})
@@ -74,7 +75,7 @@ MOUNTAINROUTER.get('api/mountains/', (request,response) => {
     });
 });
 
-MOUNTAINROUTER.delete('api/mountains/:id', (request,response) => {
+MOUNTAINROUTER.delete('/api/mountains/:id', (request,response) => {
   LOGGER.log('info', 'DELETE - processing a delete request for a specific id');
 
   MOUNTAIN.findById(request.params.id)

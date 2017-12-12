@@ -118,3 +118,49 @@
 {"level":"info","message":"Returning a 404 from the catch all route","timestamp":"2017-12-12T17:03:38.298Z"}
 {"level":"info","message":"Returning a 404 from the catch all route","timestamp":"2017-12-12T17:03:38.303Z"}
 {"level":"info","message":"server off","timestamp":"2017-12-12T17:03:38.303Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T17:45:32.939Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T17:45:32.988Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T17:45:33.002Z"}
+{"level":"info","message":"Returning a 404 from the catch all route","timestamp":"2017-12-12T17:45:33.021Z"}
+{"level":"info","message":"Returning a 404 from the catch all route","timestamp":"2017-12-12T17:45:33.024Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T17:45:33.026Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T17:48:22.755Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T17:48:22.799Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T17:48:22.812Z"}
+{"level":"info","message":"GET - processing a request for a specific id","timestamp":"2017-12-12T17:48:22.834Z"}
+{"level":"info","message":"GET - returning a 404 status code. could not parse the id","timestamp":"2017-12-12T17:48:22.836Z"}
+{"level":"info","message":"GET - processing a request for a specific id","timestamp":"2017-12-12T17:48:22.839Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T17:48:22.843Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T17:48:22.843Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T17:49:45.884Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T17:49:45.927Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T17:49:45.940Z"}
+{"level":"info","message":"GET - processing a request for a specific id","timestamp":"2017-12-12T17:49:45.961Z"}
+{"level":"info","message":"GET - returning a 404 status code. could not parse the id","timestamp":"2017-12-12T17:49:45.963Z"}
+{"level":"info","message":"GET - processing a request for a specific id","timestamp":"2017-12-12T17:49:45.966Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T17:49:45.969Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T17:49:45.970Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T18:05:32.569Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T18:05:32.622Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T18:05:32.635Z"}
+{"level":"info","message":"GET - processing a request for a specific id","timestamp":"2017-12-12T18:05:32.654Z"}
+{"level":"info","message":"GET - returning a 404 status code. could not parse the id","timestamp":"2017-12-12T18:05:32.656Z"}
+{"level":"info","message":"GET - processing a request for a specific id","timestamp":"2017-12-12T18:05:32.662Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T18:05:32.665Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T18:05:32.666Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T18:06:52.920Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T18:06:52.970Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T18:06:52.982Z"}
+{"level":"info","message":"GET - processing a request for a specific id","timestamp":"2017-12-12T18:06:53.003Z"}
+{"level":"info","message":"GET - returning a 404 status code. could not parse the id","timestamp":"2017-12-12T18:06:53.005Z"}
+{"level":"info","message":"GET - processing a request for a specific id","timestamp":"2017-12-12T18:06:53.008Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T18:06:53.011Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T18:06:53.012Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T18:07:40.760Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T18:07:40.807Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T18:07:40.821Z"}
+{"level":"info","message":"GET - processing a request for a specific id","timestamp":"2017-12-12T18:07:40.840Z"}
+{"level":"info","message":"GET - returning a 404 status code. could not parse the id","timestamp":"2017-12-12T18:07:40.843Z"}
+{"level":"info","message":"GET - processing a request for a specific id","timestamp":"2017-12-12T18:07:40.846Z"}
+{"level":"info","message":"GET - returning a 404 status code","timestamp":"2017-12-12T18:07:40.849Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T18:07:40.850Z"}

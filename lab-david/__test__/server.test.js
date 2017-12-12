@@ -18,7 +18,7 @@ const mountainMockupCreator = () => {
   }).save();
 };
 
-describe('api/mountains', () => {
+describe('/api/mountains', () => {
   beforeAll(SERVER.start);
   afterAll(SERVER.stop);
   afterEach(() => MOUNTAIN.remove({}));
