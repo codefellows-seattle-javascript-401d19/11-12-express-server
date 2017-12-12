@@ -31,7 +31,6 @@ teamRouter.get('/api/teams/:id',(request,response) => {
 
   return Team.findById(request.params.id)
     .then(team => {
-      // console.log(team);
       if(!team){
         logger.log('info', 'GET by id- Returning a 404 status code');
         return response.sendStatus(404);
@@ -52,7 +51,7 @@ teamRouter.get('/api/teams/:id',(request,response) => {
 });
 teamRouter.get('/api/teams', (request, response) => {
   logger.log('info', 'GET - processing a request');
-  Team.find({})
+  return Team.find({})
     .then(teams =>{
       return response.json(teams);
     });

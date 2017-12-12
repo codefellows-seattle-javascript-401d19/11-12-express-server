@@ -1,150 +1,103 @@
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:18:21.422Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:18:21.469Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:18:21.491Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T18:18:21.492Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T18:18:21.497Z"}
-{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T18:18:21.505Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":29,"3":109,"4":194,"5":12,"6":254,"7":64,"8":62,"9":183,"10":194,"11":185}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:18:21.494Z","__v":0,"nickname":"sed rerum","city":"enim","sport":"est","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:18:21.505Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T18:18:21.511Z"}
-{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:18:21.512Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T18:18:21.520Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:18:21.523Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:18:21.527Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:18:21.527Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/undefined","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 18:18:21 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T18:18:21.528Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T18:18:21.531Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:18:21.533Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:18:21.534Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T18:18:21.848Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:23:02.199Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:23:02.297Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:23:02.320Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T18:23:02.320Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T18:23:02.327Z"}
-{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T18:23:02.333Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":30,"3":134,"4":126,"5":66,"6":53,"7":64,"8":143,"9":243,"10":61,"11":123}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:23:02.323Z","__v":0,"nickname":"quo rem","city":"rerum","sport":"magni","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:23:02.333Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T18:23:02.338Z"}
-{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:23:02.340Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T18:23:02.344Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:23:02.348Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:23:02.351Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:23:02.352Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/undefined","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 18:23:02 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T18:23:02.354Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T18:23:02.356Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:23:02.361Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:23:02.361Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T18:23:02.362Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:23:32.670Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:23:32.713Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:23:32.737Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T18:23:32.737Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T18:23:32.743Z"}
-{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T18:23:32.749Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":30,"3":164,"4":185,"5":47,"6":185,"7":64,"8":181,"9":2,"10":181,"11":52}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:23:32.740Z","__v":0,"nickname":"blanditiis et","city":"soluta","sport":"repudiandae","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:23:32.750Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T18:23:32.755Z"}
-{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:23:32.756Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T18:23:32.760Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:23:32.764Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:23:32.767Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:23:32.767Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/undefined","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 18:23:32 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T18:23:32.768Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T18:23:32.771Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:23:32.773Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:23:32.774Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T18:23:32.775Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:24:02.787Z"}
-{"level":"info","message":"Returning a 404 from the catch-all route","timestamp":"2017-12-12T18:24:02.832Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T18:24:02.839Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:24:52.755Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:24:52.805Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T18:24:52.831Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:25:28.858Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:25:28.900Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T18:25:28.916Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:25:54.757Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:25:54.801Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:25:54.823Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T18:25:54.823Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T18:25:54.830Z"}
-{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T18:25:54.836Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":31,"3":50,"4":206,"5":174,"6":149,"7":65,"8":79,"9":55,"10":5,"11":191}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:25:54.826Z","__v":0,"nickname":"odio sit","city":"odio","sport":"voluptatem","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:25:54.836Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T18:25:54.842Z"}
-{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:25:54.843Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:25:54.847Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:25:54.853Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:25:54.856Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:25:54.856Z"}
-{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/node_modules/superagent/lib/node/index.js:906:18)\n    at IncomingMessage.emit (events.js:164:20)\n    at endReadableNT (_stream_readable.js:1054:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"DELETE","url":"http://localhost:3000/api/teams/undefined","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 18:25:54 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"info","timestamp":"2017-12-12T18:25:54.857Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T18:25:54.860Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:25:54.863Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:25:54.863Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T18:25:54.865Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:28:45.847Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:28:45.892Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:28:45.915Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T18:28:45.915Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T18:28:45.920Z"}
-{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T18:28:45.926Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":31,"3":221,"4":130,"5":35,"6":94,"7":65,"8":142,"9":248,"10":155,"11":98}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:28:45.917Z","__v":0,"nickname":"et rerum","city":"qui","sport":"et","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:28:45.926Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T18:28:45.935Z"}
-{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:28:45.937Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:28:45.941Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:28:45.948Z"}
-{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T18:28:45.952Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":31,"3":221,"4":130,"5":35,"6":94,"7":65,"8":142,"9":248,"10":155,"11":100}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:28:45.945Z","__v":0,"nickname":"dolores est","city":"sunt","sport":"quo","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:28:45.952Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T18:28:45.957Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:28:45.960Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:28:45.960Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T18:28:45.962Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:29:20.437Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:29:20.482Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:29:20.506Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T18:29:20.506Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T18:29:20.512Z"}
-{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T18:29:20.518Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":32,"3":0,"4":64,"5":231,"6":109,"7":65,"8":179,"9":204,"10":180,"11":17}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:29:20.509Z","__v":0,"nickname":"aliquid cum","city":"quos","sport":"rerum","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:29:20.518Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T18:29:20.523Z"}
-{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:29:20.524Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:29:20.528Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:29:20.534Z"}
-{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T18:29:20.537Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":32,"3":0,"4":64,"5":231,"6":109,"7":65,"8":179,"9":204,"10":180,"11":19}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:29:20.532Z","__v":0,"nickname":"laboriosam velit","city":"excepturi","sport":"officiis","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:29:20.537Z"}
-{"message":"\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m","stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m\n    at teamMockCreate.then.then.response (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/__test__/server.test.js:129:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","matcherResult":{"actual":204,"expected":404,"name":"toEqual","pass":false},"level":"info","timestamp":"2017-12-12T18:29:20.543Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T18:29:20.545Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:29:20.549Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:29:20.549Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T18:29:20.550Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:29:39.625Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:29:39.665Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:29:39.689Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T18:29:39.689Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T18:29:39.696Z"}
-{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T18:29:39.701Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":32,"3":19,"4":49,"5":85,"6":70,"7":65,"8":215,"9":145,"10":71,"11":244}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:29:39.692Z","__v":0,"nickname":"facilis dolores","city":"dolor","sport":"maiores","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:29:39.701Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T18:29:39.711Z"}
-{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:29:39.712Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:29:39.717Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:29:39.723Z"}
-{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T18:29:39.726Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":32,"3":19,"4":49,"5":85,"6":70,"7":65,"8":215,"9":145,"10":71,"11":246}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:29:39.721Z","__v":0,"nickname":"accusamus suscipit","city":"et","sport":"repellendus","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:29:39.726Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T18:29:39.730Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:29:39.733Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:29:39.734Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T18:29:39.735Z"}
-{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T18:30:07.278Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:30:07.323Z"}
-{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T18:30:07.344Z"}
-{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T18:30:07.344Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T18:30:07.350Z"}
-{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T18:30:07.355Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":32,"3":47,"4":98,"5":156,"6":130,"7":65,"8":254,"9":149,"10":65,"11":49}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:30:07.347Z","__v":0,"nickname":"numquam dolorem","city":"ut","sport":"aut","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:30:07.356Z"}
-{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T18:30:07.360Z"}
-{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:30:07.362Z"}
-{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T18:30:07.366Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:30:07.372Z"}
-{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T18:30:07.375Z"}
-{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":32,"3":47,"4":98,"5":156,"6":130,"7":65,"8":254,"9":149,"10":65,"11":51}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T18:30:07.370Z","__v":0,"nickname":"ipsa dolor","city":"necessitatibus","sport":"quis","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T18:30:07.375Z"}
-{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T18:30:07.382Z"}
-{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T18:30:07.385Z"}
-{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T18:30:07.385Z"}
-{"level":"info","message":"Server off","timestamp":"2017-12-12T18:30:07.386Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T19:16:15.669Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:16:15.722Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:16:15.746Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T19:16:15.746Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:16:15.753Z"}
+{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T19:16:15.759Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":42,"3":255,"4":37,"5":235,"6":155,"7":67,"8":226,"9":157,"10":127,"11":82}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:16:15.750Z","__v":0,"nickname":"libero est","city":"in","sport":"inventore","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:16:15.759Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:16:15.764Z"}
+{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:16:15.766Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T19:16:15.770Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:16:15.776Z"}
+{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T19:16:15.779Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":42,"3":255,"4":37,"5":235,"6":155,"7":67,"8":226,"9":157,"10":127,"11":84}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:16:15.774Z","__v":0,"nickname":"ipsa ea","city":"qui","sport":"sed","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:16:15.779Z"}
+{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T19:16:15.785Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:16:15.788Z"}
+{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:16:15.788Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-12T19:16:15.789Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T19:20:49.911Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:20:49.961Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:20:49.984Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T19:20:49.984Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:20:49.990Z"}
+{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T19:20:49.996Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":44,"3":17,"4":76,"5":135,"6":41,"7":68,"8":41,"9":120,"10":115,"11":27}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:20:49.987Z","__v":0,"nickname":"odit pariatur","city":"ratione","sport":"et","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:20:49.996Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:20:50.001Z"}
+{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:20:50.002Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T19:20:50.006Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:20:50.012Z"}
+{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T19:20:50.015Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":44,"3":18,"4":76,"5":135,"6":41,"7":68,"8":41,"9":120,"10":115,"11":29}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:20:50.010Z","__v":0,"nickname":"vero sequi","city":"voluptatem","sport":"et","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:20:50.015Z"}
+{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T19:20:50.018Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:20:50.021Z"}
+{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:20:50.021Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-12T19:20:50.023Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T19:21:16.898Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:21:16.940Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:21:16.964Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T19:21:16.964Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:21:16.971Z"}
+{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T19:21:16.977Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":44,"3":44,"4":64,"5":150,"6":83,"7":68,"8":78,"9":245,"10":169,"11":32}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:21:16.967Z","__v":0,"nickname":"et ab","city":"pariatur","sport":"optio","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:21:16.977Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:21:16.983Z"}
+{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:21:16.985Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T19:21:16.989Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:21:16.995Z"}
+{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T19:21:16.997Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":44,"3":44,"4":64,"5":150,"6":83,"7":68,"8":78,"9":245,"10":169,"11":34}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:21:16.993Z","__v":0,"nickname":"aut fugiat","city":"illo","sport":"quos","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:21:16.998Z"}
+{"message":"\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m","stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).toEqual(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected value to equal:\n  \u001b[32m404\u001b[39m\nReceived:\n  \u001b[31m204\u001b[39m\n    at teamMockCreate.then.then.response (/Users/jeffkusowski/CF/401/labs/11-express-server/jeff-lab/__test__/server.test.js:128:33)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)","matcherResult":{"actual":204,"expected":404,"name":"toEqual","pass":false},"level":"info","timestamp":"2017-12-12T19:21:17.005Z"}
+{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T19:21:17.008Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:21:17.010Z"}
+{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:21:17.011Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-12T19:21:17.012Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T19:24:39.915Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:24:39.967Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:24:39.990Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T19:24:39.990Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:24:39.997Z"}
+{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T19:24:40.051Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":44,"3":247,"4":234,"5":80,"6":134,"7":68,"8":148,"9":73,"10":232,"11":41}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:24:39.993Z","__v":0,"nickname":"omnis nam","city":"ratione","sport":"doloremque","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:24:40.051Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:24:40.058Z"}
+{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:24:40.060Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T19:24:40.064Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:24:40.070Z"}
+{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T19:24:40.072Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":44,"3":248,"4":234,"5":80,"6":134,"7":68,"8":148,"9":73,"10":232,"11":43}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:24:40.068Z","__v":0,"nickname":"qui et","city":"et","sport":"quam","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:24:40.072Z"}
+{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T19:24:40.076Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:24:40.078Z"}
+{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:24:40.079Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-12T19:24:40.080Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T19:26:49.571Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:26:49.620Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:26:49.643Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T19:26:49.643Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:26:49.649Z"}
+{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T19:26:49.655Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":45,"3":121,"4":129,"5":254,"6":206,"7":68,"8":209,"9":86,"10":30,"11":11}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:26:49.645Z","__v":0,"nickname":"at sed","city":"quis","sport":"voluptate","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:26:49.655Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:26:49.660Z"}
+{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:26:49.661Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T19:26:49.665Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:26:49.671Z"}
+{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T19:26:49.674Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":45,"3":121,"4":129,"5":254,"6":206,"7":68,"8":209,"9":86,"10":30,"11":13}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:26:49.669Z","__v":0,"nickname":"aut odio","city":"debitis","sport":"veniam","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:26:49.674Z"}
+{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T19:26:49.678Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:26:49.681Z"}
+{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:26:49.681Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-12T19:26:49.682Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T19:29:37.701Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:29:37.799Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-12T19:29:37.820Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T19:29:37.820Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:29:37.825Z"}
+{"level":"info","message":"GET by id- Returning a 200 status code","timestamp":"2017-12-12T19:29:37.831Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":46,"3":33,"4":234,"5":29,"6":235,"7":69,"8":22,"9":202,"10":244,"11":216}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:29:37.822Z","__v":0,"nickname":"alias libero","city":"harum","sport":"quis","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:29:37.831Z"}
+{"level":"info","message":"GET by id- processing a request","timestamp":"2017-12-12T19:29:37.836Z"}
+{"level":"info","message":"GET by id- Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:29:37.838Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-12T19:29:37.841Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:29:37.847Z"}
+{"level":"info","message":"DELETE - Returning a 204 status code","timestamp":"2017-12-12T19:29:37.849Z"}
+{"$__":{"strictMode":true,"selected":{},"getters":{},"_id":{"_bsontype":"ObjectID","id":{"0":90,"1":48,"2":46,"3":33,"4":234,"5":29,"6":235,"7":69,"8":22,"9":202,"10":244,"11":218}},"wasPopulated":false,"activePaths":{"paths":{"city":"init","sport":"init","timestamp":"init","__v":"init","nickname":"init","_id":"init"},"states":{"ignore":{},"default":{},"init":{"__v":true,"timestamp":true,"nickname":true,"city":true,"sport":true,"_id":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"emitter":{"domain":null,"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":true},"isNew":false,"_doc":{"timestamp":"2017-12-12T19:29:37.845Z","__v":0,"nickname":"ut nesciunt","city":"molestiae","sport":"quam","_id":{"$ref":"$[\"$__\"][\"_id\"]"}},"$init":true,"level":"info","message":"","timestamp":"2017-12-12T19:29:37.849Z"}
+{"level":"info","message":"DELETE - request without an id.  Returning 400","timestamp":"2017-12-12T19:29:37.853Z"}
+{"level":"info","message":"DELETE - processing a request","timestamp":"2017-12-12T19:29:37.856Z"}
+{"level":"info","message":"DELETE - Returning a 404 status code. Could not parse id","timestamp":"2017-12-12T19:29:37.857Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-12T19:29:37.858Z"}
