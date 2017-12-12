@@ -48,19 +48,19 @@ describe(`/api/sweets`, () => {
     });
     test(`POST should respond with 400 status if the body is missing information`, () => {
       return superagent.post(`${apiURL}`)
-      .send({
-        name: faker.lorem.word(2),
-        hasChocolate: false,
-        seasonal: true,
-      })
-      .then(Promise.reject)
-      .catch((response) => {
-        expect(response.status).toEqual(400);
-      });
+        .send({
+          name: faker.lorem.word(2),
+          hasChocolate: false,
+          seasonal: true,
+        })
+        .then(Promise.reject)
+        .catch((response) => {
+          expect(response.status).toEqual(400);
+        });
     });
   });
   describe(`GET request`, () => {
-    test(`GET should respond with a 200 status if a sweet with the specified id is found`, () => {
+    test.only(`GET should respond with a 200 status if a sweet with the specified id is found`, () => {
       let testSweet = null;
 
       createFakeSweet()
@@ -72,7 +72,7 @@ describe(`/api/sweets`, () => {
           expect(response.status).toEqual(200);
         })
         .catch(error => {
-          console.log(`I ran here first`);
+          console.log(error);
           console.log(`Oh Noes! There was an error: ${error}`);
         });
     });
@@ -81,7 +81,7 @@ describe(`/api/sweets`, () => {
       return superagent.get(`${apiURL}/blah`)
         .then(Promise.reject)
         .catch(response => {
-          console.log(`I ran here too`);
+          console.log(response.status);
           expect(response.status).toEqual(404);
         });
     });

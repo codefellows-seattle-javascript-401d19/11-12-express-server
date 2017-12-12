@@ -30,6 +30,12 @@ sweetRouter.post(`/api/sweets`, jsonParser, (request, response, next) => {
 sweetRouter.get(`/api/sweets/:id`, (request, response, next) => {
   logger.log(`info`, `Processing a GET request`);
 
+  console.log(`${request.params.id} is the id`);
+  // if(!request.params.id){
+  //   return;
+  //   // return response.json(all the sweets);
+  // }
+
   Sweet.findById(request.params.id)
     .then(sweet => {
       if(!sweet){
@@ -51,4 +57,21 @@ sweetRouter.get(`/api/sweets/:id`, (request, response, next) => {
 
 sweetRouter.delete(`/api/sweets/:id`, (request, response, next) => {
   logger.log(`info`, `Processing a DELETE request`);
+
+  if(!request.params.id){
+    logger.log(`info`, `Sending a 400 status; no id provided for deletion`);
+    return response.sendStatus(400);
+  }
+
+  sweet.findByIdAndRemove(request.params.id)
+    .then(deletedSweet => {
+      if(!deletedSweet){
+        logger.log(`info`, `Sending a 404 status; no sweet with id found for deletion`);
+        return response.sendStatus(404);
+      }
+    })
+    .catch(error => {
+      logger.log(`info`, `An error occurred while trying to delete a document`);
+      logger.log(`info`, error);
+    });
 });
