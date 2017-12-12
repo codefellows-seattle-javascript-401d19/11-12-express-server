@@ -16,9 +16,17 @@ const apiURL = `http://localhost:${process.env.PORT}/api/bicycles`;
 
 const bicycleMockCreate = () => {
   return new Bicycle({
-    Brand: 'Cinelli',
-    Model: 'Pista',
-    Type: 'Track',
+    Brand: 'Mercian',
+    Model: 'Vincitore',
+    Type: 'Randonneur',
+  }).save();
+};
+
+const bicycleMockCreate2 = () => {
+  return new Bicycle({
+    Brand: 'Elephant',
+    Model: 'NFE',
+    Type: 'Groad',
   }).save();
 };
 
@@ -50,12 +58,12 @@ describe('api/bicycles', () => {
 		
     test('POST - should respond with a 400 status code if the bicycle is incomplete', () => {
       let bicycleToPost = {
-        Model: 'S upercorsa',
+        Model: 'Supercorsa',
         Discipline: 'Track',
       };
       return superagent.post(`${apiURL}`)
         .send(bicycleToPost)
-        // .then(Promise.reject)
+        .then(Promise.reject)
         .catch(response => {
           expect(response.status).toEqual(400);
         });
@@ -67,7 +75,7 @@ describe('api/bicycles', () => {
     test('GET - should respond with a 200 status code if there is no error', () => {
       let bicycleToTest = null;
 
-      bicycleMockCreate()
+      return bicycleMockCreate()
         .then(bicycle => {
         //may want to add error checking after this success test
           bicycleToTest = bicycle;
@@ -86,22 +94,21 @@ describe('api/bicycles', () => {
     test('GET - should respond with a 200 status code if there is no error', () => {
       return bicycleMockCreate()
         .then( () => {
-          bicycleMockCreate();
+          return bicycleMockCreate2();
         })
-        .then(() => {
+        .then(() => { 
           return superagent.get(`${apiURL}`);
         })
         .then(response => {
           expect(response.status).toEqual(200);
           expect(response.body.length).toEqual(2);
-          console.log(response);
           
         })
         .catch(error => logger.log(error));
     });
     test('GET - should respond with a 404 status code if the id is incorrect', () => {
       return superagent.get(`${apiURL}/nonsenseISay`)
-        // .then(Promise.reject) 
+        .then(Promise.reject) 
         .catch(response => {
           expect(response.status).toEqual(404);
         });
@@ -110,11 +117,13 @@ describe('api/bicycles', () => {
 
   describe('DELETE /api/bicycles', () => {
     test('DELETE - should respond with no body and a 204 status code if there is no error', () => {
-      bicycleMockCreate()
+      return bicycleMockCreate()
         .then(bicycle => {
+          console.log(bicycle._id);
           return superagent.delete(`${apiURL}/${bicycle._id}`);
         })
         .then(response => {
+          console.log(response.body._id);
           expect(response.status).toEqual(200);
         });
 

@@ -13,6 +13,7 @@ const logger = require('../lib/logger');
 
 const bicycleRouter = module.exports = new Router();
 
+
 //the next callback does not return a promise; this was introduce prior to that functionality
 bicycleRouter.post('/api/bicycles', jsonParser, (request, response, next) => {
   logger.log('info', 'POST - processing a request at /api/bicycles');
