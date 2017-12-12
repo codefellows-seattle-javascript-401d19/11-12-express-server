@@ -24,7 +24,7 @@ catRouter.post('/api/cats', jsonParser, (request, response) => {
     });
 });
 
-catRouter.get('/api/cats/:id',(request, response) => {
+catRouter.get('/api/cats/:id', (request, response) => {
   logger.log('info', 'GET - processing a new get request');
 
   Cat.findById(request.params.id)
@@ -47,11 +47,23 @@ catRouter.get('/api/cats/:id',(request, response) => {
     });
 });
 
-catRouter.get('/api/cats',(request, response) => {
+catRouter.get('/api/cats', (request, response) => {
+  logger.log('info', 'GET - processing a new get request');
+
+  Cat.find({})
+    .then(cats => {
+      console.log(cats);
+      response.json(cats);
+    })
+    .catch(error => console.log('you got an error in array maker', error));
+});
+
+catRouter.get('/api/cats/:id',(request, response) => {
   logger.log('info', 'GET - processing a new get request');
 
   Cat.findById(request.params.id)
     .then(cat => {
+      console.log('cat', cat);
       if (!cat){
         logger.log('info', 'GET - Returning a 404 status code');
         return response.sendStatus(404);

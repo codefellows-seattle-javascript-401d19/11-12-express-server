@@ -55,6 +55,7 @@ server.stop = () => {
 
     }
     httpServer.close(() => {
+      console.log('server is off');
       isServerOn = false;
       httpServer = null;
       logger.log('info', 'Server is off');

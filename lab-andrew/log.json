@@ -923,3 +923,722 @@
 {"level":"info","message":"Server is off","timestamp":"2017-12-12T03:08:11.658Z"}
 {"level":"error","message":"bad API request","timestamp":"2017-12-12T03:08:12.014Z"}
 {"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:08:12.014Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:17:57.978Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:17:58.045Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:17:58.094Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:17:58.094Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:17:58.111Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:17:58.121Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:17:58.124Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4a66d9e4af13a5031920","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:17:58 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:17:58.126Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:17:58.135Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:17:58.138Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:17:58.150Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:17:58.151Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:17:58.473Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:17:58.473Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:19:36.553Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:19:36.614Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:19:36.669Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:19:36.669Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:19:36.687Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:19:36.695Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:19:36.698Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4ac879b72c13e00894d5","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:19:36 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:19:36.700Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:19:36.701Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:19:36.706Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:19:36.715Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:19:36.721Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:19:37.063Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:19:37.063Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:20:44.722Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:20:44.792Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:20:44.846Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:20:44.846Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:20:44.863Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:20:44.873Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:20:44.875Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4b0c1a4c7714183ffb52","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:20:44 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:20:44.877Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:20:44.878Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:20:44.881Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:20:44.905Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:20:44.910Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:20:45.254Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:20:45.254Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:21:59.350Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:21:59.413Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:21:59.464Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:21:59.464Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:21:59.483Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:21:59.489Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:21:59.492Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4b572defd114469a8d53","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:21:59 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:21:59.495Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:21:59.496Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:21:59.497Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:21:59.520Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:21:59.525Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:21:59.834Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:21:59.835Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:22:44.614Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:22:44.684Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:22:44.736Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:22:44.736Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:22:44.753Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:22:44.763Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:22:44.765Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4b841679fd146fe03ba2","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:22:44 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:22:44.768Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:22:44.769Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:22:44.771Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:22:44.779Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:22:44.786Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:22:45.122Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:22:45.122Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:23:43.612Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:23:43.669Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:23:43.719Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:23:43.719Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:23:43.736Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:23:43.744Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:23:43.747Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4bbf5b075014bc212817","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:23:43 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:23:43.749Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:23:43.750Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:23:43.752Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:23:43.763Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:23:43.768Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:23:44.410Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:23:44.410Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:26:18.583Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:26:18.646Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:26:18.701Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:26:18.701Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:26:18.718Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:26:18.723Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:26:18.728Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4c5aa3ef2014fc22decd","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:26:18 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:26:18.730Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:26:18.731Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:26:18.734Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:26:18.743Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:26:18.748Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:26:19.104Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:26:19.104Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:26:30.640Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:26:30.705Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:26:30.753Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:26:30.753Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:26:30.769Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:26:30.780Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:26:30.782Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4c66191032151d966def","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:26:30 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:26:30.784Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:26:30.785Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:26:30.788Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:26:30.797Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:26:30.802Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:26:31.317Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:26:31.317Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:26:37.920Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:26:37.980Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:26:38.030Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:26:38.030Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:26:38.049Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:26:38.055Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:26:38.057Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4c6e1ef7bb153cabb263","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:26:38 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:26:38.059Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:26:38.060Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:26:38.061Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:26:38.072Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:26:38.077Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:26:38.590Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:26:38.590Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:20.721Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:38:20.783Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:20.830Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:20.832Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:38:20.835Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:38:20.835Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:20.839Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:20.841Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:20.844Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:20.844Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:20.859Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:20.860Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:38:20.864Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:38:20.872Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:38:20.875Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4f2cfe78f615f3765d9a","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:38:20 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:38:20.877Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:38:20.877Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:38:20.880Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:20.883Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:20.884Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:38:20.889Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:20.891Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:20.892Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:20.894Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:38:21.237Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:38:21.237Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:27.851Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:38:27.908Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:27.955Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:27.957Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:38:27.960Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:38:27.960Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:27.964Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:27.965Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:27.972Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:27.972Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:27.975Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:27.975Z"}
+{"code":"ECONNRESET","errno":"ECONNRESET","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:38:27.979Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:38:27.983Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:38:27.989Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:38:27.992Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:27.996Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:27.996Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:38:28.003Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:28.005Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:28.006Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:28.008Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:38:28.536Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:38:28.536Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:35.215Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:38:35.272Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:35.321Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:35.323Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:38:35.326Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:38:35.326Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:35.330Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:35.331Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:35.334Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:35.334Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:35.340Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:35.340Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:38:35.345Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:38:35.352Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:38:35.355Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4f3b2554f116324dbb57","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:38:35 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:38:35.358Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:38:35.358Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:38:35.361Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:35.365Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:35.366Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:38:35.371Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:35.373Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:35.374Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:35.376Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:38:35.899Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:38:35.899Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:41.051Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:38:41.115Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:41.169Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:41.171Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:38:41.173Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:38:41.173Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:41.177Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:41.178Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:41.181Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:41.182Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:41.187Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:41.188Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:38:41.192Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:38:41.199Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:38:41.203Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4f4199135b165142ff4c","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:38:41 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:38:41.205Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:38:41.206Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:38:41.209Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:41.212Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:41.213Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:38:41.218Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:41.221Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:41.221Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:41.223Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:38:41.739Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:38:41.740Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:46.750Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:38:46.807Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:46.855Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:46.857Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:38:46.859Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:38:46.859Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:46.863Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:46.864Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:46.868Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:46.868Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:46.874Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:46.874Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:38:46.878Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:38:46.887Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:38:46.893Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4f465f914e16709d93d7","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:38:46 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:38:46.895Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:38:46.896Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:46.899Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:46.901Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:38:46.903Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:46.906Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:46.907Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:46.909Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:38:47.440Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:38:47.440Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:59.464Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:38:59.535Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:59.580Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:59.582Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:38:59.585Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:38:59.585Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:59.589Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:59.590Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:59.593Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:59.593Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:59.599Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:59.600Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:38:59.605Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:38:59.614Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:38:59.617Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4f53f6f7111691d067f3","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:38:59 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:38:59.619Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:38:59.620Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:38:59.622Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:59.625Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:59.626Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:38:59.631Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:59.633Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:38:59.633Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:38:59.635Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:39:00.146Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:39:00.146Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:39:06.921Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:39:06.978Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:39:07.026Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:39:07.027Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:39:07.030Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:39:07.030Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:39:07.035Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:39:07.036Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:39:07.042Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:39:07.043Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:39:07.045Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:39:07.046Z"}
+{"code":"ECONNRESET","errno":"ECONNRESET","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:39:07.049Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:39:07.053Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:39:07.059Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:39:07.063Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:39:07.067Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:39:07.068Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:39:07.074Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:39:07.077Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:39:07.078Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:39:07.080Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:39:07.597Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:39:07.597Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:39:13.160Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:39:13.217Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:39:13.266Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:39:13.268Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:39:13.270Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:39:13.271Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:39:13.274Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:39:13.276Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:39:13.279Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:39:13.280Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:39:13.286Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:39:13.286Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:39:13.291Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:39:13.298Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:39:13.302Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4f61d89bc016cee9aebf","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:39:13 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:39:13.305Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:39:13.306Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:39:13.309Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:39:13.312Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:39:13.313Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:39:13.318Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:39:13.320Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:39:13.321Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:39:13.323Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:39:13.844Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:39:13.844Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:40:10.185Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:40:10.240Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:40:10.296Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:40:10.296Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:10.312Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:10.320Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:40:10.321Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4f9aa5df4916fbe533d4","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:40:10 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:40:10.324Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:40:10.326Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:10.329Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:40:10.338Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:40:10.343Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:40:10.689Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:40:10.689Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:40:16.077Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:40:16.137Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:40:16.191Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:40:16.192Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:16.210Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:16.215Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:40:16.218Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4fa043809a171a895671","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:40:16 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:40:16.222Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:40:16.223Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:16.227Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:40:16.236Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:40:16.242Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:40:16.760Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:40:16.760Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:40:21.540Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:40:21.598Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:40:21.647Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:40:21.647Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:21.665Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:21.674Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:40:21.677Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4fa5e2192c1738c5237d","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:40:21 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:40:21.679Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:40:21.680Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:21.683Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:40:21.693Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:40:21.698Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:40:22.241Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:40:22.241Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:40:26.765Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:40:26.821Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:40:26.872Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:40:26.872Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:26.890Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:40:26.899Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:26.901Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4faa5d487b17584a4929","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:40:26 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:40:26.904Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:40:26.907Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:26.910Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:40:26.920Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:40:26.925Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:40:27.420Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:40:27.420Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:40:32.664Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:40:32.728Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:40:32.776Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:40:32.777Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:32.793Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:32.801Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:40:32.803Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4fb0552bb21776b6affa","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:40:32 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:40:32.806Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:40:32.806Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:32.810Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:40:32.819Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:40:32.824Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:40:33.348Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:40:33.349Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:40:39.147Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:40:39.213Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:40:39.259Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:40:39.260Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:39.275Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:39.282Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:40:39.285Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f4fb7f045511795d6ce11","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:40:39 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:40:39.288Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:40:39.289Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:40:39.292Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:40:39.301Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:40:39.307Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:40:39.840Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:40:39.841Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:41:29.324Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:41:29.377Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:41:42.343Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:41:42.396Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:41:47.808Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:41:47.861Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:42:05.220Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:42:05.281Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:42:47.272Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:42:47.327Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:43:31.800Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:43:31.852Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:43:57.907Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:43:57.961Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:44:21.695Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:44:21.755Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:44:21.806Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:44:21.806Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:44:21.823Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:44:21.830Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:44:21.832Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f5095e3072c18e5de0d83","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:44:21 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:44:21.835Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:44:21.836Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:44:21.840Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:44:21.849Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:44:21.853Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:44:22.535Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:44:22.536Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:44:42.319Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:44:42.377Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:44:42.427Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:44:42.427Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:44:42.444Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:44:42.452Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:44:42.455Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f50aa6ec8e2190852851b","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:44:42 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:44:42.457Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:44:42.458Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:44:42.462Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:44:42.471Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:44:42.476Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:44:42.976Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:44:42.976Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:44:48.676Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:44:48.734Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:44:48.784Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:44:48.784Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:44:48.802Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:44:48.809Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:44:48.811Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f50b0c40faa1927b48724","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:44:48 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:44:48.813Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:44:48.814Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:44:48.818Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:44:48.828Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:44:48.832Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:44:49.348Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:44:49.348Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:45:02.317Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:45:02.375Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:45:02.428Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:45:02.428Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:45:02.445Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:45:02.454Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:45:02.457Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f50bee55e261948f7dc16","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:45:02 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:45:02.460Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:45:02.461Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:45:02.465Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:45:02.475Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:45:02.481Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:45:03.014Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:45:03.014Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:45:33.464Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:45:33.524Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:45:33.574Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:45:33.574Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:45:33.592Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:45:33.601Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:45:33.603Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f50dd576741196f85db95","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:45:33 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:45:33.606Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:45:33.606Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:45:33.610Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:45:33.619Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:45:33.624Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:45:33.918Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:45:33.918Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:46:12.193Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:46:12.252Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:46:12.303Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:46:12.303Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:46:12.320Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:46:12.328Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:46:12.330Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f51041a8d36199827a306","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:46:12 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:46:12.332Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:46:12.333Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:46:12.336Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:46:12.347Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:46:12.352Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:46:12.639Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:46:12.639Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:46:41.578Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:46:41.636Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:46:41.687Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:46:41.687Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:46:41.705Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:46:41.713Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:46:41.714Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f5121b5f16b19c250afd1","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:46:41 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:46:41.716Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:46:41.718Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:46:41.721Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:46:41.732Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:46:41.737Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:46:42.028Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:46:42.028Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:50:36.417Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:50:36.477Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:50:36.528Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:50:36.528Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:50:36.544Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:50:36.552Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:50:36.555Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f520c9450761a104257f1","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:50:36 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:50:36.559Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:50:36.559Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:50:36.563Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:50:36.572Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:50:36.577Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:50:36.988Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:50:36.988Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:50:56.356Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:50:56.416Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:50:56.467Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:50:56.467Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:50:56.485Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:50:56.493Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:50:56.494Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f52200a88f51a392ac569","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:50:56 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:50:56.496Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:50:56.505Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:50:56.508Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:50:56.518Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:50:56.523Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:50:56.879Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:50:56.880Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:51:17.962Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:51:18.021Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:51:18.088Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:51:18.088Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:51:18.105Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:51:18.113Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:51:18.116Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f5236c194ea1a60c376f7","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:51:18 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:51:18.120Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:51:18.121Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:51:18.126Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:51:18.140Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:51:18.145Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:51:18.439Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:51:18.439Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:51:54.627Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:51:54.696Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:51:54.751Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:51:54.751Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:51:54.767Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:51:54.778Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:51:54.780Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f525a7f7a7b1a8a99e008","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:51:54 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:51:54.782Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:51:54.783Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:51:54.786Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:51:54.796Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:51:54.800Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:51:55.142Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:51:55.142Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:54:04.828Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:54:04.923Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:54:04.985Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:54:04.987Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:54:04.993Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:54:04.993Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:54:04.998Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:54:05.000Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:54:05.007Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:54:05.008Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:54:05.013Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:54:05.014Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:54:05.020Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:54:05.026Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:54:05.031Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:54:05.034Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f52dd98ebed1ac84beb14","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:54:05 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:54:05.037Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:54:05.043Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:54:05.048Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:54:05.049Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:54:05.058Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:54:05.062Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:54:05.063Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:54:05.066Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:54:05.458Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:54:05.459Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:54:44.608Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:54:44.670Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:54:44.721Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:54:44.723Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T03:54:44.726Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T03:54:44.727Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:54:44.731Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:54:44.732Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:54:44.735Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:54:44.736Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:54:44.740Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:54:44.741Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:54:44.745Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T03:54:44.751Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:54:44.759Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f5304ef02381af754dd88","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 03:54:44 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T03:54:44.761Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T03:54:44.762Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:54:44.766Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:54:44.767Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T03:54:44.769Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:54:44.772Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T03:54:44.772Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T03:54:44.775Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T03:54:45.056Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T03:54:45.056Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:09:08.819Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T04:09:08.868Z"}
+{"level":"error","message":"__SERVER_ERROR__ server is already running","timestamp":"2017-12-12T04:09:23.860Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:12:55.841Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T04:12:55.902Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:12:55.947Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:12:55.949Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T04:12:55.952Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T04:12:55.952Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:12:55.956Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:12:55.957Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:12:55.963Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:12:55.964Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:12:55.966Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:12:55.967Z"}
+{"code":"ECONNRESET","errno":"ECONNRESET","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T04:12:55.970Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T04:12:55.974Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T04:12:55.982Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T04:12:55.984Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:12:55.989Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:12:55.990Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T04:12:55.998Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:12:56.001Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:12:56.001Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:12:56.003Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T04:12:56.724Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T04:12:56.724Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:19:49.015Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T04:19:49.081Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:19:49.123Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:19:49.125Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T04:19:49.128Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T04:19:49.128Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:19:49.132Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:19:49.134Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:19:49.137Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:19:49.137Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:19:49.142Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:19:49.143Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T04:19:49.147Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T04:19:49.156Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T04:19:49.159Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f58e5f9a6551c9b85bd4a","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 04:19:49 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T04:19:49.161Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T04:19:49.162Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T04:19:49.165Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:19:49.168Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:19:49.169Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T04:19:49.176Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:19:49.179Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:19:49.179Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:19:49.182Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T04:19:49.485Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T04:19:49.485Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:20:54.375Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T04:20:54.435Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:20:54.482Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:20:54.484Z"}
+{"level":"info","message":"POST - processing new post request","timestamp":"2017-12-12T04:20:54.487Z"}
+{"level":"info","message":"POST - responding with a 400","timestamp":"2017-12-12T04:20:54.487Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:20:54.492Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:20:54.493Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:20:54.496Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:20:54.497Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:20:54.502Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:20:54.502Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T04:20:54.506Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T04:20:54.516Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T04:20:54.518Z"}
+{"message":"Not Found","stack":"Error: Not Found\n    at Request.Object.<anonymous>.Request.callback (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:696:15)\n    at IncomingMessage.parser (/Users/Andrew/cf/401/labs/11-express-server/lab-andrew/node_modules/superagent/lib/node/index.js:906:18)\n    at emitNone (events.js:111:20)\n    at IncomingMessage.emit (events.js:208:7)\n    at endReadableNT (_stream_readable.js:1056:12)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","status":404,"response":{"req":{"method":"GET","url":"http://localhost:3000/api/cats/5a2f5926f7b84f1cd04f76cb","headers":{"user-agent":"node-superagent/3.8.2"}},"header":{"x-powered-by":"Express","content-type":"text/plain; charset=utf-8","content-length":"9","etag":"W/\"9-0gXL1ngzMqISxa6S1zx3F4wtLyg\"","date":"Tue, 12 Dec 2017 04:20:54 GMT","connection":"close"},"status":404,"text":"Not Found"},"level":"error","timestamp":"2017-12-12T04:20:54.521Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-12T04:20:54.522Z"}
+{"level":"info","message":"GET - processing a new get request","timestamp":"2017-12-12T04:20:54.526Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:20:54.529Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:20:54.530Z"}
+{"level":"info","message":"You must pass an ID to DELETE","timestamp":"2017-12-12T04:20:54.536Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:20:54.539Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:20:54.540Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:20:54.542Z"}
+{"level":"error","message":"bad API request","timestamp":"2017-12-12T04:20:54.916Z"}
+{"code":"ECONNREFUSED","errno":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3000,"level":"error","timestamp":"2017-12-12T04:20:54.916Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:21:46.983Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:21:47.035Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:22:48.844Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:22:48.894Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:23:38.423Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:23:38.476Z"}
+{"level":"info","message":"Server is listening on port 3000","timestamp":"2017-12-12T04:23:59.927Z"}
+{"level":"info","message":"Server is off","timestamp":"2017-12-12T04:23:59.977Z"}

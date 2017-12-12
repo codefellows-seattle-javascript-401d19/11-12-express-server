@@ -18,8 +18,8 @@ const createFakeKitten = () => {
 };
 
 describe('/api/cats', () => {
-  beforeAll(server.start);
-  afterAll(server.stop);
+  beforeEach(server.start);
+  afterEach(server.stop);
   afterEach(() => Cat.remove({}));
 
   // WORKING
@@ -54,13 +54,13 @@ describe('/api/cats', () => {
 
   describe('GET /api/cats', () => {
 
-    test('GET should respond with 200 status code and cat if no errors; checking that a known value that is expected is returned', () => {
+    test('GET should respond with 200 status code and cat if no errors when URL includes cat id; checking that a known value that is expected is returned', () => {
       let catTest = null;
 
       createFakeKitten()
         .then(cat => {
           catTest = cat;
-          console.log('cat', cat);
+          console.log('cat._id', cat._id);
           return superagent.get(`${__API_URL__}/${cat._id}`);
         })
         .then(response => {
@@ -77,13 +77,18 @@ describe('/api/cats', () => {
         });
     });
 
-    // test('GET should respond with 200 if a general request is passed; checking that expected value is found in the array returned', () => {
-    //   return superagent.get(`${__API_URL__}`)
-    //     .then(response => {
-    //       expect(response.status).toEqual(200);
-    //     });
-    // });
-
+    test('GET should respond with 200 if a general request is passed; checking that an expected array is returned', () => {
+      createFakeKitten()
+        .then(() => createFakeKitten())
+        .then(() => createFakeKitten())
+        .then(() => superagent.get(`${__API_URL__}`))
+        .then(response => {
+          console.log(response.body);
+          expect(response.status).toEqual(200);
+          expect(response.body.length).toEqual(3);
+        })
+        .catch(error => console.log('hey bad get no id', error));
+    });
 
     // WORKING
     test('GET should respond with 404 if the id queried does not exist', () => {
@@ -95,8 +100,10 @@ describe('/api/cats', () => {
     });
 
   });
+
   //WORKING
   describe('DELETE /api/cats', () => {
+
     test('DELETE should respond with a 400 message if no id provided', () => {
       return superagent.delete(`${__API_URL__}`)
         .catch(response => {
