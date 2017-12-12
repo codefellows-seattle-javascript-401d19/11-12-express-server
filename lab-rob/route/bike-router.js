@@ -13,7 +13,7 @@ bikeRouter.post('/api/bikes', jsonParser, (request, response) => {
     return response.sendStatus(400);
   }
 
-  new Bike(request.body).save()
+  return new Bike(request.body).save()
     .then(bike => response.json(bike))
     .catch(error => {
       logger.log('error', '__SERVER_ERROR__');
@@ -25,7 +25,7 @@ bikeRouter.post('/api/bikes', jsonParser, (request, response) => {
 bikeRouter.get('/api/bikes', (request, response) => {
   logger.log('info', 'GET - Processing a request for all bikes');
 
-  Bike.find({})
+  return Bike.find({})
     .then(bikes => {
       logger.log('info', 'GET - returning a 200 status code');
       logger.log('info', bikes);
@@ -41,7 +41,7 @@ bikeRouter.get('/api/bikes', (request, response) => {
 bikeRouter.get('/api/bikes/:id', (request, response) => {
   logger.log('info', `GET - processing a request for a single bike`);
 
-  Bike.findById(request.params.id)
+  return Bike.findById(request.params.id)
     .then(bike => {
       if(!bike) {
         logger.log('info', 'GET - returning a 404 status code');
@@ -70,7 +70,7 @@ bikeRouter.delete('/api/bikes', (request, response) => {
 bikeRouter.delete('/api/bikes/:id', (request, response) => {
   logger.log('info', `DELETE - processing a request for a single bike.`);
 
-  Bike.findByIdAndRemove(request.params.id)
+  return Bike.findByIdAndRemove(request.params.id)
     .then(bike => {
       if(!bike) {
         logger.log('info', 'DELETE - returning a 404 status code');
@@ -107,7 +107,7 @@ bikeRouter.put('/api/bikes/:id', jsonParser, (request, response) => {
     return response.sendStatus(400);
   }
 
-  Bike.findByIdAndUpdate(request.params.id, {$set: updateData}, {new: true})
+  return Bike.findByIdAndUpdate(request.params.id, {$set: updateData}, {new: true})
     .then(bike => {
       if(!bike) {
         logger.log('info', 'PUT - Bike with given id not found. Sending 404 status code.');
