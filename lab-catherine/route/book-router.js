@@ -29,14 +29,13 @@ bookRouter.post('/api/books', jsonParser, (request, response, next) => {
 bookRouter.get('/api/books', (request, response) => {
   logger.log('info', 'GET - processing a request for all books');
 
-  Book.find({}, (error, books) => {
+  return Book.find({}, (error, books) => {
     let bookMap = [];
 
     books.forEach(book => {
       bookMap.push(book);
     });
 
-    console.log('book map:', bookMap);
     return response.json(bookMap);
   });
 });
@@ -44,7 +43,7 @@ bookRouter.get('/api/books', (request, response) => {
 bookRouter.get('/api/books/:id', (request, response, next) => {
   logger.log('info', 'GET - processing a request for a specific book');
 
-  Book.findById(request.params.id)
+  return Book.findById(request.params.id)
     .then(book => {
       if(!book){
         logger.log('info', 'GET - Returning a 404 status code');
@@ -67,7 +66,7 @@ bookRouter.get('/api/books/:id', (request, response, next) => {
 
 bookRouter.delete('/api/books/:id', (request, response) => {
   logger.log('info', 'DELETE - processing a request');
-  Book.findByIdAndRemove(request.params.id)
+  return Book.findByIdAndRemove(request.params.id)
     .then(book => {
       if(!book) {
         logger.log('info', 'DELETE - Returning a 404 status code');
