@@ -52,7 +52,7 @@ MOUNTAINROUTER.get('api/mountains/:id', (request,response) => {
 });
 
 MOUNTAINROUTER.get('api/mountains/', (request,response) => {
-  LOGGER.log('info', 'GET - processing for a non-ID specfic request');
+  LOGGER.log('info', 'GET - processing for a non-ID specific request');
 
   MOUNTAIN.find({})
     .then(MOUNTAIN => {
