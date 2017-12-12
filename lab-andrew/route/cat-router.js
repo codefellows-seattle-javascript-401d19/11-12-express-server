@@ -37,10 +37,10 @@ catRouter.get('/api/cats/:id', (request, response) => {
       logger.log('info', cat);
       return response.json(cat);
     }).catch(error => {
-      // if (error.message.indexOf('Cast to ObjectId failed') > -1){
-      //   logger.log('info', 'GET - Returning a 404 status code. Could not parse the id');
-      //   return response.sendStatus(404);
-      // }
+      if (error.message.indexOf('Cast to ObjectId failed') > -1){
+        logger.log('info', 'GET - Returning a 404 status code. Could not parse the id');
+        return response.sendStatus(404);
+      }
       logger.log('error', 'GET - Returning a 500 code');
       logger.log('error', error);
       return response.sendStatus(500);
@@ -52,18 +52,17 @@ catRouter.get('/api/cats', (request, response) => {
 
   return Cat.find({})
     .then(cats => {
-      console.log(cats);
+      logger.log('info', 'GET - Returning a 200 status code');
       return response.json(cats);
-    });
-  // .catch(error => console.log('you got an error in array maker', error));
+    })
+    .catch(error => logger.log('error', error));
 });
 
-catRouter.get('/api/cats/:id',(request, response) => {
+catRouter.get('/api/cats/:id', (request, response) => {
   logger.log('info', 'GET - processing a new get request');
 
   return Cat.findById(request.params.id)
     .then(cat => {
-      console.log('cat', cat);
       if (!cat){
         logger.log('info', 'GET - Returning a 404 status code');
         return response.sendStatus(404);
@@ -77,6 +76,43 @@ catRouter.get('/api/cats/:id',(request, response) => {
         return response.sendStatus(404);
       }
       logger.log('error', 'GET - Returning a 500 code');
+      logger.log('error', error);
+      return response.sendStatus(500);
+    });
+});
+
+catRouter.put('/api/cats/:id', jsonParser, (request, response) => {
+  logger.log('info', 'PUT - processing a new put request');
+
+  return Cat.findById(request.params.id)
+    .then(cat => {
+      if (!request.body.name || !request.body.says) {
+        logger.log('info', 'POST - responding with a 400');
+        return response.sendStatus(400);
+      }
+      if (!cat){
+        logger.log('info', 'PUT - Returning a 404 status code');
+        return response.sendStatus(404);
+      }
+      cat.set({
+        name: `${request.body.name}`,
+        says: `${request.body.says}`,
+      });
+      logger.log('info', 'PUT - Returning a 200 status code');
+      logger.log('info', cat);
+      return cat.save()
+        .then(updatedCat => response.json(updatedCat))
+        .catch(error => {
+          logger.log('error', 'PUT - Returning a 500 code');
+          logger.log('error', error);
+          return response.sendStatus(500);
+        });
+    }).catch(error => {
+      if (error.message.indexOf('Cast to ObjectId failed') > -1){
+        logger.log('info', 'PUT - Returning a 404 status code. Could not parse the id');
+        return response.sendStatus(404);
+      }
+      logger.log('error', 'PUT - Returning a 500 code');
       logger.log('error', error);
       return response.sendStatus(500);
     });
