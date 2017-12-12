@@ -9,7 +9,9 @@
   "scripts": {
     "test": "jest -i --coverage",
     "dbon": "mkdir -p ./db && mongod --dbpath ./db",
-    "dboff": "killall mongod"
+    "dboff": "killall mongod",
+    "lint": "eslint",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",

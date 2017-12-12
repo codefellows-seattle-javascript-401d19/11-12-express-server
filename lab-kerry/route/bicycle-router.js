@@ -17,7 +17,7 @@ const bicycleRouter = module.exports = new Router();
 bicycleRouter.post('/api/bicycles', jsonParser, (request, response, next) => {
   logger.log('info', 'POST - processing a request at /api/bicycles');
 	
-  if(!request.body.Brand || !request.body.Model || !request.body.Type) {
+  if(!request.body.Brand || !request.body.Model) {
     logger.log('info', 'POST - responding with a 400 failure code');
     return response.sendStatus(400);
   }

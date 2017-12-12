@@ -1,67 +1,48 @@
-![cf](https://i.imgur.com/7v5ASc8.png) Lab 11: Express and Mongo REST API
-======
+##Lab 10 - HTTP REST Server
 
-## Submission Instructions
-* Work in a fork of this repository
-* Work in a branch on your fork
-* Write all of your code in a directory named `lab-` + `<your name>` **e.g.** `lab-susan`
-* Open a pull request to this repository
-* Submit on canvas a question and observation, how long you spent, and a link to your pull request
+##Objective
+To make a lightweight, RESTFUL server which has GET, POST, and DELETE CRUD methods and tests which verify common functionality of these methods.  Furthermore, a connection with a Mongo DB instance is created and information may be stored for later retrieval.  The object created for storage is a Bicycle with a schema identifying the brand, model, and discipline it is intended for.  Mongo auto generates a unique ID and timestamp which follow the object into the DB.
 
-## Resources
-* [express docs](http://expressjs.com/en/4x/api.html)
-* [mongoosse guide](http://mongoosejs.com/docs/guide.html)
-* [mongoosse api docs](http://mongoosejs.com/docs/api.html)
+#### Code Style
+-Node.js (ES6 notation where possible)
+-NPM Dependencies (body-parser, dotenv, express, mongoose, winston)
+-Development NPM packages (eslint, faker, jest, and superagent)
 
-## Configuration 
-Configure the root of your repository with the following files and directories. Thoughfully name and organize any aditional configuration or module files.
-* **README.md** - contains documentation
-* **.env** - contains env variables **(should be git ignored)**
-* **.gitignore** - contains a [robust](http://gitignore.io) `.gitignore` file 
-* **.eslintrc** - contains the course linter configuratoin
-* **.eslintignore** - contains the course linter ignore configuration
-* **package.json** - contains npm package config
-  * create a `lint` script for running eslint
-  * create a `test` script for running tests
-  * create a `start` script for running your server
-  * create `dbon` and `dboff` scripts for managing the mongo daemon
-* **db/** - contains mongodb files **(should be git ignored)**
-* **lib/** - contains module definitions
-* **model/** - contains module definitions
-* **route/** - contains module definitions
-* **\_\_test\_\_/** - contains test modules
+## How to Use
 
-## Feature Tasks  
-For this assignment you will be building a RESTful HTTP server useing express.
+To start this app, clone this repo from 
 
-#### Model
-In the model/ directory create a Model for a resource using Mongoose (that is different from the class lecture resource). The model must include 4 properties, two of which should be required.
+  `http://www.github.com/kerrynordstrom/11-express-server`
 
-#### Server Endpoints
-Create the following routes for performing CRUD opperations on your resourcee
-* `POST /api/<resource-name>` 
-  * pass data as stringifed JSON in the body of a **POST** request to create a new resource
-  * on success respond with a 200 status code and the created note 
-  * on failure due to a bad request send a 400 status code
-* `GET /api/<resource-name>` and `GET /api/<resource-name>?id={id}` 
-  * with no id in the query string it should respond with an array of all of your resources
-  * with an id in the query string it should respond with the details of a specifc resource (as JSON)
-    * if the id is not found respond with a 404
-* `DELETE /api/<resource-name?id={id}>` 
-  * the route should delete a note with the given id 
-  * on success this should return a 204 status code with no content in the body
-  * on failure due to lack of id in the query respond with a 400 status code
-  * on failure due to a resouce with that id not existing respond with a 404 status code
+install all necessary packages with 
 
-## Tests
-* Write tests to ensure the `/api/resource-name` endpoint responds as described for each condition below:
-  * `GET`: test 404, it should respond with 'not found' for valid requests made with an id that was not found
-  * `GET`: test 200, it should contain a response body for a request made with a valid id
-  * `POST`: test 400, it should respond with 'bad request' if no request body was provided or the body was invalid
-  * `POST`: test 200, it should respond with the body content for a post request with a valid body
-  
-## Documentation
-In the README.md write documention for starting your server and makeing requests to each endpoint it provides. The documentaion should describe how the server would respond to valid and invalid requests.
+  `npm install`
 
-## Bonus 1pt
-* Create and test a put route
+Start the Mongo DB server by running the command 
+
+  `npm dbon`
+
+And run any available tests with
+
+  `npm run test`
+
+## Server Endpoints
+
+* `GET /api/bicycles` 
+* Returns an array of all bicycles in the Mongo DB when run with no id as parameter.
+* Returns 200 success message on completion.
+
+* `GET /api/bicycles/:id` 
+* Returns a single bicycle in JSON form from the Mongo DB when run with a valid id as an argument.
+* Returns a 200 success status code if id is found.
+* Returns a 404 failure status code if id is not found.
+* `POST /api/bicycles`
+  * Creates another instance of a bicycle when stringified data is passed through POST route
+  * Returns a 200 success status code if insertion is completed
+  * Returns a 400 failure status code if either the Brand or Model are missing from the request.
+  * Returns a 500 failure status code if any errors are found in the request unrelated to the request body.
+* `DELETE /api/bicycles/:id` 
+  * Deletes a single bicycle from the Mongo DB when run with a valid id as argument
+  * Returns a 204 success status code if deletion is completed
+  * Returns a 400 failure status code if id is missing from request
+  * Returns a 404 failure status code if invalid id is included in request
