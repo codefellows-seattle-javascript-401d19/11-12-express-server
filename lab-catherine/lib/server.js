@@ -11,6 +11,7 @@ let httpServer = null;
 
 mongoose.Promise = Promise;
 
+app.use(require('./logger-middleware'));
 app.use(require('../route/book-router'));
 
 
@@ -18,6 +19,11 @@ app.all('*', (request,response) => {
   logger.log('info', 'Returning a 404 from the catch-all route');
   return response.sendStatus(404);
 });
+
+//---------------------------------------
+// ERROR MIDDLEWARE
+//---------------------------------------
+app.use(require('./error-middleware'));
 
 
 const server = module.exports = {};

@@ -1,6 +1,6 @@
 # Code Fellows: Seattle 401 JavaScript - 401d19
 
-##  Lab 11: Express and Mongo REST API
+##  Lab 11 && 12: Express and Mongo REST API
 
 ### Author:
  Catherine Looper

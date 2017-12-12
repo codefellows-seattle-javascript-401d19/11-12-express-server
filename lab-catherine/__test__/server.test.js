@@ -21,6 +21,13 @@ const bookMockCreate = () => {
   }).save();
 };
 
+const bookMockCreateMany = (howMany) => {
+  // TODO - check if this is a number - improve validation
+  return Promise.all(new Array(howMany))
+    .fill((0)
+      .map(() => bookMockCreate()));
+};
+
 describe('/api/books', () => {
   beforeAll(server.start);
 
@@ -68,7 +75,7 @@ describe('/api/books', () => {
   });
 
   describe('GET /api/books', () => {
-    test('should respond with 200 status code if there is a valid book id and no errors', () => {
+    test('GET should respond with 200 status code if there is a valid book id and no errors', () => {
       let bookToTest = null;
 
       return bookMockCreate()
@@ -89,7 +96,7 @@ describe('/api/books', () => {
         });    
     });
 
-    test('should respond with an array of all book objects if get request is made with out an id', () => {
+    test('GET should respond with an array of all book objects if get request is made with out an id', () => {
       return bookMockCreate()
         .then(() => bookMockCreate())
         .then(() => bookMockCreate())
@@ -100,7 +107,7 @@ describe('/api/books', () => {
         });
     });
     
-    test('should respond with 404 status code if the id is incorrect', () => {
+    test('GET should respond with 404 status code if the id is incorrect', () => {
       return superagent.get(`${apiURL}/mooshy`)
         .then(Promise.reject)
         .catch(response => {
@@ -109,14 +116,11 @@ describe('/api/books', () => {
     });
   });
 
-  describe('DELETE /api/books', () => {
+  describe('DELETE /api/books/:id', () => {
     test('DELETE should respond with 204 status code with no content in the body if successfully deleted', () => {
-      let bookToDelete = null;
-
       return bookMockCreate()
         .then(book => {
-          bookToDelete = book;
-          return superagent.delete(`${apiURL}/${bookToDelete._id}`)
+          return superagent.delete(`${apiURL}/${book._id}`)
             .then(response => {
               expect(response.status).toEqual(204);
             });
@@ -139,4 +143,41 @@ describe('/api/books', () => {
         });
     });
   });
+
+  describe('PUT /api/books/:id', () => {
+    test('should update book and respond with 200 if there are no errors', () => {
+      
+      let bookToUpdate = null;
+      
+      return bookMockCreate()
+        .then(book => {
+          bookToUpdate = book;
+          return superagent.put(`${apiURL}/${book._id}`)
+            .send({title: 'Harry Potter'});
+        }).then(response => {
+          // Here, I only have access to response 
+          expect(response.status).toEqual(200);
+          expect(response.body.title).toEqual('Harry Potter');
+          expect(response.body.content).toEqual(bookToUpdate.content);
+          expect(response.body._id).toEqual(bookToUpdate._id.toString());
+          // add some more here for my book object 
+        });
+    });
+  });
 });
+
+
+// describe('GET /api/books/', () => {
+//   test('should return 10 books (where 10 is the size of the page by default)', () => {
+//     return bookMockCreateMany(100)
+//       .then(tempBooks => {
+//         return superagent.get(`${apiURL}`);
+//       })
+//       .then(response => {
+//         console.log(response.headers);
+//         expect(response.status).toEqual(200);
+//         expect(response.body.count).toEqual(100);
+//         expect(response.body.data.length).toEqual(10);        
+//       });
+//   });
+// });
