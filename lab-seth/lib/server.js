@@ -16,8 +16,8 @@ mongoose.connect(process.env.MONGODB_URI,{useMongoClient : true});
 //--------------------------------------------------------
 // SETTING UP ROUTES
 //--------------------------------------------------------
-const noteRoutes = require('../route/note-router');
-app.use(noteRoutes);
+const planetRoutes = require('../route/planet-router');
+app.use(planetRoutes);
 
 // vinicio - this should be at the end
 app.all('*', (request,response) => {
