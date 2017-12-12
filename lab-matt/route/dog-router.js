@@ -44,7 +44,6 @@ dogRouter.get('/api/dogs/:id', (request, response) => {
       if (!dog) {
         return response.sendStatus(404);
       }
-      else response.sendStatus();
       log('info', 'GET - responding with a 200 status');
       return response.json(dog);
     })

@@ -37,7 +37,6 @@ describe('/api/dogs', () => {
           
           expect(response.body.name).toEqual(dogToPost.name);
           expect(response.body.legs).toEqual(dogToPost.legs);
-          
         });
     });
     
@@ -60,7 +59,7 @@ describe('/api/dogs', () => {
     test('GET should respond with 200 and data if no error', () => {
       let dogToTest = null;
 
-      dogMockCreate()
+      return dogMockCreate()
         .then(dog => {
           dogToTest = dog;
           return superagent.get(`${apiURL}/${dog._id}`);
@@ -92,7 +91,7 @@ describe('/api/dogs', () => {
     test('DELETE should respond with 200 and data if no error', () => {
       let dogToTest = null; // eslint-disable-line
 
-      dogMockCreate()
+      return dogMockCreate()
         .then(dog => {
           dogToTest = dog;
           return superagent.delete(`${apiURL}/${dog._id}`);
