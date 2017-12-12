@@ -42,7 +42,7 @@ MOUNTAINROUTER.get('/api/mountains/:id', (request,response) => {
       LOGGER.log('info',MOUNTAIN);
       return response.json(MOUNTAIN);
     }).catch(error => {
-      if(error.message.indexOf('Cast to ObjectId failed') > -1){
+      if(error.message.toLowerCase().includes('cast to objectid failed')){
         LOGGER.log('info', 'GET - returning a 404 status code. could not parse the id');
         return response.sendStatus(404);
       }
