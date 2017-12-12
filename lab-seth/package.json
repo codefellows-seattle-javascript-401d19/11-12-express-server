@@ -6,7 +6,9 @@
   "scripts": {
     "lint": "eslint .",
     "test": "jest -i --coverage",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dbon": "mkdir -p ./db && mongod --dbpath ./db",
+    "dboff": "killall mongod"
   },
   "keywords": [],
   "author": "Seth Donohue",
@@ -17,10 +19,12 @@
     "superagent": "^3.8.1"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
     "dotenv": "^4.0.0",
     "faker": "^4.1.0",
     "fs-extra": "^4.0.3",
     "mongodb": "^3.0.0-rc0",
+    "mongoose": "^4.13.7",
     "uuid": "^3.1.0",
     "winston": "^2.4.0"
   },

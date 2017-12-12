@@ -1,83 +1,88 @@
 'use strict';
 
-const server = require('../lib/server');
-const superagent = require('superagent');
+// vinicio - this is for express
+process.env.PORT = 5000;
+// vinicio - this is for mongo
+process.env.MONGODB_URI = 'mongodb://localhost/testing';
+
 const faker = require('faker');
+const superagent = require('superagent');
+const planet = require('../model/planet');
+const server = require('../lib/server');
+
+const apiURL = `http://localhost:${process.env.PORT}/api/planets`;
+
+const fakePlanet = () => {
+  return new planet({
+    name : faker.address.longitude(),
+    content : faker.lorem.words(10),
+  }).save();
+};
 
 
-describe('/api/planet',() => {
+describe('/api/planets', () => {
   beforeAll(server.start);
   afterAll(server.stop);
-  let testId;
-  let falseTestId = 31245;
+  afterEach(() => planet.remove({}));
 
-  let testName = `K-${faker.random.alphaNumeric()}${faker.random.alphaNumeric()}${faker.random.alphaNumeric()}${faker.random.alphaNumeric()}`;
-  let testContent = `Longitude: ${faker.address.longitude()}`;
+  describe('POST /api/planets', () => {
+    test('should respond with a planet and 200 status code if there is no error', () => {
+      let planetToPost = {
+        name: faker.address.longitude(),
+        content : faker.lorem.words(10),
+      };
+      return superagent.post(`${apiURL}`)
+        .send(planetToPost)
+        .then(response => {
+          expect(response.status).toEqual(200);
+          expect(response.body._id).toBeTruthy();
+          expect(response.body.discoverDate).toBeTruthy();
 
-  test('POST should respond with 200 status code and a body if there are no errors', () => {
-    return superagent.post('http://localhost:3000/api/planet')
-      .set('Content-Type','application/json')
-      .send({
-        name: testName,
-        content: testContent,
-      })
-      .then(response => {
-        expect(response.status).toEqual(200);
-        expect(response.body.name).toEqual(testName);
-        expect(response.body.content).toEqual(testContent);
-        expect(response.body.discoverDate).toBeTruthy();
-        expect(response.body.id).toBeTruthy();
-        testId = response.body.id;
-      });
+          expect(response.body.name).toEqual(planetToPost.name);
+          expect(response.body.content).toEqual(planetToPost.content);
+        });
+    });
+    test('should respond with a 400 code if we send an incomplete planet', () => {
+      let planetToPost = {
+        content : faker.lorem.words(10),
+      };
+      return superagent.post(`${apiURL}`)
+        .send(planetToPost)
+        .then(Promise.reject)
+        .catch(response => {
+          expect(response.status).toEqual(400);
+        });
+    });
+
   });
 
-  test('POST should respond with 400 status code and a body if there are no errors', () => {
-    return superagent.post('http://localhost:3000/api/planet')
-      .set('Content-Type','application/json')
-      .send('{ broken: failedValue ')
-      .then(response => Promise.reject(response))
-      .catch(response => {
-        expect(response.status).toEqual(400);
-      });
-  });
+  describe('GET /api/planets', () => {
+    test('should respond with 200 status code if there is no error', () => {
+      let planetToTest = null;
 
-  test('GET should respond with 200 status code and an array of planets if there are no errors', () => {
-    return superagent.get('http://localhost:3000/api/planet')
-      .then(response => {
-        expect(response.status).toEqual(200);
-        expect(response.body.length).not.toBe(0 || -1);
-      });
-  });
+      fakePlanet()
+        .then(planet => {
+          //vinicio - no error checking for now
+          planetToTest = planet;
+          return superagent.get(`${apiURL}/${planet._id}`);
+        })
+        .then(response => {
+          console.log(response.body);
+          expect(response.status).toEqual(200);
 
-  test('GET should respond with 200 status code and  a specific planet if there are no errors', () => {
-    return superagent.get(`http://localhost:3000/api/planet?id=${testId}`)
-      .then(response => {
-        expect(response.status).toEqual(200);
-        expect(response.body.id).toEqual(testId);
-      });
-  });
+          expect(response.body._id).toEqual(planetToTest._id.toString());
+          expect(response.body.discoverDate).toBeTruthy();
 
-  test('GET should respond with 404 status code if there are no errors', () => {
-    return superagent.get(`http://localhost:3000/api/planet?id=${falseTestId}`)
-      .then(response => Promise.reject(response))
-      .catch(response => {
-        expect(response.status).toEqual(404);
-      });
-  });
-
-  test('DELETE should respond with 204 status code if there are no errors', () => {
-    return superagent.delete(`http://localhost:3000/api/planet?id=${testId}`)
-      .then(response => {
-        expect(response.status).toEqual(204);
-        expect(response.body).toBe('');
-      });
-  });
-
-  test('DELETE should respond with 404 status code if there are no errors', () => {
-    return superagent.delete(`http://localhost:3000/api/planet?id=$`)
-      .then(response => Promise.reject(response))
-      .catch(response => {
-        expect(response.status).toEqual(404);
-      });
+          expect(response.body.name).toEqual(planetToTest.name);
+          expect(response.body.content).toEqual(planetToTest.content);
+        });
+    });
+    test('should respond with 404 status code if there id is incorrect', () => {
+      return superagent.get(`${apiURL}/gregorAndTheHound`)
+        .then(Promise.reject)
+        .catch(response => {
+          expect(response.status).toEqual(404);
+        });
+    });
   });
 });
