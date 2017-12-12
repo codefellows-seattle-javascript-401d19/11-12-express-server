@@ -18,7 +18,7 @@ MOUNTAINROUTER.post('/api/mountains', JSONPARSER, (request,response) => {
     return response.sendStatus(400);
   }
 
-  new MOUNTAIN(request.body).save()
+  return new MOUNTAIN(request.body).save()
     .then(MOUNTAIN => response.json(MOUNTAIN))
     .catch(error => {
       LOGGER.log('error', '--->SERVER_ERROR<---');

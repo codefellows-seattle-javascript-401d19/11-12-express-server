@@ -32,7 +32,8 @@ server.start = () => {
       return resolve();
     });
   })
-    .then(() => MONGOOSE.connect(process.env.MONGODB_URI, {useMongoClient : true}));
+    .then(() => MONGOOSE.connect(process.env.MONGODB_URI, {useMongoClient : true}
+    ));
 };
 
 server.stop = () => {
