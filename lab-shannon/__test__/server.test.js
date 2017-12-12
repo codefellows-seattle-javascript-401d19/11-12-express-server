@@ -10,6 +10,15 @@ const server = require(`../lib/server`);
 
 const apiURL = `http://localhost:${process.env.PORT}/api/sweets`;
 
+let createFakeSweet = () => {
+  return new Sweet({
+    name: faker.lorem.words(3),
+    hasChocolate: true,
+    temperature: faker.lorem.words(1),
+    seasonal: false,
+  }).save();
+};
+
 describe(`/api/sweets`, () => {
   beforeAll(server.start);
   afterAll(server.stop);
@@ -47,7 +56,34 @@ describe(`/api/sweets`, () => {
       .then(Promise.reject)
       .catch((response) => {
         expect(response.status).toEqual(400);
-      })
+      });
+    });
+  });
+  describe(`GET request`, () => {
+    test(`GET should respond with a 200 status if a sweet with the specified id is found`, () => {
+      let testSweet = null;
+
+      createFakeSweet()
+        .then(sweet => {
+          testSweet = sweet;
+          return superagent.get(`${apiURL}/${sweet._id}`);
+        })
+        .then(response => {
+          expect(response.status).toEqual(200);
+        })
+        .catch(error => {
+          console.log(`I ran here first`);
+          console.log(`Oh Noes! There was an error: ${error}`);
+        });
+    });
+
+    test(`GET should respond with a 404 status if NO sweet with the specified id is found`, () => {
+      return superagent.get(`${apiURL}/blah`)
+        .then(Promise.reject)
+        .catch(response => {
+          console.log(`I ran here too`);
+          expect(response.status).toEqual(404);
+        });
     });
   });
 });
