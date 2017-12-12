@@ -82,10 +82,47 @@ bikeRouter.delete('/api/bikes/:id', (request, response) => {
     })
     .catch(error => {
       if(error.message.indexOf('Cast to ObjectId failed') > -1) {
-        logger.log('info', 'DELETE - returning a 404 status code. Could noe parse id');
+        logger.log('info', 'DELETE - returning a 404 status code. Could not parse id');
         return response.sendStatus(404);
       }
       logger.log('error', 'DELETE - returning a 500 status code');
+      logger.log('error', error);
+      return response.sendStatus(500);
+    });
+});
+
+bikeRouter.put('/api/bikes/:id', jsonParser, (request, response) => {
+  logger.log('info', 'PUT - processing a request.');
+  let updateData = {};
+  if(request.body.make)
+    updateData.make = request.body.make;
+  if(request.body.model)
+    updateData.model = request.body.model;
+  if(request.body.year)
+    updateData.year = parseInt(request.body.year);
+  if(request.body.displacement)
+    updateData.displacement = parseInt(request.body.displacement);
+  if(Object.keys(updateData).length === 0) {
+    logger.log('info', 'PUT - No valid data to update with. Sending 400 status code.');
+    return response.sendStatus(400);
+  }
+
+  Bike.findByIdAndUpdate(request.params.id, {$set: updateData}, {new: true})
+    .then(bike => {
+      if(!bike) {
+        logger.log('info', 'PUT - Bike with given id not found. Sending 404 status code.');
+        return response.sendStatus(404);
+      }
+      logger.log('info', 'PUT - returning a 200 status code');
+      logger.log('info', bike);
+      return response.json(bike);
+    })
+    .catch(error => {
+      if (error.message.indexOf('Cast to ObjectId failed') > -1) {
+        logger.log('info', 'PUT - returning a 404 status code. Could not parse id.');
+        return response.sendStatus(404);
+      }
+      logger.log('error', 'PUT - returning a 500 status code');
       logger.log('error', error);
       return response.sendStatus(500);
     });
