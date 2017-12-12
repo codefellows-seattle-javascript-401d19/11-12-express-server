@@ -9,7 +9,6 @@ let isServerOn = false;
 let httpServer = null;
 
 MONGOOSE.Promise = Promise;
-MONGOOSE.connect(process.env.MONGODB_URI,{useMongoClient : true});
 
 app.use(require('../route/mountain-route'));
 
@@ -32,7 +31,8 @@ server.start = () => {
       LOGGER.log('info', `server is listening on port ${process.env.PORT}`);
       return resolve();
     });
-  });
+  })
+    .then(() => MONGOOSE.connect(process.env.MONGODB_URI, {useMongoClient : true}));
 };
 
 server.stop = () => {
@@ -51,5 +51,6 @@ server.stop = () => {
       LOGGER.log('info', 'server off');
       return resolve();
     });
-  });
+  })
+    .then( () => MONGOOSE.disconnect());
 };
