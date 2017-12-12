@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 
-const noteSchema = mongoose.Schema({
+const episodeSchema = mongoose.Schema({
   title : {
     type : String,
     required : true,
@@ -24,4 +24,4 @@ const noteSchema = mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model('episode',noteSchema);
+module.exports = mongoose.model('episode',episodeSchema);

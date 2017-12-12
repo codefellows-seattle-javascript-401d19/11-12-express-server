@@ -1,8 +1,8 @@
 'use strict';
 
 const express = require('express');
-const mongoose = ('mongoose');
-const logger = ('./logger');
+const mongoose = require('mongoose');
+const logger = require('./logger');
 
 const app = express();
 let isServerOn = false;
@@ -11,7 +11,8 @@ let httpServer = null;
 mongoose.Promise = Promise;
 mongoose.connect(process.env.MONGODB_URI,{useMongoClient : true});
 
-app.use(require('../route/star-trek-episodes-router'));
+const Episodes = require('../route/star-trek-episodes-router');
+app.use(Episodes);
 
 app.all('*', (request, response)=> {
   logger.log('info', '404 from Catch-All route');
