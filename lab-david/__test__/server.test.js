@@ -30,6 +30,7 @@ describe('api/mountains', () => {
         state : FAKER.address.state(1),
         range : FAKER.address.county(2),
       };
+      console.log(mountainToPost);
       return SUPERAGENT.post(`${APIURL}`)
         .send(mountainToPost)
         .then(response => {

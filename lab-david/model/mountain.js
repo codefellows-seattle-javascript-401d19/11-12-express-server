@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 
 const mountainSchema = mongoose.Schema({
-  name: {
+  name : {
     type : String,
     required : true,
     unique : true,

@@ -8,10 +8,12 @@ const LOGGER = require('../lib/logger');
 
 const MOUNTAINROUTER = module.exports = new Router();
 
-MOUNTAINROUTER.post('/api/mountains', JSONPARSER, (request,response,next) => {
+MOUNTAINROUTER.post('/api/mountains', JSONPARSER, (request,response) => {
   LOGGER.log('info', 'POST - processing that request');
+  LOGGER.log('info', request );
+  
 
-  if(!request.body.name || !request.body.state || !request.body.range || !request.body.timestamp) {
+  if(!request.body.name || !request.body.state || !request.body.range) {
     LOGGER.log('info', 'POST - responding with a 400 code');
     return response.sendStatus(400);
   }

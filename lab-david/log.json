@@ -70,3 +70,25 @@
 {"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T03:26:34.785Z"}
 {"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T03:26:34.785Z"}
 {"level":"info","message":"server off","timestamp":"2017-12-12T03:26:34.808Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T03:32:08.764Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T03:32:08.802Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-12T03:32:08.802Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T03:32:08.823Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T03:34:18.576Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T03:34:18.606Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T03:34:18.622Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T03:37:52.037Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T03:37:52.077Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T03:37:52.095Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T03:52:53.473Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T03:52:53.511Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T03:52:53.532Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T03:58:19.166Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T03:58:19.210Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T03:58:19.228Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T03:59:32.822Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T03:59:32.864Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T03:59:32.880Z"}
+{"level":"info","message":"server is listening on port 7000","timestamp":"2017-12-12T04:03:32.516Z"}
+{"level":"info","message":"POST - processing that request","timestamp":"2017-12-12T04:03:32.558Z"}
+{"level":"info","message":"server off","timestamp":"2017-12-12T04:03:32.575Z"}
