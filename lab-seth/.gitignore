@@ -1,3 +1,6 @@
+# removing db directory
+db
+
 # Created by https://www.gitignore.io/api/osx,vim,node,linux,windows,visualstudiocode
 
 ### Linux ###
@@ -53,7 +56,6 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-db/
 
 # Typescript v1 declaration files
 typings/
