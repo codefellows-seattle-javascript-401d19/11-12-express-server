@@ -11,7 +11,7 @@ let httpServer = null;
 mongoose.Promise = Promise;
 mongoose.connect(process.envMONGODB_URI,{useMongoClient : true});
 
-app.use(require('../route/note-router'));
+app.use(require('../route/mountain-route'));
 
 app.all('*', (request, response) => {
   logger.log('info', 'Returning a 404 from the catch all route');
