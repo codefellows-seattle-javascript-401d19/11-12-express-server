@@ -17,12 +17,8 @@ const createBike = () => {
 
 describe('/api/bikes', () => {
   beforeAll(server.start);
-  afterAll(() => {
-    Bike.remove({})
-      .then(() => {
-        return server.stop();
-      });
-  });
+  afterAll(server.stop);
+  beforeEach(() => Bike.remove({}));
 
   describe('POST /api/bikes', () => {
     test('should respond with a bike and 200 status code if there is no error.', () => {
@@ -43,7 +39,7 @@ describe('/api/bikes', () => {
           expect(response.body.model).toEqual('XB12s');
           expect(response.body.year).toEqual(2004);
           expect(response.body.displacement).toEqual(1203);
-        }).catch(error => expect(error).toBeUndefined());
+        });
     });
 
     test('should respond with a 400 status code if incomplete data is sent.', () => {
@@ -61,18 +57,18 @@ describe('/api/bikes', () => {
   
   describe('GET /api/bikes with an id', () => {
     test('should respond with a specific bike and 200 status code if there is no error.', () => {
-      createBike()
+      return createBike()
         .then(bike => {
           return superagent.get(`${__API_URL__}/${bike._id}`)
             .then(response => {
-              expect(response.status).toEqual(200);
+              expect(response.status).toEqual(2001);
               expect(response.body._id).toEqual(bike._id.toString());
               expect(response.body.timestamp).toBeTruthy();
               expect(response.body.make).toEqual(bike.make);
               expect(response.body.model).toEqual(bike.model);
               expect(response.body.year).toEqual(bike.year);
               expect(response.body.displacement).toEqual(bike.displacement);
-            }).catch(error => expect(error).toBeUndefined());
+            });
         });
     });
 
@@ -87,26 +83,26 @@ describe('/api/bikes', () => {
 
   describe('GET /api/bikes without an id', () => {
     test('should respond with an array of all bikes and 200 status code if there is no error.', () => {
-      createBike()
+      return createBike()
         .then(() => {
           return superagent.get(`${__API_URL__}`)
             .then(response => {
               expect(response.status).toEqual(200);
               expect(Array.isArray(response.body)).toBeTruthy();
               expect(response.body.length).toBeGreaterThanOrEqual(1);
-            }).catch(error => expect(error).toBeUndefined());
+            });
         });
     });
   });
 
   describe('DELETE /api/bikes with an id', () => {
     test('should respond with a 204 status code if there is no error.', () => {
-      createBike()
+      return createBike()
         .then(bike => {
           return superagent.delete(`${__API_URL__}/${bike.id}`)
             .then(response => {
               expect(response.status).toEqual(204);
-            }).catch(error => expect(error).toBeUndefined());
+            });
         });
     });
 
@@ -131,16 +127,9 @@ describe('/api/bikes', () => {
 
   describe('PUT /api/bikes/:id', () => {
     test('should respond with a 200 status code and the updated bike.', () => {
-      return superagent.post(__API_URL__)
-        .send({
-          make: 'Buell',
-          model: 'XB12s',
-          year: 2004,
-          displacement: 1203,
-        })
-        .then(response => {
-          expect(response.status).toEqual(200);
-          return superagent.put(`${__API_URL__}/${response.body._id}`)
+      return createBike()
+        .then(bike => {
+          return superagent.put(`${__API_URL__}/${bike._id}`)
             .send({make: 'test make'})
             .then(response => {
               expect(response.status).toEqual(200);
@@ -148,21 +137,14 @@ describe('/api/bikes', () => {
               expect(response.body.model).toEqual('XB12s');
               expect(response.body.year).toEqual(2004);
               expect(response.body.displacement).toEqual(1203);
-            }).catch(response => expect(response.status).toBeUndefined());
+            });
         });
     });
 
     test('should respond with a 400 status code if no relevant properties are sent.', () => {
-      return superagent.post(__API_URL__)
-        .send({
-          make: 'Buell',
-          model: 'XB12s',
-          year: 2004,
-          displacement: 1203,
-        })
-        .then(response => {
-          expect(response.status).toEqual(200);
-          return superagent.put(`${__API_URL__}/${response.body._id}`)
+      return createBike()
+        .then(bike => {
+          return superagent.put(`${__API_URL__}/${bike._id}`)
             .send({barnacles: 'test make'})
             .then(Promise.reject)
             .catch(response => expect(response.status).toEqual(400));
@@ -170,15 +152,8 @@ describe('/api/bikes', () => {
     });
     
     test('should respond with a 404 status code requested id not found.', () => {
-      return superagent.post(__API_URL__)
-        .send({
-          make: 'Buell',
-          model: 'XB12s',
-          year: 2004,
-          displacement: 1203,
-        })
-        .then(response => {
-          expect(response.status).toEqual(200);
+      return createBike()
+        .then(() => {
           return superagent.put(`${__API_URL__}/1012`)
             .send({ make: 'honda'})
             .then(Promise.reject)
