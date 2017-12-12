@@ -37,5 +37,20 @@ server.start = () => {
 };
 
 server.stop = () => {
-
+  return new Promise((resolve, reject) => {
+    if(!serverIsOn){
+      logger.log(`info`, `__SERVER_ERROR__ the server is already off`);
+      return reject(new Error(`__SERVER_ERROR__ the server is already off`));
+    }
+    if(!httpServer){
+      logger.log(`info`, `__SERVER_ERROR__ there is no server to close`);
+      return reject(new Error(`__SERVER_ERROR__ there is no server to close`));
+    }
+    httpServer.close(() => {
+      serverIsOn = false;
+      httpServer = null;
+      logger.log(`info`, `Turning the server off now`);
+      return resolve();
+    });
+  });
 };
