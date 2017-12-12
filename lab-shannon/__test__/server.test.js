@@ -10,7 +10,7 @@ const server = require(`../lib/server`);
 
 const apiURL = `http://localhost:${process.env.PORT}/api/sweets`;
 
-let createFakeSweet = () => {
+const createFakeSweet = () => {
   return new Sweet({
     name: faker.lorem.words(3),
     hasChocolate: true,
@@ -69,7 +69,12 @@ describe(`/api/sweets`, () => {
           return superagent.get(`${apiURL}/${sweet._id}`);
         })
         .then(response => {
+          console.log(response.body);
           expect(response.status).toEqual(200);
+          expect(response.body._id).toEqual(testSweet._id.toString());
+          expect(response.body.name).toEqual(testSweet.name);
+          expect(response.body.hasChocolate).toEqual(testSweet.hasChocolate);
+          expect(response.body.temperature).toEqual(testSweet.temperature);
         })
         .catch(error => {
           console.log(error);

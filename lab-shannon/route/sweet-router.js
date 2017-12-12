@@ -63,7 +63,7 @@ sweetRouter.delete(`/api/sweets/:id`, (request, response, next) => {
     return response.sendStatus(400);
   }
 
-  sweet.findByIdAndRemove(request.params.id)
+  Sweet.findByIdAndRemove(request.params.id)
     .then(deletedSweet => {
       if(!deletedSweet){
         logger.log(`info`, `Sending a 404 status; no sweet with id found for deletion`);

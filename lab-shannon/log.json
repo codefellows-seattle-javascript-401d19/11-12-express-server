@@ -190,3 +190,9 @@
 {"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T05:05:31.999Z"}
 {"level":"info","message":"Processing a POST request","timestamp":"2017-12-12T05:05:32.038Z"}
 {"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T05:05:32.068Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T05:08:12.952Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T05:08:12.987Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T05:09:33.637Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T05:09:33.673Z"}
+{"level":"info","message":"Turning the server on. Listening on port 3000","timestamp":"2017-12-12T05:10:50.246Z"}
+{"level":"info","message":"Turning the server off now","timestamp":"2017-12-12T05:10:50.277Z"}
