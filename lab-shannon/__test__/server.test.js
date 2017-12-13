@@ -69,7 +69,6 @@ describe(`/api/sweets`, () => {
           return superagent.get(`${apiURL}/${sweet._id}`);
         })
         .then(response => {
-          console.log(response.body, `is the response body`);
           expect(response.status).toEqual(200);
           expect(response.body._id).toEqual(testSweet._id.toString());
           expect(response.body.name).toEqual(testSweet.name);
@@ -98,9 +97,7 @@ describe(`/api/sweets`, () => {
           return superagent.get(`${apiURL}`);
         })
         .then(response => {
-          console.log(response.status);
           expect(response.status).toEqual(200);
-          expect(response.body)
         })
     })
   });
