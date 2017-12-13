@@ -97,6 +97,7 @@ describe('/api/recipes', () => {
       return superagent.delete(`${apiURL}/badpath`)
         .then(Promise.reject)
         .catch(response => {
+          console.log(response);
           expect(response.status).toEqual(404);
         });
     });

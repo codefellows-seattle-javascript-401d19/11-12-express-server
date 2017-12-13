@@ -20,7 +20,7 @@ module.exports = (error, request, response, next) => {
     logger.og('info', 'Responding with a 409 status code');
     return response.sendStatus(409);
   }
-  if(message.includes('objectid failed')){
+  if(message.includes('object id failed')){
     logger.og('info', 'Responding with a 404 status code');
     return response.sendStatus(404);
   }
