@@ -1,0 +1,48 @@
+{
+  "name": "lab-catherine",
+  "version": "1.0.0",
+  "description": "Code 401 Lab 11 Express and Mongo Rest API",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest -i --coverage",
+    "lint": "eslint .",
+    "start": "node index.js",
+    "dbon": "mkdir -p ./db && mongod --dbpath ./db",
+    "dboff": "killall mongod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccloops/11-express-server.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "jest",
+    "winston",
+    "node",
+    "express"
+  ],
+  "author": "Catherine Looper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccloops/11-express-server/issues"
+  },
+  "homepage": "https://github.com/ccloops/11-express-server#readme",
+  "devDependencies": {
+    "eslint": "^4.13.0",
+    "faker": "^4.1.0",
+    "jest": "^21.2.1",
+    "superagent": "^3.8.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "http-errors": "^1.6.2",
+    "mongodb": "^3.0.0-rc0",
+    "mongoose": "^4.13.6",
+    "winston": "^2.4.0"
+  }
+}
