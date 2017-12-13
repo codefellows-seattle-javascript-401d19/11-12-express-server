@@ -5,8 +5,9 @@
 
   * display all data (GET method)
   * display single object from database if correct id is passed to the request  (GET method)
-  * add object to database
-  * delete object from the database
+  * add object to database (POST method)
+  * update object in our database (PUT method)
+  * delete object from the database (DELETE method)
 
 ## Code Style
 * Javascript + ES6, Express JS, Mongodb, Mongoose
