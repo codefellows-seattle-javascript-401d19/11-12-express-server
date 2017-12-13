@@ -33,7 +33,7 @@ const bicycleMockCreate2 = () => {
 describe('api/bicycles', () => {
   beforeAll(server.start);
   afterAll(server.stop);
-  afterEach(() => Bicycle.remove ({}));
+  afterEach(() => Bicycle.remove({}));
 
   describe('POST /api/bicycles', () => {
     test('POST - should respond with a bicycle and 200 status code if there is no error', () => {
@@ -112,13 +112,14 @@ describe('api/bicycles', () => {
     });
   });
 
-  describe('DELETE /api/bicycles', () => {
+  describe('DELETE /api/bicycles/:id', () => {
     test('DELETE - should respond with no body and a 204 status code if there is no error', () => {
       return bicycleMockCreate()
         .then(bicycle => {
           return superagent.delete(`${apiURL}/${bicycle._id}`);
         })
         .then(response => {
+          console.log(response.body);
           expect(response.status).toEqual(204);
         });
     });

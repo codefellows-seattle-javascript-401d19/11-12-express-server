@@ -29,7 +29,7 @@ module.exports = () => (error, request, response, next) => {
     return response.sendStatus(409);
   }
 
-  if (message.includes('ObjectId failed')) {
+  if (message.includes('objectid failed')) {
     logger.log('info', 'Responding with a 404 status code.');
     return response.sendStatus(404);
   }
