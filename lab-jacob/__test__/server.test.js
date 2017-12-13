@@ -9,8 +9,8 @@ const starTrekEpisodes = require('../model/star-trek-episodes');
 const server = require('../lib/server');
 
 const apiURL = `http://localhost:${process.env.PORT}/api/star-trek-episodes`;
-beforeEach(server.start);
-afterEach(server.stop);
+beforeAll(server.start);
+afterAll(server.stop);
 afterEach(() => starTrekEpisodes.remove({}));
 
 const starTrekMockEpisode = () => {
@@ -25,7 +25,6 @@ const starTrekMockEpisode = () => {
 describe('/api/star-trek-episodes', () => {
 
   describe('POST /api/star-trek-episodes', () => {
-    starTrekMockEpisode();
     test('Should respond with a Episode and 200 status code if there is no error', () => {
       let episodeToPost = {
         title : `Encounter at Farpoint`,
@@ -39,8 +38,8 @@ describe('/api/star-trek-episodes', () => {
           expect(response.body._id).toBeTruthy();
           expect(response.body.timestamp).toBeTruthy();
 
-          expect(response.body.title).toEqual(`Encounter at Farpoint`);
-          expect(response.body.episode).toEqual(1);
+          expect(response.body.title).toEqual(episodeToPost.title);
+          expect(response.body.episode).toEqual(episodeToPost.episode);
           expect(response.body.content).toEqual(episodeToPost.content);
         });
     });
@@ -64,7 +63,7 @@ describe('/api/star-trek-episodes', () => {
     test('Should respond with 200 status code if there is no error', () => {
       let episodeToTest = null;
 
-      starTrekMockEpisode()
+      return starTrekMockEpisode()
         .then(Episode => {
           episodeToTest = Episode;
           return superagent.get(`${apiURL}/${Episode._id}`);
@@ -90,25 +89,29 @@ describe('/api/star-trek-episodes', () => {
     });
   });
 
-  describe('DELETE /api/star-trek-episodes', () =>{
-    
-    test('should response with 200 code if there is no error', () => {
-      let episodeToTest = null;
-      
-      starTrekMockEpisode()
-        .then(Episode => {
-          episodeToTest = Episode;
-          return superagent.get(`${apiURL}/${Episode._id}`);
+  describe('GET /api/star-trek-episodes', () => {
+    test('Should respond with 200 status code if there is no error', () => {
+
+      return starTrekMockEpisode()
+        .then( () => {
+          return superagent.get(`${apiURL}`);
         })
         .then(response => {
-          console.log(response.body);
           expect(response.status).toEqual(200);
-      
-          expect(response.body._id).toEqual(null);
-          expect(response.body.timestamp).toBeFalsey();
-      
-          expect(response.body.title).toEqual(null);
-          expect(response.body.content).toEqual(null);
+          expect(Array.isArray(response.body)).toBeTruthy();
+        });
+    });
+  });
+
+  describe('DELETE /api/star-trek-episodes', () =>{
+    
+    test('should response with 204 code if there is no error', () => {   
+      return starTrekMockEpisode()
+        .then(Episode => {
+          return superagent.delete(`${apiURL}/${Episode._id}`);
+        })
+        .then(response => {
+          expect(response.status).toEqual(204);
         });
     });
   });

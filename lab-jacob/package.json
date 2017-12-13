@@ -25,8 +25,8 @@
   "scripts": {
     "test": "jest -i --coverage",
     "lint": "eslint",
-    "dbon": "sudo mkdir -p ./db && mongod --dbpath ./db",
-    "dboff": "sudo killall mongod"
+    "dbon": "mkdir -p ./db && mongod --dbpath ./db",
+    "dboff": "killall mongod"
   },
   "keywords": [],
   "author": "",

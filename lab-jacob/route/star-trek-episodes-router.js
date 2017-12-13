@@ -27,14 +27,16 @@ starTrekEpisodesRouter.post('/api/star-trek-episodes',jsonParser, (request, resp
 starTrekEpisodesRouter.get('/api/star-trek-episodes/:id', (request, response, next) => {
   logger.log('info', 'GET - PROCESSING REQUEST');
 
-  EpisodesModel.findById(request.params.id)
+  return EpisodesModel.findById(request.params.id)
     .then(episode => {
-      if(!episode)
+      if(!episode){
         logger.log('info', 'GET - Returning a 404 status');
-      return response.json(episode);
+        return response.sendStatus(404);
+      }
+      return response.json(episode);   
     }).catch(error => {
       if(error.message.indexOf('Cast to ObjectId failed') > -1){
-        logger.log('info', 'GET -Return a 404, ID parsing failed');
+        logger.log('info', 'GET - Return a 404, ID parsing failed');
         return response.sendStatus(404);
       }
       logger.log('error', 'GET - Returning a 500 code');
@@ -43,19 +45,39 @@ starTrekEpisodesRouter.get('/api/star-trek-episodes/:id', (request, response, ne
     });
 });
 
-//GET BY RESOURCE NAME
+//GET ALL
+starTrekEpisodesRouter.get('/api/star-trek-episodes/', (request, response, next) => {
+  logger.log('info', 'GET - PROCESSING REQUEST');
+
+  return EpisodesModel.find({})
+    .then(episodes => {
+      if(!episodes){
+        logger.log('info', 'GET - Returning a 404 status');
+        return response.sendStatus(404);
+      }
+      return response.json(episodes);
+    }).catch(error => {
+      if(error.message.indexOf('Cast to ObjectId failed') > -1){
+        logger.log('info', 'GET - Return a 404, ID parsing failed');
+        return response.sendStatus(404);
+      }
+      logger.log('error', 'GET - Returning a 500 code');
+      logger.log('error', error);
+      return response.sendStatus(500);
+    });
+});
 
 //DELETE BY ID
 starTrekEpisodesRouter.delete('/api/star-trek-episodes/:id', (request, response, next) => {
   logger.log('info', 'DELETE - PROCESSING REQUEST');
 
-  EpisodesModel.findById(request.params.id)
+  return EpisodesModel.findByIdAndRemove(request.params.id)
     .then(episode => {
-      if(!episode)
+      if(!episode){
         logger.log('info', 'DELETE - Returning a 404 status');
-      return response.remove({
-        id : `${request.params.id}`,
-      });
+        return response.sendStatus(404);
+      }
+      return response.sendStatus(204);
     }).catch(error => {
       if(error.message.indexOf('Cast to ObjectId failed') > -1){
         logger.log('info', 'DELETE - Return a 404, ID parsing failed');
