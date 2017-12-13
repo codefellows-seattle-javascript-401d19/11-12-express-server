@@ -35,4 +35,4 @@ module.exports = (error, request, response, next) => {
     console.log(`sending a 500 status via mongo`);
     return response.sendStatus(500);
   }
-}
+};

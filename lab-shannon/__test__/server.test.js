@@ -98,8 +98,8 @@ describe(`/api/sweets`, () => {
         })
         .then(response => {
           expect(response.status).toEqual(200);
-        })
-    })
+        });
+    });
   });
 
   describe(`DELETE request`, () => {
@@ -107,7 +107,7 @@ describe(`/api/sweets`, () => {
 
       return createFakeSweet()
         .then(sweet => {
-          return superagent.delete(`${apiURL}/${sweet.id}`)
+          return superagent.delete(`${apiURL}/${sweet.id}`);
         })
         .then(response => {
           expect(response.status).toEqual(204);
@@ -117,7 +117,7 @@ describe(`/api/sweets`, () => {
         });
     });
     test(`DELETE should return a 400 status if no id is provided`, () => {
-     return superagent.delete(`${apiURL}`)
+      return superagent.delete(`${apiURL}`)
         .then(Promise.reject)
         .catch(response => {
           expect(response.status).toEqual(400);
