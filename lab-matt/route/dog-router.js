@@ -3,77 +3,94 @@
 // const Router = require('express').Router;
 const {Router} = require('express');
 const jsonParser = require('body-parser').json();
+const httpErrors = require('http-errors');
 
 const Dog = require('../model/dogs');
 const log = require('../lib/logger');
 
 const dogRouter = module.exports = new Router();
 
-dogRouter.post('/api/dogs', jsonParser, (request, response) => {
-  log('info', 'POST - processing a request');
+// ===================== POST ROUTES =====================
+dogRouter.post('/api/dogs', jsonParser, (request, response, next) => {
   log('info', `==NAME==: ${request.body.name}`);
   log('info', `==LEGS==: ${request.body.legs}`);
 
   if (!request.body.name || !request.body.legs) {
-    log('info', 'POST - responding with a 400 status');
-    response.sendStatus(400);
-    return;
+    return next(httpErrors(400), 'body and content are require');
   }
 
   new Dog(request.body).save()
     .then(dog => {
       log('info', `==_ID==: ${dog._id}`);
       log('info', `==TIMESTAMP==: ${dog.timestamp}`);
+      log('info', 'POST - responding with a 200 status');
       response.json(dog);
       return;
     })
-    .catch(error => {
-      log('error', '__SERVER_ERROR__');
-      log('error', error);
-      response.sendStatus(500);
-      return;
-    });
+    .catch(next);
 });
 
-dogRouter.get('/api/dogs/:id', (request, response) => {
-  log('info', 'GET - processing a request');
+// ===================== GET ROUTES =====================
+dogRouter.get('/api/dogs', (request, response, next) => {
+  return Dog.find({})
+    .limit(10)
+    .then(allDogs => {
+      log('info', `==DOG ARRAY==: ${allDogs}`);
+      if (allDogs.length === 0) {
+        throw httpErrors(404, 'no dogs listed not found');
+      }
+      log('info', 'GET - responding with a 200 status');
+      return response.json(allDogs);
+    })
+    .catch(next);
+});
 
-  Dog.findById(request.params.id)
+dogRouter.get('/api/dogs/:id', (request, response, next) => {
+  return Dog.findById(request.params.id)
     .then(dog => {
       log('info', `==DOG==: ${dog}`);
       if (!dog) {
-        return response.sendStatus(404);
+        throw httpErrors(404, 'dog not found');
       }
       log('info', 'GET - responding with a 200 status');
       return response.json(dog);
     })
-    .catch(error => {
-      if(error.message.indexOf('Cast to ObjectId failed') > -1){
-        log('info', 'GET - Returning a 404 status code. Could not parse id');
-        return response.sendStatus(404);
-      }
-      log('error', 'GET - Returning a 500 code');
-      log('error', error);
-      return response.sendStatus(500);
-    });
+    .catch(next);
 });
 
-
-dogRouter.delete('/api/dogs/:id', (request, response) => {
+// ===================== PUT ROUTES =====================
+dogRouter.put('/api/dogs/:id', jsonParser, (request, response, next) => {
   if (!request.params.id) {
-    return response.sendStatus(400);
+    throw httpErrors(400, 'no ID given');
   }
+  let updateOptions = {runValidators: true, new: true};
 
-  Dog.findByIdAndRemove(request.params.id)
+  return Dog.findByIdAndUpdate(request.params.id, request.body, updateOptions)
     .then(dog => {
       if (!dog) {
-        log('info', `DELETE - Responding with a 404 status due to no match with ID: ${request.params.id}`);
-        return response.sendStatus(404);
+        throw httpErrors(404, 'dog not found');
       } else {
+        log('info', 'PUT - responding with a 200 status');
+        return response.json(dog);
+      }
+    })
+    .catch(next);
+});
+
+// ===================== DELETE ROUTES =====================
+dogRouter.delete('/api/dogs/:id', (request, response, next) => {
+  if (!request.params.id) {
+    throw httpErrors(400, 'no ID given');
+  }
+
+  return Dog.findByIdAndRemove(request.params.id)
+    .then(dog => {
+      if (!dog) {
+        throw httpErrors(404, 'dog not found');
+      } else {
+        log('info', 'DELETE - responding with a 204 status');
         return response.sendStatus(204);
       }
     })
-    .catch(() => {
-      response.sendStatus(404);        
-    });
+    .catch(next);
 });

@@ -11,7 +11,6 @@ const PORT = process.env.PORT;
 
 // ================ MONGO DB SETUP ===================
 mongoose.Promise = Promise;
-mongoose.connect(MONGODB_URI, {useMongoClient: true});
 
 // ================ SERVER SETUP ===================
 const server = module.exports = {};
@@ -19,12 +18,16 @@ const server = module.exports = {};
 const app = express();
 
 // ================ ROUTE SETUP ===================
+app.use(require('./logger-middleware'));
 app.use(require('../route/dog-router'));
 
 app.all('*', (request, response) => {
   log('info', 'Returning a 404 from the catch-all route');
   return response.sendStatus(404);
 });
+
+// ================ ERROR MIDDLEWARE ===================
+app.use(require('./error-middleware'));
 
 // ================ SERVER USE ===================
 let isServerOn = false;
@@ -44,7 +47,7 @@ server.start = () => {
     });
   })
     .then(() => {
-      mongoose.connect(process.env.MONGODB_URI, {useMongoClient: true});
+      mongoose.connect(MONGODB_URI, {useMongoClient: true});
     });
 };
 
