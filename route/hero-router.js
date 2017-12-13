@@ -33,7 +33,7 @@ heroRouter.get('/api/heroes/:id', (request,response,next) => {
 
 // DELETE METHOD
 heroRouter.delete('/api/heroes/:id', (request,response,next) => {
-  return Hero.findByIdAndDelete(request.params.id)
+  return Hero.findByIdAndRemove(request.params.id)
     .then(hero => {
       if(!hero){
         throw httpErrors(404, 'hero not found');
