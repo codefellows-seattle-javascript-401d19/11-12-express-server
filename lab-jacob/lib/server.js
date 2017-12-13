@@ -14,10 +14,14 @@ mongoose.connect(process.env.MONGODB_URI,{useMongoClient : true});
 const Episodes = require('../route/star-trek-episodes-router');
 app.use(Episodes);
 
+app.use(require('./logger-middleware'));
+
 app.all('*', (request, response)=> {
   logger.log('info', '404 from Catch-All route');
   return response.sendStatus(404);
 });
+
+app.use(require('./error-middleware'));
 
 const server = module.exports = {};
 

@@ -9,9 +9,6 @@ const starTrekEpisodes = require('../model/star-trek-episodes');
 const server = require('../lib/server');
 
 const apiURL = `http://localhost:${process.env.PORT}/api/star-trek-episodes`;
-beforeAll(server.start);
-afterAll(server.stop);
-afterEach(() => starTrekEpisodes.remove({}));
 
 const starTrekMockEpisode = () => {
   return new starTrekEpisodes({
@@ -21,8 +18,16 @@ const starTrekMockEpisode = () => {
   }).save();
 };
 
+const episodeMockCreateMany = (amountofEpisodes) => {
+  return Promise.all(new Array(amountofEpisodes)
+    .fill(0)
+    .map(() => episodeMockCreateMany()));
+};
 
 describe('/api/star-trek-episodes', () => {
+  beforeAll(server.start);
+  afterAll(server.stop);
+  afterEach(() => starTrekEpisodes.remove({}));
 
   describe('POST /api/star-trek-episodes', () => {
     test('Should respond with a Episode and 200 status code if there is no error', () => {
@@ -57,6 +62,26 @@ describe('/api/star-trek-episodes', () => {
         });
     });
 
+  });
+
+  describe('PUT /api/episodes', () => {
+    test('should update note and respond with 200 if there are no errors', () => {
+
+      let episodeToUpdate= null;
+
+      return starTrekMockEpisode()
+        .then(episode => {
+          episodeToUpdate = episode;
+          return superagent.put(`${apiURL}/${episode._id}`)
+            .send({title : 'Gregor and The Hound'});
+        })
+        .then(response => {
+          expect(response.status).toEqual(200);
+          expect(response.body.title).toEqual('Gregor and The Hound');
+          expect(response.body.content).toEqual(episodeToUpdate.content);
+          expect(response.body._id).toEqual(episodeToUpdate._id.toString());
+        });
+    });
   });
 
   describe('GET /api/star-trek-episodes', () => {
@@ -99,6 +124,21 @@ describe('/api/star-trek-episodes', () => {
         .then(response => {
           expect(response.status).toEqual(200);
           expect(Array.isArray(response.body)).toBeTruthy();
+        });
+    });
+  });
+
+  //FIND GET
+  describe('GET /api/star-trek-episodes', () => {
+    test('should return ', () => {
+      return episodeMockCreateMany(100)
+        .then(manyEpisodes => {
+          return superagent.get(`${apiURL}`);
+        })
+        .then(response => {
+          console.log(response.body);
+          expect(response.status).toEqual(200);
+          expect(response.body.episodes).toEqual(100);
         });
     });
   });
