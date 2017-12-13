@@ -12,10 +12,11 @@ let httpServer = null;
 //Setting up MongoDB and Mongoose
 // -----------------------------------
 mongoose.Promise = Promise;
-mongoose.connect(process.env.MONGODB_URI, {useMongoClient: true});
 // -----------------------------------
 //Setting up routes below
 // -----------------------------------
+app.use(require('./logger-middleware'));
+
 app.use(require('../route/bicycle-router'));
 
 //the catch-all should be at the end of all routes
@@ -25,14 +26,16 @@ app.all('*', (request, response) => {
   return response.sendStatus(404);
 });
 // -----------------------------------
-
+// ERROR MIDDLEWARE
+// -----------------------------------
+app.use(require('./error-middleware'));
 
 const server = module.exports = {};
 
 server.start = () => {
   return new Promise((resolve, reject) => {
     if (isServerOn) {
-      logger.log('error', '__SERVER_ERROR__ Server is already on')
+      logger.log('error', '__SERVER_ERROR__ Server is already on');
       return reject(new Error('__SERVER_ERROR__', 'Server is already on'));
     }
     httpServer = app.listen(process.env.PORT, () => {
@@ -42,17 +45,16 @@ server.start = () => {
       return resolve();
     });
   })
-    .then(() => mongoose.connect(process.env.MONGODB_URI, {useMongoClient: true})
-    );
+    .then(mongoose.connect(process.env.MONGODB_URI, { useMongoClient: true }));
 };
 server.stop = () => {
   return new Promise((resolve, reject) => {
     if(!isServerOn) {
-      logger.log('error', '__SERVER_ERROR__ Server is already off')
+      logger.log('error', '__SERVER_ERROR__ Server is already off');
       return reject(new Error('__SERVER_ERROR__ Server is already off'));
     }
     if (!httpServer) {
-      logger.log('error', '__SERVER_ERROR__ There is no server to close')
+      logger.log('error', '__SERVER_ERROR__ There is no server to close');
       return reject(new Error('__SERVER_ERROR__ There is no server to close'));
     }
     httpServer.close(() => {
@@ -62,5 +64,5 @@ server.stop = () => {
       return resolve();
     });
   })
-    .then(() => mongoose.close());
+    .then(() => mongoose.disconnect());
 };
