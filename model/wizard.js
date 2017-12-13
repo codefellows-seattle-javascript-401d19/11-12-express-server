@@ -2,7 +2,7 @@
 
 const mongoose = require("mongoose");
 
-const wizardSchema = mogoose.Schema({
+const wizardSchema = mongoose.Schema({
     title:{
         type: String,
         require : true,

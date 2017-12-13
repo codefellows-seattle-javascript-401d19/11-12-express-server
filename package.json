@@ -4,7 +4,10 @@
   "description": "Lab 11",
   "main": "index.js",
   "scripts": {
-    "test": "jest -i"
+    "test": "jest -i",
+    "start": "node index.js",
+    "dbon": "mkdir -p ./db && mongod --dbpath ./db",
+    "dboff": "killall mongod"
   },
   "repository": {
     "type": "git",
@@ -26,6 +29,7 @@
     "body-parser": "^1.18.2",
     "dotenv": "^4.0.0",
     "express": "^4.16.2",
+    "mongodb": "^3.0.0-rc0",
     "mongoose": "^4.13.7"
   }
 }
