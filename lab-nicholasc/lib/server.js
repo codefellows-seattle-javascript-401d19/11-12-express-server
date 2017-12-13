@@ -11,6 +11,8 @@ let httpServer = null;
 mongoose.Promise = Promise;
 mongoose.connect(process.env.MONGODB_URI, {useMongoClient : true});
 //-------------------------------
+
+app.use(require('./logger-middleware'));
 const recipeRoutes = require('../route/recipe-router');
 app.use(recipeRoutes);
 
@@ -19,7 +21,9 @@ app.all('*', (request, response) => {
   return response.sendStatus(404);
 });
 //------------------------------
-
+//error middleware
+app.use(require('./error-middleware'));
+//----------------------------
 
 const server = module.exports = {};
 
