@@ -10,7 +10,7 @@ const httpErrors = require('http-errors');
 const planetRouter = module.exports = new Router();
 
 planetRouter.post('/api/planets', jsonParser, (request,response) => {  
-  if(!request.body.name || !request.body.content || !request.body.longitude) {
+  if(!request.body.name || !request.body.content) {
     return next(httpErrors(400, 'body and content are required'));
   }
 

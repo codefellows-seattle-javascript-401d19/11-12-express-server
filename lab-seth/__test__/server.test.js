@@ -5,14 +5,14 @@ process.env.MONGODB_URI = 'mongodb://localhost/testing';
 
 const faker = require('faker');
 const superagent = require('superagent');
-const planet = require('../model/planet');
+const Planet = require('../model/planet');
 const server = require('../lib/server');
 
-const APIURL = `http://localhost:${process.env.PORT}/api/planets`;
+const apiURL = `http://localhost:${process.env.PORT}/api/planets`;
 
 const planetMockupCreator = () => {
-  return new planet({
-    name: `K-${faker.random.alphaNumeric(4)}`,
+  return new Planet({
+    name: `K-${faker.random.alphaNumeric()}`,
     content  : faker.lorem.words(10),
   }).save();
 };
@@ -20,21 +20,19 @@ const planetMockupCreator = () => {
 describe('api/planets', () => {
   beforeAll(server.start);
   afterAll(server.stop);
-  beforeEach(() => planet.remove({}));
+  afterEach(() => Planet.remove({}));
 
   describe('POST /api/planets', () => {
     test('should respond with a planet and a 200 status code if there is no error', () => {
       let planetToPost = {
-        name: `K-${faker.random.alphaNumeric(4)}`,
+        name: `K-${faker.random.alphaNumeric(1)}`,
         content: faker.lorem.words(10),
       };
-      return superagent.post(`${APIURL}`)
+      return superagent.post(`${apiURL}`)
         .send(planetToPost)
         .then(response => {
-          console.log(response.body);
           expect(response.status).toEqual(200);
           expect(response.body._id).toBeTruthy();
-          expect(response.body.discoverDate).toBeTruthy();
 
           expect(response.body.name).toEqual(planetToPost.name);
           expect(response.body.content).toEqual(planetToPost.content);
@@ -44,7 +42,7 @@ describe('api/planets', () => {
       let planetToPost = {
         content: faker.lorem.words(10),
       };
-      return superagent.post(`${APIURL}`)
+      return superagent.post(`${apiURL}`)
         .send(planetToPost)
         .then(Promise.reject)
         .catch(response => {
@@ -60,7 +58,7 @@ describe('api/planets', () => {
       planetMockupCreator()
         .then(planet => {
           planetToTest = planet;
-          return superagent.get(`${APIURL}/${planet._id}`);
+          return superagent.get(`${apiURL}/${planet._id}`);
         })
         .then(response => {
           expect(response.status).toEqual(200);
@@ -73,7 +71,7 @@ describe('api/planets', () => {
         });
     });
     test('should respond with a 404 status code if the id is incorrect', () => {
-      return superagent.get(`${APIURL}/fake`)
+      return superagent.get(`${apiURL}/fake`)
         .then(Promise.reject)
         .catch(response => {
           expect(response.status).toEqual(404);

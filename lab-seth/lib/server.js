@@ -11,15 +11,16 @@ let httpServer = null;
 mongoose.Promise = Promise;
 
 app.use(require('./logger-middleware'));
-const planetRoutes = require('../route/planet-router');
-app.use(planetRoutes);
 
-app.all('*', (request, response) => {
-  logger.log('info', 'Returning a 404 from the catch all route');
-  return response.sendStatus(404);
-});
+app.use(require('../route/planet-router'));
 
-app.use(require('./error-middelware'));
+// app.all('*', (request, response) => {
+//   logger.log('info', 'Returning a 404 from the catch all route');
+//   return response.sendStatus(404);
+// });
+
+app.use(require('./error-middleware'));
+
 const server = module.exports = {};
 
 server.start = () => {
