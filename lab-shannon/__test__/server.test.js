@@ -1,7 +1,7 @@
 'use strict';
 
 process.env.PORT = 3000;
-process.env.MONGODB_URI = `mongodb://localhost/testing`;
+process.env.MONGODB_URI = `mongodb://localhost/db`;
 
 const faker = require(`faker`);
 const superagent = require(`superagent`);
