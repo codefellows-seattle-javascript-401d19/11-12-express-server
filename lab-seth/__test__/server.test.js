@@ -25,12 +25,13 @@ describe('api/planets', () => {
   describe('POST /api/planets', () => {
     test('should respond with a planet and a 200 status code if there is no error', () => {
       let planetToPost = {
-        name: `K-${faker.random.alphaNumeric(1)}`,
+        name: `K-${faker.random.alphaNumeric()}`,
         content: faker.lorem.words(10),
       };
       return superagent.post(`${apiURL}`)
         .send(planetToPost)
         .then(response => {
+          // console.log(response.body);
           expect(response.status).toEqual(200);
           expect(response.body._id).toBeTruthy();
 
@@ -46,6 +47,7 @@ describe('api/planets', () => {
         .send(planetToPost)
         .then(Promise.reject)
         .catch(response => {
+          console.log(response.status);
           expect(response.status).toEqual(400);
         });
     });
