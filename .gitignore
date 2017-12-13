@@ -79,5 +79,8 @@ typings/
 # MongoDB instance
 db/
 
+# Anything I pull over from the lecture Repo:
+lecture*
+
 
 # End of https://www.gitignore.io/api/node,linux
