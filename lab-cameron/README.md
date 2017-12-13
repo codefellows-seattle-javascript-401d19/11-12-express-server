@@ -14,6 +14,7 @@ A simple HTTP Server using Express with MongoDB for persistence
 - faker
 - jest
 - superagent
+- http-error
 
 # Features
 

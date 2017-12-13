@@ -9,19 +9,17 @@ let isServerOn = false;
 let httpServer = null;
 
 mongoose.Promise = Promise;
-mongoose.connect(process.env.MONGODB_URI, { useMongoClient: true })
-  .then(() => {})
-  .catch(error => {
-    console.log(error);
-  });
 
-const userAccountRoutes = require('../route/userAccount-router');
-app.use(userAccountRoutes);
+app.use(require('./logger-middleware'));
+
+app.use(require('../route/userAccount-router'));
 
 app.all('*', (request, response) => {
   logger.log('info', 'Returning a 404 from the catch-all route');
   return response.sendStatus(404);
 });
+
+app.use(require('./error-middleware'));
 
 const server = module.exports = {};
 
@@ -38,7 +36,8 @@ server.start = () => {
       logger.log('info', `Server is listening on port ${process.env.PORT}`);
       return resolve();
     });
-  });
+  })
+    .then(mongoose.connect(process.env.MONGODB_URI, { useMongoClient: true }));
 };
 
 server.stop = () => {
@@ -59,5 +58,6 @@ server.stop = () => {
       logger.log('info', 'Server off');
       return resolve();
     });
-  });
+  })
+    .then(() => mongoose.disconnect());
 };
