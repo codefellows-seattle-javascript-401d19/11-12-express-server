@@ -2,29 +2,21 @@
 
 const { Router } = require('express');
 const jsonParser = require('body-parser').json();
+const httpErrors = require('http-errors');
 
 const UserAccount = require('../model/userAccount');
 const logger = require('../lib/logger');
-const httpErrors = require('http-errors');
 
 const userAccountRouter = module.exports = new Router();
 
-userAccountRouter.post('/api/userAccounts', jsonParser, (request, response) => {
-  logger.log('info', 'POST - processing a request');
-
+userAccountRouter.post('/api/userAccounts', jsonParser, (request, response, next) => {
   if (!request.body.name || !request.body.description) {
-    logger.log('info', 'POST - responding with a 400 code');
-    return response.sendStatus(400);
+    return next(httpErrors(400, 'name and description are required'));
   }
 
-  new UserAccount(request.body).save()
+  return new UserAccount(request.body).save()
     .then(userAccount => response.json(userAccount))
-    .catch(error => {
-      logger.log('error', '__SERVER_ERROR__');
-      logger.log('error', error);
-
-      return response.sendStatus(500);
-    });
+    .catch(next);
 });
 
 userAccountRouter.get('/api/userAccounts/:id', (request, response) => {
