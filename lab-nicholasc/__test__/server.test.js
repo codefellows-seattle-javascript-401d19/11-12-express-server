@@ -89,8 +89,8 @@ describe('/api/recipes', () => {
           expect(response.body.title).toEqual('grilled cheese');
           expect(response.body.content).toEqual(recipeToUpdate.content);
           console.log(response.body._id);
-          console.log(recipeToUpdate.body._id.toString());
-          expect(response.body._id).toEqual(recipeToUpdate.body._id.toString());
+          console.log(recipeToUpdate.id.toString());
+          expect(response.body._id).toEqual(recipeToUpdate.id.toString());
         });
     });
     test('should respond with a 404 error code if id invalid', () =>{
