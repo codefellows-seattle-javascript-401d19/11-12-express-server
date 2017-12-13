@@ -53,7 +53,6 @@ describe('/api/recipes', () => {
           return superagent.get(`${apiURL}`);
         })
         .then(response => {
-          console.log(response.headers);
           expect(response.status).toEqual(200);
           expect(response.body.count).toEqual(100);
           expect(response.body.data.length).toEqual(10);
@@ -88,16 +87,13 @@ describe('/api/recipes', () => {
           expect(response.status).toEqual(200);
           expect(response.body.title).toEqual('grilled cheese');
           expect(response.body.content).toEqual(recipeToUpdate.content);
-          console.log(response.body._id);
-          console.log(recipeToUpdate.id.toString());
           expect(response.body._id).toEqual(recipeToUpdate.id.toString());
         });
     });
     test('should respond with a 404 error code if id invalid', () =>{
-      return superagent.delete(`${apiURL}/badpath`)
+      return superagent.delete(`${apiURL}/`)
         .then(Promise.reject)
         .catch(response => {
-          console.log(response);
           expect(response.status).toEqual(404);
         });
     });
@@ -113,7 +109,7 @@ describe('/api/recipes', () => {
         });
     });
     test('should respond with a 404 error code if id invalid', () =>{
-      return superagent.delete(`${apiURL}/badpath`)
+      return superagent.delete(`${apiURL}/`)
         .then(Promise.reject)
         .catch(response => {
           expect(response.status).toEqual(404);
