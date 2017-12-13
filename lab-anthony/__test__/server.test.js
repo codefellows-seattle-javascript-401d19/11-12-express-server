@@ -87,7 +87,7 @@ describe('/api/beers', () => {
     test('should respond with 204 status code if the beer was deleted', () => {
       return beerMockCreate()
         .then(beer => {
-          console.log(`${apiURL}/${beer._id}`);
+          console.log('beer:', `${apiURL}/${beer._id}`);
           return superagent.delete(`${apiURL}/${beer._id}`);
         })
         .then(response => {

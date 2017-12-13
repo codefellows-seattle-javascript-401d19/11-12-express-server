@@ -9,15 +9,16 @@ let isServerOn = false;
 let httpServer = null;
 
 mongoose.Promise = Promise;
-// mongoose.connect(process.env.MONGODB_URI, {useMongoClient : true});
 
-const beerRoutes = require('../route/beer-router');
-app.use(beerRoutes);
+app.use(require('./logger-middleware'));
+app.use(require('../route/beer-router'));
 
 app.all('*', (request, response) => {
   logger.log('info','Returning a 404 from the catch-all route');
   return response.sendStatus(404);
 });
+
+app.use(require('./error-middleware'));
 
 const server = module.exports = {};
 
