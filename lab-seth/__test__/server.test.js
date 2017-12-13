@@ -28,11 +28,14 @@ describe('/api/planets', () => {
   describe('POST /api/planets', () => {
     test('should respond with a planet and 200 status code if there is no error', () => {
       let planetToPost = {
-        name: faker.address.longitude(),
+        name: `K-123`,
         content : faker.lorem.words(10),
       };
       return superagent.post(`${apiURL}`)
-        .send(planetToPost)
+        .send({
+          name: `K-123`,
+          content: faker.lorem.words(10),
+        })
         .then(response => {
           expect(response.status).toEqual(200);
           expect(response.body._id).toBeTruthy();
