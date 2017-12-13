@@ -2,18 +2,18 @@
 ======
 
 ## Submission Instructions
-* Continue working from Lab 12
+* Continue working from Lab 11
 * Sumbit a link to the pull request on canvas
 
 ## Feature Tasks  
 #### Error Middleware
-Create an error middleware for handling all error resposnses from your server. Refacter all your routes to utilize the error middleware by passing errors to `next`.
+Create an error middleware for handling all error responses from your server. Refactor all your routes to utilize the error middleware by passing errors to `next`.
 
 ## Tests
-* Write 204 and 404 routes for your delete route
+* Write 204 and 404 tests for your DELETE route
   
 ## Documentation
-In the README.md write documention for starting your server and makeing requests to each endpoint it provides. The documentaion should describe how the server would respond to valid and invalid requests.
+In the README.md write documention for starting your server and making requests to each endpoint it provides. The documentation should describe how the server would respond to valid and invalid requests.
 
 ## Continued Bonus 1pt
-* Create and test a put route
+* Create and test a PUT route
