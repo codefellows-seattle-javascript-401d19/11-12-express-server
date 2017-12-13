@@ -5,6 +5,7 @@ const jsonParser = require('body-parser').json();
 
 const UserAccount = require('../model/userAccount');
 const logger = require('../lib/logger');
+const httpErrors = require('http-errors');
 
 const userAccountRouter = module.exports = new Router();
 
