@@ -23,13 +23,8 @@ const bookMockCreate = () => {
 
 describe('/api/books', () => {
   beforeAll(server.start);
-
-  afterAll(() => {
-    Book.remove({})
-      .then(() => {
-        return server.stop();
-      });
-  });
+  afterAll(server.stop);
+  afterEach(() => Book.remove({}));
 
   describe('POST /api/books', () => {
     test('should respond with a book and 200 status code if there are no errors', () => {
@@ -53,6 +48,7 @@ describe('/api/books', () => {
         })
         .catch(error => logger.log('error', error));
     });
+
     test('should respond with a 400 code if we send an incomplete book', () => {
       let bookToPost = {
         content : faker.lorem.words(100),
@@ -68,7 +64,7 @@ describe('/api/books', () => {
   });
 
   describe('GET /api/books', () => {
-    test('should respond with 200 status code if there is a valid book id and no errors', () => {
+    test('GET should respond with 200 status code if there is a valid book id and no errors', () => {
       let bookToTest = null;
 
       return bookMockCreate()
@@ -89,18 +85,18 @@ describe('/api/books', () => {
         });    
     });
 
-    test('should respond with an array of all book objects if get request is made with out an id', () => {
+    test('GET should respond with an array of all book objects if get request is made with out an id', () => {
       return bookMockCreate()
         .then(() => bookMockCreate())
         .then(() => bookMockCreate())
         .then(() => superagent.get(`${apiURL}`))
         .then(response => {
           expect(response.status).toEqual(200);
-          expect(response.body.length).toEqual(5);
+          expect(response.body.length).toEqual(3);
         });
     });
     
-    test('should respond with 404 status code if the id is incorrect', () => {
+    test('GET should respond with 404 status code if the id is incorrect', () => {
       return superagent.get(`${apiURL}/mooshy`)
         .then(Promise.reject)
         .catch(response => {
@@ -109,14 +105,11 @@ describe('/api/books', () => {
     });
   });
 
-  describe('DELETE /api/books', () => {
+  describe('DELETE /api/books/:id', () => {
     test('DELETE should respond with 204 status code with no content in the body if successfully deleted', () => {
-      let bookToDelete = null;
-
       return bookMockCreate()
         .then(book => {
-          bookToDelete = book;
-          return superagent.delete(`${apiURL}/${bookToDelete._id}`)
+          return superagent.delete(`${apiURL}/${book._id}`)
             .then(response => {
               expect(response.status).toEqual(204);
             });
@@ -134,6 +127,34 @@ describe('/api/books', () => {
     test('DELETE should respond with 400 status code if no id is provided', () => {
       return superagent.del(`${apiURL}`)
         .then(Promise.reject)
+        .catch(response => {
+          expect(response.status).toEqual(400);
+        });
+    });
+  });
+
+  describe('PUT /api/books/:id', () => {
+    test('should update book and respond with 200 if there are no errors', () => {
+      
+      let bookToUpdate = null;
+      
+      return bookMockCreate()
+        .then(book => {
+          bookToUpdate = book;
+          return superagent.put(`${apiURL}/${book._id}`)
+            .send({title: 'Harry Potter'});
+        }).then(response => { 
+          expect(response.status).toEqual(200);
+          expect(response.body.title).toEqual('Harry Potter');
+          expect(response.body.content).toEqual(bookToUpdate.content);
+          expect(response.body.genre).toEqual(bookToUpdate.genre);
+          expect(response.body._id).toEqual(bookToUpdate._id.toString()); 
+        });
+    });
+    
+    test('should return a 400 status code if invalid PUT request', () => {
+      return bookMockCreate()
+        .then(book => superagent.put(`${apiURL}/${book._id}`))
         .catch(response => {
           expect(response.status).toEqual(400);
         });
