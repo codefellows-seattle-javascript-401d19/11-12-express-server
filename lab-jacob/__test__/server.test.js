@@ -9,11 +9,13 @@ const starTrekEpisodes = require('../model/star-trek-episodes');
 const server = require('../lib/server');
 
 const apiURL = `http://localhost:${process.env.PORT}/api/star-trek-episodes`;
+let sequence = 0;
 
 const starTrekMockEpisode = () => {
+  sequence++;
   return new starTrekEpisodes({
-    title : `Encounter at Farpoint`,
-    episode : 1,
+    title : faker.lorem.words(5),
+    episode : sequence,
     content : faker.lorem.words(50),
   }).save();
 };
@@ -21,7 +23,7 @@ const starTrekMockEpisode = () => {
 const episodeMockCreateMany = (amountofEpisodes) => {
   return Promise.all(new Array(amountofEpisodes)
     .fill(0)
-    .map(() => episodeMockCreateMany()));
+    .map(() => starTrekMockEpisode()));
 };
 
 describe('/api/star-trek-episodes', () => {
@@ -32,7 +34,7 @@ describe('/api/star-trek-episodes', () => {
   describe('POST /api/star-trek-episodes', () => {
     test('Should respond with a Episode and 200 status code if there is no error', () => {
       let episodeToPost = {
-        title : `Encounter at Farpoint`,
+        title : `Encounter at Farpoint part 2`,
         episode : 1,
         content : faker.lorem.words(50),
       };
@@ -114,7 +116,7 @@ describe('/api/star-trek-episodes', () => {
     });
   });
 
-  describe('GET /api/star-trek-episodes', () => {
+  describe('GET ALL /api/star-trek-episodes', () => {
     test('Should respond with 200 status code if there is no error', () => {
 
       return starTrekMockEpisode()
@@ -129,16 +131,16 @@ describe('/api/star-trek-episodes', () => {
   });
 
   //FIND GET
-  describe('GET /api/star-trek-episodes', () => {
+  describe('GET Many Episodes Per Season /api/star-trek-episodes', () => {
     test('should return ', () => {
+
       return episodeMockCreateMany(100)
         .then(manyEpisodes => {
           return superagent.get(`${apiURL}`);
         })
         .then(response => {
-          console.log(response.body);
           expect(response.status).toEqual(200);
-          expect(response.body.episodes).toEqual(100);
+          expect(response.body.data.length).toEqual(1);
         });
     });
   });

@@ -74,7 +74,7 @@ starTrekEpisodesRouter.get('/api/star-trek-episodes/', (request, response, next)
         throw httpErrors(404, ('Episodes Not Found'));
       }
       return response.json(episodes);
-    }).catch(next)
+    }).catch(next);
 });
 
 
