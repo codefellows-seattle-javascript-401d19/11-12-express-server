@@ -26,6 +26,15 @@ And run any available tests with
 
   `npm run test`
 
+##Middleware
+
+###Logging 
+Logging is handled by the logger middleware, which parses out request methods and URLs into log JSON and also to the console.  These details are generally removed from the base code and are required by express in the server file.
+
+###Error Handling
+
+Errors are handled by the error middleware, which parses out error statuses and messages into log JSON and also to the console.  These details are generally removed from the base code and are required by express in the server file.
+
 ## Server Endpoints
 
 * `GET /api/bicycles` 

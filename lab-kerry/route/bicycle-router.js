@@ -11,7 +11,10 @@ const Bicycle = require('../model/bicycle');
 
 const logger = require('../lib/logger');
 
+const httpErrors = require('http-errors');
+
 const bicycleRouter = module.exports = new Router();
+
 
 
 //the next callback does not return a promise; this was introduce prior to that functionality
@@ -19,74 +22,43 @@ bicycleRouter.post('/api/bicycles', jsonParser, (request, response, next) => {
   logger.log('info', 'POST - processing a request at /api/bicycles');
 	
   if(!request.body.Brand || !request.body.Model) {
-    logger.log('info', 'POST - responding with a 400 failure code');
-    return response.sendStatus(400);
+    return next(httpErrors(400, 'Body and content are required'));
   }
-  new Bicycle(request.body).save()  
+  return new Bicycle(request.body).save()  
     .then(bicycle => response.json(bicycle)) //this sends a 200 success code
-    .catch(error => {
-      logger.log('error', '__SERVER_ERROR__');
-      logger.log('error', error);
-
-      return response.sendStatus(500);
-    });
+    .catch(next);
 });
 
+//TODO fix this to reflect "next" syntax
 bicycleRouter.get('/api/bicycles', (request, response, next) => {
   logger.log('info', 'GET - processing a request at /api/bicycles');
-  Bicycle.find({});
-  return response.sendStatus(200)
+  return Bicycle.find({})
     .then(bicycles => {
-      console.log(bicycles);
       return response.json(bicycles);
-    });
+    })
+    .catch(next);
 });
 
 bicycleRouter.get('/api/bicycles/:id', (request, response, next) => {
-  Bicycle.findById(request.params.id)
+  return Bicycle.findById(request.params.id)
     .then(bicycle => {
       if(!bicycle) {
-        logger.log('info', 'GET - responding with a 404 failure code at /api/bicycles/:id');
-        return response.sendStatus(404);
+        throw httpErrors(404, 'note not found');
       }
       logger.log('info', 'GET - responding with a 200 success code at /api/bicycles/:id');
-      logger.log('info', bicycle);
       return response.json(bicycle);
     })
-    .catch(error => {
-    //couldn't parse the id or other error
-      if(error.message.indexOf('Cast to ObjectId failed') > -1) {
-        logger.log('info', 'GET - responding with a 404 failure code at /api/bicycles/:id.  Could not parse id');
-        return response.sendStatus(404);
-      }
-      logger.log('error', 'GET - responding with a 500 failure code at /api/bicycles/:id.');
-      logger.log('error', error);
-      return response.sendStatus(504);
-    });
+    .catch(next);
 });
 
 bicycleRouter.delete('/api/bicycles/:id', (request, response, next) => {
-  logger.log('info', 'DELETE - processing a request at /api/bicycles/:id');
-
-  Bicycle.findByIdAndRemove(request.params.id)
+  return Bicycle.findByIdAndRemove(request.params.id)
     .then(bicycle => {
       if (!bicycle) {
-        logger.log('info', 'DELETE - responding with a 200 failure code at /api/bicycles/:id');
-        return response.sendStatus(200);
+        throw httpErrors(404, 'note not found');
       }
-      logger.log('info', 'DELETE - responding with a 200 success code at /api/bicycles/:id');
-      logger.log('info', bicycle);
-      return response.json(bicycle);
+      logger.log('info', 'DELETE - responding with a 204 success code at /api/bicycles/:id');
+      return response.sendStatus(204);
     })
-    .catch(error => {
-      //couldn't parse the id or other error
-      if (error.message.indexOf('Cast to ObjectId failed') > -1) {
-        logger.log('info', 'DELETE - responding with a 404 failure code at /api/bicycles/:id.  Could not parse id');
-        return response.sendStatus(404);
-      }
-      logger.log('error', 'GET - responding with a 504 failure code at /api/bicycles/:id.');
-      logger.log('error', error);
-      return response.sendStatus(504);
-
-    });
+    .catch(next);
 }); 

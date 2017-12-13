@@ -33,7 +33,7 @@ const bicycleMockCreate2 = () => {
 describe('api/bicycles', () => {
   beforeAll(server.start);
   afterAll(server.stop);
-  afterEach(() => Bicycle.remove ({}));
+  afterEach(() => Bicycle.remove({}));
 
   describe('POST /api/bicycles', () => {
     test('POST - should respond with a bicycle and 200 status code if there is no error', () => {
@@ -79,7 +79,7 @@ describe('api/bicycles', () => {
         .then(bicycle => {
         //may want to add error checking after this success test
           bicycleToTest = bicycle;
-          return superagent.get(`${apiURL}/${bicycle.id}`);
+          return superagent.get(`${apiURL}/${bicycle._id}`);
         })
         .then(response => {
           expect(response.status).toEqual(200);
@@ -93,16 +93,13 @@ describe('api/bicycles', () => {
     });
     test('GET - should respond with a 200 status code if there is no error', () => {
       return bicycleMockCreate()
-        .then( () => {
-          return bicycleMockCreate2();
-        })
+        .then(() => bicycleMockCreate2())
         .then(() => { 
           return superagent.get(`${apiURL}`);
         })
         .then(response => {
           expect(response.status).toEqual(200);
           expect(response.body.length).toEqual(2);
-          
         })
         .catch(error => logger.log(error));
     });
@@ -115,21 +112,21 @@ describe('api/bicycles', () => {
     });
   });
 
-  describe('DELETE /api/bicycles', () => {
+  describe('DELETE /api/bicycles/:id', () => {
     test('DELETE - should respond with no body and a 204 status code if there is no error', () => {
       return bicycleMockCreate()
         .then(bicycle => {
-          console.log(bicycle._id);
           return superagent.delete(`${apiURL}/${bicycle._id}`);
         })
         .then(response => {
-          console.log(response.body._id);
-          expect(response.status).toEqual(200);
+          console.log(response.body);
+          expect(response.status).toEqual(204);
         });
-
     });
+
     test('DELETE - should respond with a 404 status code if the id is incorrect', () => {
-      return superagent.delete(`${apiURL}/123456789`)
+      return superagent.delete(`${apiURL}/`)
+        .then(Promise.reject)
         .catch(response => {
           expect(response.status).toEqual(404);
         });
