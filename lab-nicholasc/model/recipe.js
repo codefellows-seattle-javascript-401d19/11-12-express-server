@@ -10,7 +10,7 @@ const recipeSchema = mongoose.Schema({
   },
   content : {
     type : String,
-    required : true,
+    required : true,  
     minlength : 10,
   },
   timestamp : {
