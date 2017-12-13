@@ -25,7 +25,7 @@
   "scripts": {
     "test": "jest -i --coverage",
     "lint": "eslint",
-    "dbon": "mkdir -p ./db && mongod --dbpath ./db",
+    "dbon": "mkdir -p ./db && mongod --dbpath ./db --port 27018",
     "dboff": "killall mongod"
   },
   "keywords": [],
