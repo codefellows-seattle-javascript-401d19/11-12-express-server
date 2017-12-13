@@ -140,7 +140,8 @@ describe('/api/star-trek-episodes', () => {
         })
         .then(response => {
           expect(response.status).toEqual(200);
-          expect(response.body.data.length).toEqual(1);
+          expect(response.body.count).toEqual(100);
+          
         });
     });
   });
