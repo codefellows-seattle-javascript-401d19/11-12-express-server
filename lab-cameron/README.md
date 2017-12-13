@@ -25,14 +25,21 @@ and an optional `location` property.
 # Code Example / API Reference
 
 ### POST
-`POST /api/userAccounts` will add a single user in MongoDB
+`POST /api/userAccounts` will add a single user in MongoDB; responds with 200 status code
+
+Bad requests will respond with a 400 status code
 
 ### GET
-`GET /api/userAccounts` will return all users in MongoDB as an array
-`GET /api/userAccounts/<user-id>` will return a single user with the specified id
+`GET /api/userAccounts` will return all users in MongoDB as an array; responds with 200 status code
+`GET /api/userAccounts/<user-id>` will return a single user with the specified id; responds with 200 status code
+
+Bad requests with incorrect id will respond with a 404 status code
 
 ### DELETE
-`DELETE /api/userAccounts/<user-id>` will delete a single user from MongoDB with the specified id
+`DELETE /api/userAccounts/<user-id>` will delete a single user from MongoDB with the specified id; responds with 204 status code
+
+Bad requests with invalid id's will respond with a 404 status code
+Bad requests without any id at will will respond with a 400 status code
 
 # Installation
 
