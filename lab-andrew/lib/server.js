@@ -14,6 +14,7 @@ mongoose.Promise = Promise;
 
 const app = express();
 
+app.use(require('./logger-middleware'));
 app.use(require('../route/cat-router'));
 
 app.all('*', (request, response) => {
@@ -21,8 +22,9 @@ app.all('*', (request, response) => {
   return response.sendStatus(404);
 });
 
-const server = module.exports = {};
+app.use(require('./error-middleware'));
 
+const server = module.exports = {};
 server.start = () => {
   return new Promise((resolve, reject) => {
     if(isServerOn){
