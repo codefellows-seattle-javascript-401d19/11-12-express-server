@@ -29,7 +29,6 @@ const recipeMockCreateMany = (howMany) => {
 describe('/api/recipes', () => {
   beforeAll(server.start);
   afterAll(server.stop);
-  // afterAll(() => Recipe.remove({}));
   afterEach(() => Recipe.remove({})); //if we rmove after all, hopefullly sync wont break but if we do after each we have cleaner tests
 
   describe('POST /api/recipes', () => {
