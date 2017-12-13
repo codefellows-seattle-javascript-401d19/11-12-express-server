@@ -107,7 +107,7 @@ describe('/api/star-trek-episodes', () => {
         });
     });
   
-    test('should respond with 404 status code if the ID is incorrect', () => {
+    test('Should respond with 404 status code if the ID is incorrect', () => {
       return superagent.get(`${apiURL}/WRONG_ID`)
         .then(Promise.reject)
         .catch(response => {
@@ -125,14 +125,14 @@ describe('/api/star-trek-episodes', () => {
         })
         .then(response => {
           expect(response.status).toEqual(200);
-          expect(Array.isArray(response.body)).toBeTruthy();
+          expect(response.body.data).toBeTruthy();
         });
     });
   });
 
   //FIND GET
   describe('GET Many Episodes Per Season /api/star-trek-episodes', () => {
-    test('should return ', () => {
+    test('Should return Many Episodes per Season', () => {
 
       return episodeMockCreateMany(100)
         .then(manyEpisodes => {
