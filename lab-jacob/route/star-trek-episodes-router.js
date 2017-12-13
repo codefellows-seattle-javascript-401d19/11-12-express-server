@@ -6,98 +6,75 @@ const jsonParser = require('body-parser').json();
 const EpisodesModel = require('../model/star-trek-episodes');
 const logger = require('../lib/logger');
 const httpErrors = require('http-errors');
+
 const starTrekEpisodesRouter = module.exports = new Router();
 
-// starTrekEpisodesRouter.get('/api/star-trek-episodes/', (request,response,next) => {
-//   const PAGE_SIZE = 10;
 
-//   let {page = '0'} = request.query;
-//   page = Number(page);
+starTrekEpisodesRouter.get('/api/star-trek-episodes/', (request,response,next) => {
+  const SEASON_SIZE = 10;
 
-//   if(isNaN(page))
-//     page = 0;
+  let {episode = '0'} = request.query;
+  episode = Number(episode);
+
+  if(isNaN(episode))
+    episode = 0;
   
-//   page = page < 0 ? 0 : page;
-//   // TODO : more validation
+  episode = episode < 0 ? 0 : episode;
 
-//   let allNotes = null;
 
-//   return Note.find({})
-//     .skip(page * PAGE_SIZE)
-//     .limit(PAGE_SIZE)
-//     .then(notes => {
-//       allNotes = notes;
-//       return Note.find({}).count();
-//     })
-//     .then(noteCount => {
-//       // Vinicio - inside this then I have no access to 'notes'
-//       let responseData = {
-//         count : noteCount,
-//         data : allNotes,
-//       };
-//       // Next Page / Previous Page / Last Page
-//       let lastPage = Math.floor(noteCount / PAGE_SIZE);
+  let allEpisodes = null;
 
-//       response.links({
-//         next : `http://localhost:${process.env.PORT}/api/notes?page=${page === lastPage ? lastPage : page + 1}`,
-//         prev : `http://localhost:${process.env.PORT}/api/notes?page=${page < 1 ? 0 : page - 1}`,
-//         last : `http://localhost:${process.env.PORT}/api/notes?page=${lastPage}`,
-//       });
-//       response.json(responseData);
-//     });
-// });
+  return EpisodesModel.find({})
+    .skip(episode * SEASON_SIZE)
+    .limit(SEASON_SIZE)
+    .then(episode => {
+      allEpisodes = episode;
+      return EpisodesModel.find({}).count();
+    })
+    .then(episodeAmount => {
+      let responseData = {
+        count : episodeAmount,
+        data : allEpisodes,
+      };
+      let lastEpisode = Math.floor(episodeAmount / SEASON_SIZE);
+
+      response.links({
+        next : `http://localhost:${process.env.PORT}/api/star-trek-episodes?episode=${episode === lastEpisode ? lastEpisode : episode + 1}`,
+        prev : `http://localhost:${process.env.PORT}/api/star-trek-episodes?episode=${episode < 1 ? 0 : episode - 1}`,
+        last : `http://localhost:${process.env.PORT}/api/star-trek-episodes?episode=${lastEpisode}`,
+      });
+      response.json(responseData);
+    });
+});
 
 starTrekEpisodesRouter.post('/api/star-trek-episodes',jsonParser, (request, response, next)=>{
   if(!request.body.title || !request.body.content){
     return next(httpErrors(400, 'body and content are required'));
   }
-
   return new EpisodesModel(request.body).save()
     .then(episode => response.json(episode))
     .catch(next);
 });
 
 starTrekEpisodesRouter.get('/api/star-trek-episodes/:id', (request, response, next) => {
-  logger.log('info', 'GET - PROCESSING REQUEST');
-
   return EpisodesModel.findById(request.params.id)
     .then(episode => {
       if(!episode){
-        logger.log('info', 'GET - Returning a 404 status');
-        return response.sendStatus(404);
+        throw httpErrors(404,('Episode not found'));
       }
       return response.json(episode);   
-    }).catch(error => {
-      if(error.message.indexOf('Cast to ObjectId failed') > -1){
-        logger.log('info', 'GET - Return a 404, ID parsing failed');
-        return response.sendStatus(404);
-      }
-      logger.log('error', 'GET - Returning a 500 code');
-      logger.log('error', error);
-      return response.sendStatus(500);
-    });
+    }).catch(next);
 });
 
 
 starTrekEpisodesRouter.get('/api/star-trek-episodes/', (request, response, next) => {
-  logger.log('info', 'GET - PROCESSING REQUEST');
-
   return EpisodesModel.find({})
     .then(episodes => {
       if(!episodes){
-        logger.log('info', 'GET - Returning a 404 status');
-        return response.sendStatus(404);
+        throw httpErrors(404, ('Episodes Not Found'));
       }
       return response.json(episodes);
-    }).catch(error => {
-      if(error.message.indexOf('Cast to ObjectId failed') > -1){
-        logger.log('info', 'GET - Return a 404, ID parsing failed');
-        return response.sendStatus(404);
-      }
-      logger.log('error', 'GET - Returning a 500 code');
-      logger.log('error', error);
-      return response.sendStatus(500);
-    });
+    }).catch(next)
 });
 
 
