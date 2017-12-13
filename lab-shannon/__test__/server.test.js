@@ -42,9 +42,9 @@ describe(`/api/sweets`, () => {
           expect(response.body.temperature).toEqual(fakeSweet.temperature);
           expect(response.body.seasonal).toEqual(false);
         })
-        // .catch(error => {
-        //   console.log(`Oh Noes! There was an error: ${error}`);
-        // });
+        .catch(error => {
+          console.log(`Oh Noes! There was an error: ${error}`);
+        });
     });
     test(`POST should respond with 400 status if the body is missing information`, () => {
       return superagent.post(`${apiURL}`)
@@ -82,7 +82,6 @@ describe(`/api/sweets`, () => {
         });
     });
 
-//this test breaks my 400 DELETE request if they run together; why?!
     test(`GET should respond with a 404 status if NO sweet with the specified id is found`, () => {
       return superagent.get(`${apiURL}/blah`)
         .then(Promise.reject)
@@ -101,6 +100,7 @@ describe(`/api/sweets`, () => {
         .then(response => {
           console.log(response.status);
           expect(response.status).toEqual(200);
+          expect(response.body)
         })
     })
   });
@@ -114,6 +114,9 @@ describe(`/api/sweets`, () => {
         })
         .then(response => {
           expect(response.status).toEqual(204);
+        })
+        .catch(error => {
+          console.log(`Oh Noes! There was an error: ${error}`);
         });
     });
     test(`DELETE should return a 400 status if no id is provided`, () => {
@@ -123,12 +126,12 @@ describe(`/api/sweets`, () => {
           expect(response.status).toEqual(400);
         });
     });
-    // test(`DELETE should respond with a 404 status if no sweet was found with the specified id`, () => {
-    //   return superagent.delete(`${apiURL}/nope`)
-    //     .then(Promise.reject)
-    //     .catch(response => {
-    //       expect(response.status).toEqual(404);
-    //     });
-    // });
+    test(`DELETE should respond with a 404 status if no sweet was found with the specified id`, () => {
+      return superagent.delete(`${apiURL}/nope`)
+        .then(Promise.reject)
+        .catch(response => {
+          expect(response.status).toEqual(404);
+        });
+    });
   });
 });

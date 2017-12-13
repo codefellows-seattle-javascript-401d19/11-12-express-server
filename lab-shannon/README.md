@@ -26,6 +26,9 @@ The purpose of this project is to create a RESTful HTTP server utilizing express
 * superagent
 * body-parser
 
+## License
+MIT
+
 ## Credits
 * Vinicio Vladimir Sanchez Trejo & the Code Fellows curriculum provided the base .eslintrc, .eslintignore, .gitignore, index.js, log.json, and server.js files upon which the command functions were built.
 
