@@ -127,7 +127,7 @@ describe('/api/cats', () => {
         });
     });
 
-    test('DELETE should respond with a 404 message if no id provided', () => {
+    test('DELETE should respond with a 404 message if invalid id provided', () => {
       return superagent.delete(`${__API_URL__}/5a2f38171865f60a35e145ff`)
         .catch(response => {
           expect(response.status).toEqual(404);
