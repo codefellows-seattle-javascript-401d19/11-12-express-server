@@ -2,7 +2,6 @@
 
 const server = require('../lib/server');
 const superagent = require('superagent');
-const logger = require('../lib/logger');
 const faker = require('faker');
 const Cat = require('../model/cat');
 
@@ -38,10 +37,6 @@ describe('/api/cats', () => {
           expect(response.body.says).toEqual(someCat.says);
           expect(response.body.birthday).toBeTruthy();
           expect(response.body._id).toBeTruthy();
-        })
-        .catch(error => {
-          expect(error).toBe(undefined);
-          logger.log('error', error);
         });
     });
 
@@ -69,10 +64,6 @@ describe('/api/cats', () => {
           expect(response.body.name).toEqual(catTest.name);
           expect(response.body.says).toEqual(catTest.says);
           expect(response.body.birthday).toBeTruthy();
-        })
-        .catch(error => {
-          expect(error).toBe(undefined);
-          logger.log('error', error);
         });
     });
 
@@ -84,10 +75,6 @@ describe('/api/cats', () => {
         .then(response => {
           expect(response.status).toEqual(200);
           expect(response.body.length).toEqual(3);
-        })
-        .catch(error => {
-          expect(error).toBe(undefined);
-          logger.log('error', error);
         });
     });
 
@@ -117,10 +104,6 @@ describe('/api/cats', () => {
               expect(response.body.name).toEqual(catPut.name);
               expect(response.body.says).toEqual(catPut.says);
               expect(response.body.birthday).toBeTruthy();
-            })
-            .catch(error => {
-              expect(error).toBe(undefined);
-              logger.log('error', error);
             });
         });
     });
@@ -144,6 +127,13 @@ describe('/api/cats', () => {
         });
     });
 
+    test('DELETE should respond with a 404 message if no id provided', () => {
+      return superagent.delete(`${__API_URL__}/5a2f38171865f60a35e145ff`)
+        .catch(response => {
+          expect(response.status).toEqual(404);
+        });
+    });
+
     test('DELETE should respond with a 204 message if successful', () => {
       return createFakeKitten()
         .then(cat => {
@@ -151,10 +141,6 @@ describe('/api/cats', () => {
         })
         .then(response => {
           expect(response.status).toEqual(204);
-        })
-        .catch(error =>{
-          expect(error).toBe(undefined);
-          logger.log('error', error);
         });
     });
   });

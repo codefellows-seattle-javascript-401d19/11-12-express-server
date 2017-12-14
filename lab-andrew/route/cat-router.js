@@ -20,20 +20,6 @@ catRouter.post('/api/cats', jsonParser, (request, response, next) => {
     .catch(next);
 });
 
-catRouter.get('/api/cats/:id', (request, response, next) => {
-  logger.log('info', 'GET - processing a new get request');
-
-  return Cat.findById(request.params.id)
-    .then(cat => {
-      if (!cat){
-        throw httpErrors(404, 'cat not found');
-      }
-      logger.log('info', 'GET - Returning a 200 status code');
-      logger.log('info', cat);
-      return response.json(cat);
-    }).catch(next);
-});
-
 catRouter.get('/api/cats', (request, response, next) => {
   logger.log('info', 'GET - processing a new get request');
 
