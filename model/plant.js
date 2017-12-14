@@ -9,7 +9,7 @@ const plantSchema = mongoose.Schema({
     unique : true,
   },
   commonNames : {
-    type : Array,
+    type : String,
     required : false,
     unique : false,
   },

@@ -1,19 +1,21 @@
 'use strict';
 
+
+
 process.env.PORT = 3424;
-process.env.MONGODB_URI = `mongodb://localhost/testing/`;
+process.env.MONGODB_URI = `mongodb://localhost:27017/plants`;
 
 const faker = require('faker');
 const superagent = require('superagent');
 const Plant = require(`../model/plant`);
 const server = require(`../lib/server`);
 
-const apiUrl = `http://localhost:${process.env.PORT}/api/notes`;
+const apiURL = `http://localhost:${process.env.PORT}/api/notes`;
 
 const plantItemMockCreate = () => {
   return new Plant ({
     scientificName: faker.lorem.words(3),
-    commonNames: [faker.lorem.words(2),faker.lorem.words(2)],
+    commonName: faker.lorem.words(2),
     floraType: faker.lorem.words(1),
   }).save();
 };
@@ -25,37 +27,35 @@ describe('/api/notes', () => {
 
   describe('POST /api/plants', () => {
 
-    test(`Should respond with a 'Plant' object and a 200 status code`,
-      () => {
-        let testPlantItem = {
-          scientificName: faker.lorem.words(3),
-          commonNames: ['cnPlaceholder1', 'cnPlaceholder2'],
-          floraType: 'floraPlaceholder',
-        };
-        return superagent.post(`${apiUrl}`)
-          .send(testPlantItem)
-          .then(response => {
-            expect(response.status).toEqual(200);
-            expect(response.body._id).toBeTruthy();
-            expect(typeof response.body.entryDate).toEqual('Date');
-            expect(typeof response.body.scientificName).toEqual('String');
-            expect(typeof response.body.commonNames).toEqual('Array');
-            expect(typeof response.body.floraType).toEqual('String');
-          });
-      });
+    test(`Should respond with a 'Plant' object and a 200 status code`, () => {
+      let testPlantItem = {
+        scientificName: faker.lorem.words(3),
+        commonName: faker.lorem.words(2),
+        floraType: faker.lorem.words(1),
+      };
+      return superagent.post(`${apiURL}`)
+        .send(testPlantItem)
+        .then(response => {
+          expect(response.status).toEqual(200);
+          expect(response.body._id).toBeTruthy();
+          expect(typeof response.body.entryDate).toEqual('Date');
+          expect(typeof response.body.scientificName).toEqual('String');
+          expect(typeof response.body.commonNames).toEqual('Array');
+          expect(typeof response.body.floraType).toEqual('String');
+        });
+    });
 
-    test(`Should respond with a 400 status code`,
-      () => {
-        let testPlantItem = {
-          //empty item - ultiple required field not satisfied - will fail.
-        };
-        return superagent.post(`${apiUrl}`)
-          .send(testPlantItem)
-          .then(Promise.reject)
-          .catch(response => {
-            expect(response.status).toEqual(400);
-          });
-      });
+    test(`Should respond with a 400 status code`, () => {
+      let testPlantItem = {
+        //empty item - ultiple required field not satisfied - will fail.
+      };
+      return superagent.post(`${apiURL}`)
+        .send(testPlantItem)
+        .then(Promise.reject)
+        .catch(response => {
+          expect(response.status).toEqual(400);
+        });
+    });
   });
 
   describe('GET /api/plants/:id', () => {
@@ -66,7 +66,7 @@ describe('/api/notes', () => {
       plantItemMockCreate()
         .then(plant => {
           plantTestItem = plant;
-          return superagent.get(`${apiUrl}/${plant._id}`);
+          return superagent.get(`${apiURL}/${plant._id}`);
         })
         .then(response => {
           expect(response.status).toEqual(200);
@@ -79,7 +79,7 @@ describe('/api/notes', () => {
 
     });
     test('Should respond with a 404 status code', () => {
-      return superagent.get(`${apiUrl}/XXXXXXXXXXXX`)
+      return superagent.get(`${apiURL}/XXXXXXXXXXXX`)
         .then(Promise.reject)
         .catch(response => {
           expect(response.status).toEqual(404);

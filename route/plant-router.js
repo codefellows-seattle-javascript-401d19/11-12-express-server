@@ -3,7 +3,7 @@
 
 
 const {Router} = require('express');
-const jsonParser = require('body-parse').json;
+const jsonParser = require('body-parser').json;
 
 const Plant = require('../model/plant');
 const logger = require('../lib/logger');
