@@ -20,8 +20,7 @@ const plantSchema = mongoose.Schema({
   },
   entryDate : {
     type : Date,
-    required : true,
-    unique : false,
+    default: () => new Date(),
   },
 });
 
