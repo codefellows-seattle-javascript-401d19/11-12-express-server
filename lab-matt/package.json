@@ -1,0 +1,30 @@
+{
+  "name": "lab-matt",
+  "version": "1.0.0",
+  "description": "Lab 11 - Express Server",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest -i --coverage",
+    "lint": "eslint ./",
+    "dbon": "mkdir -p ./db && mongod --dbpath ./db",
+    "dboff": "killall mongod"
+  },
+  "author": "Matthew LeBlanc",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "faker": "^4.1.0",
+    "http-errors": "^1.6.2",
+    "mongoose": "^4.13.6",
+    "superagent": "^3.8.2",
+    "winston": "^2.4.0"
+  }
+}
