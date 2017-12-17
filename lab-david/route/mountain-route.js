@@ -25,7 +25,7 @@ mountainRoute.get('/api/mountains/:id', (request,response,next) => {
   return Mountain.findById(request.params.id)
     .then(mountain => {
       if(!mountain){
-        throw httpErrors(404,`note not found`);
+        throw httpErrors(404,`mountain not found`);
       }
       logger.log('info', 'GET - returning a 200 status code');
       return response.json(mountain);
