@@ -119,7 +119,7 @@ describe('/api/heroes', () => {
   describe('PUT /api/heroes/:id', () => {
     test('PUT should update hero name and respond with code 200 if there is no error', () => {
       let heroToUpdate = null;
-      return heroMockCreate()
+      heroMockCreate()
         .then(hero => {
           heroToUpdate = hero;
           return superagent.put(`${apiURL}/${hero._id}`)
