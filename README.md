@@ -3,10 +3,7 @@ In the README.md write documention for starting your server and makeing requests
 --------------------------------------------------------------------------
 
 A] Starting this server:
-
-!!! Important note for TAs !!! Due to a deep "bug" (whose ultimate origin is still undiagnosed despite the extensive efforts of Josh, Steve, and Myself), my version of this code omits the beforeAll and afterAll calls in my Jest testing suite, and MUST be run by directly running this lab's mode server ($ node index.js) in a terminal, and then running ($ jest) in another.
-
-As stated above, in order to run my Node instance in this lab...
+In order to run my Node instance in this lab...
 1. Clone the gitHub repository.
 Since we're assuming this whole project is being run from your local system...
 2. Create an ENV file with the following information:
@@ -17,7 +14,6 @@ MONGODB_URI=http://localhost
 From the project's root directory
 3. ...run ($ npm install).
 4. ...create a 'db' folder, then run ($ mongod --dbpath "./db")
-5. ...run ($ node index.js)
 6. ...then run ($ jest) if jest is installed globally, or ($npm test) if it is installed locally.
 
 B] Making requests:
