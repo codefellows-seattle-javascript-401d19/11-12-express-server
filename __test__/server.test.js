@@ -21,11 +21,8 @@ const plantItemMockCreate = () => {
 };
 
 describe('[ TEST SET for : /api/plants ]', () => {
-  // -------------------------------------------------
-  // !!! NOTE FOR TAs !!! - After hours of research, we've discovered that some mystery situation makes jest throw internal exceptions in each of my test() blocks if I include the beforeAll and afterAll statements, but NOT if I omit them and just start the server in a separate terminal, THEN run jest. Please grade with this in mind. As of 2017-12-18, I am still scheduled for a deeper dive with Vinicio on this.
-  // -------------------------------------------------
-  //beforeAll(server.start);
-  //afterAll(server.stop);
+  beforeAll(server.start);
+  afterAll(server.stop);
   afterEach(() => Plant.remove({}));
 
   describe('POST /api/plants', () => {
@@ -81,7 +78,7 @@ describe('[ TEST SET for : /api/plants ]', () => {
         .then(response => {
           expect(response.status).toEqual(200);
           expect(response.body._id).toBeTruthy();
-          expect(typeof response.body.entryDate).toEqual('Date');
+          expect(response.body.entryDate).toBeTruthy();
           expect(response.body.scientificName).toEqual(plantTestItem.scientificName);
           expect(response.body.commonNames).toEqual(plantTestItem.commonNames);
           expect(response.body.floraType).toEqual(plantTestItem.floraType);
