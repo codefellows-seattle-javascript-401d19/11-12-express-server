@@ -8,7 +8,7 @@ const plantSchema = mongoose.Schema({
     required : true,
     unique : true,
   },
-  commonNames : {
+  commonName : {
     type : String,
     required : false,
     unique : false,
