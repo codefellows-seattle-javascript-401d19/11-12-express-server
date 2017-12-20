@@ -6,13 +6,13 @@ const mongoose = require('mongoose');
 const planetSchema = mongoose.Schema({
   name: {
     type: String,
-    // required: true,
-    // unique: true,
+    required: true,
+    unique: true,
   },
   content: {
     type: String,
-    // required: true,
-    // minlength: 1,
+    required: true,
+    minlength: 1,
   },
 });
 

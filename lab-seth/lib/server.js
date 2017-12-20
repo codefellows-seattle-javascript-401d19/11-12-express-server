@@ -14,10 +14,10 @@ app.use(require('./logger-middleware'));
 
 app.use(require('../route/planet-router'));
 
-// app.all('*', (request, response) => {
-//   logger.log('info', 'Returning a 404 from the catch all route');
-//   return response.sendStatus(404);
-// });
+app.all('*', (request, response) => {
+  logger.log('info', 'Returning a 404 from the catch all route');
+  return response.sendStatus(404);
+});
 
 app.use(require('./error-middleware'));
 

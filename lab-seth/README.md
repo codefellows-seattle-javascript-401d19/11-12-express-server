@@ -1,3 +1,5 @@
+//TODO: Write documention for starting your server and making requests to each endpoint it provides. The documentation should describe how the server would respond to valid and invalid requests.
+
 ## REST API built using Express and MongoDB
 This is a server built from express and MongoDB that uses a MongoDB model to save api hits. It is setup as in inventory of mountains. 
 
