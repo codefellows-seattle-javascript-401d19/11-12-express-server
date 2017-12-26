@@ -1,5 +1,10 @@
-//TODO: Write documention for starting your server and making requests to each endpoint it provides. The documentation should describe how the server would respond to valid and invalid requests.
+# Vanilla HTTP REST Server
 
+This is a simple HTTP server which follows REST constraints, that allows users to input a url to GET, PUT, or DELETE a planet form a  local json database! It contains tests to make sure that the RESTful operations worked properly.
+
+## Routes Explanation
+
+Document all of your server endpoints. Explain expected HTTP request input and the corresponding server responses. Also explain server responses for bad requests and server errors.
 
 ### URL: /api/planet?id={**_id_**}
 
