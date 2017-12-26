@@ -13,7 +13,7 @@ const planetRouter = module.exports = new Router();
 planetRouter.post('/api/planets',jsonParser, (request,response,next) => {
   logger.log('info', 'POST - processing a request');
 
-  if(!request.body.title || !request.body.content) {
+  if(!request.body.name || !request.body.content) {
     logger.log('info', 'POST - responding with a 400 code');
     return response.sendStatus(400);
   }

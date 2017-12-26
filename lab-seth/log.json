@@ -66,3 +66,31 @@
 {"level":"info","message":"GET - processing a request","timestamp":"2017-12-13T00:17:02.307Z"}
 {"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-13T00:17:02.311Z"}
 {"level":"info","message":"Server off","timestamp":"2017-12-13T00:17:02.311Z"}
+{"level":"info","message":"Server is listening on port 5000","timestamp":"2017-12-26T05:28:32.005Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-26T05:28:32.054Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-26T05:28:32.054Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-26T05:28:32.067Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-26T05:28:32.067Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-26T05:28:32.083Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-26T05:28:32.087Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-26T05:28:32.091Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-26T05:28:32.095Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-26T05:28:32.096Z"}
+{"level":"info","message":"Server is listening on port 5000","timestamp":"2017-12-26T05:29:48.134Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-26T05:29:48.181Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-26T05:29:48.208Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-26T05:29:48.208Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-26T05:29:48.216Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-26T05:29:48.220Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-26T05:29:48.223Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-26T05:29:48.227Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-26T05:29:48.228Z"}
+{"level":"info","message":"Server is listening on port 5000","timestamp":"2017-12-26T05:30:23.118Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-26T05:30:23.167Z"}
+{"level":"info","message":"POST - processing a request","timestamp":"2017-12-26T05:30:23.192Z"}
+{"level":"info","message":"POST - responding with a 400 code","timestamp":"2017-12-26T05:30:23.192Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-26T05:30:23.201Z"}
+{"level":"info","message":"GET - Returning a 404 status code. Could not parse id","timestamp":"2017-12-26T05:30:23.204Z"}
+{"level":"info","message":"GET - processing a request","timestamp":"2017-12-26T05:30:23.207Z"}
+{"level":"info","message":"GET - Returning a 404 status code","timestamp":"2017-12-26T05:30:23.211Z"}
+{"level":"info","message":"Server off","timestamp":"2017-12-26T05:30:23.212Z"}

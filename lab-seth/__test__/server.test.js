@@ -42,7 +42,6 @@ describe('/api/planets', () => {
           expect(response.body.discoverDate).toBeTruthy();
 
           expect(response.body.name).toEqual(planetToPost.name);
-          expect(response.body.content).toEqual(planetToPost.content);
         });
     });
     test('should respond with a 400 code if we send an incomplete planet', () => {
